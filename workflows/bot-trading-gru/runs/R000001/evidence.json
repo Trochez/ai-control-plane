@@ -1,0 +1,14 @@
+{
+  "repository_path": "/mnt/d/works/bot_trad/bot_trading",
+  "repository_is_git": true,
+  "current_branch": "feature/GRU",
+  "head_sha": "1afb326bead32e2f928530e33850b5651e46b9b1",
+  "expected_base_sha": "1afb326bead32e2f928530e33850b5651e46b9b1",
+  "branch_matches_expected": true,
+  "head_matches_expected": true,
+  "working_tree_clean": true,
+  "modifications": [],
+  "plan_executed": "bot-trading-gru",
+  "plan_id": "P000001",
+  "run_id": "R000001"
+}

@@ -80,6 +80,25 @@ PROMPT
 
 cd "$TARGET_REPO"
 
-exec opencode "$TARGET_REPO" \
+set +e
+
+opencode "$TARGET_REPO" \
     --agent "$OPENCODE_AGENT" \
     --prompt "$BOOTSTRAP_PROMPT"
+
+OPENCODE_EXIT=$?
+
+set -e
+
+printf '%s\n' "$OPENCODE_EXIT" \
+    > "$RUN_DIR/operator-exit-code.txt"
+
+if [[ "$OPENCODE_EXIT" -ne 0 ]]; then
+    echo "OPENCODE_EXIT_CODE=$OPENCODE_EXIT" >&2
+    echo "Run remains RUNNING for inspection." >&2
+    exit "$OPENCODE_EXIT"
+fi
+
+"$CONTROL_ROOT/bin/complete-run" \
+    "$PLAN_ID" \
+    "$RUN_ID"

@@ -27,6 +27,12 @@ fi
     exit 2
 }
 
+if [[ ! -f "$PLAN" ]]; then
+    echo "PLAN_NOT_FOUND: $PLAN" >&2
+    echo "The PLAN may already have been claimed or completed." >&2
+    exit 1
+fi
+
 PLAN="$(realpath "$PLAN")"
 
 case "$PLAN" in

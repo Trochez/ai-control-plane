@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG="$HOME/.config/ai-control-plane/config.env"
+source "$CONFIG"
+
+PLAN_ID="${1:?PLAN ID required}"
+RUN_ID="${2:?RUN ID required}"
+
+RUN_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/runs/$RUN_ID"
+RUNNING_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/plans/running"
+COMPLETED_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/plans/completed"
+STATE_FILE="$CONTROL_ROOT/workflows/$WORKFLOW_ID/state/current.json"
+
+RUNNING_PLAN="$RUNNING_DIR/PLAN_${PLAN_ID}.md"
+COMPLETED_PLAN="$COMPLETED_DIR/PLAN_${PLAN_ID}.md"
+
+for file in \
+    "$RUN_DIR/PLAN.md" \
+    "$RUN_DIR/RESULT.md" \
+    "$RUN_DIR/evidence.json" \
+    "$RUN_DIR/git-status-after.txt" \
+    "$RUN_DIR/head-sha-after.txt"
+do
+    test -f "$file" || {
+        echo "INCOMPLETE_RUN: missing $file" >&2
+        exit 1
+    }
+done
+
+python3 -m json.tool "$RUN_DIR/evidence.json" >/dev/null
+
+EXPECTED_SHA="$(
+    awk '
+      /^expected_base_sha:[[:space:]]*/ {
+        sub(/^expected_base_sha:[[:space:]]*/, "")
+        print
+        exit
+      }
+    ' "$RUN_DIR/PLAN.md"
+)"
+
+EXPECTED_BRANCH="$(
+    awk '
+      /^target_branch:[[:space:]]*/ {
+        sub(/^target_branch:[[:space:]]*/, "")
+        print
+        exit
+      }
+    ' "$RUN_DIR/PLAN.md"
+)"
+
+BEFORE_SHA="$(cat "$RUN_DIR/base-sha.txt")"
+AFTER_SHA="$(cat "$RUN_DIR/head-sha-after.txt")"
+
+test "$BEFORE_SHA" = "$EXPECTED_SHA" || {
+    echo "BASE_SHA_EVIDENCE_MISMATCH" >&2
+    exit 1
+}
+
+test "$AFTER_SHA" = "$(git -C "$TARGET_REPO" rev-parse HEAD)" || {
+    echo "HEAD_CHANGED_AFTER_OPERATOR" >&2
+    exit 1
+}
+
+test "$EXPECTED_BRANCH" = "$(git -C "$TARGET_REPO" branch --show-current)" || {
+    echo "BRANCH_CHANGED_AFTER_OPERATOR" >&2
+    exit 1
+}
+
+# Execution of the PLAN is complete, even though Planner review is pending.
+if test -f "$RUNNING_PLAN"; then
+    mv "$RUNNING_PLAN" "$COMPLETED_PLAN"
+elif ! test -f "$COMPLETED_PLAN"; then
+    echo "PLAN lifecycle artifact missing" >&2
+    exit 1
+fi
+
+python3 - "$STATE_FILE" "$PLAN_ID" "$RUN_ID" <<'PY'
+import json
+import sys
+
+path, plan_id, run_id = sys.argv[1:]
+
+with open(path, encoding="utf-8") as f:
+    state = json.load(f)
+
+if state.get("current_plan_id") != plan_id:
+    raise SystemExit(
+        f"STATE_PLAN_MISMATCH: {state.get('current_plan_id')} != {plan_id}"
+    )
+
+if state.get("current_run_id") != run_id:
+    raise SystemExit(
+        f"STATE_RUN_MISMATCH: {state.get('current_run_id')} != {run_id}"
+    )
+
+state["status"] = "REVIEW_READY"
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(state, f, indent=2)
+    f.write("\n")
+PY
+
+echo "RUN_COMPLETION=REVIEW_READY"
+echo "plan_id=$PLAN_ID"
+echo "run_id=$RUN_ID"
