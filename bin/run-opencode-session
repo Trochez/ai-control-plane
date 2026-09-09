@@ -80,7 +80,27 @@ At completion:
 PROMPT
 )"
 
+OPENCODE_MODEL_ARGS=()
+
+if [[ -n "${OPENCODE_MODEL:-}" ]]; then
+    OPENCODE_MODEL_ARGS+=(
+        --model "$OPENCODE_MODEL"
+    )
+fi
+
+if [[ -n "${OPENCODE_VARIANT:-}" ]]; then
+    OPENCODE_MODEL_ARGS+=(
+        --variant "$OPENCODE_VARIANT"
+    )
+fi
+
 cd "$TARGET_REPO"
+
+echo "OPENCODE_MODE=${OPENCODE_MODE:-run}"
+echo "OPENCODE_MODEL=${OPENCODE_MODEL:-default}"
+echo "OPENCODE_AGENT=$OPENCODE_AGENT"
+echo "PLAN_ID=$PLAN_ID"
+echo "RUN_ID=$RUN_ID"
 
 set +e
 
@@ -89,6 +109,7 @@ case "${OPENCODE_MODE:-run}" in
     run)
         opencode run \
             --agent "$OPENCODE_AGENT" \
+            "${OPENCODE_MODEL_ARGS[@]}" \
             --dir "$TARGET_REPO" \
             --format default \
             "$BOOTSTRAP_PROMPT" \
@@ -100,6 +121,7 @@ case "${OPENCODE_MODE:-run}" in
     interactive)
         opencode "$TARGET_REPO" \
             --agent "$OPENCODE_AGENT" \
+            "${OPENCODE_MODEL_ARGS[@]}" \
             --prompt "$BOOTSTRAP_PROMPT" \
             2>&1 | tee "$OPERATOR_LOG"
 
