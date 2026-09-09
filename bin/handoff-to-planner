@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+source "$HOME/.config/ai-control-plane/config.env"
+
+RUN_ID="${1:?run id required}"
+
+RUN_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/runs/$RUN_ID"
+STATE_FILE="$CONTROL_ROOT/workflows/$WORKFLOW_ID/state/current.json"
+
+test -f "$RUN_DIR/RESULT.md" || {
+    echo "Missing RESULT.md" >&2
+    exit 1
+}
+
+test -f "$RUN_DIR/evidence.json" || {
+    echo "Missing evidence.json" >&2
+    exit 1
+}
+
+STATUS="$(
+python3 - "$STATE_FILE" <<'PY'
+import json,sys
+with open(sys.argv[1], encoding="utf-8") as f:
+    print(json.load(f)["status"])
+PY
+)"
+
+[[ "$STATUS" == "REVIEW_READY" ]] || {
+    echo "Run is not REVIEW_READY: $STATUS" >&2
+    exit 1
+}
+
+cd "$CONTROL_ROOT"
+
+if [[ -n "$(git status --porcelain)" ]]; then
+    echo "CONTROL_PLANE_DIRTY: commit/push run evidence first" >&2
+    exit 1
+fi
+
+git push
+
+echo
+echo "PLANNER_HANDOFF_READY"
+echo "workflow=$WORKFLOW_ID"
+echo "run=$RUN_ID"
+echo
+echo "Send this instruction to ChatGPT Web:"
+echo
+echo "Review the REVIEW_READY run $RUN_ID in Trochez/ai-control-plane."
+echo "Validate its evidence, publish the Planner review, and if GO create"
+echo "the next authoritative PLAN in plans/ready/. Do not execute operational work."
+
+if command -v clip.exe >/dev/null 2>&1; then
+    printf '%s' \
+      "Review the REVIEW_READY run $RUN_ID in Trochez/ai-control-plane. Validate its evidence, publish the Planner review, and if GO create the next authoritative PLAN in plans/ready/. Do not execute operational work." \
+      | clip.exe
+
+    echo
+    echo "Prompt copied to Windows clipboard."
+fi
+
+echo
+echo "Starting next-plan watcher..."
+
+exec "$CONTROL_ROOT/bin/wait-next-plan" "$RUN_ID"

@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+source "$HOME/.config/ai-control-plane/config.env"
+
+PARENT_RUN_ID="${1:?parent run id required}"
+
+READY_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/plans/ready"
+
+echo "WAITING_FOR_NEXT_PLAN"
+echo "parent_run_id=$PARENT_RUN_ID"
+
+while true; do
+    # Do not overwrite local work.
+    if [[ -n "$(git -C "$CONTROL_ROOT" status --porcelain)" ]]; then
+        echo "CONTROL_PLANE_DIRTY: waiting" >&2
+        sleep 5
+        continue
+    fi
+
+    git -C "$CONTROL_ROOT" fetch origin main --quiet
+
+    LOCAL="$(git -C "$CONTROL_ROOT" rev-parse HEAD)"
+    REMOTE="$(git -C "$CONTROL_ROOT" rev-parse origin/main)"
+
+    if [[ "$LOCAL" != "$REMOTE" ]]; then
+        git -C "$CONTROL_ROOT" merge --ff-only origin/main
+    fi
+
+    while IFS= read -r PLAN; do
+        [[ -f "$PLAN" ]] || continue
+
+        PARENT="$(
+            awk '
+              /^parent_run_id:[[:space:]]*/ {
+                sub(/^parent_run_id:[[:space:]]*/, "")
+                print
+                exit
+              }
+            ' "$PLAN"
+        )"
+
+        STATUS="$(
+            awk '
+              /^status:[[:space:]]*/ {
+                sub(/^status:[[:space:]]*/, "")
+                print
+                exit
+              }
+            ' "$PLAN"
+        )"
+
+        if [[ "$PARENT" == "$PARENT_RUN_ID" && "$STATUS" == "READY" ]]; then
+            echo "NEXT_PLAN_FOUND=$PLAN"
+
+            exec "$CONTROL_ROOT/bin/spawn-opencode" "$PLAN"
+        fi
+    done < <(
+        find "$READY_DIR" \
+          -maxdepth 1 \
+          -type f \
+          -name 'PLAN_P*.md' \
+          | sort
+    )
+
+    sleep 5
+done
