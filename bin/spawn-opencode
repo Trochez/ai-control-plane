@@ -153,24 +153,68 @@ COMMAND=(
     "$RUN_ID"
 )
 
-if [[ -n "${TMUX:-}" ]]; then
-    tmux new-window \
-        -n "$RUN_ID" \
-        "${COMMAND[*]}"
+case "${OPENCODE_MODE:-run}" in
 
-    exit 0
-fi
+    run)
+        if [[ -n "${TMUX_SESSION:-}" ]]; then
+            tmux new-window \
+                -d \
+                -t "$TMUX_SESSION" \
+                -n "$RUN_ID" \
+                "${COMMAND[*]}" \
+                2>/dev/null || {
+                tmux new-session \
+                    -d \
+                    -s "$TMUX_SESSION" \
+                    -n "$RUN_ID" \
+                    "${COMMAND[*]}"
+                tmux select-window -t "$TMUX_SESSION:$RUN_ID"
+            }
+        else
+            tmux new-session \
+                -d \
+                -s "$TMUX_SESSION" \
+                -n "$RUN_ID" \
+                "${COMMAND[*]}" \
+                2>/dev/null || {
+                tmux new-session \
+                    -d \
+                    -s "$TMUX_SESSION" \
+                    -n "$RUN_ID" \
+                    "${COMMAND[*]}"
+            }
+        fi
 
-if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
-    tmux new-window \
-        -t "$TMUX_SESSION" \
-        -n "$RUN_ID" \
-        "${COMMAND[*]}"
+        printf 'OPENCODE_SPAWNED_DETACHED=%s\n' "$RUN_ID"
+        exit 0
+        ;;
 
-    tmux attach-session -t "$TMUX_SESSION"
-else
-    tmux new-session \
-        -s "$TMUX_SESSION" \
-        -n "$RUN_ID" \
-        "${COMMAND[*]}"
-fi
+    interactive)
+        if [[ -n "${TMUX:-}" ]]; then
+            tmux new-window \
+                -n "$RUN_ID" \
+                "${COMMAND[*]}"
+
+            exit 0
+        fi
+
+        if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
+            tmux new-window \
+                -t "$TMUX_SESSION" \
+                -n "$RUN_ID" \
+                "${COMMAND[*]}"
+
+            tmux attach-session -t "$TMUX_SESSION"
+        else
+            tmux new-session \
+                -s "$TMUX_SESSION" \
+                -n "$RUN_ID" \
+                "${COMMAND[*]}"
+        fi
+        ;;
+
+    *)
+        echo "Invalid OPENCODE_MODE=$OPENCODE_MODE" >&2
+        exit 1
+        ;;
+esac

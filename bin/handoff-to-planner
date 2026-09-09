@@ -31,6 +31,39 @@ PY
     exit 1
 }
 
+# Idempotent handling: if the Planner has already reviewed this run and the
+# durable state is PLAN_READY with last_completed_run_id equal to this run,
+# skip the handoff prompt and directly start the next-plan watcher.
+STATE_LAST_COMPLETED="$(
+python3 - "$STATE_FILE" <<'PY'
+import json,sys
+with open(sys.argv[1], encoding="utf-8") as f:
+    print(json.load(f).get("last_completed_run_id",""))
+PY
+)"
+
+if [[ "$STATE_LAST_COMPLETED" == "$RUN_ID" ]]; then
+    # Verify the state has transitioned past REVIEW_READY to PLAN_READY.
+    STATE_PREVIEW_STATUS="$(
+    python3 - "$STATE_FILE" <<'PY'
+import json,sys
+with open(sys.argv[1], encoding="utf-8") as f:
+    print(json.load(f)["status"])
+PY
+    )"
+
+    if [[ "$STATE_PREVIEW_STATUS" == "PLAN_READY" ]]; then
+        echo "ALREADY_REVIEWED: run $RUN_ID was previously reviewed and state is PLAN_READY"
+        echo "Starting next-plan watcher..."
+        exec "$CONTROL_ROOT/bin/wait-next-plan" "$RUN_ID"
+    fi
+
+    # State is inconsistent: last_completed_run_id matches but status is not
+    # PLAN_READY, which is a genuine inconsistency.
+    echo "INCONSISTENT_STATE: last_completed_run_id=$RUN_ID but status=$STATE_PREVIEW_STATUS" >&2
+    exit 1
+fi
+
 cd "$CONTROL_ROOT"
 
 if [[ -n "$(git status --porcelain)" ]]; then

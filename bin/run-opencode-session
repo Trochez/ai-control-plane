@@ -25,7 +25,7 @@ test -d "$RUN_DIR" || {
     exit 1
 }
 
-OPERATOR_LOG="$RUN_DIR/operator.log"
+MAX_ATTEMPTS="${OPENCODE_MAX_ATTEMPTS:-2}"
 
 BOOTSTRAP_PROMPT="$(cat <<PROMPT
 You are the OpenCode Local Operator.
@@ -80,6 +80,40 @@ At completion:
 PROMPT
 )"
 
+RECOVERY_PROMPT="$(cat <<PROMPT
+You are the OpenCode Local Operator recovery agent.
+
+Workflow:
+$WORKFLOW_ID
+
+Plan:
+$PLAN_ID
+
+Run:
+$RUN_ID
+
+Target repository:
+$TARGET_REPO
+
+Authoritative PLAN:
+$PLAN_PATH
+
+Assigned evidence directory:
+$RUN_DIR
+
+This is a recovery attempt for run $RUN_ID. A previous OpenCode attempt exited 0 but the mandatory evidence contract was incomplete or invalid. Read the PLAN at $PLAN_PATH and the prior attempt log at $RUN_DIR/operator.log, then physically create and validate the missing evidence artifacts:
+
+- $RUN_DIR/RESULT.md
+- $RUN_DIR/evidence.json
+- $RUN_DIR/git-status-after.txt
+- $RUN_DIR/head-sha-after.txt
+
+Also validate evidence.json with: python3 -m json.tool $RUN_DIR/evidence.json
+
+Do not claim completion until all four core artifacts exist and evidence.json is valid JSON.
+PROMPT
+)"
+
 OPENCODE_MODEL_ARGS=()
 
 if [[ -n "${OPENCODE_MODEL:-}" ]]; then
@@ -101,48 +135,78 @@ echo "OPENCODE_MODEL=${OPENCODE_MODEL:-default}"
 echo "OPENCODE_AGENT=$OPENCODE_AGENT"
 echo "PLAN_ID=$PLAN_ID"
 echo "RUN_ID=$RUN_ID"
+echo "MAX_ATTEMPTS=$MAX_ATTEMPTS"
 
 set +e
 
-case "${OPENCODE_MODE:-run}" in
+ATTEMPT=0
+EVIDENCE_OK=false
 
-    run)
-        opencode run \
-            --agent "$OPENCODE_AGENT" \
-            "${OPENCODE_MODEL_ARGS[@]}" \
-            --dir "$TARGET_REPO" \
-            --format default \
-            "$BOOTSTRAP_PROMPT" \
-            2>&1 | tee "$OPERATOR_LOG"
+while [[ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]]; do
+    ATTEMPT=$((ATTEMPT + 1))
 
-        OPENCODE_EXIT=${PIPESTATUS[0]}
-        ;;
+    ATTEMPT_LOG="$RUN_DIR/operator-attempt-${ATTEMPT}.log"
+    ATTEMPT_EXIT_FILE="$RUN_DIR/operator-attempt-${ATTEMPT}-exit-code.txt"
 
-    interactive)
-        opencode "$TARGET_REPO" \
-            --agent "$OPENCODE_AGENT" \
-            "${OPENCODE_MODEL_ARGS[@]}" \
-            --prompt "$BOOTSTRAP_PROMPT" \
-            2>&1 | tee "$OPERATOR_LOG"
+    if [[ "$ATTEMPT" -eq 1 ]]; then
+        PROMPT="$BOOTSTRAP_PROMPT"
+    else
+        PROMPT="$RECOVERY_PROMPT"
+    fi
 
-        OPENCODE_EXIT=${PIPESTATUS[0]}
-        ;;
+    echo "=== ATTEMPT $ATTEMPT of $MAX_ATTEMPTS ==="
 
-    *)
-        echo "Invalid OPENCODE_MODE=$OPENCODE_MODE" >&2
-        exit 1
-        ;;
-esac
+    opencode run \
+        --agent "$OPENCODE_AGENT" \
+        "${OPENCODE_MODEL_ARGS[@]}" \
+        --dir "$TARGET_REPO" \
+        --format default \
+        "$PROMPT" \
+        2>&1 | tee "$ATTEMPT_LOG"
+
+    OPENCODE_EXIT=${PIPESTATUS[0]}
+
+    printf '%s\n' "$OPENCODE_EXIT" > "$ATTEMPT_EXIT_FILE"
+
+    if [[ "$OPENCODE_EXIT" -eq 0 ]]; then
+        MISSING=()
+
+        for artifact in RESULT.md evidence.json git-status-after.txt head-sha-after.txt; do
+            test -f "$RUN_DIR/$artifact" || MISSING+=("$artifact")
+        done
+
+        if [[ ${#MISSING[@]} -gt 0 ]]; then
+            echo "EVIDENCE_INCOMPLETE: missing ${MISSING[*]}" >&2
+            EVIDENCE_OK=false
+        elif ! python3 -m json.tool "$RUN_DIR/evidence.json" >/dev/null 2>&1; then
+            echo "EVIDENCE_INVALID: evidence.json fails JSON validation" >&2
+            EVIDENCE_OK=false
+        else
+            EVIDENCE_OK=true
+            break
+        fi
+    else
+        echo "OPENCODE_EXIT_CODE=$OPENCODE_EXIT" >&2
+        echo "Run remains RUNNING for inspection." >&2
+
+        printf '%s\n' "$OPENCODE_EXIT" > "$RUN_DIR/operator-exit-code.txt"
+        exit "$OPENCODE_EXIT"
+    fi
+done
 
 set -e
 
-printf '%s\n' "$OPENCODE_EXIT" \
-    > "$RUN_DIR/operator-exit-code.txt"
+if [[ "$EVIDENCE_OK" != "true" ]]; then
+    echo "ATTEMPTS_EXHAUSTED: evidence contract still incomplete after $MAX_ATTEMPTS attempts" >&2
+    exit 1
+fi
 
-if [[ "$OPENCODE_EXIT" -ne 0 ]]; then
-    echo "OPENCODE_EXIT_CODE=$OPENCODE_EXIT" >&2
-    echo "Run remains RUNNING for inspection." >&2
-    exit "$OPENCODE_EXIT"
+# Preserve operator.log as canonical first-attempt log for compatibility.
+if [[ -f "$RUN_DIR/operator-attempt-1.log" ]] && [[ ! -f "$RUN_DIR/operator.log" ]]; then
+    cp "$RUN_DIR/operator-attempt-1.log" "$RUN_DIR/operator.log"
+fi
+if [[ -f "$RUN_DIR/operator-attempt-1-exit-code.txt" ]] && [[ ! -f "$RUN_DIR/operator-exit-code.txt" ]]; then
+    cp "$RUN_DIR/operator-attempt-1-exit-code.txt" "$RUN_DIR/operator-exit-code.txt"
 fi
 
 "$CONTROL_ROOT/bin/complete-run" \

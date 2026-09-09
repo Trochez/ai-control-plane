@@ -96,6 +96,7 @@ if state.get("current_run_id") != run_id:
     )
 
 state["status"] = "REVIEW_READY"
+state["last_completed_run_id"] = run_id
 
 with open(path, "w", encoding="utf-8") as f:
     json.dump(state, f, indent=2)
