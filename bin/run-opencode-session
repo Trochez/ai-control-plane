@@ -25,6 +25,8 @@ test -d "$RUN_DIR" || {
     exit 1
 }
 
+OPERATOR_LOG="$RUN_DIR/operator.log"
+
 BOOTSTRAP_PROMPT="$(cat <<PROMPT
 You are the OpenCode Local Operator.
 
@@ -50,20 +52,19 @@ This is a NEW workflow session.
 
 Do not rely on assumptions from previous OpenCode sessions.
 
-Before making any target-repository modification:
+Before modifying anything:
 
 1. read the complete authoritative PLAN;
-2. read the applicable persistent/project instructions;
+2. read applicable persistent/project instructions;
 3. verify repository identity;
 4. verify target branch;
 5. verify current HEAD SHA;
-6. verify expected_base_sha from the PLAN;
+6. verify expected_base_sha;
 7. inspect the working tree;
-8. preserve unrelated user changes;
-9. verify all mandatory prerequisites.
+8. preserve unrelated changes;
+9. verify mandatory prerequisites.
 
-If any mandatory precondition fails, stop implementation and produce
-BLOCKED evidence.
+If a mandatory precondition fails, produce BLOCKED evidence.
 
 Otherwise execute the PLAN completely.
 
@@ -71,10 +72,11 @@ At completion:
 
 1. create $RUN_DIR/RESULT.md;
 2. create $RUN_DIR/evidence.json;
-3. create any required supporting evidence;
-4. update workflow state to REVIEW_READY when appropriate;
-5. do NOT create the next authoritative PLAN;
-6. hand control back to the ChatGPT Planner / Reviewer.
+3. create all supporting evidence required by the PLAN;
+4. do not modify workflow lifecycle state;
+5. do not create the next authoritative PLAN;
+6. lifecycle transitions belong to the local orchestrator;
+7. planning/review belongs to ChatGPT.
 PROMPT
 )"
 
@@ -82,11 +84,33 @@ cd "$TARGET_REPO"
 
 set +e
 
-opencode "$TARGET_REPO" \
-    --agent "$OPENCODE_AGENT" \
-    --prompt "$BOOTSTRAP_PROMPT"
+case "${OPENCODE_MODE:-run}" in
 
-OPENCODE_EXIT=$?
+    run)
+        opencode run \
+            --agent "$OPENCODE_AGENT" \
+            --dir "$TARGET_REPO" \
+            --format default \
+            "$BOOTSTRAP_PROMPT" \
+            2>&1 | tee "$OPERATOR_LOG"
+
+        OPENCODE_EXIT=${PIPESTATUS[0]}
+        ;;
+
+    interactive)
+        opencode "$TARGET_REPO" \
+            --agent "$OPENCODE_AGENT" \
+            --prompt "$BOOTSTRAP_PROMPT" \
+            2>&1 | tee "$OPERATOR_LOG"
+
+        OPENCODE_EXIT=${PIPESTATUS[0]}
+        ;;
+
+    *)
+        echo "Invalid OPENCODE_MODE=$OPENCODE_MODE" >&2
+        exit 1
+        ;;
+esac
 
 set -e
 
@@ -102,3 +126,5 @@ fi
 "$CONTROL_ROOT/bin/complete-run" \
     "$PLAN_ID" \
     "$RUN_ID"
+
+echo "OPERATOR_RUN_COMPLETE=$RUN_ID"
