@@ -1,9 +1,9 @@
 {
   "schema": "agent-handoff/v1",
   "workflow_id": "bot-trading-gru",
-  "status": "REVIEW_READY",
-  "current_plan_id": "P000002",
-  "current_run_id": "R000002",
+  "status": "PLAN_READY",
+  "current_plan_id": "P000003",
+  "current_run_id": null,
   "last_completed_run_id": "R000002",
-  "last_review_decision": null
+  "last_review_decision": "GO"
 }
