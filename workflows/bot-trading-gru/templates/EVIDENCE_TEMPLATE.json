@@ -1,0 +1,34 @@
+{
+  "schema": "agent-handoff/v1",
+  "workflow_id": "bot-trading-gru",
+  "plan_id": "P000000",
+  "run_id": "R000000",
+  "status": "REVIEW_READY",
+
+  "repository": {
+    "name": "bot_trading",
+    "branch": "feature/GRU",
+    "base_sha": null,
+    "head_sha": null,
+    "working_tree_clean_before": null,
+    "working_tree_clean_after": null
+  },
+
+  "execution": {
+    "implementation_completed": false,
+    "tests_passed": false,
+    "commit_created": false,
+    "push_completed": false,
+    "deployment_completed": false
+  },
+
+  "rollback": {
+    "ready": false,
+    "reference": null
+  },
+
+  "security": {
+    "secrets_detected": false,
+    "redactions_applied": false
+  }
+}

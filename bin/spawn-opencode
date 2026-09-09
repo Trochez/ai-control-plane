@@ -1,0 +1,170 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG="$HOME/.config/ai-control-plane/config.env"
+source "$CONFIG"
+
+READY_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/plans/ready"
+RUNNING_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/plans/running"
+RUNS_DIR="$CONTROL_ROOT/workflows/$WORKFLOW_ID/runs"
+STATE_FILE="$CONTROL_ROOT/workflows/$WORKFLOW_ID/state/current.json"
+
+PLAN="${1:-}"
+
+if [[ -z "$PLAN" ]]; then
+    PLAN="$(
+        find "$READY_DIR" \
+          -maxdepth 1 \
+          -type f \
+          -name 'PLAN_P*.md' \
+          | sort \
+          | head -n1
+    )"
+fi
+
+[[ -n "$PLAN" ]] || {
+    echo "NO_READY_PLAN"
+    exit 2
+}
+
+PLAN="$(realpath "$PLAN")"
+
+case "$PLAN" in
+    "$READY_DIR"/*) ;;
+    *)
+        echo "Refusing PLAN outside ready directory: $PLAN" >&2
+        exit 1
+        ;;
+esac
+
+field() {
+    local key="$1"
+
+    awk -v key="$key" '
+        $0 ~ "^" key ":[[:space:]]*" {
+            sub("^" key ":[[:space:]]*", "")
+            gsub(/^["'\'']|["'\'']$/, "")
+            print
+            exit
+        }
+    ' "$PLAN"
+}
+
+SCHEMA="$(field schema)"
+PLAN_WORKFLOW="$(field workflow_id)"
+PLAN_ID="$(field plan_id)"
+STATUS="$(field status)"
+PLAN_BRANCH="$(field target_branch)"
+EXPECTED_SHA="$(field expected_base_sha)"
+
+[[ "$SCHEMA" == "agent-handoff/v1" ]] || {
+    echo "Invalid schema: $SCHEMA" >&2
+    exit 1
+}
+
+[[ "$PLAN_WORKFLOW" == "$WORKFLOW_ID" ]] || {
+    echo "Workflow mismatch: $PLAN_WORKFLOW" >&2
+    exit 1
+}
+
+[[ "$STATUS" == "READY" ]] || {
+    echo "PLAN is not READY: $STATUS" >&2
+    exit 1
+}
+
+[[ "$PLAN_ID" =~ ^P[0-9]{6}$ ]] || {
+    echo "Invalid plan_id: $PLAN_ID" >&2
+    exit 1
+}
+
+RUN_ID="R${PLAN_ID#P}"
+
+RUN_DIR="$RUNS_DIR/$RUN_ID"
+RUN_PLAN="$RUNNING_DIR/$(basename "$PLAN")"
+
+[[ ! -e "$RUN_DIR" ]] || {
+    echo "Run already exists: $RUN_DIR" >&2
+    exit 1
+}
+
+CURRENT_BRANCH="$(git -C "$TARGET_REPO" branch --show-current)"
+CURRENT_SHA="$(git -C "$TARGET_REPO" rev-parse HEAD)"
+
+[[ "$CURRENT_BRANCH" == "$TARGET_BRANCH" ]] || {
+    echo "Target configuration branch mismatch." >&2
+    echo "expected=$TARGET_BRANCH actual=$CURRENT_BRANCH" >&2
+    exit 1
+}
+
+[[ "$PLAN_BRANCH" == "$CURRENT_BRANCH" ]] || {
+    echo "PLAN branch mismatch." >&2
+    echo "expected=$PLAN_BRANCH actual=$CURRENT_BRANCH" >&2
+    exit 1
+}
+
+[[ "$EXPECTED_SHA" == "$CURRENT_SHA" ]] || {
+    echo "BASE_SHA_MISMATCH" >&2
+    echo "plan=$EXPECTED_SHA" >&2
+    echo "actual=$CURRENT_SHA" >&2
+    exit 1
+}
+
+mkdir -p "$RUN_DIR"
+
+mv "$PLAN" "$RUN_PLAN"
+
+cp "$RUN_PLAN" "$RUN_DIR/PLAN.md"
+
+git -C "$TARGET_REPO" status --porcelain=v1 \
+    > "$RUN_DIR/git-status-before.txt"
+
+printf '%s\n' "$CURRENT_SHA" \
+    > "$RUN_DIR/base-sha.txt"
+
+python3 - "$STATE_FILE" "$PLAN_ID" "$RUN_ID" <<'PY'
+import json
+import sys
+
+path, plan_id, run_id = sys.argv[1:]
+
+with open(path, encoding="utf-8") as f:
+    state = json.load(f)
+
+state["status"] = "RUNNING"
+state["current_plan_id"] = plan_id
+state["current_run_id"] = run_id
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(state, f, indent=2)
+    f.write("\n")
+PY
+
+COMMAND=(
+    "$CONTROL_ROOT/bin/run-opencode-session"
+    "$RUN_PLAN"
+    "$RUN_DIR"
+    "$PLAN_ID"
+    "$RUN_ID"
+)
+
+if [[ -n "${TMUX:-}" ]]; then
+    tmux new-window \
+        -n "$RUN_ID" \
+        "${COMMAND[*]}"
+
+    exit 0
+fi
+
+if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
+    tmux new-window \
+        -t "$TMUX_SESSION" \
+        -n "$RUN_ID" \
+        "${COMMAND[*]}"
+
+    tmux attach-session -t "$TMUX_SESSION"
+else
+    tmux new-session \
+        -s "$TMUX_SESSION" \
+        -n "$RUN_ID" \
+        "${COMMAND[*]}"
+fi

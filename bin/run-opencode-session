@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG="$HOME/.config/ai-control-plane/config.env"
+
+test -f "$CONFIG" || {
+    echo "Missing config: $CONFIG" >&2
+    exit 1
+}
+
+source "$CONFIG"
+
+PLAN_PATH="${1:?PLAN path required}"
+RUN_DIR="${2:?RUN directory required}"
+PLAN_ID="${3:?PLAN ID required}"
+RUN_ID="${4:?RUN ID required}"
+
+test -f "$PLAN_PATH" || {
+    echo "PLAN not found: $PLAN_PATH" >&2
+    exit 1
+}
+
+test -d "$RUN_DIR" || {
+    echo "RUN directory not found: $RUN_DIR" >&2
+    exit 1
+}
+
+BOOTSTRAP_PROMPT="$(cat <<PROMPT
+You are the OpenCode Local Operator.
+
+Workflow:
+$WORKFLOW_ID
+
+Plan:
+$PLAN_ID
+
+Run:
+$RUN_ID
+
+Target repository:
+$TARGET_REPO
+
+Authoritative PLAN:
+$PLAN_PATH
+
+Assigned evidence directory:
+$RUN_DIR
+
+This is a NEW workflow session.
+
+Do not rely on assumptions from previous OpenCode sessions.
+
+Before making any target-repository modification:
+
+1. read the complete authoritative PLAN;
+2. read the applicable persistent/project instructions;
+3. verify repository identity;
+4. verify target branch;
+5. verify current HEAD SHA;
+6. verify expected_base_sha from the PLAN;
+7. inspect the working tree;
+8. preserve unrelated user changes;
+9. verify all mandatory prerequisites.
+
+If any mandatory precondition fails, stop implementation and produce
+BLOCKED evidence.
+
+Otherwise execute the PLAN completely.
+
+At completion:
+
+1. create $RUN_DIR/RESULT.md;
+2. create $RUN_DIR/evidence.json;
+3. create any required supporting evidence;
+4. update workflow state to REVIEW_READY when appropriate;
+5. do NOT create the next authoritative PLAN;
+6. hand control back to the ChatGPT Planner / Reviewer.
+PROMPT
+)"
+
+cd "$TARGET_REPO"
+
+exec opencode "$TARGET_REPO" \
+    --agent "$OPENCODE_AGENT" \
+    --prompt "$BOOTSTRAP_PROMPT"
