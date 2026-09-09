@@ -128,3 +128,5 @@ fi
     "$RUN_ID"
 
 echo "OPERATOR_RUN_COMPLETE=$RUN_ID"
+
+"$CONTROL_ROOT/bin/publish-run" "$RUN_ID"
