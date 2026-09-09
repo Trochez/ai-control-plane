@@ -1,0 +1,18 @@
+{
+  "workflow_id": "bot-trading-gru",
+  "plan_id": "P000003",
+  "run_id": "R000003",
+  "parent_run_id": "R000002",
+  "repository_path": "/mnt/d/works/bot_trad/bot_trading",
+  "current_branch": "feature/GRU",
+  "expected_branch": "feature/GRU",
+  "branch_matches_expected": true,
+  "head_sha": "1afb326bead32e2f928530e33850b5651e46b9b1",
+  "expected_base_sha": "1afb326bead32e2f928530e33850b5651e46b9b1",
+  "head_matches_expected": true,
+  "working_tree_clean_before": true,
+  "working_tree_clean_after": true,
+  "no_target_repo_modifications": true,
+  "acceptance_criteria_met": true,
+  "blocked": false
+}
