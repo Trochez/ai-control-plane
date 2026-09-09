@@ -1,0 +1,14 @@
+{
+  "schema": "agent-handoff/v1",
+  "workflow_id": "bot-trading-gru",
+  "plan_id": "P000002",
+  "run_id": "R000002",
+  "parent_run_id": "R000001",
+  "planner_plan_received": true,
+  "parent_plan_id": "P000001",
+  "parent_review_decision": "GO",
+  "parent_review_next_plan": "P000002",
+  "state_file": "/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/state/current.json",
+  "state_status_at_start": "RUNNING",
+  "fresh_session": true
+}
