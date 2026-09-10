@@ -1,0 +1,65 @@
+[0m
+> operator · openrouter/openrouter/free
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/plans/running/PLAN_P000005.md
+I'll start by reading the complete authoritative PLAN, then verify the repository state before making any changes.
+[0m
+[0m# [0mTodos
+[•] Read complete workflow instructions and applicable repository contracts
+[ ] Verify repository identity, branch, HEAD, clean tree, and control-plane baseline
+[ ] Execute the authorized read-only smoke test and capture post-state evidence
+[ ] Create and validate RESULT.md, evidence.json, and supporting evidence
+[ ] Verify evidence completeness and return control to the orchestrator
+[0m
+[0m→ [0mRead AGENTS.md
+[0m
+[0m$ [0mcd /mnt/d/works/bot_trad/bot_trading && git status && git log --oneline -1 && git branch -v
+On branch feature/GRU
+Your branch is up to date with 'origin/feature/GRU'.
+
+nothing to commit, working tree clean
+1afb326 add semaphore yml
+  backup/pipeline_agentic_before_sync_20260305 57b03e3 feat: track external usdt balance adjustments in runtime transactions
+  chore/adw-sync-labels-run-20260224           92070ee feat: add issue-driven ADW routing and operation scaffolding
+* feature/GRU                                  1afb326 add semaphore yml
+  feature/autoformer                           ece5715 remove fucking "s" in binance_db_ops
+  feature/ensemble_rank_regime_simulation      d4beb2f fix: reduce memory footprint for ensemble training
+  feature/gpu_train                            788262e update normalization
+  feature/orangepi                             0dfda5e [behind 9] ignore stored models
+  feature/pipeline_agentic                     0a2f6bc [behind 6] Keep iteration real holdings consistent
+  main                                         91c4a75 Merge branch 'main' of https://github.com/Trochez/bot_trading
+  pipeline_agentic                             0a2f6bc [behind 6] Keep iteration real holdings consistent
+[0m
+Good - the target repository state matches the PLAN expectations exactly. Now let me verify the control-plane baseline SHA:
+[0m$ [0mcd /mnt/d/works/ai-control-plane && git log --oneline -1 && git merge-base --is-ancestor 75bdef421ac50ff9f49c679d1daed69371fc05a7 HEAD && echo "BASELINE IS ANCESTOR" || echo "BASELINE IS NOT ANCESTOR"
+bbf30ce plan: bind P000005 to hardened control-plane baseline
+BASELINE IS ANCESTOR
+[0m
+All preconditions verified. Now capturing the post-state evidence and creating the required artifacts:
+[0m$ [0mmkdir -p /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005 && git -C /mnt/d/works/bot_trad/bot_trading status > /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/git-status-after.txt && git -C /mnt/d/works/bot_trad/bot_trading rev-parse HEAD > /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/head-sha-after.txt && git -C /mnt/d/works/bot_trad/bot_trading rev-parse --abbrev-ref HEAD > /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/branch-after.txt && cat /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/git-status-after.txt && echo "---" && cat /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/head-sha-after.txt && echo "---" && cat /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/branch-after.txt
+On branch feature/GRU
+Your branch is up to date with 'origin/feature/GRU'.
+
+nothing to commit, working tree clean
+---
+1afb326bead32e2f928530e33850b5651e46b9b1
+---
+feature/GRU
+[0m
+[0m← [0mWrite /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/RESULT.md
+Wrote file successfully.
+[0m
+Excellent! All evidence captured. Now creating the RESULT.md and evidence.jsonfiles:
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/WORKFLOW.md
+[0m
+[0m# [0mTodos
+[✓] Read complete workflow instructions and applicable repository contracts
+[•] Verify repository identity, branch, HEAD, clean tree, and control-plane baseline
+[ ] Execute the authorized read-only smoke test and capture post-state evidence
+[ ] Create and validate RESULT.md, evidence.json, and supporting evidence
+[ ] Verify evidence completeness and return control to the orchestrator
+[0m
+[0m← [0mWrite /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000005/evidence.json
+Wrote file successfully.
+[0m
+Now let me create the evidence.json file:
