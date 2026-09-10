@@ -1,0 +1,61 @@
+[0m
+> operator · openrouter/openrouter/free
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/plans/running/PLAN_P000004.md[90m [limit=2000, offset=1][0m
+[0m
+[0m$ [0mgit status --short --branch && git branch --show-current && git rev-parse HEAD && git remote -v
+## feature/GRU...origin/feature/GRU
+feature/GRU
+1afb326bead32e2f928530e33850b5651e46b9b1
+origin	git@github.com:Trochez/bot_trading.git (fetch)
+origin	git@github.com:Trochez/bot_trading.git (push)
+[0m
+[0m$ [0mgit status --short --branch && git branch --show-current && git rev-parse HEAD && git remote -v
+## main...origin/main
+ D workflows/bot-trading-gru/plans/ready/PLAN_P000004.md
+ M workflows/bot-trading-gru/state/current.json
+?? workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+?? workflows/bot-trading-gru/runs/R000004/
+main
+926768f14b0982e871610729be0c57b382084062
+origin	git@github.com:Trochez/ai-control-plane.git (fetch)
+origin	git@github.com:Trochez/ai-control-plane.git (push)
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004
+[0m
+[0m$ [0mfind /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004 -type f -name "*.log" -o -name "*attempt*.txt" 2>/dev/null | head -20
+/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/operator-bootstrap-repair-2.log
+/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/operator-bootstrap.log
+/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/operator.log
+[0m
+[0m$ [0mls -la /mnt/d/works/ai-control-plane/bin/
+total 32
+drwxrwxrwx 1 trocha trocha 4096 Sep  9 04:22 .
+drwxrwxrwx 1 trocha trocha 4096 Sep  9 01:21 ..
+-rwxrwxrwx 1 trocha trocha 2665 Sep  9 17:22 complete-run
+-rwxrwxrwx 1 trocha trocha 2857 Sep  9 17:24 handoff-to-planner
+-rwxrwxrwx 1 trocha trocha  851 Sep  9 04:22 publish-run
+-rwxrwxrwx 1 trocha trocha 5276 Sep  9 17:22 run-opencode-session
+-rwxrwxrwx 1 trocha trocha 4980 Sep  9 17:22 spawn-opencode
+-rwxrwxrwx 1 trocha trocha 1616 Sep  9 03:13 wait-next-plan
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/spawn-opencode
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/run-opencode-session
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/handoff-to-planner
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/operator.log
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/complete-run
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/publish-run
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/WORKFLOW.md
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/reviews/R000003.md
+[0m
+[0m$ [0msource "$HOME/.config/ai-control-plane/config.env" && printf 'OPENCODE_MODEL=%s\nOPENCODE_AGENT=%s\n' "$OPENCODE_MODEL" "$OPENCODE_AGENT"
+OPENCODE_MODEL=omniroute/openrouter/openrouter/free
+OPENCODE_AGENT=operator
+[0m
+[0m$ [0mgit diff 926768f14b0982e871610729be0c57b382084062 -- bin/spawn-opencode bin/run-opencode-session bin/complete-run bin/handoff-to-planner && git status --short
+D workflows/bot-trading-gru/plans/ready/PLAN_P000004.md
+ M workflows/bot-trading-gru/state/current.json
+?? workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+?? workflows/bot-trading-gru/runs/R000004/
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/wait-next-plan

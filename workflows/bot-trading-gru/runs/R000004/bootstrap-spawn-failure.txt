@@ -1,0 +1,15 @@
+P000004 bootstrap spawn failure.
+
+spawn-opencode successfully claimed P000004 and created R000004,
+then failed before OpenCode started.
+
+Observed error:
+
+/mnt/d/works/ai-control-plane/bin/spawn-opencode: line 177:
+/mnt/d/works/ai-control-plane/bin/run-opencode-session
+/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+/mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004
+P000004 R000004: No such file or directory
+
+R000004 remains the authoritative existing run.
+No replacement run must be created.

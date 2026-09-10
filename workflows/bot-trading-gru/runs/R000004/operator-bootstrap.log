@@ -1,0 +1,717 @@
+[0m
+> operator · openrouter/openrouter/free
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/bootstrap-spawn-failure.txt
+[0m
+[0m# [0mTodos
+[•] Read authoritative workflow/review and inspect both repositories, lifecycle artifacts, and all named scripts
+[ ] Implement the four bounded control-plane remediations without touching bot_trading
+[ ] Run required syntax, contract, and target-repository validation; capture evidence
+[ ] Create and physically verify all R000004 evidence artifacts
+[ ] Commit only intentional control-plane remediation files and push to origin/main
+[ ] Re-verify evidence and repository states, then hand control to orchestrator
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/WORKFLOW.md
+[0m→ [0mRead /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/reviews/R000003.md
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/spawn-opencode
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/run-opencode-session
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/complete-run
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/handoff-to-planner
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/publish-run
+[0m
+[0m$ [0mgit status --short --branch && git branch --show-current && git rev-parse HEAD && git log -1 --format='%H%n%s'
+## main...origin/main
+ D workflows/bot-trading-gru/plans/ready/PLAN_P000004.md
+ M workflows/bot-trading-gru/state/current.json
+?? workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+?? workflows/bot-trading-gru/runs/R000004/
+main
+926768f14b0982e871610729be0c57b382084062
+926768f14b0982e871610729be0c57b382084062
+fix: harden unattended OpenCode lifecycle
+[0m
+[0m✱ [0mGlob "**/*config*"[90m in /mnt/d/works/ai-control-plane · 0 matches[0m
+[0m✱ [0mGrep "omniroute/openrouter/openrouter/free"[90m in /mnt/d/works/ai-control-plane · 5 matches[0m
+[0m
+[0m$ [0mgit status --short --branch && git branch --show-current && git rev-parse HEAD && git log -1 --format='%H%n%s'
+## feature/GRU...origin/feature/GRU
+feature/GRU
+1afb326bead32e2f928530e33850b5651e46b9b1
+1afb326bead32e2f928530e33850b5651e46b9b1
+add semaphore yml
+[0m
+[0m$ [0mcat "$HOME/.config/ai-control-plane/config.env"
+CONTROL_ROOT="/mnt/d/works/ai-control-plane"
+TARGET_REPO="/mnt/d/works/bot_trad/bot_trading"
+
+WORKFLOW_ID="bot-trading-gru"
+TARGET_BRANCH="feature/GRU"
+
+OPERATOR_ENGINE="opencode"
+OPENCODE_AGENT="operator"
+OPENCODE_MODE="run"
+
+TMUX_SESSION="ai-control"
+OPENCODE_MODEL="omniroute/openrouter/openrouter/free"
+OPENCODE_VARIANT=""
+[0m
+[0m$ [0mls -la /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/
+total 84
+drwxrwxrwx 1 trocha trocha  4096 Sep  9 17:38 .
+drwxrwxrwx 1 trocha trocha  4096 Sep  9 17:17 ..
+-rwxrwxrwx 1 trocha trocha  7688 Sep  9 17:17 PLAN.md
+-rwxrwxrwx 1 trocha trocha    41 Sep  9 17:17 base-sha.txt
+-rwxrwxrwx 1 trocha trocha   552 Sep  9 17:38 bootstrap-spawn-failure.txt
+-rwxrwxrwx 1 trocha trocha     0 Sep  9 17:17 git-status-before.txt
+-rwxrwxrwx 1 trocha trocha  2677 Sep  9 17:40 operator-bootstrap.log
+-rwxrwxrwx 1 trocha trocha 69674 Sep  9 17:28 operator.log
+[0m
+[0m$ [0mcat /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/runs/R000004/PLAN.md
+---
+schema: agent-handoff/v1
+workflow_id: bot-trading-gru
+plan_id: P000004
+parent_run_id: R000003
+status: READY
+
+target_repository: bot_trading
+target_branch: feature/GRU
+expected_base_sha: 1afb326bead32e2f928530e33850b5651e46b9b1
+
+execution_mode: local_opencode
+---
+
+# Objective
+
+Remediate the control-plane defects exposed by R000003 so the next smoke test can execute end-to-end without human intervention.
+
+This PLAN authorizes changes only in `/mnt/d/works/ai-control-plane`. The target repository `/mnt/d/works/bot_trad/bot_trading` is read-only for this run and must remain unchanged.
+
+# Mandatory Preconditions
+
+1. Read this complete PLAN, `WORKFLOW.md`, `reviews/R000003.md`, and the current implementations of:
+   - `bin/spawn-opencode`
+   - `bin/run-opencode-session`
+   - `bin/complete-run`
+   - `bin/handoff-to-planner`
+   - `bin/publish-run`
+2. Verify `/mnt/d/works/bot_trad/bot_trading` is on `feature/GRU` at SHA `1afb326bead32e2f928530e33850b5651e46b9b1` with a clean working tree.
+3. Verify `/mnt/d/works/ai-control-plane` is on `main` and inspect its working tree. Preserve existing workflow artifacts for R000004; do not discard or reset them.
+4. Confirm the configured OpenCode model remains `omniroute/openrouter/openrouter/free`.
+
+If any mandatory precondition affecting safety fails, produce BLOCKED evidence and do not mutate either repository.
+
+# Required Remediation
+
+## 1. `bin/spawn-opencode`
+
+Make `OPENCODE_MODE=run` fully non-interactive.
+
+Required behavior:
+
+- Never call `tmux attach-session` in `run` mode.
+- Never require the caller to have a terminal in `run` mode.
+- Launch `run-opencode-session` in detached tmux so it survives terminal closure.
+- If `$TMUX_SESSION` exists, create a detached window named with the run id.
+- If it does not exist, create a detached session/window.
+- Print a durable diagnostic such as `OPENCODE_SPAWNED_DETACHED=<run_id>` and return success after the detached worker starts.
+- Preserve the existing interactive tmux behavior only for `OPENCODE_MODE=interactive`.
+
+## 2. `bin/run-opencode-session`
+
+Make completion contract-aware instead of trusting only the OpenCode process exit code.
+
+Required behavior:
+
+- Preserve `--agent "$OPENCODE_AGENT"` and explicit `--model "$OPENCODE_MODEL"` support.
+- Preserve `OPENCODE_MODE=run` as the default automated mode.
+- Execute a bounded maximum of 2 OpenCode attempts for one run by default. A configurable environment variable may override this, but the default must be 2.
+- Attempt 1 uses the normal authoritative PLAN bootstrap prompt.
+- After any attempt that exits 0, validate at minimum that these core artifacts exist:
+  - `RESULT.md`
+  - `evidence.json`
+  - `git-status-after.txt`
+  - `head-sha-after.txt`
+- Validate `evidence.json` with `python3 -m json.tool`.
+- If process exit is 0 but the evidence contract is incomplete/invalid, automatically run exactly one recovery attempt for the same run with a prompt that explicitly instructs the operator to read the PLAN and prior attempt log and physically create/validate the missing evidence.
+- The retry must remain part of the same `RUN_ID`; do not create a new PLAN or run.
+- Persist attempt-specific logs and exit codes so the history is auditable, e.g. `operator-attempt-1.log`, `operator-attempt-1-exit-code.txt`, `operator-attempt-2.log`, `operator-attempt-2-exit-code.txt`.
+- Preserve or generate `operator.log` as the canonical first-attempt log for compatibility if practical.
+- Only call `complete-run` after the core evidence contract is satisfied.
+- If attempts are exhausted and evidence remains incomplete/invalid, return non-zero, leave lifecycle `RUNNING`, and do not call `publish-run`.
+- After successful `complete-run`, call `publish-run` automatically.
+
+Do not use `--auto`.
+
+## 3. `bin/complete-run`
+
+When a run completes successfully and transitions to `REVIEW_READY`, also set:
+
+```json
+"last_completed_run_id": "<current RUN_ID>"
+```
+
+Do not set `last_review_decision`; that remains Planner-owned.
+
+## 4. `bin/handoff-to-planner`
+
+Make it idempotent for the race already observed.
+
+Required behavior:
+
+- Existing `REVIEW_READY` behavior remains valid.
+- If called for run `Rxxxxxx` after the Planner has already reviewed it and durable state is `PLAN_READY` with `last_completed_run_id` equal to the supplied run id, do not fail. Skip the obsolete handoff prompt and directly start `wait-next-plan <RUN_ID>`.
+- Reject genuinely inconsistent states.
+
+# Validation
+
+At minimum run:
+
+```bash
+bash -n bin/spawn-opencode
+bash -n bin/run-opencode-session
+bash -n bin/complete-run
+bash -n bin/handoff-to-planner
+bash -n bin/publish-run
+```
+
+Also perform non-destructive contract checks proving:
+
+1. `spawn-opencode` contains a detached `run` path and no attach is reachable from that path.
+2. `run-opencode-session` contains bounded evidence validation/retry logic and does not treat exit 0 alone as completion.
+3. `complete-run` updates `last_completed_run_id`.
+4. `handoff-to-planner` accepts the already-reviewed `PLAN_READY` case.
+5. The target `bot_trading` repository is still clean, on `feature/GRU`, and at the expected SHA after all work.
+
+# Control-Plane Commit / Push
+
+The workflow run itself makes the control-plane working tree dirty. Therefore stage and commit only the remediation files you intentionally changed; do not stage lifecycle/run artifacts at this point.
+
+Commit the remediation to `main` with a message equivalent to:
+
+```text
+fix: harden unattended OpenCode lifecycle
+```
+
+Push that remediation commit to `origin/main` before finalizing R000004 evidence.
+
+Do not commit or push anything in `bot_trading`.
+
+# Required Run Evidence
+
+Create in the assigned R000004 run directory:
+
+- `RESULT.md`
+- `evidence.json`
+- `git-status-after.txt`
+- `head-sha-after.txt`
+- `branch-after.txt`
+- a concise remediation test log, e.g. `control-plane-remediation-tests.txt`
+
+`RESULT.md` must include:
+
+- files changed in the control-plane;
+- exact validation commands and outcomes;
+- remediation commit SHA;
+- confirmation that the target repository was not modified;
+- explicit statement that R000004 is a remediation run, not the final unattended proof.
+
+`evidence.json` must include at minimum:
+
+- workflow_id
+- plan_id
+- run_id
+- parent_run_id
+- repository_path
+- current_branch
+- expected_branch
+- branch_matches_expected
+- head_sha
+- expected_base_sha
+- head_matches_expected
+- working_tree_clean_before
+- working_tree_clean_after
+- no_target_repo_modifications
+- control_plane_remediation_commit
+- spawn_detached_run_mode_fixed
+- bounded_evidence_retry_fixed
+- last_completed_run_id_fixed
+- handoff_idempotency_fixed
+- validation_passed
+- acceptance_criteria_met
+- blocked
+
+# Forbidden Operations
+
+Do not:
+
+- modify files in `bot_trading`;
+- commit or push in `bot_trading`;
+- deploy;
+- change branches in `bot_trading`;
+- reset or clean either repository;
+- modify credentials or secrets;
+- use `opencode --auto`;
+- create P000005;
+- make Planner/review decisions.
+
+# Acceptance Criteria
+
+- [ ] All four control-plane defects from R000003 are remediated.
+- [ ] Shell syntax validation passes for all affected scripts.
+- [ ] Remediation is committed and pushed to `ai-control-plane/main` without staging workflow lifecycle artifacts into the remediation commit.
+- [ ] `bot_trading` remains clean, on `feature/GRU`, at the expected SHA.
+- [ ] All required R000004 evidence is produced.
+- [ ] Lifecycle ownership remains with the orchestrator and review ownership remains with ChatGPT.
+
+# Completion Contract
+
+After the required evidence exists, return normally to the local orchestrator. The orchestrator owns `complete-run` and `publish-run`. ChatGPT owns review and any next PLAN.
+[0m
+[0m$ [0mcat /mnt/d/works/ai-control-plane/workflows/bot-trading-gru/state/current.json
+{
+  "schema": "agent-handoff/v1",
+  "workflow_id": "bot-trading-gru",
+  "status": "RUNNING",
+  "current_plan_id": "P000004",
+  "current_run_id": "R000004",
+  "last_completed_run_id": "R000003",
+  "last_review_decision": "NO_GO"
+}
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/wait-next-plan
+[0m✱ [0mGrep "OPENCODE_MAX_ATTEMPTS|operator-attempt|last_completed_run_id|handoff-to-planner|spawn-opencode"[90m in /mnt/d/works/ai-control-plane · 100 matches[0m
+[0m
+[0m$ [0mgit diff -- bin/spawn-opencode bin/run-opencode-session bin/complete-run bin/handoff-to-planner bin/publish-run && git log --oneline --all --decorate -10
+926768f (HEAD -> main, origin/main) fix: harden unattended OpenCode lifecycle
+8210a4a plan: remediate unattended OpenCode lifecycle after R000003
+f7416bc state: advance to P000004 after R000003 NO_GO
+10677d1 review: record R000003 unattended NO_GO
+4c9c441 evidence: record R000003 OpenCode execution
+3de3fd1 plan: add P000003 unattended OpenCode smoke test
+c1d052e state: advance bot-trading-gru to P000003
+1440944 review: approve R000002 handoff smoke test
+d0731b0 feat: pin OpenCode operator to OmniRoute OpenRouter free
+74f8f00 fix: publish completed OpenCode runs automatically
+[0m
+[0m✱ [0mGlob "**/*test*"[90m in /mnt/d/works/ai-control-plane · 0 matches[0m
+[0m
+[0m$ [0mgit status --short --untracked-files=all && git diff --stat
+D workflows/bot-trading-gru/plans/ready/PLAN_P000004.md
+ M workflows/bot-trading-gru/state/current.json
+?? workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+?? workflows/bot-trading-gru/runs/R000004/PLAN.md
+?? workflows/bot-trading-gru/runs/R000004/base-sha.txt
+?? workflows/bot-trading-gru/runs/R000004/bootstrap-spawn-failure.txt
+?? workflows/bot-trading-gru/runs/R000004/git-status-before.txt
+?? workflows/bot-trading-gru/runs/R000004/operator-bootstrap.log
+?? workflows/bot-trading-gru/runs/R000004/operator.log
+ .../bot-trading-gru/plans/ready/PLAN_P000004.md    | 200 ---------------------
+ workflows/bot-trading-gru/state/current.json       |   4 +-
+ 2 files changed, 2 insertions(+), 202 deletions(-)
+[0m
+[0m$ [0mbash -n bin/spawn-opencode && bash -n bin/run-opencode-session && bash -n bin/complete-run && bash -n bin/handoff-to-planner && bash -n bin/publish-run && echo "All syntax checks passed"
+All syntax checks passed
+[0m
+[0m# [0mTodos
+[✓] Read authoritative workflow/review and inspect both repositories, lifecycle artifacts, and all named scripts
+[•] Implement the four bounded control-plane remediations without touching bot_trading
+[ ] Run required syntax, contract, and target-repository validation; capture evidence
+[ ] Create and physically verify all R000004 evidence artifacts
+[ ] Commit only intentional control-plane remediation files and push to origin/main
+[ ] Re-verify evidence and repository states, then hand control to orchestrator
+[0m
+[0m→ [0mRead /mnt/d/works/ai-control-plane/bin/spawn-opencode[90m [offset=170, limit=30][0m
+[0m
+[0m$ [0mgit show HEAD:bin/spawn-opencode > /tmp/original-spawn-opencode.sh && diff /tmp/original-spawn-opencode.sh bin/spawn-opencode
+(no output)
+[0m
+Now I have all the information needed. Let me implement the four remediations.
+
+**Analysis of current state:**
+1. **`spawn-opencode`** (lines 156-190): The `run` mode has a bug — the `else` branch tries `tmux new-session` without `-d`, and then on failure tries again without `-d`. It also uses `tmux select-window` which can fail. Need to fix to always use `-d`.
+2. **`run-opencode-session`** (lines 141-195): Already has bounded retry (MAX_ATTEMPTS=2), evidence validation, and recovery logic. The script already looks correct per the PLAN requirements.
+3. **`complete-run`** (line 99): Already has `state["last_completed_run_id"] = run_id` — already implemented!
+4. **`handoff-to-planner`** (lines 37-65): Already has idempotent handling for the PLAN_READY case — already implemented!
+
+The main issues are: (a) `spawn-opencode` has a command invocation defect (line 177 missing `-d`), and (b) I need to verify the current implementations match what the PLAN requires. Let me check the actual diffs.
+[0m$ [0mgit show HEAD:bin/run-opencode-session > /tmp/original-run-opencode-session.sh && diff /tmp/original-run-opencode-session.sh bin/run-opencode-session 2>/dev/null; echo "---"; git show HEAD:bin/complete-run > /tmp/original-complete-run.sh && diff /tmp/original-complete-run.sh bin/complete-run 2>/dev/null; echo "---"; git show HEAD:bin/handoff-to-planner > /tmp/original-handoff-to-planner.sh && diff /tmp/original-handoff-to-planner.sh bin/handoff-to-planner 2>/dev/null
+---
+---
+[0m
+[0m$ [0mgit show HEAD:bin/publish-run > /tmp/original-publish-run.sh && diff /tmp/original-publish-run.sh bin/publish-run 2>/dev/null; echo "exit: $?"
+exit: 0
+[0m
+The HEAD commit already contains all the remediations. Let me check the parent of HEAD (R000003's completion) to understand what was actually remediated:
+[0m$ [0mgit log --oneline -5 && echo "---PARENT OF HEAD---" && git log --oneline -8 --graph
+926768f fix: harden unattended OpenCode lifecycle
+8210a4a plan: remediate unattended OpenCode lifecycle after R000003
+f7416bc state: advance to P000004 after R000003 NO_GO
+10677d1 review: record R000003 unattended NO_GO
+4c9c441 evidence: record R000003 OpenCode execution
+---PARENT OF HEAD---
+* 926768f fix: harden unattended OpenCode lifecycle
+* 8210a4a plan: remediate unattended OpenCode lifecycle after R000003
+* f7416bc state: advance to P000004 after R000003 NO_GO
+* 10677d1 review: record R000003 unattended NO_GO
+* 4c9c441 evidence: record R000003 OpenCode execution
+* 3de3fd1 plan: add P000003 unattended OpenCode smoke test
+* c1d052e state: advance bot-trading-gru to P000003
+* 1440944 review: approve R000002 handoff smoke test
+[0m
+[0m$ [0mgit show --stat --oneline HEAD && git show --format=fuller --no-ext-diff HEAD -- bin/spawn-opencode bin/run-opencode-session bin/complete-run bin/handoff-to-planner
+926768f fix: harden unattended OpenCode lifecycle
+ bin/complete-run         |   1 +
+ bin/handoff-to-planner   |  33 ++++++++++++
+ bin/run-opencode-session | 136 ++++++++++++++++++++++++++++++++++-------------
+ bin/spawn-opencode       |  82 +++++++++++++++++++++-------
+ 4 files changed, 197 insertions(+), 55 deletions(-)
+commit 926768f14b0982e871610729be0c57b382084062
+Author:     Juan Diego Trochez <tromon92@gmail.com>
+AuthorDate: Wed Sep 9 17:27:03 2026 -0500
+Commit:     Juan Diego Trochez <tromon92@gmail.com>
+CommitDate: Wed Sep 9 17:27:03 2026 -0500
+
+    fix: harden unattended OpenCode lifecycle
+
+diff --git a/bin/complete-run b/bin/complete-run
+index 22e9cfc..fbe8d43 100644
+--- a/bin/complete-run
++++ b/bin/complete-run
+@@ -96,6 +96,7 @@ if state.get("current_run_id") != run_id:
+     )
+ 
+ state["status"] = "REVIEW_READY"
++state["last_completed_run_id"] = run_id
+ 
+ with open(path, "w", encoding="utf-8") as f:
+     json.dump(state, f, indent=2)
+diff --git a/bin/handoff-to-planner b/bin/handoff-to-planner
+index b270ec4..d4386f2 100644
+--- a/bin/handoff-to-planner
++++ b/bin/handoff-to-planner
+@@ -31,6 +31,39 @@ PY
+     exit 1
+ }
+ 
++# Idempotent handling: if the Planner has already reviewed this run and the
++# durable state is PLAN_READY with last_completed_run_id equal to this run,
++# skip the handoff prompt and directly start the next-plan watcher.
++STATE_LAST_COMPLETED="$(
++python3 - "$STATE_FILE" <<'PY'
++import json,sys
++with open(sys.argv[1], encoding="utf-8") as f:
++    print(json.load(f).get("last_completed_run_id",""))
++PY
++)"
++
++if [[ "$STATE_LAST_COMPLETED" == "$RUN_ID" ]]; then
++    # Verify the state has transitioned past REVIEW_READY to PLAN_READY.
++    STATE_PREVIEW_STATUS="$(
++    python3 - "$STATE_FILE" <<'PY'
++import json,sys
++with open(sys.argv[1], encoding="utf-8") as f:
++    print(json.load(f)["status"])
++PY
++    )"
++
++    if [[ "$STATE_PREVIEW_STATUS" == "PLAN_READY" ]]; then
++        echo "ALREADY_REVIEWED: run $RUN_ID was previously reviewed and state is PLAN_READY"
++        echo "Starting next-plan watcher..."
++        exec "$CONTROL_ROOT/bin/wait-next-plan" "$RUN_ID"
++    fi
++
++    # State is inconsistent: last_completed_run_id matches but status is not
++    # PLAN_READY, which is a genuine inconsistency.
++    echo "INCONSISTENT_STATE: last_completed_run_id=$RUN_ID but status=$STATE_PREVIEW_STATUS" >&2
++    exit 1
++fi
++
+ cd "$CONTROL_ROOT"
+ 
+ if [[ -n "$(git status --porcelain)" ]]; then
+diff --git a/bin/run-opencode-session b/bin/run-opencode-session
+index f17f3c3..afb71e6 100644
+--- a/bin/run-opencode-session
++++ b/bin/run-opencode-session
+@@ -25,7 +25,7 @@ test -d "$RUN_DIR" || {
+     exit 1
+ }
+ 
+-OPERATOR_LOG="$RUN_DIR/operator.log"
++MAX_ATTEMPTS="${OPENCODE_MAX_ATTEMPTS:-2}"
+ 
+ BOOTSTRAP_PROMPT="$(cat <<PROMPT
+ You are the OpenCode Local Operator.
+@@ -80,6 +80,40 @@ At completion:
+ PROMPT
+ )"
+ 
++RECOVERY_PROMPT="$(cat <<PROMPT
++You are the OpenCode Local Operator recovery agent.
++
++Workflow:
++$WORKFLOW_ID
++
++Plan:
++$PLAN_ID
++
++Run:
++$RUN_ID
++
++Target repository:
++$TARGET_REPO
++
++Authoritative PLAN:
++$PLAN_PATH
++
++Assigned evidence directory:
++$RUN_DIR
++
++This is a recovery attempt for run $RUN_ID. A previous OpenCode attempt exited 0 but the mandatory evidence contract was incomplete or invalid. Read the PLAN at $PLAN_PATH and the prior attempt log at $RUN_DIR/operator.log, then physically create and validate the missing evidence artifacts:
++
++- $RUN_DIR/RESULT.md
++- $RUN_DIR/evidence.json
++- $RUN_DIR/git-status-after.txt
++- $RUN_DIR/head-sha-after.txt
++
++Also validate evidence.json with: python3 -m json.tool $RUN_DIR/evidence.json
++
++Do not claim completion until all four core artifacts exist and evidence.json is valid JSON.
++PROMPT
++)"
++
+ OPENCODE_MODEL_ARGS=()
+ 
+ if [[ -n "${OPENCODE_MODEL:-}" ]]; then
+@@ -101,48 +135,78 @@ echo "OPENCODE_MODEL=${OPENCODE_MODEL:-default}"
+ echo "OPENCODE_AGENT=$OPENCODE_AGENT"
+ echo "PLAN_ID=$PLAN_ID"
+ echo "RUN_ID=$RUN_ID"
++echo "MAX_ATTEMPTS=$MAX_ATTEMPTS"
+ 
+ set +e
+ 
+-case "${OPENCODE_MODE:-run}" in
+-
+-    run)
+-        opencode run \
+-            --agent "$OPENCODE_AGENT" \
+-            "${OPENCODE_MODEL_ARGS[@]}" \
+-            --dir "$TARGET_REPO" \
+-            --format default \
+-            "$BOOTSTRAP_PROMPT" \
+-            2>&1 | tee "$OPERATOR_LOG"
+-
+-        OPENCODE_EXIT=${PIPESTATUS[0]}
+-        ;;
+-
+-    interactive)
+-        opencode "$TARGET_REPO" \
+-            --agent "$OPENCODE_AGENT" \
+-            "${OPENCODE_MODEL_ARGS[@]}" \
+-            --prompt "$BOOTSTRAP_PROMPT" \
+-            2>&1 | tee "$OPERATOR_LOG"
+-
+-        OPENCODE_EXIT=${PIPESTATUS[0]}
+-        ;;
+-
+-    *)
+-        echo "Invalid OPENCODE_MODE=$OPENCODE_MODE" >&2
+-        exit 1
+-        ;;
+-esac
++ATTEMPT=0
++EVIDENCE_OK=false
++
++while [[ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]]; do
++    ATTEMPT=$((ATTEMPT + 1))
++
++    ATTEMPT_LOG="$RUN_DIR/operator-attempt-${ATTEMPT}.log"
++    ATTEMPT_EXIT_FILE="$RUN_DIR/operator-attempt-${ATTEMPT}-exit-code.txt"
++
++    if [[ "$ATTEMPT" -eq 1 ]]; then
++        PROMPT="$BOOTSTRAP_PROMPT"
++    else
++        PROMPT="$RECOVERY_PROMPT"
++    fi
++
++    echo "=== ATTEMPT $ATTEMPT of $MAX_ATTEMPTS ==="
++
++    opencode run \
++        --agent "$OPENCODE_AGENT" \
++        "${OPENCODE_MODEL_ARGS[@]}" \
++        --dir "$TARGET_REPO" \
++        --format default \
++        "$PROMPT" \
++        2>&1 | tee "$ATTEMPT_LOG"
++
++    OPENCODE_EXIT=${PIPESTATUS[0]}
++
++    printf '%s\n' "$OPENCODE_EXIT" > "$ATTEMPT_EXIT_FILE"
++
++    if [[ "$OPENCODE_EXIT" -eq 0 ]]; then
++        MISSING=()
++
++        for artifact in RESULT.md evidence.json git-status-after.txt head-sha-after.txt; do
++            test -f "$RUN_DIR/$artifact" || MISSING+=("$artifact")
++        done
++
++        if [[ ${#MISSING[@]} -gt 0 ]]; then
++            echo "EVIDENCE_INCOMPLETE: missing ${MISSING[*]}" >&2
++            EVIDENCE_OK=false
++        elif ! python3 -m json.tool "$RUN_DIR/evidence.json" >/dev/null 2>&1; then
++            echo "EVIDENCE_INVALID: evidence.json fails JSON validation" >&2
++            EVIDENCE_OK=false
++        else
++            EVIDENCE_OK=true
++            break
++        fi
++    else
++        echo "OPENCODE_EXIT_CODE=$OPENCODE_EXIT" >&2
++        echo "Run remains RUNNING for inspection." >&2
++
++        printf '%s\n' "$OPENCODE_EXIT" > "$RUN_DIR/operator-exit-code.txt"
++        exit "$OPENCODE_EXIT"
++    fi
++done
+ 
+ set -e
+ 
+-printf '%s\n' "$OPENCODE_EXIT" \
+-    > "$RUN_DIR/operator-exit-code.txt"
++if [[ "$EVIDENCE_OK" != "true" ]]; then
++    echo "ATTEMPTS_EXHAUSTED: evidence contract still incomplete after $MAX_ATTEMPTS attempts" >&2
++    exit 1
++fi
+ 
+-if [[ "$OPENCODE_EXIT" -ne 0 ]]; then
+-    echo "OPENCODE_EXIT_CODE=$OPENCODE_EXIT" >&2
+-    echo "Run remains RUNNING for inspection." >&2
+-    exit "$OPENCODE_EXIT"
++# Preserve operator.log as canonical first-attempt log for compatibility.
++if [[ -f "$RUN_DIR/operator-attempt-1.log" ]] && [[ ! -f "$RUN_DIR/operator.log" ]]; then
++    cp "$RUN_DIR/operator-attempt-1.log" "$RUN_DIR/operator.log"
++fi
++if [[ -f "$RUN_DIR/operator-attempt-1-exit-code.txt" ]] && [[ ! -f "$RUN_DIR/operator-exit-code.txt" ]]; then
++    cp "$RUN_DIR/operator-attempt-1-exit-code.txt" "$RUN_DIR/operator-exit-code.txt"
+ fi
+ 
+ "$CONTROL_ROOT/bin/complete-run" \
+diff --git a/bin/spawn-opencode b/bin/spawn-opencode
+index 754ee98..a9c9b77 100644
+--- a/bin/spawn-opencode
++++ b/bin/spawn-opencode
+@@ -153,24 +153,68 @@ COMMAND=(
+     "$RUN_ID"
+ )
+ 
+-if [[ -n "${TMUX:-}" ]]; then
+-    tmux new-window \
+-        -n "$RUN_ID" \
+-        "${COMMAND[*]}"
++case "${OPENCODE_MODE:-run}" in
++
++    run)
++        if [[ -n "${TMUX_SESSION:-}" ]]; then
++            tmux new-window \
++                -d \
++                -t "$TMUX_SESSION" \
++                -n "$RUN_ID" \
++                "${COMMAND[*]}" \
++                2>/dev/null || {
++                tmux new-session \
++                    -d \
++                    -s "$TMUX_SESSION" \
++                    -n "$RUN_ID" \
++                    "${COMMAND[*]}"
++                tmux select-window -t "$TMUX_SESSION:$RUN_ID"
++            }
++        else
++            tmux new-session \
++                -d \
++                -s "$TMUX_SESSION" \
++                -n "$RUN_ID" \
++                "${COMMAND[*]}" \
++                2>/dev/null || {
++                tmux new-session \
++                    -d \
++                    -s "$TMUX_SESSION" \
++                    -n "$RUN_ID" \
++                    "${COMMAND[*]}"
++            }
++        fi
++
++        printf 'OPENCODE_SPAWNED_DETACHED=%s\n' "$RUN_ID"
++        exit 0
++        ;;
+ 
+-    exit 0
+-fi
++    interactive)
++        if [[ -n "${TMUX:-}" ]]; then
++            tmux new-window \
++                -n "$RUN_ID" \
++                "${COMMAND[*]}"
++
++            exit 0
++        fi
++
++        if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
++            tmux new-window \
++                -t "$TMUX_SESSION" \
++                -n "$RUN_ID" \
++                "${COMMAND[*]}"
++
++            tmux attach-session -t "$TMUX_SESSION"
++        else
++            tmux new-session \
++                -s "$TMUX_SESSION" \
++                -n "$RUN_ID" \
++                "${COMMAND[*]}"
++        fi
++        ;;
+ 
+-if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
+-    tmux new-window \
+-        -t "$TMUX_SESSION" \
+-        -n "$RUN_ID" \
+-        "${COMMAND[*]}"
+-
+-    tmux attach-session -t "$TMUX_SESSION"
+-else
+-    tmux new-session \
+-        -s "$TMUX_SESSION" \
+-        -n "$RUN_ID" \
+-        "${COMMAND[*]}"
+-fi
++    *)
++        echo "Invalid OPENCODE_MODE=$OPENCODE_MODE" >&2
++        exit 1
++        ;;
++esac
+[0m
+[0m$ [0mgit status --porcelain=v1 --untracked-files=all; git branch --show-current; git rev-parse HEAD
+D workflows/bot-trading-gru/plans/ready/PLAN_P000004.md
+ M workflows/bot-trading-gru/state/current.json
+?? workflows/bot-trading-gru/plans/running/PLAN_P000004.md
+?? workflows/bot-trading-gru/runs/R000004/PLAN.md
+?? workflows/bot-trading-gru/runs/R000004/base-sha.txt
+?? workflows/bot-trading-gru/runs/R000004/bootstrap-spawn-failure.txt
+?? workflows/bot-trading-gru/runs/R000004/git-status-before.txt
+?? workflows/bot-trading-gru/runs/R000004/operator-bootstrap.log
+?? workflows/bot-trading-gru/runs/R000004/operator.log
+main
+926768f14b0982e871610729be0c57b382084062
+[0m
+[0m$ [0mcommand -v tmux; tmux -V; command -v opencode; opencode --version 2>&1 | head -n 5
+/usr/bin/tmux
+tmux 3.4
+/home/trocha/.local/bin/opencode
+1.18.18
+[0m
+[0m$ [0mgit -C /mnt/d/works/bot_trad/bot_trading status --porcelain=v1 --untracked-files=all; git -C /mnt/d/works/bot_trad/bot_trading branch --show-current; git -C /mnt/d/works/bot_trad/bot_trading rev-parse HEAD
+feature/GRU
+1afb326bead32e2f928530e33850b5651e46b9b1
+[0m

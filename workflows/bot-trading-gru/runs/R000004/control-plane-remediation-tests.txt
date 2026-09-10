@@ -1,0 +1,10 @@
+PASS bash-n bin/spawn-opencode
+PASS bash-n bin/run-opencode-session
+PASS bash-n bin/complete-run
+PASS bash-n bin/handoff-to-planner
+PASS bash-n bin/publish-run
+PASS target-branch=feature/GRU
+PASS target-sha=1afb326bead32e2f928530e33850b5651e46b9b1
+PASS target-clean
+PASS remediation-local=242eb4dc818999494d0851956207db974ba24c3f
+PASS remediation-remote=242eb4dc818999494d0851956207db974ba24c3f
