@@ -153,6 +153,9 @@ COMMAND=(
     "$RUN_ID"
 )
 
+printf -v TMUX_COMMAND '%q ' "${COMMAND[@]}"
+TMUX_COMMAND="${TMUX_COMMAND% }"
+
 case "${OPENCODE_MODE:-run}" in
 
     run)
@@ -161,13 +164,13 @@ case "${OPENCODE_MODE:-run}" in
                 -d \
                 -t "$TMUX_SESSION" \
                 -n "$RUN_ID" \
-                "${COMMAND[*]}" \
+                "$TMUX_COMMAND" \
                 2>/dev/null || {
                 tmux new-session \
                     -d \
                     -s "$TMUX_SESSION" \
                     -n "$RUN_ID" \
-                    "${COMMAND[*]}"
+                    "$TMUX_COMMAND"
                 tmux select-window -t "$TMUX_SESSION:$RUN_ID"
             }
         else
@@ -175,13 +178,13 @@ case "${OPENCODE_MODE:-run}" in
                 -d \
                 -s "$TMUX_SESSION" \
                 -n "$RUN_ID" \
-                "${COMMAND[*]}" \
+                "$TMUX_COMMAND" \
                 2>/dev/null || {
                 tmux new-session \
                     -d \
                     -s "$TMUX_SESSION" \
                     -n "$RUN_ID" \
-                    "${COMMAND[*]}"
+                    "$TMUX_COMMAND"
             }
         fi
 
@@ -193,7 +196,7 @@ case "${OPENCODE_MODE:-run}" in
         if [[ -n "${TMUX:-}" ]]; then
             tmux new-window \
                 -n "$RUN_ID" \
-                "${COMMAND[*]}"
+                "$TMUX_COMMAND"
 
             exit 0
         fi
@@ -202,14 +205,14 @@ case "${OPENCODE_MODE:-run}" in
             tmux new-window \
                 -t "$TMUX_SESSION" \
                 -n "$RUN_ID" \
-                "${COMMAND[*]}"
+                "$TMUX_COMMAND"
 
             tmux attach-session -t "$TMUX_SESSION"
         else
             tmux new-session \
                 -s "$TMUX_SESSION" \
                 -n "$RUN_ID" \
-                "${COMMAND[*]}"
+                "$TMUX_COMMAND"
         fi
         ;;
 

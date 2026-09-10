@@ -101,7 +101,7 @@ $PLAN_PATH
 Assigned evidence directory:
 $RUN_DIR
 
-This is a recovery attempt for run $RUN_ID. A previous OpenCode attempt exited 0 but the mandatory evidence contract was incomplete or invalid. Read the PLAN at $PLAN_PATH and the prior attempt log at $RUN_DIR/operator.log, then physically create and validate the missing evidence artifacts:
+This is a recovery attempt for run $RUN_ID. A previous OpenCode attempt exited 0 but the mandatory evidence contract was incomplete or invalid. Read the PLAN at $PLAN_PATH and the prior attempt log at $RUN_DIR/operator-attempt-1.log, then physically create and validate the missing evidence artifacts:
 
 - $RUN_DIR/RESULT.md
 - $RUN_DIR/evidence.json
