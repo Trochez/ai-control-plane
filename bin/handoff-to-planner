@@ -18,7 +18,7 @@ test -f "$RUN_DIR/evidence.json" || {
     exit 1
 }
 
-read -r STATUS STATE_CURRENT_RUN STATE_LAST_COMPLETED < <(
+mapfile -t STATE_FIELDS < <(
 python3 - "$STATE_FILE" <<'PY'
 import json
 import sys
@@ -26,14 +26,15 @@ import sys
 with open(sys.argv[1], encoding="utf-8") as f:
     state = json.load(f)
 
-print(
-    state.get("status", ""),
-    state.get("current_run_id") or "",
-    state.get("last_completed_run_id") or "",
-    sep="\t",
-)
+print(state.get("status", ""))
+print(state.get("current_run_id") or "")
+print(state.get("last_completed_run_id") or "")
 PY
 )
+
+STATUS="${STATE_FIELDS[0]:-}"
+STATE_CURRENT_RUN="${STATE_FIELDS[1]:-}"
+STATE_LAST_COMPLETED="${STATE_FIELDS[2]:-}"
 
 case "$STATUS" in
     REVIEW_READY)
