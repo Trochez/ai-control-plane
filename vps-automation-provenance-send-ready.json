@@ -1,0 +1,11 @@
+{
+  "url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "composerText": "Completed READONLY_VPS_AUTOMATION_PROVENANCE result for authoritative run R20260923T012014.\n\n\n\n\nThe VPS evidence directly supports that d4960be98cee3edef96413ee77f200ce744d3461 was promoted at 2026-09-13 14:38:23 UTC on branch feature/GRU. The identified deployment mechanism is /opt/bot_trad/bot_trading_gru/ops/ci/deploy_feature_gru_remote.sh, and its execution is directly supported by VPS journal evidence and retained deployment artifacts.\n\n\n\n\nThe recorded actor is githubactions. The exact upstream trigger remains UNKNOWN. Active VPS automation includes the githubactions cron supervisor, gru-monitor-reconciler.timer, and bot-ci-breaker.timer. The evidence does not establish that any of those active automations caused the historical promotion, so no such attribution is made.\n\n\n\n\nThere is no evidence proving that target SHA 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 was deployed or became active. No Git-hook attribution and no manual-shell attribution were found. No mutation occurred during the read-only provenance inspection.\n\n\n\n\nThis is not FINAL_GO, DEPLOYMENT_GO, PRODUCTION_GO, END_TO_END_GO, or AI_LOOP_COMPLETE=GO.\n\n\n\n\nPlease reconcile this evidence and state the exact next action. Immutable delivery marker: VPS-AUTOMATION-PROVENANCE-DELIVERY-20260926-0838-ONCE-C57F3D",
+  "sendButtons": [
+    {
+      "text": "",
+      "aria": "Send",
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e4]:
+    - complementary [ref=f4e5]:
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]:
+          - generic [ref=f4e13]: ChatGPT
+          - generic [ref=f4e19]:
+            - button "Search" [ref=f4e21] [cursor=pointer]
+            - button "Hide sidebar" [expanded] [ref=f4e30] [cursor=pointer]
+        - navigation "Chat history" [ref=f4e35]:
+          - button "New chat" [ref=f4e39] [cursor=pointer]
+          - generic [ref=f4e48]:
+            - generic [ref=f4e51]
+            - generic [ref=f4e89]
+        - generic [ref=f4e484] [cursor=pointer]:
+          - button "Open profile menu" [ref=f4e485]
+          - generic:
+            - generic
+      - generic:
+        - separator
+    - generic [ref=f4e486]:
+      - main [ref=f4e488]:
+        - generic:
+          - generic:
+            - generic
+            - generic [ref=f4e490]
+        - generic [ref=f4e516]:
+          - generic [ref=f4e517]:
+            - generic [ref=f4e519]
+            - generic [ref=f4e1298]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic
+      - status [ref=f4e1467]
+  - status [ref=f4e1339]
+  - status [ref=f4e1340]
+  - status [ref=f4e1341]: Response complete
+  - tooltip "Thinking effort Ctrl+Shift+M":
+    - generic:
+      - generic: Thinking effort
+      - generic: Ctrl+Shift+M

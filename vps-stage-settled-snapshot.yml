@@ -1,0 +1,115 @@
+- main [ref=e488]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - navigation "Breadcrumb":
+              - link "Bot_trading" [ref=e489] [cursor=pointer]:
+                - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+      - generic [ref=e496]:
+        - button "Share" [ref=e498] [cursor=pointer]
+        - button "More" [ref=e502] [cursor=pointer]
+  - generic [ref=e522]:
+    - generic [ref=e523]:
+      - generic [ref=e525]:
+        - status [ref=e527]:
+          - generic [ref=e532]: Loading older messages…
+        - generic [ref=e534]:
+          - generic [ref=e793]:
+            - separator "Today 12:05 AM" [ref=e794]:
+              - time [ref=e795]: Today 12:05 AM
+            - generic [ref=e798]:
+              - generic [ref=e799]:
+                - generic [ref=e800]
+                - generic [ref=e835]
+                - generic [ref=e838]
+              - generic [ref=e857]:
+                - button "Copy" [ref=e859] [cursor=pointer]
+                - button "Rate response" [ref=e863] [cursor=pointer]
+                - button "Share" [ref=e867] [cursor=pointer]
+                - button "Add to project sources" [ref=e1383] [cursor=pointer]
+                - button "Read aloud" [ref=e885] [cursor=pointer]
+                - button "Regenerate response" [ref=e1648] [cursor=pointer]
+                - button "More actions" [ref=e893] [cursor=pointer]
+                - button "Sources" [ref=e899] [cursor=pointer]
+          - generic [ref=e905]:
+            - separator "Today 3:18 AM" [ref=e906]:
+              - time [ref=e907]: Today 3:18 AM
+            - generic [ref=e910]:
+              - generic [ref=e911]:
+                - generic [ref=e912]
+                - generic [ref=e947]
+                - generic [ref=e950]
+                - generic [ref=e983]
+                - generic [ref=e1017]
+              - generic [ref=e1073]:
+                - button "Copy" [ref=e1075] [cursor=pointer]
+                - button "Rate response" [ref=e1079] [cursor=pointer]
+                - button "Share" [ref=e1083] [cursor=pointer]
+                - button "Add to project sources" [ref=e1387] [cursor=pointer]
+                - button "Read aloud" [ref=e1101] [cursor=pointer]
+                - button "Regenerate response" [ref=e1656] [cursor=pointer]
+                - button "More actions" [ref=e1109] [cursor=pointer]
+                - button "Sources" [ref=e1115] [cursor=pointer]
+          - generic [ref=e1124]:
+            - generic [ref=e1125]:
+              - generic [ref=e1126]:
+                - heading "You said:" [level=4] [ref=e1127]
+                - generic [ref=e1130]
+              - generic [ref=e1161]:
+                - button "Worked for 1m 57s" [ref=e1162] [cursor=pointer]
+                - generic: Worked for 1m 57s
+              - generic [ref=e1164]:
+                - generic [ref=e1165]
+                - generic [ref=e1168]
+              - generic [ref=e1192]:
+                - generic [ref=e1193]
+                - generic [ref=e1195]
+              - generic [ref=e1224]:
+                - heading "ChatGPT said:" [level=4] [ref=e1225]
+                - generic [ref=e1226]
+            - generic [ref=e1282]:
+              - button "Copy" [ref=e1284] [cursor=pointer]
+              - button "Rate response" [ref=e1288] [cursor=pointer]
+              - button "Share" [ref=e1292] [cursor=pointer]
+              - button "Add to project sources" [ref=e1391] [cursor=pointer]
+              - button "Read aloud" [ref=e1310] [cursor=pointer]
+              - button "Regenerate response" [ref=e1664] [cursor=pointer]
+              - button "More actions" [ref=e1318] [cursor=pointer]
+              - button "Sources" [ref=e1324] [cursor=pointer]
+          - generic [ref=e1484]:
+            - separator "Today 5:14 PM" [ref=e1485]:
+              - time [ref=e1486]: Today 5:14 PM
+            - generic [ref=e1489]:
+              - generic [ref=e1490]:
+                - generic [ref=e1491]
+                - generic [ref=e1535]
+                - generic [ref=e1538]
+                - generic [ref=e1571]
+                - generic [ref=e1603]
+              - generic [ref=e1708]:
+                - button "Copy" [ref=e1710] [cursor=pointer]
+                - button "Rate response" [ref=e1714] [cursor=pointer]
+                - button "Share" [ref=e1718] [cursor=pointer]
+                - button "Add to project sources" [ref=e1723] [cursor=pointer]
+                - button "Read aloud" [ref=e1728] [cursor=pointer]
+                - button "Regenerate response" [ref=e1732] [cursor=pointer]
+                - button "More actions" [ref=e1736] [cursor=pointer]
+                - button "Sources" [ref=e1742] [cursor=pointer]
+      - generic [ref=e1328]: ChatGPT can make mistakes. Check important info.
+    - generic:
+      - generic:
+        - button "Scroll to bottom" [ref=e1524] [cursor=pointer]
+        - heading "Latest response" [level=4] [ref=e1331]
+        - status [ref=e1332]
+        - generic [ref=e1343]:
+          - button "Add files and more" [ref=e1348] [cursor=pointer]
+          - textbox "Ask ChatGPT" [ref=e1354]:
+            - paragraph: Ask ChatGPT
+          - generic [ref=e1356]:
+            - button "Select ChatGPT model" [ref=e1398] [cursor=pointer]:
+              - generic [ref=e1399]: High
+            - generic [ref=e1357]:
+              - button "Dictate" [ref=e1360] [cursor=pointer]
+              - button "Start Voice" [ref=e1748] [cursor=pointer]

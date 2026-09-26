@@ -1,0 +1,235 @@
+[
+  {
+    "name": "generic-root-project-composer",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "generic-root-no-project",
+    "url": "https://chatgpt.com/",
+    "positive": [],
+    "negative": [],
+    "expected_project_context": "UNKNOWN"
+  },
+  {
+    "name": "project-url",
+    "url": "https://chatgpt.com/g/g-p-test-bot-trading",
+    "positive": [
+      "url_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "selected-sidebar",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "selected_sidebar_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "composer-plus-header",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "project_scoped_composer",
+      "project_header"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "wrong-selected-project",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "project_scoped_composer"
+    ],
+    "negative": [
+      "other_selected_project"
+    ],
+    "expected_project_context": "OTHER"
+  },
+  {
+    "name": "wrong-composer",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present"
+    ],
+    "negative": [
+      "other_project_composer"
+    ],
+    "expected_project_context": "OTHER"
+  },
+  {
+    "name": "history-target-url",
+    "url": "https://chatgpt.com/g/g-p-test-bot-trading/c/old",
+    "positive": [
+      "url_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "work-selected",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "codex-selected",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "sol-visible-not-selected",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "high-visible-not-selected",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "hidden-file-input",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "filename-body-only",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "delayed-hydration",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "delayed-model-menu",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "delayed-upload-chip",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "delayed-post-send-url",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "browser-crash-after-click",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "rate-limit",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "assistant-generating",
+    "url": "https://chatgpt.com/",
+    "positive": [
+      "sidebar_target_link_present",
+      "project_scoped_composer"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "artifact-blob",
+    "url": "https://chatgpt.com/g/g-p-test-bot-trading/c/x",
+    "positive": [
+      "url_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "artifact-data",
+    "url": "https://chatgpt.com/g/g-p-test-bot-trading/c/x",
+    "positive": [
+      "url_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  },
+  {
+    "name": "artifact-href",
+    "url": "https://chatgpt.com/g/g-p-test-bot-trading/c/x",
+    "positive": [
+      "url_project_id"
+    ],
+    "negative": [],
+    "expected_project_context": "TARGET"
+  }
+]

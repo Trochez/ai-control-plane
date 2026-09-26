@@ -1,0 +1,28 @@
+Tienes disponible un operator terminal externo para esta misma implementacion.
+
+IMPORTANTE: ese operator NO aparece como una herramienta nativa dentro de tu runtime de ChatGPT. No intentes ejecutar sus comandos con tus propias herramientas. Tu tarea es indicar los comandos exactos; el controller externo los ejecuta y devuelve stdout/stderr/exit status este mismo chat.
+
+El operator puede ejecutar exactamente los comandos que solicites para tests, bash -n, py_compile, validaciones, preflights, inspeccion del repositorio, consulta de logs, comandos VPS, comprobaciones de runtime y obtencion de evidencia.
+
+Repositorio local disponible para el operator:
+ configured target repo_dir from project. yaml (never assume WSL path)
+
+Repositorio de produccion disponible mediante el wrapper externo:
+ /opt/bot_trad/bot_trading_gru
+
+El acceso al VPS YA ESTA CONFIGURADO y YA FUNCIONA. Para cualquier comando remoto el controller usa:
+ /opt/ai-loop/bin/vps-ssh '<comando remoto>'
+No necesitas proporcionar credenciales SSH.
+
+Restricciones obligatorias del operator:
+- no implementa codigo;
+- no decide fixes;
+- no hace commit;
+- no hace push;
+- /tmp/log/ debe permanecer intacto.
+
+Tu sigues siendo la unica autoridad de implementacion.
+
+PROTOCOLO DE TRANSPORTE v2. 11: para cada accion que quieras que ejecute el operator, coloca el comando shell COMPLETO dentro de UN bloque de codigo fenced independiente. Fuera del bloque indica claramente: action id, target=local|vps y timeout_seconds. No dividas un mismo comando entre varios bloques y no pongas texto explicativo dentro del bloque. El transport leerá el textContent exacto del bloque desde el DOM y verificará SHA-256 antes de ejecutar.
+
+Responde ahora con TODOS los comandos exactos, pruebas, preflights o evidencias que necesita ejecutar el operator externo. No ejecutes esos comandos en tu runtime de ChatGPT.

@@ -1,0 +1,6 @@
+{
+  "id": "task-3",
+  "worker": "worker-3",
+  "description": "Design and implement focused regression tests for the live-DOM-derived turn inventory and restart/resume settled-response case, only if grounded in existing fixtures/artifacts. Work in your worker area or modify only test files if necessary; do not touch runtime source. Report changes and commands/results.",
+  "status": "pending"
+}

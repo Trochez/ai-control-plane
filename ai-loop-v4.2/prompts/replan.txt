@@ -1,0 +1,14 @@
+/ralplan generate the best plan to cover and implement all points needed regarding the previous diagnosis.
+
+The main and mandatory objective is to pass the Semaphore job and reach COMPLETE_GO without any additional remediation commit. The unique implementation commit must already contain everything needed to reach COMPLETE_GO and save Semaphore credits. Do all deterministic tests and exact-SHA preflight validation needed before Semaphore so the production workflow is not used to discover a known deterministic failure.
+
+The plan must specify team size, all team roles, and a backlog with atomic assigned tasks.
+
+MANDATORY OUTPUT ARTIFACT CONTRACT:
+- Create the COMPLETE plan as an actual downloadable Markdown (.md) file attachment using your file-generation capability.
+- The filename MUST include UTC date/time.
+- The downloadable .md attachment is the authoritative plan artifact that will be passed unchanged to the next implementation chat.
+- Do NOT provide the plan only as inline chat text.
+- Do NOT execute the implementation in this chat.
+- A short inline confirmation naming the attached file is allowed, but the complete plan must live in the downloadable .md artifact.
+- If an actual downloadable file cannot be created, say so explicitly instead of substituting inline text.

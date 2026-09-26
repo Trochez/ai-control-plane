@@ -1,0 +1,5 @@
+{
+  "id": "task-1",
+  "role": "consultant",
+  "description": "Inspect the live ChatGPT DOM and existing broker observer diagnostics for run R20260923T012014. Identify proven assistant-turn and positive generation selectors/signals. Read-only; write findings to worker result file. Do not alter runtime or browser state."
+}

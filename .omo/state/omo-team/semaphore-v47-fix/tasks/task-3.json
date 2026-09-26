@@ -1,0 +1,6 @@
+{
+  "id": "task-3",
+  "worker": "worker-3",
+  "description": "Audit deployment/runtime/process constraints and live validation prerequisites. Read-only; inspect install.sh, resume entrypoint, state, and current processes. Report safe executable sequence; do not kill processes or deploy.",
+  "status": "pending"
+}

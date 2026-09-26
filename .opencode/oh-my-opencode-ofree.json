@@ -1,0 +1,609 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "model_fallback": true,
+  "runtime_fallback": {
+    "enabled": true,
+    "retry_on_errors": [
+      429,
+      500,
+      502,
+      503,
+      504,
+      529
+    ],
+    "retry_on_timeout": true,
+    "retry_on_network_error": true,
+    "max_fallback_attempts": 5,
+    "backoff_ms": 1000,
+    "max_backoff_ms": 30000,
+    "timeout_seconds": 120,
+    "cooldown_seconds": 30,
+    "model": "opencode-omniroute/openrouter/openrouter/free",
+    "small_model": "opencode-omniroute/openrouter/openrouter/free"
+  },
+  "providerOptions": {
+    "enable-auto-tool-choice": true,
+    "tool-call-parser": "auto",
+    "model": "opencode-omniroute/openrouter/openrouter/free",
+    "small_model": "opencode-omniroute/openrouter/openrouter/free"
+  },
+  "provider": {
+    "nvidia": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "openai": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "options": {
+        "timeout": 120000,
+        "chunkTimeout": 30000,
+        "model": "opencode-omniroute/openrouter/openrouter/free",
+        "small_model": "opencode-omniroute/openrouter/openrouter/free"
+      },
+      "models": {
+        "gpt-5": {
+          "name": "Gpt 5",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5-mini": {
+          "name": "Gpt 5 Mini",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.4": {
+          "name": "Gpt 5.4",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.4-mini": {
+          "name": "Gpt 5.4 Mini",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.4-nano": {
+          "name": "Gpt 5.4 Nano",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.4-pro": {
+          "name": "Gpt 5.4 Pro",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.5": {
+          "name": "Gpt 5.5",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        },
+        "gpt-5.5-pro": {
+          "name": "Gpt 5.5 Pro",
+          "model": "opencode-omniroute/openrouter/openrouter/free",
+          "small_model": "opencode-omniroute/openrouter/openrouter/free"
+        }
+      },
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "opencode": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    }
+  },
+  "background_task": {
+    "staleTimeoutMs": 60000,
+    "circuitBreaker": {
+      "enabled": true,
+      "consecutiveThreshold": 50,
+      "maxToolCalls": 8000
+    },
+    "model": "opencode-omniroute/openrouter/openrouter/free",
+    "small_model": "opencode-omniroute/openrouter/openrouter/free"
+  },
+  "agents": {
+    "sisyphus": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "thinking": {
+        "type": "enabled",
+        "budgetTokens": 10000
+      },
+      "mode": "primary",
+      "category": "orchestrator",
+      "skills": [
+        "ralph",
+        "autopilot",
+        "ultrawork"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "write": true,
+        "task": true,
+        "webfetch": true,
+        "websearch": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow",
+        "task": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#9400D3",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "hephaestus": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "executor",
+      "skills": [],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "allow_non_gpt_model": true,
+      "color": "#4ECDC4",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "oracle": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "high",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "consultant",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#9B59B6",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "explore": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "search",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "low",
+      "color": "#3498DB",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "prometheus": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "planner",
+      "skills": [
+        "plan",
+        "ralplan"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#E74C3C",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "metis": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "analyst",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#1ABC9C",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "momus": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "reviewer",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#F39C12",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "librarian": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "research",
+      "tools": {
+        "webfetch": true,
+        "websearch": true,
+        "read": true,
+        "bash": true,
+        "edit": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#2ECC71",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "multimodal-looker": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "visual",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#E67E22",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "atlas": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "knowledge",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#95A5A6",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "sisyphus-junior": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "orchestrator-junior",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#FF6B6B",
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "ultrabrain": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "deep": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "artistry": {
+      "model": "google/gemma-4-31b-it",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "quick": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "unspecified-low": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "unspecified-high": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "writing": {
+      "model": "opencode-omniroute/openrouter/openrouter/free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free",
+        "opencode-omniroute/openrouter/openrouter/free"
+      ],
+      "small_model": "opencode-omniroute/openrouter/openrouter/free"
+    }
+  },
+  "ranking_selection_note": {
+    "source_file": "oh-my-opencode-ofree.json",
+    "description": "All models set to opencode-omniroute/openrouter/openrouter/free for free-tier operation",
+    "agent_model_map": {
+      "sisyphus": "opencode-omniroute/openrouter/openrouter/free",
+      "hephaestus": "opencode-omniroute/openrouter/openrouter/free",
+      "oracle": "opencode-omniroute/openrouter/openrouter/free",
+      "explore": "opencode-omniroute/openrouter/openrouter/free",
+      "prometheus": "opencode-omniroute/openrouter/openrouter/free",
+      "metis": "opencode-omniroute/openrouter/openrouter/free",
+      "momus": "opencode-omniroute/openrouter/openrouter/free",
+      "librarian": "opencode-omniroute/openrouter/openrouter/free",
+      "multimodal-looker": "opencode-omniroute/openrouter/openrouter/free",
+      "atlas": "opencode-omniroute/openrouter/openrouter/free",
+      "sisyphus-junior": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "category_model_map": {
+      "visual-engineering": "opencode-omniroute/openrouter/openrouter/free",
+      "ultrabrain": "opencode-omniroute/openrouter/openrouter/free",
+      "deep": "opencode-omniroute/openrouter/openrouter/free",
+      "artistry": "opencode-omniroute/openrouter/openrouter/free",
+      "quick": "opencode-omniroute/openrouter/openrouter/free",
+      "unspecified-low": "opencode-omniroute/openrouter/openrouter/free",
+      "unspecified-high": "opencode-omniroute/openrouter/openrouter/free",
+      "writing": "opencode-omniroute/openrouter/openrouter/free"
+    },
+    "fallback_models": [
+      "opencode-omniroute/openrouter/openrouter/free",
+      "opencode-omniroute/openrouter/openrouter/free",
+      "opencode-omniroute/openrouter/openrouter/free",
+      "opencode-omniroute/openrouter/openrouter/free"
+    ],
+    "small_model": "opencode-omniroute/openrouter/openrouter/free",
+    "generated_at": "2026-07-23"
+  },
+  "model": "opencode-omniroute/openrouter/openrouter/free",
+  "small_model": "opencode-omniroute/openrouter/openrouter/free"
+}

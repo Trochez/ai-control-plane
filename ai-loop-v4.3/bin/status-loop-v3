@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+STATE=${1:-$(ls -1t /var/lib/ai-loop/state/*.v3.json 2>/dev/null | head -1 || true)}
+if [[ -z "$STATE" || ! -f "$STATE" ]]; then echo "No v3 state found" >&2; exit 1; fi
+python3 - "$STATE" <<'PY'
+import json,sys
+s=json.load(open(sys.argv[1]))
+for k in ['run_id','phase','iteration','baseline_sha','candidate_sha','chat_url','last_ci','go_confirmed','adaptive_browser_version','adaptive_bootstrap','chat_policy_last','pending_actions']:
+    print(f"{k}={s.get(k)}")
+PY

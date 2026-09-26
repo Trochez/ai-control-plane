@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PLAN=${1:-}
+if [[ -z "$PLAN" || ! -f "$PLAN" ]]; then
+  echo "Usage: $0 /path/to/IMPLEMENTATION_PLAN.md" >&2
+  exit 2
+fi
+set -a
+source /opt/ai-loop/ai-loop.env
+set +a
+# v3 is intentionally single-controller/single-browser. Refuse to start if ANY old/new loop transport survives.
+if pgrep -af '/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|opencode run|@playwright/mcp|ai-loop-chatgpt-profile|browser-broker-v1\.cjs' | grep -vE 'pgrep|grep' >/dev/null 2>&1; then
+  echo "ERROR: a loop/controller/OpenCode/Playwright process is still alive. Kill all loop processes before starting v3:" >&2
+  pgrep -af '/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|opencode run|@playwright/mcp|ai-loop-chatgpt-profile|browser-broker-v1\.cjs' | grep -vE 'pgrep|grep' >&2 || true
+  exit 5
+fi
+RUN_ID="R$(date +%Y%m%dT%H%M%S)"
+STATE="/var/lib/ai-loop/state/${RUN_ID}.v3.json"
+LOG="/var/lib/ai-loop/logs/${RUN_ID}.v3.log"
+mkdir -p /var/lib/ai-loop/state /var/lib/ai-loop/logs /var/lib/ai-loop/runs
+nohup python3 /opt/ai-loop/ai-loopd-v3.py --state "$STATE" --bootstrap-plan "$(realpath "$PLAN")" >"$LOG" 2>&1 &
+PID=$!
+echo "$PID" > "/var/lib/ai-loop/state/${RUN_ID}.v3.pid"
+echo "RUN_ID=$RUN_ID"
+echo "PID=$PID"
+echo "STATE=$STATE"
+echo "LOG=$LOG"
+echo "Monitor: tail -F '$LOG'"

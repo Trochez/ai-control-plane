@@ -1,0 +1,162 @@
+[
+  {
+    "i": 196,
+    "aria": "Enable word wrap",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 197,
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 198,
+    "aria": "Scroll to bottom",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button class=\"cursor-interaction absolute z-30 flex h-8 w-8 translate-x-1/2 items-center justify-center rounded-full border border-default bg-surface bg-clip-padding text-secondary transition-opacity duration-basic ease-in-out end-1/2 print:hidden pointer-events-none opacity-0 bottom-4\" aria-hidden"
+  },
+  {
+    "i": 199,
+    "aria": "View analysis",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 200,
+    "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button aria-busy=\"false\" aria-label=\"Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\" class=\"absolute inset-0 cursor-interaction bg-transparent hover:bg-text/5 focus-visible:ring-1 focus-visible:ring-ring focus-visible:outline-none focus-visible:ring-inset disab"
+  },
+  {
+    "i": 201,
+    "aria": "Download file",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 202,
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 203,
+    "aria": "Rate response",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 204,
+    "aria": "Share",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 205,
+    "aria": "Add to project sources",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 206,
+    "aria": "Read aloud",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 207,
+    "aria": "Regenerate response",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 208,
+    "aria": "More actions",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"Button-G93JGk outline-hidden cursor-interaction\" data-color=\"secondary\" data-variant=\"ghost\" data-uniform=\"\" data-size=\"xs\" data-icon-size=\"sm\" aria-label=\"More actions\" id=\"radix-_r_10f_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"><span class=\"Button"
+  },
+  {
+    "i": 209,
+    "aria": "Sources",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 210,
+    "aria": "Scroll to bottom",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button class=\"cursor-interaction absolute z-30 flex h-8 w-8 translate-x-1/2 items-center justify-center rounded-full border border-default bg-surface bg-clip-padding text-secondary transition-opacity duration-basic ease-in-out end-1/2 print:hidden pointer-events-none opacity-0 bottom-[calc(100%+6*v"
+  },
+  {
+    "i": 211,
+    "aria": "Expand",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 212,
+    "aria": "Add files and more",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 213,
+    "aria": "Select ChatGPT model",
+    "title": null,
+    "text": "High",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex gap-"
+  },
+  {
+    "i": 214,
+    "aria": "Dictate",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"no-drag cursor-interaction items-center select-none disabled:cursor-default aria-disabled:cursor-default focus:outline-hidden disabled:opacity-40 aria-disabled:opacity-40 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 whitespace-nowrap flex bord"
+  },
+  {
+    "i": 215,
+    "aria": "Send",
+    "title": null,
+    "text": "",
+    "disabled": false,
+    "html": "<button type=\"submit\" class=\"cursor-interaction size-token-button-composer flex items-center justify-center rounded-full transition-opacity focus-visible:outline-2 bg-composer-primary p-0.5 focus-visible:outline-background-composer-primary\" aria-label=\"Send\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 "
+  }
+]

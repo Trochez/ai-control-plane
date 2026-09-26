@@ -1,0 +1,152 @@
+[
+  {
+    "tag": "SPAN",
+    "text": "- local controller lifecycle had observability degradation and SIGTERM/restart events, but no causal link to the Semaphore stop was established;",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- the `githubactions` user crontab could not be inspected because of permissions.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "The only concrete inaccessible source that could still explain an automated production checkout/sync is the `githubactions` scheduling surface on the VPS.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "This is materially different evidence from previous inspections because it was explicitly unavailable.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "Perform one final read-only VPS automation provenance inspection, with sufficient authority only to read:",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- system cron entries referencing bot_trading, feature/GRU, git sync/deploy, or `/opt/bot_trad/bot_trading_gru`;",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- systemd timer/service definitions referencing the same target path or repository.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- If a relevant automation is found, inspect its text/config and timestamps read-only to determine whether it can explain the active `d4960be...`.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- If no relevant automation is found, classify historical deployment/stop causality as `UNRECOVERABLE_FROM_AVAILABLE_HISTORY`.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "- At that point, stop historical forensics and move to a guarded same-SHA rerun preflight rather than creating a new code commit.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "CURRENT_VPS_SHA=d4960be98cee3edef96413ee77f200ce744d3461",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "NEXT_ACTION=READONLY_VPS_AUTOMATION_PROVENANCE",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md\nSHA256=a21636ce909f5c60235a654fde65023ad2f3642b5f1fd282a70b5969bfbf58c2\n",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "La evidencia local queda reconciliada como ",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": " haya sido desplegado o activado, tampoco apareció un mecanismo local que explique la activación actual de ",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": " continúa sin ser recuperable. La única fuente material pendiente es la automatización del usuario ",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": ", cuyo crontab no pudo inspeccionarse por permisos.",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "a21636ce909f5c60235a654fde65023ad2f3642b5f1fd282a70b5969bfbf58c2",
+    "cls": "inline-markdown InlineMarkdownIsolate-QWDV4W"
+  },
+  {
+    "tag": "SPAN",
+    "text": "última acción forense antes de cerrar la investigación histórica",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": ". Inspecciona solamente los mecanismos de automatización que podrían modificar ",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "set -Eeuo pipefail\numask 077\n\nVPS=\"/opt/ai-loop/bin/vps-ssh\"\n\nTARGET_SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\"\nCURRENT_SHA=\"d4960be98cee3edef96413ee77f200ce744d3461\"\nTARGET_PATH=\"/opt/bot_trad/bot_trading_gru\"\nTARGET_USER=\"githubactions\"\n\nE=\"$(mktemp -d \"/tmp/ai-loop-vps-automation-provenance.${TARGET_SHA:0:12}.XXXXXX\")\"\n\nfail() {\n  echo \"READONLY_VPS_AUTOMATION_PROVENANCE=FAILED\"\n  echo \"BLOCKER=$1\"\n  echo \"EVIDENCE_DIR=$E\"\n  exit \"${2:-90}\"\n}\n\ntest -x \"$VPS\" ||\n  fail \"VPS_WRAPPER_MISSING",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "El resultado que decide el siguiente estado es:",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "AUTOMATION_PROVENANCE=RELEVANT_MECHANISM_FOUND",
+    "cls": "inline-markdown InlineMarkdownIsolate-QWDV4W"
+  },
+  {
+    "tag": "SPAN",
+    "text": "AUTOMATION_PROVENANCE=NO_RELEVANT_MECHANISM_FOUND",
+    "cls": "inline-markdown InlineMarkdownIsolate-QWDV4W"
+  },
+  {
+    "tag": "SPAN",
+    "text": "SEMAPHORE_STOP_CAUSE=UNRECOVERABLE_FROM_AVAILABLE_HISTORY",
+    "cls": "inline-markdown InlineMarkdownIsolate-QWDV4W"
+  },
+  {
+    "tag": "SPAN",
+    "text": "preflight para rerun controlado del mismo SHA ",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "no nuevo commit, no deploy, no reset/sync, no kill del simulador y no rerun de Semaphore",
+    "cls": ""
+  },
+  {
+    "tag": "SPAN",
+    "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md",
+    "cls": "truncate text-default text-sm font-medium"
+  },
+  {
+    "tag": "DIV",
+    "text": "ChatGPT can make mistakes. Check important info.",
+    "cls": "text-center text-xs text-pretty text-codex-description select-none min-h-6 px-toolbar pb-2"
+  }
+]

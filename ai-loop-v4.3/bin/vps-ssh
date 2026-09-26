@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import os
+import subprocess
+import sys
+
+KEYFILE = Path('/opt/ai-loop/.keys/.key_ssh_server')
+if not KEYFILE.is_file():
+    print(f'ERROR: missing {KEYFILE}', file=sys.stderr)
+    raise SystemExit(2)
+
+cfg = {}
+for line in KEYFILE.read_text(encoding='utf-8').splitlines():
+    if ':' in line:
+        key, value = line.split(':', 1)
+        cfg[key.strip()] = value.strip().strip("'\"").replace('\r', '')
+for key in ('user', 'ip', 'pss', 'port'):
+    if not cfg.get(key):
+        print(f'ERROR: missing field {key}', file=sys.stderr)
+        raise SystemExit(2)
+if len(sys.argv) < 2:
+    print('Uso: vps-ssh "comando remoto"', file=sys.stderr)
+    raise SystemExit(2)
+
+env = os.environ.copy()
+env['SSHPASS'] = cfg['pss']
+result = subprocess.run([
+    'sshpass', '-e', 'ssh', '-o', 'StrictHostKeyChecking=accept-new',
+    '-o', 'PubkeyAuthentication=no',
+    '-o', 'PreferredAuthentications=password,keyboard-interactive',
+    '-o', 'ConnectTimeout=20', '-p', cfg['port'],
+    f"{cfg['user']}@{cfg['ip']}", ' '.join(sys.argv[1:])
+], env=env)
+raise SystemExit(result.returncode)

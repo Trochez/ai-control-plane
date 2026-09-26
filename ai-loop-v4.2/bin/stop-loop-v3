@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PIDFILE=${1:-$(ls -1t /var/lib/ai-loop/state/*.v3.pid 2>/dev/null | head -1 || true)}
+if [[ -z "$PIDFILE" || ! -f "$PIDFILE" ]]; then echo "No v3 pidfile found" >&2; exit 1; fi
+PID=$(cat "$PIDFILE")
+if kill -0 "$PID" 2>/dev/null; then kill "$PID"; echo "Stopped PID $PID"; else echo "PID $PID is not running"; fi

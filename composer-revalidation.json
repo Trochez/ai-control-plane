@@ -1,0 +1,12 @@
+[
+  {
+    "i": 0,
+    "tag": "DIV",
+    "role": "textbox",
+    "aria": "Ask ChatGPT",
+    "placeholder": null,
+    "disabled": null,
+    "text": "\n",
+    "outer": "<div contenteditable=\"true\" aria-multiline=\"true\" dir=\"auto\" role=\"textbox\" spellcheck=\"true\" translate=\"no\" class=\"ProseMirror\" data-composer-markdown=\"\" aria-label=\"Ask ChatGPT\" data-virtualkeyboard=\"true\"><p data-empty-paragraph=\"true\" data-placeholder=\"Ask ChatGPT\" class=\"placeholder\"><br class=\"ProseMirror-trailingBreak\"></p></div>"
+  }
+]

@@ -1,0 +1,824 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - navigation "Sidebar":
+        - generic:
+          - generic:
+            - generic:
+              - button "Open sidebar"
+        - generic:
+          - generic:
+            - link "New chat":
+              - /url: /
+          - generic:
+            - button "Search"
+          - generic:
+            - button "Recents"
+        - generic:
+          - generic:
+            - button "Open profile menu":
+              - generic:
+                - generic:
+                  - img "Profile image"
+      - generic [ref=e9]:
+        - heading "Chat history" [level=2] [ref=e10]
+        - generic [ref=e11]:
+          - navigation "Chat history" [ref=e12]:
+            - generic [ref=e15]:
+              - link "Home" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e17]: ChatGPT
+              - generic [ref=e18]:
+                - button "Search" [ref=e19] [cursor=pointer]
+                - button "Close sidebar" [expanded] [ref=e22]
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "New chat Control Shift O" [ref=e113] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e114]: New chat
+                  - generic [ref=e121]:
+                    - generic "Control" [ref=e122]:
+                      - generic [ref=e123]: Ctrl
+                      - text: +
+                    - generic "Shift" [ref=e124]: +
+                    - generic [ref=e126]: O
+              - listitem
+            - link "Library" [ref=e35] [cursor=pointer]:
+              - /url: /library?entry_point=sidebar
+            - link "Scheduled" [ref=e42] [cursor=pointer]:
+              - /url: /scheduled
+            - link "Plugins" [ref=e49] [cursor=pointer]:
+              - /url: /plugins
+            - generic [ref=e56]: More
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - button [expanded] [ref=e130] [cursor=pointer]:
+                  - heading "Projects" [level=2] [ref=e131]
+                - generic [ref=e132]:
+                  - button "New project" [ref=e133] [cursor=pointer]
+                  - button "Organize chats" [ref=e137] [cursor=pointer]
+              - list [ref=e141]:
+                - listitem [ref=e142]:
+                  - generic [ref=e143]:
+                    - button "agentic_pipeline" [ref=e144] [cursor=pointer]
+                    - generic:
+                      - button "Open project home" [ref=e162] [cursor=pointer]
+                      - button "Open project options for agentic_pipeline" [ref=e166] [cursor=pointer]
+                - listitem [ref=e170]:
+                  - generic [ref=e171]:
+                    - button "Bot_trading" [expanded] [ref=e172] [cursor=pointer]
+                    - generic:
+                      - button "Open project home" [ref=e190] [cursor=pointer]
+                      - button "Open project options for Bot_trading" [ref=e194] [cursor=pointer]
+                  - list [ref=e199]:
+                    - listitem [ref=e200]:
+                      - link "Implementar Plan Y Push, chat in project Bot_trading, Work" [ref=e201] [cursor=pointer]:
+                        - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aacc83a-5d1c-83e9-8a6e-86c8e39ac52b
+                        - generic [ref=e202]: Implementar Plan Y Push
+                        - generic [ref=e211]:
+                          - button "Pin Implementar Plan Y Push" [ref=e212]
+                          - button "Open conversation options for Implementar Plan Y Push" [ref=e216]
+                    - listitem [ref=e220]:
+                      - link "Pipeline Implement Push Status, chat in project Bot_trading" [ref=e221] [cursor=pointer]:
+                        - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aaa4c0e-d308-83e9-ad24-017840b62639
+                        - generic [ref=e222]: Pipeline Implement Push Status
+                        - generic [ref=e229]:
+                          - button "Pin Pipeline Implement Push Status" [ref=e230]
+                          - button "Open conversation options for Pipeline Implement Push Status" [ref=e234]
+                    - listitem [ref=e238]:
+                      - link "Pipeline implementation status, chat in project Bot_trading" [ref=e239] [cursor=pointer]:
+                        - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa8ea94-e980-83e9-9b5f-9832ea92013e
+                        - generic [ref=e240]: Pipeline implementation status
+                        - generic [ref=e247]:
+                          - button "Pin Pipeline implementation status" [ref=e248]
+                          - button "Open conversation options for Pipeline implementation status" [ref=e252]
+                    - listitem [ref=e256]:
+                      - link "Implementación y commit único, chat in project Bot_trading" [ref=e257] [cursor=pointer]:
+                        - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa2e076-b52c-83e9-bb1d-f8880b09726d
+                        - generic [ref=e258]: Implementación y commit único
+                        - generic [ref=e265]:
+                          - button "Pin Implementación y commit único" [ref=e266]
+                          - button "Open conversation options for Implementación y commit único" [ref=e270]
+                    - listitem [ref=e274]:
+                      - link "GRU Semaphore Watch, chat in project Bot_trading" [ref=e275] [cursor=pointer]:
+                        - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa1aafc-5c1c-83e9-b1af-8bed15dd3cea
+                        - generic [ref=e276]: GRU Semaphore Watch
+                        - generic [ref=e283]:
+                          - button "Pin GRU Semaphore Watch" [ref=e284]
+                          - button "Open conversation options for GRU Semaphore Watch" [ref=e288]
+                    - listitem [ref=e292]:
+                      - button "Show more" [ref=e293] [cursor=pointer]
+                - listitem [ref=e296]:
+                  - generic [ref=e297]:
+                    - button "body_finder_fast" [ref=e298] [cursor=pointer]
+                    - generic:
+                      - button "Open project home" [ref=e316] [cursor=pointer]
+                      - button "Open project options for body_finder_fast" [ref=e320] [cursor=pointer]
+                - listitem [ref=e324]:
+                  - generic [ref=e325]:
+                    - button "ubuntu problems" [ref=e326] [cursor=pointer]
+                    - generic:
+                      - button "Open project home" [ref=e344] [cursor=pointer]
+                      - button "Open project options for ubuntu problems" [ref=e348] [cursor=pointer]
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - button [expanded] [ref=e354] [cursor=pointer]:
+                  - heading "Chats" [level=2] [ref=e355]
+                - generic [ref=e356]:
+                  - link "New chat" [ref=e357] [cursor=pointer]:
+                    - /url: /
+                  - button "Organize chats" [ref=e361] [cursor=pointer]
+              - list [ref=e366]:
+                - listitem [ref=e367]:
+                  - link "Ranking hardware LLM local" [ref=e368] [cursor=pointer]:
+                    - /url: /c/6aa47f95-75a4-83e9-8575-4b06a3e89e01
+                    - generic [ref=e376]:
+                      - button "Pin Ranking hardware LLM local" [ref=e377]
+                      - button "Open conversation options for Ranking hardware LLM local" [ref=e381]
+                - listitem [ref=e385]:
+                  - link "Ranking celulares Colombia" [ref=e386] [cursor=pointer]:
+                    - /url: /c/6aa9a2f3-ad98-83e9-8670-adb0a6c1ccee
+                    - generic [ref=e394]:
+                      - button "Pin Ranking celulares Colombia" [ref=e395]
+                      - button "Open conversation options for Ranking celulares Colombia" [ref=e399]
+                - listitem [ref=e403]:
+                  - link "Consultar vigencia SOAT" [ref=e404] [cursor=pointer]:
+                    - /url: /c/6aa640b5-ff24-83e9-8c1a-c4f73fc83d1b
+                    - generic [ref=e412]:
+                      - button "Pin Consultar vigencia SOAT" [ref=e413]
+                      - button "Open conversation options for Consultar vigencia SOAT" [ref=e417]
+                - listitem [ref=e421]:
+                  - link "Ranking hardware LLM local" [ref=e422] [cursor=pointer]:
+                    - /url: /c/6aa3c667-3bfc-83e9-b6d5-cd2c8b1e8f7e
+                    - generic [ref=e430]:
+                      - button "Pin Ranking hardware LLM local" [ref=e431]
+                      - button "Open conversation options for Ranking hardware LLM local" [ref=e435]
+                - listitem [ref=e439]:
+                  - link "Comparar modelos IA globales" [ref=e440] [cursor=pointer]:
+                    - /url: /c/6aa263b8-a584-83e9-bba1-e10fa3423079
+                    - generic [ref=e448]:
+                      - button "Pin Comparar modelos IA globales" [ref=e449]
+                      - button "Open conversation options for Comparar modelos IA globales" [ref=e453]
+                - listitem [ref=e457]:
+                  - link "Marco de trabajo Codex ChatGPT" [ref=e458] [cursor=pointer]:
+                    - /url: /c/6aa0b132-6254-83e9-b1ab-707f02c7d7be
+                    - generic [ref=e466]:
+                      - button "Pin Marco de trabajo Codex ChatGPT" [ref=e467]
+                      - button "Open conversation options for Marco de trabajo Codex ChatGPT" [ref=e471]
+                - listitem [ref=e475]:
+                  - link "Semaphore Pipeline Watch" [ref=e476] [cursor=pointer]:
+                    - /url: /c/6a9d11a0-14f4-83e9-a48d-545adbc6f5d1?messageId=finalAgentTurnStart
+                    - generic [ref=e484]:
+                      - button "Pin Semaphore Pipeline Watch" [ref=e485]
+                      - button "Open conversation options for Semaphore Pipeline Watch" [ref=e489]
+                - listitem [ref=e493]:
+                  - link "Semaphore Pipeline Watch" [ref=e494] [cursor=pointer]:
+                    - /url: /c/6aa11538-57cc-83e9-ba22-d27baa8ec07e?messageId=finalAgentTurnStart
+                    - generic [ref=e502]:
+                      - button "Pin Semaphore Pipeline Watch" [ref=e503]
+                      - button "Open conversation options for Semaphore Pipeline Watch" [ref=e507]
+                - listitem [ref=e511]:
+                  - link "Ranking Codex Models Cost Benefit" [ref=e512] [cursor=pointer]:
+                    - /url: /c/6aa0b7bf-3188-83e9-94cc-c91f06fd0fa4
+                    - generic [ref=e520]:
+                      - button "Pin Ranking Codex Models Cost Benefit" [ref=e521]
+                      - button "Open conversation options for Ranking Codex Models Cost Benefit" [ref=e525]
+                - listitem [ref=e529]:
+                  - link "Marco de trabajo OpenCode" [ref=e530] [cursor=pointer]:
+                    - /url: /c/6aa0b22e-28d4-83e9-98b6-e1442d34c4ad
+                    - generic [ref=e538]:
+                      - button "Pin Marco de trabajo OpenCode" [ref=e539]
+                      - button "Open conversation options for Marco de trabajo OpenCode" [ref=e543]
+                - listitem [ref=e547]:
+                  - link "Tutorial CapCut narrado" [ref=e548] [cursor=pointer]:
+                    - /url: /c/6aa07b1f-e348-83e9-9c2c-d8fe1ea91e40
+                    - generic [ref=e556]:
+                      - button "Pin Tutorial CapCut narrado" [ref=e557]
+                      - button "Open conversation options for Tutorial CapCut narrado" [ref=e561]
+                - listitem [ref=e565]:
+                  - link "Customize CV Match" [ref=e566] [cursor=pointer]:
+                    - /url: /c/6aa050bf-949c-83e9-9bb9-6c71bec5fa68
+                    - generic [ref=e574]:
+                      - button "Pin Customize CV Match" [ref=e575]
+                      - button "Open conversation options for Customize CV Match" [ref=e579]
+                - listitem [ref=e583]:
+                  - link "GRU Full-Corpus Watch" [ref=e584] [cursor=pointer]:
+                    - /url: /c/6a9dc354-cb88-83e9-8192-f33fde802e1d?messageId=finalAgentTurnStart
+                    - generic [ref=e592]:
+                      - button "Pin GRU Full-Corpus Watch" [ref=e593]
+                      - button "Open conversation options for GRU Full-Corpus Watch" [ref=e597]
+                - listitem [ref=e601]:
+                  - link "P2 Gate Watch" [ref=e602] [cursor=pointer]:
+                    - /url: /c/6a9c521c-e558-83e9-ac49-3ef00c1cdfea?messageId=finalAgentTurnStart
+                    - generic [ref=e610]:
+                      - button "Pin P2 Gate Watch" [ref=e611]
+                      - button "Open conversation options for P2 Gate Watch" [ref=e615]
+                - listitem [ref=e619]:
+                  - 'link "CircleCI #144 Watch" [ref=e620] [cursor=pointer]':
+                    - /url: /c/6a9baa04-b68c-83e9-b343-833d2d6f1616?messageId=finalAgentTurnStart
+                    - generic [ref=e628]:
+                      - 'button "Pin CircleCI #144 Watch" [ref=e629]'
+                      - 'button "Open conversation options for CircleCI #144 Watch" [ref=e633]'
+                - listitem [ref=e637]:
+                  - 'link "CircleCI #144 Watch" [ref=e638] [cursor=pointer]':
+                    - /url: /c/6a9ba672-1da0-83e9-9893-e00df035adf8?messageId=finalAgentTurnStart
+                    - generic [ref=e646]:
+                      - 'button "Pin CircleCI #144 Watch" [ref=e647]'
+                      - 'button "Open conversation options for CircleCI #144 Watch" [ref=e651]'
+                - listitem [ref=e655]:
+                  - 'link "CircleCI #133 Watch" [ref=e656] [cursor=pointer]':
+                    - /url: /c/6a9b65de-141c-83e9-9634-8c0b2d4b494c?messageId=finalAgentTurnStart
+                    - generic [ref=e664]:
+                      - 'button "Pin CircleCI #133 Watch" [ref=e665]'
+                      - 'button "Open conversation options for CircleCI #133 Watch" [ref=e669]'
+                - listitem [ref=e673]:
+                  - 'link "Deploy #56 Watch" [ref=e674] [cursor=pointer]':
+                    - /url: /c/6a99a248-a93c-83e9-9ed3-0c9b53a7a89f?messageId=finalAgentTurnStart
+                    - generic [ref=e682]:
+                      - 'button "Pin Deploy #56 Watch" [ref=e683]'
+                      - 'button "Open conversation options for Deploy #56 Watch" [ref=e687]'
+                - listitem [ref=e691]:
+                  - 'link "Deploy #56 Watch" [ref=e692] [cursor=pointer]':
+                    - /url: /c/6a99eeb3-2084-83e9-a9a1-e7c21b9e53a7?messageId=finalAgentTurnStart
+                    - generic [ref=e700]:
+                      - 'button "Pin Deploy #56 Watch" [ref=e701]'
+                      - 'button "Open conversation options for Deploy #56 Watch" [ref=e705]'
+                - listitem [ref=e709]:
+                  - link "GRU P2 GO Watch" [ref=e710] [cursor=pointer]:
+                    - /url: /c/6a987dbe-030c-83e9-8fd1-025a3da8ffb3?messageId=finalAgentTurnStart
+                    - generic [ref=e718]:
+                      - button "Pin GRU P2 GO Watch" [ref=e719]
+                      - button "Open conversation options for GRU P2 GO Watch" [ref=e723]
+                - listitem [ref=e727]:
+                  - link "Impresión sobre ti" [ref=e728] [cursor=pointer]:
+                    - /url: /c/6a947f1e-a6d4-83e9-b77a-135e76d14152
+                    - generic [ref=e736]:
+                      - button "Pin Impresión sobre ti" [ref=e737]
+                      - button "Open conversation options for Impresión sobre ti" [ref=e741]
+                - listitem [ref=e745]:
+                  - link "Conectar SSH MySQL" [ref=e746] [cursor=pointer]:
+                    - /url: /c/6a909c64-eca0-83e9-99c1-afd9b0661cc8
+                    - generic [ref=e754]:
+                      - button "Pin Conectar SSH MySQL" [ref=e755]
+                      - button "Open conversation options for Conectar SSH MySQL" [ref=e759]
+                - listitem [ref=e763]:
+                  - link "Ubuntu Upgrade Troubleshooting, Work" [ref=e764] [cursor=pointer]:
+                    - /url: /c/6a8aada6-97a8-83e9-82d5-ed204fc156e6
+                    - generic [ref=e765]: Ubuntu Upgrade Troubleshooting
+                    - generic [ref=e774]:
+                      - button "Pin Ubuntu Upgrade Troubleshooting" [ref=e775]
+                      - button "Open conversation options for Ubuntu Upgrade Troubleshooting" [ref=e779]
+                - listitem [ref=e783]:
+                  - link "Fix Scripts For Profiles, Work" [ref=e784] [cursor=pointer]:
+                    - /url: /c/6a8a3175-2fb4-83e9-aa32-deb60c8682f9
+                    - generic [ref=e785]: Fix Scripts For Profiles
+                    - generic [ref=e794]:
+                      - button "Pin Fix Scripts For Profiles" [ref=e795]
+                      - button "Open conversation options for Fix Scripts For Profiles" [ref=e799]
+                - listitem [ref=e803]:
+                  - link "Recomendaciones para dormir mejor" [ref=e804] [cursor=pointer]:
+                    - /url: /c/6a8c0e47-5e98-83e9-b2b0-347fb2d40e04
+                    - generic [ref=e812]:
+                      - button "Pin Recomendaciones para dormir mejor" [ref=e813]
+                      - button "Open conversation options for Recomendaciones para dormir mejor" [ref=e817]
+                - listitem [ref=e821]:
+                  - link "Búsqueda de soportes laborales" [ref=e822] [cursor=pointer]:
+                    - /url: /c/6a88d318-9270-83e9-962d-b07241ec1991
+                    - generic [ref=e830]:
+                      - button "Pin Búsqueda de soportes laborales" [ref=e831]
+                      - button "Open conversation options for Búsqueda de soportes laborales" [ref=e835]
+                - listitem [ref=e839]:
+                  - link "Configure OpenCode Desktop Launcher, Work" [ref=e840] [cursor=pointer]:
+                    - /url: /c/6a878b13-3d74-83e9-b423-91f2df14e94c
+                    - generic [ref=e841]: Configure OpenCode Desktop Launcher
+                    - generic [ref=e850]:
+                      - button "Pin Configure OpenCode Desktop Launcher" [ref=e851]
+                      - button "Open conversation options for Configure OpenCode Desktop Launcher" [ref=e855]
+                - listitem [ref=e859]:
+                  - link "Bluetooth Mesh People Detection" [ref=e860] [cursor=pointer]:
+                    - /url: /c/6a7dc85f-1e24-83e9-b358-f1b0c3885c94
+                    - generic [ref=e868]:
+                      - button "Pin Bluetooth Mesh People Detection" [ref=e869]
+                      - button "Open conversation options for Bluetooth Mesh People Detection" [ref=e873]
+                - listitem [ref=e877]:
+                  - link "Ranking Open Source Detection Apps" [ref=e878] [cursor=pointer]:
+                    - /url: /c/6a81531a-86f4-83e9-8333-e6771bd45aa3
+                    - generic [ref=e886]:
+                      - button "Pin Ranking Open Source Detection Apps" [ref=e887]
+                      - button "Open conversation options for Ranking Open Source Detection Apps" [ref=e891]
+                - listitem [ref=e895]:
+                  - link "Desafíos de moda urbana" [ref=e896] [cursor=pointer]:
+                    - /url: /c/25c3f4f8-7129-4095-85cb-b4789941d646
+                    - generic [ref=e904]:
+                      - button "Pin Desafíos de moda urbana" [ref=e905]
+                      - button "Open conversation options for Desafíos de moda urbana" [ref=e909]
+                - listitem [ref=e913]:
+                  - link "Android Device Lab Setup" [ref=e914] [cursor=pointer]:
+                    - /url: /c/6a7ffb95-1708-83e9-adc8-0a3562dd5fdf
+                    - generic [ref=e922]:
+                      - button "Pin Android Device Lab Setup" [ref=e923]
+                      - button "Open conversation options for Android Device Lab Setup" [ref=e927]
+                - listitem [ref=e931]:
+                  - link "Preparación entrevista Python" [ref=e932] [cursor=pointer]:
+                    - /url: /c/6a669387-aa34-83e9-acc4-6d0e292762c5
+                    - generic [ref=e940]:
+                      - button "Pin Preparación entrevista Python" [ref=e941]
+                      - button "Open conversation options for Preparación entrevista Python" [ref=e945]
+                - listitem [ref=e949]:
+                  - link "Comando /status en Codex" [ref=e950] [cursor=pointer]:
+                    - /url: /c/6a77d13d-fcf8-83e9-a763-4b8fa917960a
+                    - generic [ref=e958]:
+                      - button "Pin Comando /status en Codex" [ref=e959]
+                      - button "Open conversation options for Comando /status en Codex" [ref=e963]
+                - listitem [ref=e967]:
+                  - link "Búsqueda de meme español" [ref=e968] [cursor=pointer]:
+                    - /url: /c/6a776888-4ec8-83e9-8ba2-35994e9a04a2
+                    - generic [ref=e976]:
+                      - button "Pin Búsqueda de meme español" [ref=e977]
+                      - button "Open conversation options for Búsqueda de meme español" [ref=e981]
+                - listitem [ref=e985]:
+                  - link "What is AIApply" [ref=e986] [cursor=pointer]:
+                    - /url: /c/6a73e3bd-c648-83e9-9791-826f9310f8a7
+                    - generic [ref=e994]:
+                      - button "Pin What is AIApply" [ref=e995]
+                      - button "Open conversation options for What is AIApply" [ref=e999]
+                - listitem [ref=e1003]:
+                  - link "OpenCode Desktop Script" [ref=e1004] [cursor=pointer]:
+                    - /url: /c/6a737eb6-2a18-83e9-a455-74736ed952f3
+                    - generic [ref=e1012]:
+                      - button "Pin OpenCode Desktop Script" [ref=e1013]
+                      - button "Open conversation options for OpenCode Desktop Script" [ref=e1017]
+                - listitem [ref=e1021]:
+                  - link "Ranking escritorios Linux" [ref=e1022] [cursor=pointer]:
+                    - /url: /c/6a710471-99c0-83e9-8c1a-08c1c35b84a3
+                    - generic [ref=e1030]:
+                      - button "Pin Ranking escritorios Linux" [ref=e1031]
+                      - button "Open conversation options for Ranking escritorios Linux" [ref=e1035]
+                - listitem [ref=e1039]:
+                  - link "Daily Tech & Markets Brief" [ref=e1040] [cursor=pointer]:
+                    - /url: /c/6a608ee0-3364-83e9-bb9e-173c5c4a0819?messageId=finalAgentTurnStart
+                    - generic [ref=e1048]:
+                      - button "Pin Daily Tech & Markets Brief" [ref=e1049]
+                      - button "Open conversation options for Daily Tech & Markets Brief" [ref=e1053]
+                - listitem [ref=e1057]:
+                  - link "Instalar OpenCode Desktop" [ref=e1058] [cursor=pointer]:
+                    - /url: /c/6a6fcf9c-3220-83e9-80b7-550b1a04e2e5
+                    - generic [ref=e1066]:
+                      - button "Pin Instalar OpenCode Desktop" [ref=e1067]
+                      - button "Open conversation options for Instalar OpenCode Desktop" [ref=e1071]
+                - listitem [ref=e1075]:
+                  - link "Ranking LinkedIn Job Search" [ref=e1076] [cursor=pointer]:
+                    - /url: /c/6a685d10-4a0c-83e9-be17-13948f86e175
+                    - generic [ref=e1084]:
+                      - button "Pin Ranking LinkedIn Job Search" [ref=e1085]
+                      - button "Open conversation options for Ranking LinkedIn Job Search" [ref=e1089]
+                - listitem [ref=e1093]:
+                  - link "Preparación entrevista técnica" [ref=e1094] [cursor=pointer]:
+                    - /url: /c/6a6692ef-dbcc-83e9-8340-97687a22b490
+                    - generic [ref=e1102]:
+                      - button "Pin Preparación entrevista técnica" [ref=e1103]
+                      - button "Open conversation options for Preparación entrevista técnica" [ref=e1107]
+                - listitem [ref=e1111]:
+                  - link "Set GPT in OmniRoute" [ref=e1112] [cursor=pointer]:
+                    - /url: /c/6a656eb5-be7c-83e9-94a5-7ba886728f56
+                    - generic [ref=e1120]:
+                      - button "Pin Set GPT in OmniRoute" [ref=e1121]
+                      - button "Open conversation options for Set GPT in OmniRoute" [ref=e1125]
+                - listitem [ref=e1129]:
+                  - link "Certificación IA recomendada" [ref=e1130] [cursor=pointer]:
+                    - /url: /c/6a64f3e3-8780-83e9-be30-e44aaffd184a
+                    - generic [ref=e1138]:
+                      - button "Pin Certificación IA recomendada" [ref=e1139]
+                      - button "Open conversation options for Certificación IA recomendada" [ref=e1143]
+                - listitem [ref=e1147]:
+                  - link "LLM Providers Ranking" [ref=e1148] [cursor=pointer]:
+                    - /url: /c/6a631ea6-01e4-83e9-9974-ac3bf93d1c87
+                    - generic [ref=e1156]:
+                      - button "Pin LLM Providers Ranking" [ref=e1157]
+                      - button "Open conversation options for LLM Providers Ranking" [ref=e1161]
+                - listitem [ref=e1165]:
+                  - link "OpenAI Plus with OmniRoute" [ref=e1166] [cursor=pointer]:
+                    - /url: /c/6a61c165-6b50-83e9-b2c8-7c0d3da5e0b5
+                    - generic [ref=e1174]:
+                      - button "Pin OpenAI Plus with OmniRoute" [ref=e1175]
+                      - button "Open conversation options for OpenAI Plus with OmniRoute" [ref=e1179]
+                - listitem [ref=e1183]:
+                  - link "OmniRoute Alternatives Ranking" [ref=e1184] [cursor=pointer]:
+                    - /url: /c/6a610b49-e4a4-83e9-8799-449c4af071fa
+                    - generic [ref=e1192]:
+                      - button "Pin OmniRoute Alternatives Ranking" [ref=e1193]
+                      - button "Open conversation options for OmniRoute Alternatives Ranking" [ref=e1197]
+                - listitem [ref=e1201]:
+                  - link "AI Models Power/Cost Ranking" [ref=e1202] [cursor=pointer]:
+                    - /url: /c/6a608f31-3fe4-83e9-a7b9-96788df81554
+                    - generic [ref=e1210]:
+                      - button "Pin AI Models Power/Cost Ranking" [ref=e1211]
+                      - button "Open conversation options for AI Models Power/Cost Ranking" [ref=e1215]
+                - listitem [ref=e1219]:
+                  - link "Ranking plataformas empleo remoto" [ref=e1220] [cursor=pointer]:
+                    - /url: /c/6a1e969a-1c48-83e9-84e7-5af78e71bec7
+                    - generic [ref=e1228]:
+                      - button "Pin Ranking plataformas empleo remoto" [ref=e1229]
+                      - button "Open conversation options for Ranking plataformas empleo remoto" [ref=e1233]
+                - listitem [ref=e1237]:
+                  - link "USD trend map request" [ref=e1238] [cursor=pointer]:
+                    - /url: /c/6a5a8e15-5330-83e9-a115-1cf72f43112f
+                    - generic [ref=e1246]:
+                      - button "Pin USD trend map request" [ref=e1247]
+                      - button "Open conversation options for USD trend map request" [ref=e1251]
+                - listitem [ref=e1255]:
+                  - link "AI Engineer Role Summary" [ref=e1256] [cursor=pointer]:
+                    - /url: /c/6a5990df-b498-83e9-9e0b-f8d6246771b5
+                    - generic [ref=e1264]:
+                      - button "Pin AI Engineer Role Summary" [ref=e1265]
+                      - button "Open conversation options for AI Engineer Role Summary" [ref=e1269]
+                - listitem [ref=e1273]:
+                  - link "Error al dibujar circuito" [ref=e1274] [cursor=pointer]:
+                    - /url: /c/6a46957b-d5b4-83e9-8fb7-77d39589a965
+                    - generic [ref=e1282]:
+                      - button "Pin Error al dibujar circuito" [ref=e1283]
+                      - button "Open conversation options for Error al dibujar circuito" [ref=e1287]
+                - listitem [ref=e1291]:
+                  - link "Cuenta de cobro Elizabeth" [ref=e1292] [cursor=pointer]:
+                    - /url: /c/6a3dd134-ddd8-83e9-8582-ff06a1f8859c
+                    - generic [ref=e1300]:
+                      - button "Pin Cuenta de cobro Elizabeth" [ref=e1301]
+                      - button "Open conversation options for Cuenta de cobro Elizabeth" [ref=e1305]
+                - listitem [ref=e1309]:
+                  - link "Examen final Mecánica Cuántica" [ref=e1310] [cursor=pointer]:
+                    - /url: /c/6a420777-ac4c-83e9-8289-8ad14cf21270
+                    - generic [ref=e1318]:
+                      - button "Pin Examen final Mecánica Cuántica" [ref=e1319]
+                      - button "Open conversation options for Examen final Mecánica Cuántica" [ref=e1323]
+                - listitem [ref=e1327]:
+                  - link "Buscar en Gmail" [ref=e1328] [cursor=pointer]:
+                    - /url: /c/6a41fcdb-ba30-83e9-a848-af337c6e852d
+                    - generic [ref=e1336]:
+                      - button "Pin Buscar en Gmail" [ref=e1337]
+                      - button "Open conversation options for Buscar en Gmail" [ref=e1341]
+                - listitem [ref=e1345]:
+                  - link "Conectar Outlook con OpenClaw" [ref=e1346] [cursor=pointer]:
+                    - /url: /c/6a14b6d6-d230-83e9-a3a7-9c9e97f8ce9e
+                    - generic [ref=e1354]:
+                      - button "Pin Conectar Outlook con OpenClaw" [ref=e1355]
+                      - button "Open conversation options for Conectar Outlook con OpenClaw" [ref=e1359]
+                - listitem [ref=e1363]:
+                  - link "Unir imagen jpg y gif" [ref=e1364] [cursor=pointer]:
+                    - /url: /c/6a3ad148-454c-83e9-9beb-fcd09eb2cd63
+                    - generic [ref=e1372]:
+                      - button "Pin Unir imagen jpg y gif" [ref=e1373]
+                      - button "Open conversation options for Unir imagen jpg y gif" [ref=e1377]
+                - listitem [ref=e1381]:
+                  - link "Ranking de carpetas C/B" [ref=e1382] [cursor=pointer]:
+                    - /url: /c/6a38b210-f6d0-83e9-bc3f-0d0a6b318232
+                    - generic [ref=e1390]:
+                      - button "Pin Ranking de carpetas C/B" [ref=e1391]
+                      - button "Open conversation options for Ranking de carpetas C/B" [ref=e1395]
+                - listitem [ref=e1399]:
+                  - link "Guía Ingeniero Senior IA" [ref=e1400] [cursor=pointer]:
+                    - /url: /c/6a323ac3-d3f0-83e9-8981-4d19324ece52
+                    - generic [ref=e1408]:
+                      - button "Pin Guía Ingeniero Senior IA" [ref=e1409]
+                      - button "Open conversation options for Guía Ingeniero Senior IA" [ref=e1413]
+                - listitem [ref=e1417]:
+                  - link "Implementación QFT cíclica Qiskit" [ref=e1418] [cursor=pointer]:
+                    - /url: /c/6a3198f4-92f0-83e9-8ff8-b97096c52efa
+                    - generic [ref=e1426]:
+                      - button "Pin Implementación QFT cíclica Qiskit" [ref=e1427]
+                      - button "Open conversation options for Implementación QFT cíclica Qiskit" [ref=e1431]
+                - listitem [ref=e1435]:
+                  - link "Get BOT_TRAD_GITHUB_TOKEN" [ref=e1436] [cursor=pointer]:
+                    - /url: /c/6a2f9cb3-5f50-83e9-aa9b-16f6f9faba1f
+                    - generic [ref=e1444]:
+                      - button "Pin Get BOT_TRAD_GITHUB_TOKEN" [ref=e1445]
+                      - button "Open conversation options for Get BOT_TRAD_GITHUB_TOKEN" [ref=e1449]
+                - listitem [ref=e1453]:
+                  - link "Ranking modelos NVIDIA 2026" [ref=e1454] [cursor=pointer]:
+                    - /url: /c/6a2c4b27-31d8-83e9-958a-0f83f6a0e590
+                    - generic [ref=e1462]:
+                      - button "Pin Ranking modelos NVIDIA 2026" [ref=e1463]
+                      - button "Open conversation options for Ranking modelos NVIDIA 2026" [ref=e1467]
+                - listitem [ref=e1471]:
+                  - link "Precios repuestos BWS Cali" [ref=e1472] [cursor=pointer]:
+                    - /url: /c/6a29b79e-cf3c-83e9-bdd1-dce231f666f8
+                    - generic [ref=e1480]:
+                      - button "Pin Precios repuestos BWS Cali" [ref=e1481]
+                      - button "Open conversation options for Precios repuestos BWS Cali" [ref=e1485]
+                - listitem [ref=e1489]:
+                  - link "Paradas recomendadas San Andrés" [ref=e1490] [cursor=pointer]:
+                    - /url: /c/6a230134-b8e0-83e9-adc9-0f25eeee0ab6
+                    - generic [ref=e1498]:
+                      - button "Pin Paradas recomendadas San Andrés" [ref=e1499]
+                      - button "Open conversation options for Paradas recomendadas San Andrés" [ref=e1503]
+                - listitem [ref=e1507]:
+                  - link "Sostenimiento de rizos" [ref=e1508] [cursor=pointer]:
+                    - /url: /c/6a20ceb8-1470-83e9-b675-2e038a3d779a
+                    - generic [ref=e1516]:
+                      - button "Pin Sostenimiento de rizos" [ref=e1517]
+                      - button "Open conversation options for Sostenimiento de rizos" [ref=e1521]
+                - listitem [ref=e1525]:
+                  - link "Ranking renta de moto" [ref=e1526] [cursor=pointer]:
+                    - /url: /c/6a20aca6-d9dc-83e9-88bd-3fdaa38e0d66
+                    - generic [ref=e1534]:
+                      - button "Pin Ranking renta de moto" [ref=e1535]
+                      - button "Open conversation options for Ranking renta de moto" [ref=e1539]
+                - listitem [ref=e1543]:
+                  - link "Reemplazo cable flex Dell" [ref=e1544] [cursor=pointer]:
+                    - /url: /c/6a1772fd-dd8c-83e9-9d8b-2d6cc6c52eab
+                    - generic [ref=e1552]:
+                      - button "Pin Reemplazo cable flex Dell" [ref=e1553]
+                      - button "Open conversation options for Reemplazo cable flex Dell" [ref=e1557]
+                - listitem [ref=e1561]:
+                  - link "Mejorar calidad imagen" [ref=e1562] [cursor=pointer]:
+                    - /url: /c/6a175281-07d4-83e9-addc-0c1dd6d6114e
+                    - generic [ref=e1570]:
+                      - button "Pin Mejorar calidad imagen" [ref=e1571]
+                      - button "Open conversation options for Mejorar calidad imagen" [ref=e1575]
+                - listitem [ref=e1579]:
+                  - link "Ranking tetracilíndricos Feria 2026" [ref=e1580] [cursor=pointer]:
+                    - /url: /c/6a0a2031-2268-83e9-9a38-8cbca8b02fd9
+                    - generic [ref=e1588]:
+                      - button "Pin Ranking tetracilíndricos Feria 2026" [ref=e1589]
+                      - button "Open conversation options for Ranking tetracilíndricos Feria 2026" [ref=e1593]
+                - listitem [ref=e1597]:
+                  - link "Circuitos cuánticos Bell Qiskit" [ref=e1598] [cursor=pointer]:
+                    - /url: /c/6a13cba3-53f4-83e9-9b32-797a6d9984db
+                    - generic [ref=e1606]:
+                      - button "Pin Circuitos cuánticos Bell Qiskit" [ref=e1607]
+                      - button "Open conversation options for Circuitos cuánticos Bell Qiskit" [ref=e1611]
+                - listitem [ref=e1615]:
+                  - link "Total a pagar con propina" [ref=e1616] [cursor=pointer]:
+                    - /url: /c/6a111fb5-aedc-83e9-bce6-706e2706d25c
+                    - generic [ref=e1624]:
+                      - button "Pin Total a pagar con propina" [ref=e1625]
+                      - button "Open conversation options for Total a pagar con propina" [ref=e1629]
+                - listitem [ref=e1633]:
+                  - link "Actualización CV Agentic Orchestration" [ref=e1634] [cursor=pointer]:
+                    - /url: /c/69e9b364-4c5c-83e9-8a79-28e847d22b61
+                    - generic [ref=e1642]:
+                      - button "Pin Actualización CV Agentic Orchestration" [ref=e1643]
+                      - button "Open conversation options for Actualización CV Agentic Orchestration" [ref=e1647]
+                - listitem [ref=e1651]:
+                  - link "Obtener Meta Access Token" [ref=e1652] [cursor=pointer]:
+                    - /url: /c/6a06b0fc-ba3c-83e9-83ca-697746e7e731
+                    - generic [ref=e1660]:
+                      - button "Pin Obtener Meta Access Token" [ref=e1661]
+                      - button "Open conversation options for Obtener Meta Access Token" [ref=e1665]
+                - listitem [ref=e1669]:
+                  - link "Mejor relación desempeño/costo Plus" [ref=e1670] [cursor=pointer]:
+                    - /url: /c/6a0754eb-ba80-83e9-8977-6455f4ea3957
+                    - generic [ref=e1678]:
+                      - button "Pin Mejor relación desempeño/costo Plus" [ref=e1679]
+                      - button "Open conversation options for Mejor relación desempeño/costo Plus" [ref=e1683]
+                - listitem [ref=e1687]:
+                  - link "Recuperación disco duro fallo" [ref=e1688] [cursor=pointer]:
+                    - /url: /c/69f7a86d-cf74-83e9-9239-4e5b30c88f1f
+                    - generic [ref=e1696]:
+                      - button "Pin Recuperación disco duro fallo" [ref=e1697]
+                      - button "Open conversation options for Recuperación disco duro fallo" [ref=e1701]
+                - listitem [ref=e1705]:
+                  - link "Model Ranking Request" [ref=e1706] [cursor=pointer]:
+                    - /url: /c/6a0634b8-cce8-83e9-8a21-c1dcb35b64cf
+                    - generic [ref=e1714]:
+                      - button "Pin Model Ranking Request" [ref=e1715]
+                      - button "Open conversation options for Model Ranking Request" [ref=e1719]
+                - listitem [ref=e1723]:
+                  - link "Model Search Request" [ref=e1724] [cursor=pointer]:
+                    - /url: /c/69f2f762-c1b0-83e9-bb60-81b8c32d30e0
+                    - generic [ref=e1732]:
+                      - button "Pin Model Search Request" [ref=e1733]
+                      - button "Open conversation options for Model Search Request" [ref=e1737]
+                - listitem [ref=e1741]:
+                  - link "Fincas campestres Valle 2026" [ref=e1742] [cursor=pointer]:
+                    - /url: /c/69fd9569-b564-83e9-83e7-e50341e3718e
+                    - generic [ref=e1750]:
+                      - button "Pin Fincas campestres Valle 2026" [ref=e1751]
+                      - button "Open conversation options for Fincas campestres Valle 2026" [ref=e1755]
+                - listitem [ref=e1759]:
+                  - link "Uso de groserías y respeto" [ref=e1760] [cursor=pointer]:
+                    - /url: /c/69fe557c-3318-83e9-8717-e9409722bdde
+                    - generic [ref=e1768]:
+                      - button "Pin Uso de groserías y respeto" [ref=e1769]
+                      - button "Open conversation options for Uso de groserías y respeto" [ref=e1773]
+                - listitem [ref=e1777]:
+                  - link "Ranking modelos Nvidia" [ref=e1778] [cursor=pointer]:
+                    - /url: /c/69fad1de-0544-8333-9ab8-57043a8d530d
+                    - generic [ref=e1786]:
+                      - button "Pin Ranking modelos Nvidia" [ref=e1787]
+                      - button "Open conversation options for Ranking modelos Nvidia" [ref=e1791]
+                - listitem [ref=e1795]:
+                  - link "Ranking OpenCode Alternatives" [ref=e1796] [cursor=pointer]:
+                    - /url: /c/69fb7d3c-788c-83e9-806d-963267de4bdc
+                    - generic [ref=e1804]:
+                      - button "Pin Ranking OpenCode Alternatives" [ref=e1805]
+                      - button "Open conversation options for Ranking OpenCode Alternatives" [ref=e1809]
+                - listitem [ref=e1813]:
+                  - link "Ranking proveedores LLM" [ref=e1814] [cursor=pointer]:
+                    - /url: /c/69fc4349-e790-83e9-a32b-c934f2cd5968
+                    - generic [ref=e1822]:
+                      - button "Pin Ranking proveedores LLM" [ref=e1823]
+                      - button "Open conversation options for Ranking proveedores LLM" [ref=e1827]
+                - listitem [ref=e1831]:
+                  - link "Explicación reporte LLM" [ref=e1832] [cursor=pointer]:
+                    - /url: /c/69ebe61a-7118-83e9-98c2-76faa4392726
+                    - generic [ref=e1840]:
+                      - button "Pin Explicación reporte LLM" [ref=e1841]
+                      - button "Open conversation options for Explicación reporte LLM" [ref=e1845]
+                - listitem [ref=e1849]:
+                  - link "OpenViking Project Setup" [ref=e1850] [cursor=pointer]:
+                    - /url: /c/69f98a59-6558-8332-ad41-a6e21ee58c3c
+                    - generic [ref=e1858]:
+                      - button "Pin OpenViking Project Setup" [ref=e1859]
+                      - button "Open conversation options for OpenViking Project Setup" [ref=e1863]
+                - listitem [ref=e1867]:
+                  - link "Instalación OpenViking NVIDIA" [ref=e1868] [cursor=pointer]:
+                    - /url: /c/69e3f2d8-b460-83e9-b924-3652c74cdd69
+                    - generic [ref=e1876]:
+                      - button "Pin Instalación OpenViking NVIDIA" [ref=e1877]
+                      - button "Open conversation options for Instalación OpenViking NVIDIA" [ref=e1881]
+          - button "Juan Diego Trochez Plus, open profile menu" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - img "Profile image" [ref=e1885]
+              - generic [ref=e71]:
+                - generic [ref=e72]: Juan Diego Trochez
+                - generic [ref=e74]: Plus
+            - button "Download apps" [ref=e79]
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - banner:
+          - generic [ref=e1886]:
+            - link "Open Bot_trading project" [ref=e1889] [cursor=pointer]:
+              - /url: /g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/project
+              - generic [ref=e1890]:
+                - img "Default color, black in light mode, white in dark mode Folder" [ref=e1892]
+                - generic [ref=e1894]: Bot_trading
+            - generic [ref=e1896]:
+              - generic [ref=e1897]: /
+              - generic [ref=e1898]: Implementar Plan Y Push
+              - generic [ref=e1899]: ·
+              - generic [ref=e1900]: Work
+          - generic [ref=e89]:
+            - button "Share" [ref=e93] [cursor=pointer]
+            - generic [ref=e97]:
+              - button "More" [ref=e99] [cursor=pointer]
+              - button "Files and sources" [pressed] [ref=e1902] [cursor=pointer]
+          - complementary "Task progress" [ref=e1908]:
+            - generic [ref=e1909]:
+              - generic [ref=e1910]:
+                - generic [ref=e1911]:
+                  - heading "Outputs" [level=2] [ref=e1912]
+                  - button "Create file or site" [ref=e1915] [cursor=pointer]
+                - generic [ref=e1918]: Create file or site
+              - generic [ref=e1920]:
+                - heading [level=2] [ref=e1923]:
+                  - button "Subagents" [expanded] [ref=e1924] [cursor=pointer]
+                - button "Open all subagents" [ref=e1930] [cursor=pointer]:
+                  - generic [ref=e1934]: 2 done
+              - generic [ref=e1935]:
+                - generic [ref=e1937]:
+                  - heading [level=2] [ref=e1938]:
+                    - button "Sources" [expanded] [ref=e1939] [cursor=pointer]
+                  - button "Add source" [ref=e1944] [cursor=pointer]
+                - region "Sources list" [ref=e1951]:
+                  - list [ref=e1953]:
+                    - listitem [ref=e1954]:
+                      - generic "GitHub" [ref=e1955]
+                    - listitem [ref=e1960]:
+                      - button "File search" [ref=e1961] [cursor=pointer]
+              - generic [ref=e1967]:
+                - heading [level=2] [ref=e1970]:
+                  - button "Cloud browser" [expanded] [ref=e1971] [cursor=pointer]
+                - generic [ref=e1977]:
+                  - img "Cloud browser view" [ref=e1978]
+                  - button "Open Cloud browser" [ref=e1980] [cursor=pointer]
+                  - generic: github.com
+                  - generic [ref=e1984]:
+                    - generic [ref=e1985] [cursor=pointer]
+                    - slider "Cloud browser view" [ref=e1988] [cursor=pointer]
+      - main [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e1989]:
+            - generic [ref=e1990]:
+              - generic [ref=e1992]:
+                - heading "You said:" [level=4] [ref=e1993]
+                - generic [ref=e1995]:
+                  - generic [ref=e1998]:
+                    - group "IMPLEMENTATION_PLAN_SEMAPHORE_REMEDIATION_20260918T050921Z.md" [ref=e2000]:
+                      - button "IMPLEMENTATION_PLAN_SEMAPHORE_REMEDIATION_20260918T050921Z.md" [ref=e2003] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: IMPLEMENTATION_PLAN_SEMAPHORE_REMEDIATION_20260918T050921Z.md
+                              - generic: File
+                    - generic [ref=e2004]: "team pipeline: 1. implement completely attached .md plan 2. unique commit push in current branch (feature/GRU)"
+                  - generic [ref=e2007]:
+                    - group "Your message actions":
+                      - button "Copy message"
+                      - button "Share prompt"
+              - generic [ref=e2010]:
+                - heading "ChatGPT said:" [level=4] [ref=e2011]
+                - generic [ref=e2013]:
+                  - generic [ref=e2014]:
+                    - button "Worked for 3 minutes, 44 seconds" [ref=e2017] [cursor=pointer]: Worked for 3m 44s
+                    - generic [ref=e2020]:
+                      - generic [ref=e2022]:
+                        - paragraph [ref=e2023]: "La ejecución quedó pausada de forma segura antes del push:"
+                        - list [ref=e2024]:
+                          - listitem [ref=e2025]:
+                            - paragraph [ref=e2026]:
+                              - code [ref=e2027]: G1_GO
+                              - text: ": commit canónico"
+                              - code [ref=e2028]: 44505ddb…
+                              - text: ", padre, dos archivos y blobs verificados."
+                          - listitem [ref=e2029]:
+                            - paragraph [ref=e2030]:
+                              - code [ref=e2031]: feature/GRU
+                              - text: aún apunta a
+                              - code [ref=e2032]: 258a111…
+                              - text: .
+                          - listitem [ref=e2033]:
+                            - paragraph [ref=e2034]: No se creó ningún commit ni se modificó el historial remoto.
+                          - listitem [ref=e2035]:
+                            - paragraph [ref=e2036]: Los 19 cambios locales ajenos permanecen intactos.
+                          - listitem [ref=e2037]:
+                            - paragraph [ref=e2038]:
+                              - text: GitHub rechazó la autenticación necesaria para descargar el clon y ejecutar
+                              - code [ref=e2039]: G2/G3
+                              - text: .
+                        - paragraph [ref=e2040]:
+                          - text: Completa el inicio de sesión en el navegador habilitado. Después continuaré con la matriz completa y el único push controlado a
+                          - code [ref=e2041]: 44505ddb…
+                          - text: .
+                      - button "Open cloud browser" [ref=e2042] [cursor=pointer]
+                  - generic [ref=e2048]:
+                    - group "Response actions":
+                      - button "Copy response"
+                      - button "Rate response"
+                      - button "Add to project sources"
+                      - generic:
+                        - button "Switch model"
+                      - button "More actions"
+            - generic [ref=e2055]:
+              - generic [ref=e2056]: ChatGPT can make mistakes. Check important info.
+              - button "Cookie preferences" [ref=e2057] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+            - generic [ref=e107]:
+              - generic [ref=e2064]:
+                - button "Add files and more" [ref=e2067] [cursor=pointer]
+                - textbox "Chat with ChatGPT" [ref=e2070]:
+                  - paragraph [ref=e2071]: Work on anything
+                - generic [ref=e2072]:
+                  - button "Select effort" [expanded] [ref=e2087] [cursor=pointer]
+                  - generic [ref=e2081]:
+                    - button "Start dictation" [ref=e2083] [cursor=pointer]
+                    - button "Send prompt" [disabled] [ref=e2084] [cursor=pointer]
+              - button [aria-hidden] [ref=e108]
+              - button [aria-hidden] [ref=e109]
+              - button [aria-hidden] [ref=e110]
+  - alert [ref=e111]
+  - status [ref=e112]
+  - menu "Select effort" [active] [ref=e2124]:
+    - group [ref=e2125]:
+      - generic [ref=e2127]:
+        - group [ref=e2129]:
+          - menuitem "Select model" [ref=e2130] [cursor=pointer]:
+            - generic [ref=e2131]:
+              - generic [ref=e2132]: GPT-6 Astra
+              - generic [ref=e2133]: Max
+          - menuitemcheckbox "Enable fast mode" [ref=e2136] [cursor=pointer]
+          - menuitem "Reset to default" [ref=e2139] [cursor=pointer]
+          - generic [aria-hidden]:
+            - generic: Consumes usage limits faster
+        - generic [ref=e2144]:
+          - menuitem "Power" [ref=e2145]:
+            - generic [ref=e2147]:
+              - generic [ref=e2148]:
+                - generic:
+                  - generic [ref=e2150] [cursor=pointer]
+                  - generic [ref=e2151] [cursor=pointer]
+                  - generic [ref=e2152] [cursor=pointer]
+                  - generic [ref=e2153] [cursor=pointer]
+                  - generic [ref=e2154] [cursor=pointer]
+              - slider [aria-hidden] [ref=e2156] [cursor=pointer]
+          - generic: Max, 5 of 5.
+          - generic: Use Left and Right arrow keys to adjust power.
+        - generic:
+          - generic:
+            - generic:
+              - group:
+                - generic: Select model
+                - menuitemradio "Default Recommended set of models":
+                  - generic:
+                    - generic: Default
+                    - generic: Recommended set of models
+                - menuitemradio "GPT-6 Astra" [checked]
+                - menuitemradio "GPT-5.6 Sol"
+                - menuitemradio "GPT-5.6 Terra"
+                - menuitemradio "GPT-5.6 Luna"
+                - menuitemradio "GPT-5.5"

@@ -1,0 +1,6 @@
+{
+  "id": "task-1",
+  "worker": "worker-1",
+  "description": "Inspect the real live ChatGPT DOM for authoritative run R20260923T012014 using the existing browser/runtime tools. Do not guess selectors. Determine whether an authenticated page is available, capture actual DOM/diagnostic evidence if possible, and report exact stable ancestors, roles, testids, content and attachment structure plus why current extraction omits the diagnosis. Do not modify application code.",
+  "status": "pending"
+}

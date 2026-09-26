@@ -1,0 +1,36 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openai/gpt-5.4-mini",
+  "small_model": "openai/gpt-5.4-mini",
+  "provider": {
+    "openrouter": {
+      "models": {
+        "nvidia/nemotron-3-nano-30b-a3b:nitro": {
+          "name": "Nemotron 3 nano 30B A3B (nitro)",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          }
+        },
+        "qwen/qwen3.5-9b": {
+          "name": "Qwen 3.5 9B",
+          "limit": {
+            "context": 131072,
+            "output": 8192
+          }
+        },
+        "meta-llama/llama-3.1-8b-instruct": {
+          "name": "Llama 3.1 8B Instruct",
+          "limit": {
+            "context": 16384,
+            "output": 2048
+          }
+        }
+      },
+      "options": {
+        "timeout": 120000,
+        "chunkTimeout": 30000
+      }
+    }
+  }
+}

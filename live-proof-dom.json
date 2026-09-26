@@ -1,0 +1,1072 @@
+{
+  "url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "title": "Ejecuta acción lectura Semaphore",
+  "buttons": [
+    {
+      "text": "Show sidebar",
+      "aria": "Show sidebar",
+      "testid": null
+    },
+    {
+      "text": "Hide sidebar",
+      "aria": "Hide sidebar",
+      "testid": null
+    },
+    {
+      "text": "New chat",
+      "aria": "New chat",
+      "testid": null
+    },
+    {
+      "text": "Search",
+      "aria": "Search",
+      "testid": null
+    },
+    {
+      "text": "Recents",
+      "aria": "Recents",
+      "testid": null
+    },
+    {
+      "text": "Library",
+      "aria": "Library",
+      "testid": null
+    },
+    {
+      "text": "Open profile menu",
+      "aria": "Open profile menu",
+      "testid": null
+    },
+    {
+      "text": "Search",
+      "aria": "Search",
+      "testid": null
+    },
+    {
+      "text": "Hide sidebar",
+      "aria": "Hide sidebar",
+      "testid": null
+    },
+    {
+      "text": "New chat",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Scheduled",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Library",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Plugins",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Explore",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Projects",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project sidebar options",
+      "aria": "Project sidebar options",
+      "testid": null
+    },
+    {
+      "text": "Add new project",
+      "aria": "Add new project",
+      "testid": null
+    },
+    {
+      "text": "zircon_practica_unir",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project actions for zircon_practica_unir",
+      "aria": "Project actions for zircon_practica_unir",
+      "testid": null
+    },
+    {
+      "text": "New chat in zircon_practica_unir",
+      "aria": "New chat in zircon_practica_unir",
+      "testid": null
+    },
+    {
+      "text": "agentic_pipeline",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project actions for agentic_pipeline",
+      "aria": "Project actions for agentic_pipeline",
+      "testid": null
+    },
+    {
+      "text": "New chat in agentic_pipeline",
+      "aria": "New chat in agentic_pipeline",
+      "testid": null
+    },
+    {
+      "text": "body_finder_fast",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project actions for body_finder_fast",
+      "aria": "Project actions for body_finder_fast",
+      "testid": null
+    },
+    {
+      "text": "New chat in body_finder_fast",
+      "aria": "New chat in body_finder_fast",
+      "testid": null
+    },
+    {
+      "text": "Bot_trading",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project actions for Bot_trading",
+      "aria": "Project actions for Bot_trading",
+      "testid": null
+    },
+    {
+      "text": "New chat in Bot_trading",
+      "aria": "New chat in Bot_trading",
+      "testid": null
+    },
+    {
+      "text": "ubuntu problems",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Project actions for ubuntu problems",
+      "aria": "Project actions for ubuntu problems",
+      "testid": null
+    },
+    {
+      "text": "New chat in ubuntu problems",
+      "aria": "New chat in ubuntu problems",
+      "testid": null
+    },
+    {
+      "text": "Recents",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Chat sidebar options",
+      "aria": "Chat sidebar options",
+      "testid": null
+    },
+    {
+      "text": "Filter chats and work",
+      "aria": "Filter chats and work",
+      "testid": null
+    },
+    {
+      "text": "New chat",
+      "aria": "New chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Chat actions",
+      "aria": "Chat actions",
+      "testid": null
+    },
+    {
+      "text": "Pin chat",
+      "aria": "Pin chat",
+      "testid": null
+    },
+    {
+      "text": "Open profile menu",
+      "aria": "Open profile menu",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "Show sidebar",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "New chat",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "Show sidebar",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "New chat",
+      "testid": null
+    },
+    {
+      "text": "Bot_trading\nShare",
+      "aria": null,
+      "testid": "app-shell-header-context-menu-surface"
+    },
+    {
+      "text": "Share",
+      "aria": "Share",
+      "testid": null
+    },
+    {
+      "text": "More",
+      "aria": "More",
+      "testid": null
+    },
+    {
+      "text": "Show more",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Copy message",
+      "aria": "Copy message",
+      "testid": null
+    },
+    {
+      "text": "Share prompt",
+      "aria": "Share prompt",
+      "testid": null
+    },
+    {
+      "text": "Edit message",
+      "aria": "Edit message",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Enable word wrap",
+      "aria": "Enable word wrap",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "View analysis",
+      "aria": "View analysis",
+      "testid": null
+    },
+    {
+      "text": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Download file",
+      "aria": "Download file",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Rate response",
+      "aria": "Rate response",
+      "testid": null
+    },
+    {
+      "text": "Share",
+      "aria": "Share",
+      "testid": null
+    },
+    {
+      "text": "Add to project sources",
+      "aria": "Add to project sources",
+      "testid": null
+    },
+    {
+      "text": "Read aloud",
+      "aria": "Read aloud",
+      "testid": null
+    },
+    {
+      "text": "Regenerate response",
+      "aria": "Regenerate response",
+      "testid": null
+    },
+    {
+      "text": "More actions",
+      "aria": "More actions",
+      "testid": null
+    },
+    {
+      "text": "Sources",
+      "aria": "Sources",
+      "testid": null
+    },
+    {
+      "text": "Show more",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Copy message",
+      "aria": "Copy message",
+      "testid": null
+    },
+    {
+      "text": "Share prompt",
+      "aria": "Share prompt",
+      "testid": null
+    },
+    {
+      "text": "Edit message",
+      "aria": "Edit message",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V3_20260925.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V3_20260925.md",
+      "testid": null
+    },
+    {
+      "text": "Enable word wrap",
+      "aria": "Enable word wrap",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "View analysis",
+      "aria": "View analysis",
+      "testid": null
+    },
+    {
+      "text": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V3_20260925.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V3_20260925.md",
+      "testid": null
+    },
+    {
+      "text": "Download file",
+      "aria": "Download file",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Rate response",
+      "aria": "Rate response",
+      "testid": null
+    },
+    {
+      "text": "Share",
+      "aria": "Share",
+      "testid": null
+    },
+    {
+      "text": "Add to project sources",
+      "aria": "Add to project sources",
+      "testid": null
+    },
+    {
+      "text": "Read aloud",
+      "aria": "Read aloud",
+      "testid": null
+    },
+    {
+      "text": "Regenerate response",
+      "aria": "Regenerate response",
+      "testid": null
+    },
+    {
+      "text": "More actions",
+      "aria": "More actions",
+      "testid": null
+    },
+    {
+      "text": "Sources",
+      "aria": "Sources",
+      "testid": null
+    },
+    {
+      "text": "Show more",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Copy message",
+      "aria": "Copy message",
+      "testid": null
+    },
+    {
+      "text": "Share prompt",
+      "aria": "Share prompt",
+      "testid": null
+    },
+    {
+      "text": "Edit message",
+      "aria": "Edit message",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Enable word wrap",
+      "aria": "Enable word wrap",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Scroll to bottom",
+      "aria": "Scroll to bottom",
+      "testid": null
+    },
+    {
+      "text": "View analysis",
+      "aria": "View analysis",
+      "testid": null
+    },
+    {
+      "text": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Download file",
+      "aria": "Download file",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Rate response",
+      "aria": "Rate response",
+      "testid": null
+    },
+    {
+      "text": "Share",
+      "aria": "Share",
+      "testid": null
+    },
+    {
+      "text": "Add to project sources",
+      "aria": "Add to project sources",
+      "testid": null
+    },
+    {
+      "text": "Read aloud",
+      "aria": "Read aloud",
+      "testid": null
+    },
+    {
+      "text": "Regenerate response",
+      "aria": "Regenerate response",
+      "testid": null
+    },
+    {
+      "text": "More actions",
+      "aria": "More actions",
+      "testid": null
+    },
+    {
+      "text": "Sources",
+      "aria": "Sources",
+      "testid": null
+    },
+    {
+      "text": "Show more",
+      "aria": null,
+      "testid": null
+    },
+    {
+      "text": "Copy message",
+      "aria": "Copy message",
+      "testid": null
+    },
+    {
+      "text": "Share prompt",
+      "aria": "Share prompt",
+      "testid": null
+    },
+    {
+      "text": "Edit message",
+      "aria": "Edit message",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Pasted text(20260923-192112)",
+      "aria": "Open preview of Pasted text(20260923-192112).txt",
+      "testid": "chatgpt-library-file-citation"
+    },
+    {
+      "text": "Pasted text",
+      "aria": "Open preview of Pasted text.txt",
+      "testid": "chatgpt-library-file-citation"
+    },
+    {
+      "text": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Enable word wrap",
+      "aria": "Enable word wrap",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Scroll to bottom",
+      "aria": "Scroll to bottom",
+      "testid": null
+    },
+    {
+      "text": "View analysis",
+      "aria": "View analysis",
+      "testid": null
+    },
+    {
+      "text": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md",
+      "testid": null
+    },
+    {
+      "text": "Download file",
+      "aria": "Download file",
+      "testid": null
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy",
+      "testid": null
+    },
+    {
+      "text": "Rate response",
+      "aria": "Rate response",
+      "testid": null
+    },
+    {
+      "text": "Share",
+      "aria": "Share",
+      "testid": null
+    },
+    {
+      "text": "Add to project sources",
+      "aria": "Add to project sources",
+      "testid": null
+    },
+    {
+      "text": "Read aloud",
+      "aria": "Read aloud",
+      "testid": null
+    },
+    {
+      "text": "Regenerate response",
+      "aria": "Regenerate response",
+      "testid": null
+    },
+    {
+      "text": "More actions",
+      "aria": "More actions",
+      "testid": null
+    },
+    {
+      "text": "Sources",
+      "aria": "Sources",
+      "testid": null
+    },
+    {
+      "text": "Scroll to bottom",
+      "aria": "Scroll to bottom",
+      "testid": null
+    },
+    {
+      "text": "Add files and more",
+      "aria": "Add files and more",
+      "testid": null
+    },
+    {
+      "text": "High",
+      "aria": "Select ChatGPT model",
+      "testid": null
+    },
+    {
+      "text": "Dictate",
+      "aria": "Dictate",
+      "testid": null
+    },
+    {
+      "text": "Start Voice",
+      "aria": "Start Voice",
+      "testid": null
+    }
+  ],
+  "bodyText": "LOY_VERIFY|CI_DEPLOY_VERIFIED|ROLLBACK|DEPLOYMENT_ALREADY_APPLIED|ERROR:\" \\\n      \"$f\" 2>/dev/null \\\n      | tail -n 120 \\\n      | sed 's/^/DEPLOY_LOG_MATCH /' \\\n      || true\n\n  done < <(\n    grep -RIl --binary-files=without-match \\\n      \"$SHA\" \"$d\" 2>/dev/null \\\n      | head -n 100\n  )\ndone\n\necho\necho \"===== FULL CORPUS HISTORICAL PROVENANCE =====\"\n\nFC_TRACE=0\nFC_SUCCESS=0\nFC_FAILED=0\n\ngithub_home=\"$(\n  getent passwd githubactions 2>/dev/null \\\n    | awk -F: 'NR==1 {print $6}'\n)\"\n\nif [ -n \"${github_home:-}\" ]; then\n  FC=\"$github_home/.local/state/bot-trading-gru-full-corpus\"\n  echo \"GITHUBACTIONS_HOME=$github_home\"\n  echo \"FULL_CORPUS_STATE_DIR=$FC\"\n\n  if [ -d \"$FC/results\" ]; then\n    while IFS= read -r d; do\n      [ -n \"$d\" ] || continue\n\n      FC_TRACE=1\n      echo \"FULL_CORPUS_TARGET_RESULT_DIR=$d\"\n\n      status=\"$d/worker.status\"\n\n      if [ -r \"$status\" ]; then\n        echo \"--- worker.status ---\"\n\n        sed -n -E \\\n          '/^(state|exit_code|mode|sha|run_id|contract|reason|timestamp)=/p' \\\n          \"$status\" \\\n          | sed 's/^/FULL_CORPUS_STATUS /'\n\n        state=\"$(\n          sed -n 's/^state=//p' \"$status\" \\\n            | head -n1\n        )\"\n\n        case \"$state\" in\n          SUCCESS) FC_SUCCESS=1 ;;\n          FAILED)  FC_FAILED=1 ;;\n        esac\n      else\n        echo \"FULL_CORPUS_STATUS=ABSENT_OR_UNREADABLE\"\n      fi\n\n      if [ -r \"$d/worker.log\" ]; then\n        echo \"--- worker.log relevant markers ---\"\n\n        grep -n -E \\\n          \"$SHA|FULL_CORPUS_|CANDIDATE_|VALIDATION_|HISTORY_|DEPENDENCY_|ERROR:\" \\\n          \"$d/worker.log\" 2>/dev/null \\\n          | tail -n 160 \\\n          | sed 's/^/FULL_CORPUS_LOG /' \\\n          || true\n      fi\n\n    done < <(\n      find \"$FC/results\" \\\n        -mindepth 1 \\\n        -maxdepth 1 \\\n        -type d \\\n        \\( -name \"*${SHORT}*\" -o -name \"*${SHA}*\" \\) \\\n        -print 2>/dev/null \\\n        | sort\n    )\n  else\n    echo \"FULL_CORPUS_RESULTS=ABSENT\"\n  fi\n\n  for f in \"$FC/request.env\" \"$FC/active.env\"; do\n    [ -r \"$f\" ] || continue\n\n    if grep -Fq \"$SHA\" \"$f\"; then\n      FC_TRACE=1\n      echo \"FULL_CORPUS_ACTIVE_IDENTITY_FILE=$f\"\n\n      sed -n -E \\\n        '/^(MODE|EXPECTED_SHA|REPOSITORY|RUN_ID|CONTRACT_VERSION|WORKTREE|PID)=/p' \\\n        \"$f\" \\\n        | sed 's/^/FULL_CORPUS_IDENTITY /'\n    fi\n  done\nelse\n  echo \"GITHUBACTIONS_HOME=UNKNOWN\"\nfi\n\necho\necho \"===== P2 HISTORICAL PROVENANCE =====\"\n\nP2_TRACE=0\n\nif [ -d \"$P2\" ]; then\n  for f in \"$P2/request.env\" \"$P2/active.env\"; do\n    [ -r \"$f\" ] || continue\n\n    if grep -Fq \"$SHA\" \"$f\"; then\n      P2_TRACE=1\n      echo \"P2_TARGET_IDENTITY_FILE=$f\"\n\n      sed -n -E \\\n        '/^(EXPECTED_SHA|REPOSITORY|CIRCLE_BUILD_NUM|RUN_ID|PID|MODE|WORKTREE)=/p' \\\n        \"$f\" \\\n        | sed 's/^/P2_IDENTITY /'\n    fi\n  done\n\n  if [ -d \"$P2/results\" ]; then\n    while IFS= read -r f; do\n      [ -n \"$f\" ] || continue\n\n      P2_TRACE=1\n      echo \"P2_TARGET_RESULT_FILE=$f\"\n\n      stat -c \\\n        'P2_RESULT_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\\n        \"$f\" 2>/dev/null || true\n\n      tr ' ' '\\n' < \"$f\" 2>/dev/null \\\n        | grep -E \\\n          '^(state|exit_code|sha|build|reason|timestamp)=' \\\n        | sed 's/^/P2_STATUS /' \\\n        || true\n\n    done < <(\n      find \"$P2/results\" \\\n        -maxdepth 1 \\\n        -type f \\\n        \\( -name \"*${SHA}*\" -o -name \"*${SHORT}*\" \\) \\\n        -print 2>/dev/null \\\n        | sort\n    )\n  fi\nelse\n  echo \"P2_STATE_DIR=ABSENT\"\nfi\n\necho\necho \"===== ACTIVE PROCESS SNAPSHOT =====\"\n\nps -eo pid=,ppid=,lstart=,etime=,args= 2>/dev/null \\\n  | grep -F \"$PROD\" \\\n  | grep -v '[g]rep -F' \\\n  | sed 's/^/PROCESS /' \\\n  || true\n\necho\necho \"===== WORKTREE SNAPSHOT =====\"\n\ngit -c safe.directory=\"$PROD\" \\\n  -C \"$PROD\" worktree list --porcelain 2>/dev/null \\\n  | sed 's/^/WORKTREE /' \\\n  || true\n\necho\necho \"===== CLASSIFICATION INPUTS =====\"\n\necho \"TARGET_HEAD_REFLOG=$TARGET_HEAD_REFLOG\"\necho \"TARGET_BRANCH_REFLOG=$TARGET_BRANCH_REFLOG\"\necho \"DEPLOY_MARKER_TRACE=$DEPLOY_MARKER_TRACE\"\necho \"DEPLOY_LOG_TRACE=$DEPLOY_LOG_TRACE\"\necho \"FULL_CORPUS_TRACE=$FC_TRACE\"\necho \"FULL_CORPUS_TERMINAL_SUCCESS=$FC_SUCCESS\"\necho \"FULL_CORPUS_TERMINAL_FAILED=$FC_FAILED\"\necho \"P2_TRACE=$P2_TRACE\"\n\nif [ \"$P2_TRACE\" -eq 1 ]; then\n  echo \"HISTORICAL_STAGE=P2_BOUNDARY_REACHED\"\n\nelif [ \"$TARGET_HEAD_REFLOG\" -eq 1 ] || \\\n     [ \"$TARGET_BRANCH_REFLOG\" -eq 1 ]; then\n  echo \"HISTORICAL_STAGE=TARGET_ENTERED_PRODUCTION_REFLOG\"\n\nelif [ \"$DEPLOY_MARKER_TRACE\" -eq 1 ] || \\\n     [ \"$DEPLOY_LOG_TRACE\" -eq 1 ]; then\n  echo \"HISTORICAL_STAGE=DEPLOY_ATTEMPT_EVIDENCE_FOUND\"\n\nelif [ \"$FC_SUCCESS\" -eq 1 ]; then\n  echo \"HISTORICAL_STAGE=FULL_CORPUS_TERMINAL_SUCCESS_DEPLOY_NOT_PROVEN\"\n\nelif [ \"$FC_TRACE\" -eq 1 ]; then\n  echo \"HISTORICAL_STAGE=FULL_CORPUS_BOUNDARY_REACHED\"\n\nelse\n  echo \"HISTORICAL_STAGE=NO_POST_VALIDATION_DURABLE_EVIDENCE_FOUND\"\nfi\n\necho\necho \"REMOTE_MUTATION=NO\"\necho \"CHECKOUT_OR_RESET=NO\"\necho \"FETCH_OR_PULL=NO\"\necho \"PROCESS_SIGNAL=NO\"\necho \"SERVICE_ACTION=NO\"\necho \"DEPLOY_EXECUTION=NO\"\necho \"SEMAPHORE_QUERY=NO\"\necho \"SEMAPHORE_RERUN=NO\"\necho \"HISTORICAL_DEPLOY_PROVENANCE=PASS\"\nREMOTE\n)\"\n\nset +e\n\"$VPS\" \"$REMOTE_SCRIPT\" \\\n  >\"$E/historical-deploy-provenance.txt\" 2>&1\nrc=$?\nset -e\n\ncat \"$E/historical-deploy-provenance.txt\"\n\nif [ \"$rc\" -ne 0 ]; then\n  echo \"HISTORICAL_DEPLOY_PROVENANCE=FAILED\"\n  echo \"VPS_WRAPPER_EXIT_CODE=$rc\"\n  echo \"EVIDENCE_DIR=$E\"\n  exit \"$rc\"\nfi\n\necho\necho \"===== LOCAL EVIDENCE DIGEST =====\"\nsha256sum \"$E/historical-deploy-provenance.txt\"\n\necho \"LOCAL_ONLY_EVIDENCE_WRITE=YES\"\necho \"VPS_MUTATION=NO\"\necho \"SEMAPHORE_MUTATION=NO\"\necho \"SOURCE_REPOSITORY_MUTATION=NO\"\necho \"EVIDENCE_DIR=$E\"\n\nEl campo decisivo será HISTORICAL_STAGE.\n\nSi aparece TARGET_ENTERED_PRODUCTION_REFLOG, sabremos que el candidato fue promovido y después hubo reversión/reset.\nSi aparece FULL_CORPUS_TERMINAL_SUCCESS_DEPLOY_NOT_PROVEN, el pipeline superó full-corpus pero no hay prueba de promoción.\nSi aparece FULL_CORPUS_BOUNDARY_REACHED, el stop estuvo como mínimo después del primer bloque y dentro/alrededor de full-corpus.\nSi aparece NO_POST_VALIDATION_DURABLE_EVIDENCE_FOUND, la evidencia apuntará a que el pipeline se detuvo antes de cualquier side effect durable posterior al Core CI.\n\nNo ejecutes sync, reset, deploy, kill del simulador ni rerun de Semaphore antes de reconciliar esta salida. \n\nDIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md\nDocument\nToday 9:08 PM\nYou said:\nHISTORICAL_DEPLOY_PROVENANCE_RESULT_DELIVERY_MARKER_f5a948740cc64545a06723090a21b47e\n\nThis is the completed READONLY_HISTORICAL_DEPLOY_PROVENANCE_INSPECTION result for authoritative run R20260923T012014.\n\nHISTORICAL_DEPLOY_PROVENANCE=PARTIALLY_ESTABLISHED\n\nTarget SHA: 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\nCurrent VPS SHA: d4960be98cee3edef96413ee77f200ce744d3461\nCurrent VPS branch: feature/GRU\nVPS path: /opt/bot_trad/bot_trading_gru/\n\n- Target SHA exists in VPS Git evidence.\n- Target SHA is not the current checkout.\n- Target SHA is not an ancestor of the current HEAD.\n- Target SHA is not active based on the persisted evidence.\n- Historical activation of target SHA remains UNPROVEN.\n- Successful deployment of target SHA remains UNPROVEN.\n- Best available current-checkout activation anchor: 2026-09-13 14:38:23 +0000.\n- Actor: UNKNOWN.\n- Activation mechanism: UNKNOWN.\n- Replacement details: UNKNOWN.\n- Deployment semantics: UNKNOWN.\n\nNo VPS, Git, service, GitHub, Semaphore, repository, or production mutation occurred. Presence of the target SHA in the Git object database is not proof of deployment, and the prior stopped Semaphore workflow is not proof of deployment. This result is NOT production GO, end-to-end GO, deployment GO, or AI_LOOP_COMPLETE.\n\nPlease reconcile this provenance evidence and state the exact next action.\n…\nShow more\nWorked for 43s\nAnalysis paused\nPython\nfrom pathlib import Path\nimport hashlib\n\ndst = Path(\"/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\")\n\ncontent = \"\"\"# DIAGNOSIS — AI Loop last failure, reconciled v5\n\n**Reconciled:** 2026-09-25 21:08:00 -05:00  \n**Authoritative run:** `R20260923T012014`  \n**Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390`  \n**Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461`  \n**Branch:** `feature/GRU`\n\n## Proven facts\n\n- The exact candidate SHA passed the reproduced first `GRU validation / Core CI contracts` block.\n- Semaphore's authoritative terminal state is `done/stopped` with `RESULT_REASON=test`.\n- No concrete failed test/job/step has been recovered.\n- The candidate object exists in the production VPS Git object database.\n- The candidate is not the current production checkout.\n- The candidate is not an ancestor of the current production HEAD.\n- Historical activation/deployment of the candidate remains unproven.\n- The current production worktree is dirty and has an active simulator referencing it.\n- No mutation was made by the provenance inspections.\n\n## Corrected interpretation\n\nThe available evidence does not support a candidate code failure in the first CI block and does not prove production deployment.\n\nThe next unresolved boundary is the local control-plane chronology:\n\n1. when the exact Semaphore run first became terminal from the controller's perspective;\n2. why repeated `CI UNKNOWN` persisted despite an exact run and SHA;\n3. whether controller `SIGTERM` events happened before or after the provider had already stopped;\n4. whether controller restart/version changes altered failure interpretation or evidence recovery;\n5. whether a local stop/restart command, service event, OOM event, or other local lifecycle event can explain the controller `signal=15`.\n\n## Required next action\n\nPerform one local, read-only forensic correlation over:\n\n- `/var/lib/ai-loop/logs/R20260923T012014.v3.log`;\n- `/var/lib/ai-loop/state/R20260923T012014.v3.json` if present;\n- other AI-loop logs containing the exact SHA/workflow/pipeline/run IDs;\n- local system journal/process lifecycle evidence around the relevant timestamps;\n- exact control-plane scripts only as text when needed to explain state transitions.\n\nNo Semaphore query.  \nNo VPS query.  \nNo process signal.  \nNo service change.  \nNo repository mutation.  \nNo CI rerun.  \nNo commit/push/deploy.\n\n## Current classification\n\n```text\nCORE_CI_FIRST_BLOCK=PASS\nCANDIDATE_CODE_FAILURE_PROVEN=NO\nCANDIDATE_DEPLOYED_CURRENTLY=NO\nCANDIDATE_DEPLOYED_HISTORICALLY=UNPROVEN\nSEMAPHORE_TERMINAL_STATE=done/stopped\nSEMAPHORE_RESULT_REASON=test\nCONTROL_PLANE_OBSERVABILITY_DEGRADED=YES\nCONTROLLER_SIGTERM_EVENTS=CONFIRMED\nSIGTERM_CAUSAL_RELATION_TO_SEMAPHORE_STOP=UNKNOWN\nNEXT_ACTION=LOCAL_CONTROL_PLANE_FORENSIC_CORRELATION\nSAFE_TO_RERUN_SEMAPHORE=NO\nSAFE_TO_DEPLOY=NO\nSAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE\nFINAL_GO=NO\n```\n\"\"\"\n\ndst.write_text(content, encoding=\"utf-8\")\nprint(dst)\nprint(\"SHA256=\" + hashlib.sha256(dst.read_bytes()).hexdigest())\n\nAnalyzed\nPython\nfrom pathlib import Path\nimport hashlib\n\ndst = Path(\"/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\")\ntext = \"\"\"# DIAGNOSIS — AI Loop last failure, reconciled v5\n\n**Reconciled:** 2026-09-25 21:08:00 -05:00\n**Authoritative run:** `R20260923T012014`\n**Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390`\n**Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461`\n**Branch:** `feature/GRU`\n\n## Proven facts\n\n- The exact candidate SHA passed the reproduced first `GRU validation / Core CI contracts` block.\n- Semaphore's authoritative terminal state is `done/stopped` with `RESULT_REASON=test`.\n- No concrete failed test/job/step has been recovered.\n- The candidate object exists in the production VPS Git object database.\n- The candidate is not the current production checkout.\n- The candidate is not an ancestor of the current production HEAD.\n- Historical activation/deployment of the candidate remains unproven.\n- The current production worktree is dirty and has an active simulator referencing it.\n- No mutation was made by the provenance inspections.\n\n## Corrected interpretation\n\nThe available evidence does not support a candidate code failure in the first CI block and does not prove production deployment.\n\nThe next unresolved boundary is the local control-plane chronology:\n\n1. when the exact Semaphore run first became terminal from the controller's perspective;\n2. why repeated `CI UNKNOWN` persisted despite an exact run and SHA;\n3. whether controller `SIGTERM` events happened before or after the provider had already stopped;\n4. whether controller restart/version changes altered failure interpretation or evidence recovery;\n5. whether a local stop/restart command, service event, OOM event, or other local lifecycle event can explain the controller `signal=15`.\n\n## Required next action\n\nPerform one local, read-only forensic correlation over:\n\n- `/var/lib/ai-loop/logs/R20260923T012014.v3.log`;\n- `/var/lib/ai-loop/state/R20260923T012014.v3.json` if present;\n- other AI-loop logs containing the exact SHA/workflow/pipeline/run IDs;\n- local system journal/process lifecycle evidence around the relevant timestamps;\n- exact control-plane scripts only as text when needed to explain state transitions.\n\nNo Semaphore query.\nNo VPS query.\nNo process signal.\nNo service change.\nNo repository mutation.\nNo CI rerun.\nNo commit/push/deploy.\n\n## Current classification\n\n```text\nCORE_CI_FIRST_BLOCK=PASS\nCANDIDATE_CODE_FAILURE_PROVEN=NO\nCANDIDATE_DEPLOYED_CURRENTLY=NO\nCANDIDATE_DEPLOYED_HISTORICALLY=UNPROVEN\nSEMAPHORE_TERMINAL_STATE=done/stopped\nSEMAPHORE_RESULT_REASON=test\nCONTROL_PLANE_OBSERVABILITY_DEGRADED=YES\nCONTROLLER_SIGTERM_EVENTS=CONFIRMED\nSIGTERM_CAUSAL_RELATION_TO_SEMAPHORE_STOP=UNKNOWN\nNEXT_ACTION=LOCAL_CONTROL_PLANE_FORENSIC_CORRELATION\nSAFE_TO_RERUN_SEMAPHORE=NO\nSAFE_TO_DEPLOY=NO\nSAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE\nFINAL_GO=NO\n```\n\"\"\"\ndst.write_text(text, encoding=\"utf-8\")\nprint(f\"{dst}\\nSHA256={hashlib.sha256(dst.read_bytes()).hexdigest()}\")\n\nSTDOUT/STDERR\n/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\nSHA256=d9827a9a155407104b3a48ae418b3b46884d9fd755dde0becc5c0f8321519167\n\nChatGPT said:\n\nQueda reconciliado un nivel más: no existe evidencia suficiente de que 0c11a13e… haya sido desplegado alguna vez. Su presencia en el object database del VPS no demuestra activación; el checkout activo continúa en d4960be…, el target no es ancestro suyo y la activación histórica sigue UNPROVEN.\n\nAl mismo tiempo, el primer bloque del candidato sí pasó. Por tanto, el cuello de botella ya está entre el seguimiento/orquestación del CI y las etapas posteriores al primer bloque, no en un fallo reproducible de Core CI contracts. Además, los logs conocidos muestran CI UNKNOWN repetido y después controller signal=15; posteriormente ci-status sí pudo observar done/stopped. \nPasted text(20260923-192112)\n También hay reinicios posteriores del mismo run en FAILURE_ANALYSIS, lo que confirma que el lifecycle del controller tuvo interrupciones independientes que deben correlacionarse antes de tocar CI o producción. \nPasted text\n\nActualicé el diagnóstico: \nDIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\n. SHA-256: d9827a9a155407104b3a48ae418b3b46884d9fd755dde0becc5c0f8321519167.\n\nLa acción exacta siguiente es exclusivamente forense local del control-plane. No consulta Semaphore, no consulta el VPS y no modifica procesos, servicios ni repositorios:\n\nBash\nset -Eeuo pipefail\numask 077\n\nRUN=\"R20260923T012014\"\nSHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\"\nWF=\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\"\nPPL=\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\"\n\nROOT=\"/var/lib/ai-loop\"\nLOG=\"$ROOT/logs/${RUN}.v3.log\"\n\nE=\"$(mktemp -d \"/tmp/ai-loop-local-forensics-${RUN}.XXXXXX\")\"\n\nfail() {\n  echo \"LOCAL_CONTROL_PLANE_FORENSICS=FAILED\"\n  echo \"BLOCKER=$1\"\n  echo \"EVIDENCE_DIR=$E\"\n  exit \"${2:-90}\"\n}\n\nfor c in python3 grep sed awk find stat sha256sum journalctl ps; do\n  command -v \"$c\" >/dev/null 2>&1 ||\n    fail \"MISSING_COMMAND:$c\" 91\ndone\n\ntest -r \"$LOG\" ||\n  fail \"RUN_LOG_NOT_READABLE:$LOG\" 92\n\necho \"RUN=$RUN\"\necho \"TARGET_SHA=$SHA\"\necho \"WORKFLOW_ID=$WF\"\necho \"PIPELINE_ID=$PPL\"\necho \"EVIDENCE_DIR=$E\"\n\n###############################################################################\n# 1. Preserve hashes only. No source file is modified.\n###############################################################################\n\necho \"===== SOURCE EVIDENCE HASHES =====\"\n\nsha256sum \"$LOG\" |\n  tee \"$E/run-log.sha256\"\n\nfind \"$ROOT/state\" \\\n  -maxdepth 1 \\\n  -type f \\\n  -name \"${RUN}*\" \\\n  -print 2>/dev/null \\\n  | sort \\\n  | while IFS= read -r f; do\n      sha256sum \"$f\"\n    done \\\n  | tee \"$E/state-files.sha256\"\n\n###############################################################################\n# 2. Exact run chronology.\n###############################################################################\n\necho\necho \"===== EXACT RUN CHRONOLOGY =====\"\n\ngrep -nE \\\n  \"$SHA|$WF|$PPL|CI UNKNOWN|CI SUCCESS|CI FAILURE|raw_result|raw_state|Semaphore|signal=15|phase=|FAILURE_ANALYSIS|IMPLEMENTING|CI_WATCH|EVIDENCE|TimeoutExpired|NOT_FOUND|controller\" \\\n  \"$LOG\" \\\n  >\"$E/run-chronology.txt\" || true\n\ncat \"$E/run-chronology.txt\"\n\n###############################################################################\n# 3. First/last relevant events and SIGTERM chronology.\n###############################################################################\n\necho\necho \"===== KEY EVENT SUMMARY =====\"\n\npython3 - \"$LOG\" \"$SHA\" \"$WF\" \"$PPL\" <<'PY' \\\n  | tee \"$E/key-events.txt\"\nimport re\nimport sys\n\npath, sha, wf, ppl = sys.argv[1:]\n\npatterns = {\n    \"candidate\": re.compile(re.escape(sha)),\n    \"workflow\": re.compile(re.escape(wf)),\n    \"pipeline\": re.compile(re.escape(ppl)),\n    \"ci_unknown\": re.compile(r\"\\bCI UNKNOWN\\b\"),\n    \"ci_failure\": re.compile(r\"\\bCI FAILURE\\b\"),\n    \"ci_success\": re.compile(r\"\\bCI SUCCESS\\b\"),\n    \"signal15\": re.compile(r\"controller signal=15\"),\n    \"timeout\": re.compile(r\"TimeoutExpired|timed out\", re.I),\n    \"semaphore_not_found\": re.compile(r\"SEMAPHORE_EXACT_ANCHORS_NOT_FOUND\"),\n    \"failure_analysis\": re.compile(r\"phase=FAILURE_ANALYSIS\"),\n}\n\nevents = {k: [] for k in patterns}\n\nwith open(path, encoding=\"utf-8\", errors=\"replace\") as fh:\n    for lineno, line in enumerate(fh, 1):\n        for key, rx in patterns.items():\n            if rx.search(line):\n                events[key].append((lineno, line.rstrip()))\n\nfor key, values in events.items():\n    print(f\"{key.upper()}_COUNT={len(values)}\")\n    if values:\n        print(f\"{key.upper()}_FIRST_LINE={values[0][0]}\")\n        print(f\"{key.upper()}_FIRST={values[0][1]}\")\n        print(f\"{key.upper()}_LAST_LINE={values[-1][0]}\")\n        print(f\"{key.upper()}_LAST={values[-1][1]}\")\nPY\n\n###############################################################################\n# 4. Context around every controller SIGTERM.\n###############################################################################\n\necho\necho \"===== SIGTERM CONTEXT =====\"\n\npython3 - \"$LOG\" <<'PY' \\\n  | tee \"$E/sigterm-context.txt\"\nimport sys\n\npath = sys.argv[1]\n\nwith open(path, encoding=\"utf-8\", errors=\"replace\") as fh:\n    lines = fh.readlines()\n\nhits = [\n    i for i, line in enumerate(lines)\n    if \"controller signal=15\" in line\n]\n\nprint(f\"SIGTERM_COUNT={len(hits)}\")\n\nfor seq, idx in enumerate(hits, 1):\n    print(f\"--- SIGTERM_{seq}_CONTEXT_BEGIN ---\")\n    lo = max(0, idx - 12)\n    hi = min(len(lines), idx + 13)\n    for j in range(lo, hi):\n        print(f\"{j+1}:{lines[j].rstrip()}\")\n    print(f\"--- SIGTERM_{seq}_CONTEXT_END ---\")\nPY\n\n###############################################################################\n# 5. State JSON: print only diagnostic allowlisted fields.\n#    Do not dump URLs, prompts, credentials, or browser payloads.\n###############################################################################\n\necho\necho \"===== STATE SNAPSHOT =====\"\n\nSTATE_FILES=\"$(\n  find \"$ROOT/state\" \\\n    -maxdepth 1 \\\n    -type f \\\n    -name \"${RUN}*.json\" \\\n    -print 2>/dev/null \\\n    | sort\n)\"\n\nif [ -z \"$STATE_FILES\" ]; then\n  echo \"STATE_FILE=NOT_FOUND\"\nelse\n  while IFS= read -r state; do\n    [ -n \"$state\" ] || continue\n\n    echo \"STATE_FILE=$state\"\n    stat -c \\\n      'STATE_STAT mtime=%y size=%s uid=%u gid=%g mode=%a' \\\n      \"$state\" 2>/dev/null || true\n\n    python3 - \"$state\" <<'PY'\nimport json\nimport sys\n\npath = sys.argv[1]\n\ntry:\n    with open(path, encoding=\"utf-8\") as fh:\n        obj = json.load(fh)\nexcept Exception as exc:\n    print(f\"STATE_JSON_READ=FAILED:{type(exc).__name__}:{exc}\")\n    raise SystemExit(0)\n\nwanted = {\n    \"run_id\",\n    \"phase\",\n    \"stage\",\n    \"failure_stage\",\n    \"baseline_sha\",\n    \"candidate_sha\",\n    \"candidate\",\n    \"iteration\",\n    \"go_confirmed\",\n    \"last_ci\",\n    \"ci_status\",\n    \"ci_provider\",\n    \"breaker_state\",\n    \"breaker_route\",\n    \"last_dispatched_provider\",\n    \"last_dispatched_sha\",\n    \"workflow_id\",\n    \"pipeline_id\",\n    \"run_id\",\n    \"status\",\n    \"raw_state\",\n    \"raw_result\",\n    \"reason\",\n}\n\ndef walk(value, path=\"\"):\n    if isinstance(value, dict):\n        for key, val in value.items():\n            here = f\"{path}.{key}\" if path else key\n\n            if key in wanted:\n                if isinstance(val, (str, int, float, bool)) or val is None:\n                    print(f\"STATE {here}={val!r}\")\n                elif isinstance(val, dict):\n                    safe = {}\n                    for k, v in val.items():\n                        if k in wanted and (\n                            isinstance(v, (str, int, float, bool))\n                            or v is None\n                        ):\n                            safe[k] = v\n                    print(\n                        f\"STATE {here}=\"\n                        + json.dumps(safe, sort_keys=True)\n                    )\n\n            walk(val, here)\n\n    elif isinstance(value, list):\n        for i, item in enumerate(value):\n            walk(item, f\"{path}[{i}]\")\n\nwalk(obj)\nPY\n\n  done <<<\"$STATE_FILES\"\nfi | tee \"$E/state-diagnostic.txt\"\n\n###############################################################################\n# 6. Search existing LOCAL AI-loop evidence only.\n#    No remote/network calls.\n###############################################################################\n\necho\necho \"===== LOCAL EXACT-ID ARTIFACT INDEX =====\"\n\nfor base in \\\n  /var/lib/ai-loop \\\n  /opt/ai-loop/evidence\ndo\n  [ -d \"$base\" ] || continue\n\n  grep -RIl \\\n    --binary-files=without-match \\\n    -e \"$SHA\" \\\n    -e \"$WF\" \\\n    -e \"$PPL\" \\\n    \"$base\" 2>/dev/null \\\n    | head -n 200\ndone \\\n  | sort -u \\\n  | tee \"$E/local-artifact-index.txt\"\n\n###############################################################################\n# 7. Extract only lines relevant to stop/status chronology from those files.\n###############################################################################\n\necho\necho \"===== LOCAL ARTIFACT RELEVANT LINES =====\"\n\nwhile IFS= read -r f; do\n  [ -r \"$f\" ] || continue\n\n  echo \"--- FILE=$f ---\"\n\n  grep -nE \\\n    \"$SHA|$WF|$PPL|raw_result|raw_state|stopped|signal=15|TimeoutExpired|SEMAPHORE_EXACT_ANCHORS_NOT_FOUND|CI UNKNOWN|CI FAILURE|FAILURE_ANALYSIS\" \\\n    \"$f\" 2>/dev/null \\\n    | tail -n 160 \\\n    || true\n\ndone <\"$E/local-artifact-index.txt\" \\\n  | tee \"$E/local-artifact-relevant-lines.txt\"\n\n###############################################################################\n# 8. Read-only system journal correlation around FIRST known incident window.\n#\n# Known interesting period:\n# 2026-09-23 19:03-19:09 UTC CI UNKNOWN -> controller signal=15.\n###############################################################################\n\necho\necho \"===== SYSTEM JOURNAL 18:30-20:40 UTC =====\"\n\nset +e\njournalctl \\\n  --since \"2026-09-23 18:30:00 UTC\" \\\n  --until \"2026-09-23 20:40:00 UTC\" \\\n  --no-pager \\\n  -o short-iso 2>/dev/null \\\n  | grep -Ei \\\n    'ai-loop|ai-loopd|opencode|python|SIGTERM|signal|terminat|killed|kill|oom|out of memory|systemd|cron|nohup' \\\n  >\"$E/journal-incident-window.txt\"\n\njournal_rc=${PIPESTATUS[0]}\nset -e\n\nif [ \"$journal_rc\" -eq 0 ]; then\n  cat \"$E/journal-incident-window.txt\"\nelse\n  echo \"SYSTEM_JOURNAL=UNAVAILABLE_OR_INCOMPLETE rc=$journal_rc\"\nfi\n\n###############################################################################\n# 9. User journal, if available.\n###############################################################################\n\necho\necho \"===== USER JOURNAL 18:30-20:40 UTC =====\"\n\nset +e\njournalctl \\\n  --user \\\n  --since \"2026-09-23 18:30:00 UTC\" \\\n  --until \"2026-09-23 20:40:00 UTC\" \\\n  --no-pager \\\n  -o short-iso 2>/dev/null \\\n  | grep -Ei \\\n    'ai-loop|ai-loopd|opencode|python|SIGTERM|signal|terminat|killed|kill|systemd' \\\n  >\"$E/user-journal-incident-window.txt\"\n\nuj_rc=${PIPESTATUS[0]}\nset -e\n\nif [ \"$uj_rc\" -eq 0 ]; then\n  cat \"$E/user-journal-incident-window.txt\"\nelse\n  echo \"USER_JOURNAL=UNAVAILABLE_OR_INCOMPLETE rc=$uj_rc\"\nfi\n\n###############################################################################\n# 10. Narrow shell-history check for explicit controller lifecycle commands.\n#     No general history dump.\n###############################################################################\n\necho\necho \"===== LOCAL LIFECYCLE COMMAND HISTORY =====\"\n\nHIST=\"$HOME/.bash_history\"\n\nif [ -r \"$HIST\" ]; then\n  grep -En \\\n    '(/opt/ai-loop/bin/)?(stop-loop-v3|restart-loop-v3|resume-current-v3|kill-all-loop-v3)|pkill .*ai-loop|kill .*ai-loopd|systemctl .*ai-loop' \\\n    \"$HIST\" 2>/dev/null \\\n    | tail -n 80 \\\n    | sed -E \\\n      's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^ ]+/\\1=<REDACTED>/Ig' \\\n    | tee \"$E/lifecycle-history.txt\"\nelse\n  echo \"BASH_HISTORY=UNAVAILABLE\"\nfi\n\n###############################################################################\n# 11. Current installed controller version / file metadata only.\n###############################################################################\n\necho\necho \"===== CONTROLLER FILE METADATA =====\"\n\nfor f in \\\n  /opt/ai-loop/ai-loopd-v3.py \\\n  /opt/ai-loop/bin/ci-status \\\n  /opt/ai-loop/bin/start-loop-v3 \\\n  /opt/ai-loop/bin/stop-loop-v3 \\\n  /opt/ai-loop/bin/restart-loop-v3 \\\n  /opt/ai-loop/bin/resume-current-v3 \\\n  /opt/ai-loop/bin/kill-all-loop-v3\ndo\n  if [ -e \"$f\" ]; then\n    stat -c \\\n      'FILE path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\\n      \"$f\"\n  else\n    echo \"FILE_ABSENT=$f\"\n  fi\ndone | tee \"$E/controller-file-metadata.txt\"\n\n###############################################################################\n# 12. Current process snapshot. Observation only.\n###############################################################################\n\necho\necho \"===== CURRENT AI-LOOP PROCESS SNAPSHOT =====\"\n\nps -eo \\\n  pid=,ppid=,lstart=,etime=,args= 2>/dev/null \\\n  | grep -E \\\n    'ai-loopd-v3|browser-broker|opencode run' \\\n  | grep -v '[g]rep -E' \\\n  | tee \"$E/current-processes.txt\" \\\n  || true\n\n###############################################################################\n# 13. Produce deterministic summary from the gathered LOCAL evidence.\n###############################################################################\n\necho\necho \"===== FORENSIC CLASSIFICATION =====\"\n\npython3 - \\\n  \"$E/run-chronology.txt\" \\\n  \"$E/sigterm-context.txt\" \\\n  \"$E/journal-incident-window.txt\" \\\n  \"$E/user-journal-incident-window.txt\" \\\n  <<'PY' | tee \"$E/classification.txt\"\nimport pathlib\nimport re\nimport sys\n\nfiles = [pathlib.Path(x) for x in sys.argv[1:]]\n\ntext = \"\\n\".join(\n    p.read_text(encoding=\"utf-8\", errors=\"replace\")\n    for p in files\n    if p.exists()\n)\n\nchecks = {\n    \"CI_UNKNOWN_OBSERVED\":\n        r\"\\bCI UNKNOWN\\b\",\n\n    \"CONTROLLER_SIGTERM_OBSERVED\":\n        r\"controller signal=15\",\n\n    \"EXACT_SHA_OBSERVED\":\n        r\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\",\n\n    \"EXACT_WORKFLOW_OBSERVED\":\n        r\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\",\n\n    \"EXACT_PIPELINE_OBSERVED\":\n        r\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\",\n\n    \"TIMEOUT_OBSERVED\":\n        r\"TimeoutExpired|timed out\",\n\n    \"ANCHOR_NOT_FOUND_OBSERVED\":\n        r\"SEMAPHORE_EXACT_ANCHORS_NOT_FOUND\",\n\n    \"OOM_OR_KERNEL_KILL_EVIDENCE\":\n        r\"oom-kill|out of memory|Killed process\",\n\n    \"SYSTEMD_STOP_EVIDENCE\":\n        r\"Stopping .*ai-loop|Stopped .*ai-loop|Main process exited\",\n}\n\nfor key, pattern in checks.items():\n    found = bool(re.search(pattern, text, re.I))\n    print(f\"{key}={'YES' if found else 'NO'}\")\n\nprint(\"SEMAPHORE_QUERY_PERFORMED=NO\")\nprint(\"VPS_QUERY_PERFORMED=NO\")\nprint(\"REMOTE_MUTATION=NO\")\nprint(\"LOCAL_MUTATION=EVIDENCE_DIR_ONLY\")\nprint(\"CI_RERUN=NO\")\nprint(\"PROCESS_SIGNAL_SENT=NO\")\nprint(\"SERVICE_ACTION=NO\")\nPY\n\n###############################################################################\n# 14. Manifest.\n###############################################################################\n\necho\necho \"===== EVIDENCE MANIFEST =====\"\n\nfind \"$E\" \\\n  -maxdepth 1 \\\n  -type f \\\n  -print0 \\\n  | sort -z \\\n  | xargs -0 sha256sum \\\n  | tee \"$E/SHA256SUMS\"\n\necho\necho \"LOCAL_CONTROL_PLANE_FORENSICS=PASS\"\necho \"SEMAPHORE_QUERY=NO\"\necho \"VPS_QUERY=NO\"\necho \"REPOSITORY_MUTATION=NO\"\necho \"PROCESS_MUTATION=NO\"\necho \"SERVICE_MUTATION=NO\"\necho \"CI_RERUN=NO\"\necho \"DEPLOYMENT=NO\"\necho \"EVIDENCE_DIR=$E\"\n\nEl resultado decisivo ya no será un GO, sino la cronología:\n\nSi el stopped aparece antes del primer signal=15, el SIGTERM del controller fue posterior y no explica el stop de Semaphore.\nSi el controller desaparece antes de que pueda observar un estado terminal, tendremos un fallo claro de continuidad/observabilidad del control-plane.\nSi journal/history identifica quién detuvo o reinició ai-loopd, podremos separar definitivamente el incidente local del incidente Semaphore.\nSi no aparece ninguna causalidad local, quedará cerrada la evidencia disponible como SEMAPHORE_STOP_CAUSE_UNRECOVERABLE_FROM_AVAILABLE_HISTORY, y podremos decidir entonces si procede una ejecución controlada nueva del mismo SHA.\n\nHasta obtener esta correlación: no deploy, no sync, no reset, no nuevo commit y no rerun de Semaphore. \n\nDIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md\nDocument\nChatGPT can make mistakes. Check important info.\nLatest response\n\n\n\n\nHigh\nResponse complete"
+}

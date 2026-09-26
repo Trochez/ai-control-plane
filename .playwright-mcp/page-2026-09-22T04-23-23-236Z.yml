@@ -1,0 +1,408 @@
+- generic [ref=f3e4]:
+  - complementary [ref=f3e5]:
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]:
+        - generic [ref=f3e13]: ChatGPT
+        - generic [ref=f3e19]:
+          - button "Search" [ref=f3e21] [cursor=pointer]
+          - button "Hide sidebar" [expanded] [ref=f3e29] [cursor=pointer]
+      - navigation "Scheduled task folders" [ref=f3e34]:
+        - button "New chat" [ref=f3e40] [cursor=pointer]
+        - generic [ref=f3e49]:
+          - generic [ref=f3e52]:
+            - button "Scheduled" [ref=f3e53] [cursor=pointer]
+            - button "Library" [ref=f3e62] [cursor=pointer]
+            - button "Plugins" [ref=f3e70] [cursor=pointer]
+            - button "Explore" [ref=f3e79] [cursor=pointer]
+          - generic [ref=f3e120]:
+            - generic [ref=f3e123]:
+              - generic [ref=f3e124]:
+                - button "Projects" [expanded] [ref=f3e127] [cursor=pointer]
+                - generic [ref=f3e131]:
+                  - generic:
+                    - generic:
+                      - button "Project sidebar options"
+                      - button "Add new project" [ref=f3e133] [cursor=pointer]
+              - generic [ref=f3e139]:
+                - list [ref=f3e140]:
+                  - listitem [ref=f3e141]:
+                    - button "agentic_pipeline" [ref=f3e145] [cursor=pointer]:
+                      - button "Project actions for agentic_pipeline" [ref=f3e159]
+                      - button "New chat in agentic_pipeline" [ref=f3e167]
+                  - listitem [ref=f3e172]:
+                    - button "body_finder_fast" [ref=f3e176] [cursor=pointer]:
+                      - button "Project actions for body_finder_fast" [ref=f3e190]
+                      - button "New chat in body_finder_fast" [ref=f3e198]
+                  - listitem [ref=f3e203]:
+                    - button "Bot_trading" [ref=f3e207] [cursor=pointer]:
+                      - button "Project actions for Bot_trading" [ref=f3e221]
+                      - button "New chat in Bot_trading" [ref=f3e229]
+                  - listitem [ref=f3e234]:
+                    - button "ubuntu problems" [ref=f3e238] [cursor=pointer]:
+                      - button "Project actions for ubuntu problems" [ref=f3e252]
+                      - button "New chat in ubuntu problems" [ref=f3e260]
+                - status [ref=f3e265]
+            - generic [ref=f3e269]:
+              - generic [ref=f3e270]:
+                - button "Recents" [expanded] [ref=f3e273] [cursor=pointer]
+                - generic [ref=f3e277]:
+                  - generic:
+                    - generic:
+                      - button "Chat sidebar options"
+                      - button "Filter chats and work"
+                      - generic:
+                        - generic:
+                          - button "New chat"
+              - list [ref=f3e281]:
+                - listitem [ref=f3e282]:
+                  - button "Ranking hardware LLM local" [ref=f3e284] [cursor=pointer]:
+                    - generic [ref=f3e286]:
+                      - button "Chat actions" [ref=f3e287]
+                      - button "Pin chat" [ref=f3e294]
+                - listitem [ref=f3e306]:
+                  - button "Ranking celulares Colombia" [ref=f3e308] [cursor=pointer]:
+                    - generic [ref=f3e310]:
+                      - button "Chat actions" [ref=f3e311]
+                      - button "Pin chat" [ref=f3e318]
+                - listitem [ref=f3e330]:
+                  - button "Consultar vigencia SOAT" [ref=f3e332] [cursor=pointer]:
+                    - generic [ref=f3e334]:
+                      - button "Chat actions" [ref=f3e335]
+                      - button "Pin chat" [ref=f3e342]
+                - listitem [ref=f3e354]:
+                  - button "Ranking hardware LLM local" [ref=f3e356] [cursor=pointer]:
+                    - generic [ref=f3e358]:
+                      - button "Chat actions" [ref=f3e359]
+                      - button "Pin chat" [ref=f3e366]
+                - listitem [ref=f3e378]:
+                  - button "Comparar modelos IA globales" [ref=f3e380] [cursor=pointer]:
+                    - generic [ref=f3e382]:
+                      - button "Chat actions" [ref=f3e383]
+                      - button "Pin chat" [ref=f3e390]
+                - listitem [ref=f3e402]:
+                  - button "Marco de trabajo Codex ChatGPT" [ref=f3e404] [cursor=pointer]:
+                    - generic [ref=f3e406]:
+                      - button "Chat actions" [ref=f3e407]
+                      - button "Pin chat" [ref=f3e414]
+                - listitem [ref=f3e426]:
+                  - button "Semaphore Pipeline Watch" [ref=f3e428] [cursor=pointer]:
+                    - generic [ref=f3e430]:
+                      - button "Chat actions" [ref=f3e431]
+                      - button "Pin chat" [ref=f3e438]
+                - listitem [ref=f3e450]:
+                  - button "Semaphore Pipeline Watch" [ref=f3e452] [cursor=pointer]:
+                    - generic [ref=f3e454]:
+                      - button "Chat actions" [ref=f3e455]
+                      - button "Pin chat" [ref=f3e462]
+                - listitem [ref=f3e474]:
+                  - button "Ranking Codex Models Cost Benefit" [ref=f3e476] [cursor=pointer]:
+                    - generic [ref=f3e478]:
+                      - button "Chat actions" [ref=f3e479]
+                      - button "Pin chat" [ref=f3e486]
+                - listitem [ref=f3e498]:
+                  - button "Marco de trabajo OpenCode" [ref=f3e500] [cursor=pointer]:
+                    - generic [ref=f3e502]:
+                      - button "Chat actions" [ref=f3e503]
+                      - button "Pin chat" [ref=f3e510]
+                - listitem [ref=f3e522]:
+                  - button "Tutorial CapCut narrado" [ref=f3e524] [cursor=pointer]:
+                    - generic [ref=f3e526]:
+                      - button "Chat actions" [ref=f3e527]
+                      - button "Pin chat" [ref=f3e534]
+                - listitem [ref=f3e546]:
+                  - button "Customize CV Match" [ref=f3e548] [cursor=pointer]:
+                    - generic [ref=f3e550]:
+                      - button "Chat actions" [ref=f3e551]
+                      - button "Pin chat" [ref=f3e558]
+                - listitem [ref=f3e570]:
+                  - button "GRU Full-Corpus Watch" [ref=f3e572] [cursor=pointer]:
+                    - generic [ref=f3e574]:
+                      - button "Chat actions" [ref=f3e575]
+                      - button "Pin chat" [ref=f3e582]
+                - listitem [ref=f3e594]:
+                  - button "P2 Gate Watch" [ref=f3e596] [cursor=pointer]:
+                    - generic [ref=f3e598]:
+                      - button "Chat actions" [ref=f3e599]
+                      - button "Pin chat" [ref=f3e606]
+                - listitem [ref=f3e618]:
+                  - 'button "CircleCI #144 Watch" [ref=f3e620] [cursor=pointer]':
+                    - generic [ref=f3e622]:
+                      - button "Chat actions" [ref=f3e623]
+                      - button "Pin chat" [ref=f3e630]
+                - listitem [ref=f3e642]:
+                  - 'button "CircleCI #144 Watch" [ref=f3e644] [cursor=pointer]':
+                    - generic [ref=f3e646]:
+                      - button "Chat actions" [ref=f3e647]
+                      - button "Pin chat" [ref=f3e654]
+                - listitem [ref=f3e666]:
+                  - 'button "CircleCI #133 Watch" [ref=f3e668] [cursor=pointer]':
+                    - generic [ref=f3e670]:
+                      - button "Chat actions" [ref=f3e671]
+                      - button "Pin chat" [ref=f3e678]
+                - listitem [ref=f3e690]:
+                  - 'button "Deploy #56 Watch" [ref=f3e692] [cursor=pointer]':
+                    - generic [ref=f3e694]:
+                      - button "Chat actions" [ref=f3e695]
+                      - button "Pin chat" [ref=f3e702]
+                - listitem [ref=f3e714]:
+                  - 'button "Deploy #56 Watch" [ref=f3e716] [cursor=pointer]':
+                    - generic [ref=f3e718]:
+                      - button "Chat actions" [ref=f3e719]
+                      - button "Pin chat" [ref=f3e726]
+                - listitem [ref=f3e738]:
+                  - button "GRU P2 GO Watch" [ref=f3e740] [cursor=pointer]:
+                    - generic [ref=f3e742]:
+                      - button "Chat actions" [ref=f3e743]
+                      - button "Pin chat" [ref=f3e750]
+                - listitem [ref=f3e762]:
+                  - button "Impresión sobre ti" [ref=f3e764] [cursor=pointer]:
+                    - generic [ref=f3e766]:
+                      - button "Chat actions" [ref=f3e767]
+                      - button "Pin chat" [ref=f3e774]
+                - listitem [ref=f3e786]:
+                  - button "Conectar SSH MySQL" [ref=f3e788] [cursor=pointer]:
+                    - generic [ref=f3e790]:
+                      - button "Chat actions" [ref=f3e791]
+                      - button "Pin chat" [ref=f3e798]
+                - listitem [ref=f3e810]:
+                  - button "Ubuntu Upgrade Troubleshooting" [ref=f3e812] [cursor=pointer]:
+                    - generic [ref=f3e814]:
+                      - button "Chat actions" [ref=f3e815]
+                      - button "Pin chat" [ref=f3e822]
+                - listitem [ref=f3e836]:
+                  - button "Fix Scripts For Profiles" [ref=f3e838] [cursor=pointer]:
+                    - generic [ref=f3e840]:
+                      - button "Chat actions" [ref=f3e841]
+                      - button "Pin chat" [ref=f3e848]
+                - listitem [ref=f3e862]:
+                  - button "Recomendaciones para dormir mejor" [ref=f3e864] [cursor=pointer]:
+                    - generic [ref=f3e866]:
+                      - button "Chat actions" [ref=f3e867]
+                      - button "Pin chat" [ref=f3e874]
+                - listitem [ref=f3e886]:
+                  - button "Búsqueda de soportes laborales" [ref=f3e888] [cursor=pointer]:
+                    - generic [ref=f3e890]:
+                      - button "Chat actions" [ref=f3e891]
+                      - button "Pin chat" [ref=f3e898]
+                - listitem [ref=f3e910]:
+                  - button "Configure OpenCode Desktop Launcher" [ref=f3e912] [cursor=pointer]:
+                    - generic [ref=f3e914]:
+                      - button "Chat actions" [ref=f3e915]
+                      - button "Pin chat" [ref=f3e922]
+                - listitem [ref=f3e936]:
+                  - button "Bluetooth Mesh People Detection" [ref=f3e938] [cursor=pointer]:
+                    - generic [ref=f3e940]:
+                      - button "Chat actions" [ref=f3e941]
+                      - button "Pin chat" [ref=f3e948]
+                - listitem [ref=f3e960]:
+                  - button "Ranking Open Source Detection Apps" [ref=f3e962] [cursor=pointer]:
+                    - generic [ref=f3e964]:
+                      - button "Chat actions" [ref=f3e965]
+                      - button "Pin chat" [ref=f3e972]
+                - listitem [ref=f3e984]:
+                  - button "Desafíos de moda urbana" [ref=f3e986] [cursor=pointer]:
+                    - generic [ref=f3e988]:
+                      - button "Chat actions" [ref=f3e989]
+                      - button "Pin chat" [ref=f3e996]
+                - listitem [ref=f3e1008]:
+                  - button "Android Device Lab Setup" [ref=f3e1010] [cursor=pointer]:
+                    - generic [ref=f3e1012]:
+                      - button "Chat actions" [ref=f3e1013]
+                      - button "Pin chat" [ref=f3e1020]
+                - listitem [ref=f3e1032]:
+                  - button "Preparación entrevista Python" [ref=f3e1034] [cursor=pointer]:
+                    - generic [ref=f3e1036]:
+                      - button "Chat actions" [ref=f3e1037]
+                      - button "Pin chat" [ref=f3e1044]
+                - listitem [ref=f3e1056]:
+                  - button "Comando /status en Codex" [ref=f3e1058] [cursor=pointer]:
+                    - generic [ref=f3e1060]:
+                      - button "Chat actions" [ref=f3e1061]
+                      - button "Pin chat" [ref=f3e1068]
+                - listitem [ref=f3e1080]:
+                  - button "Búsqueda de meme español" [ref=f3e1082] [cursor=pointer]:
+                    - generic [ref=f3e1084]:
+                      - button "Chat actions" [ref=f3e1085]
+                      - button "Pin chat" [ref=f3e1092]
+                - listitem [ref=f3e1104]:
+                  - button "What is AIApply" [ref=f3e1106] [cursor=pointer]:
+                    - generic [ref=f3e1108]:
+                      - button "Chat actions" [ref=f3e1109]
+                      - button "Pin chat" [ref=f3e1116]
+                - listitem [ref=f3e1128]:
+                  - button "OpenCode Desktop Script" [ref=f3e1130] [cursor=pointer]:
+                    - generic [ref=f3e1132]:
+                      - button "Chat actions" [ref=f3e1133]
+                      - button "Pin chat" [ref=f3e1140]
+                - listitem [ref=f3e1152]:
+                  - button "Ranking escritorios Linux" [ref=f3e1154] [cursor=pointer]:
+                    - generic [ref=f3e1156]:
+                      - button "Chat actions" [ref=f3e1157]
+                      - button "Pin chat" [ref=f3e1164]
+                - listitem [ref=f3e1176]:
+                  - button "Daily Tech & Markets Brief" [ref=f3e1178] [cursor=pointer]:
+                    - generic [ref=f3e1180]:
+                      - button "Chat actions" [ref=f3e1181]
+                      - button "Pin chat" [ref=f3e1188]
+                - listitem [ref=f3e1200]:
+                  - button "Instalar OpenCode Desktop" [ref=f3e1202] [cursor=pointer]:
+                    - generic [ref=f3e1204]:
+                      - button "Chat actions" [ref=f3e1205]
+                      - button "Pin chat" [ref=f3e1212]
+                - listitem [ref=f3e1224]:
+                  - button "Ranking LinkedIn Job Search" [ref=f3e1226] [cursor=pointer]:
+                    - generic [ref=f3e1228]:
+                      - button "Chat actions" [ref=f3e1229]
+                      - button "Pin chat" [ref=f3e1236]
+                - listitem [ref=f3e1248]:
+                  - button "Preparación entrevista técnica" [ref=f3e1250] [cursor=pointer]:
+                    - generic [ref=f3e1252]:
+                      - button "Chat actions" [ref=f3e1253]
+                      - button "Pin chat" [ref=f3e1260]
+                - listitem [ref=f3e1272]:
+                  - button "Set GPT in OmniRoute" [ref=f3e1274] [cursor=pointer]:
+                    - generic [ref=f3e1276]:
+                      - button "Chat actions" [ref=f3e1277]
+                      - button "Pin chat" [ref=f3e1284]
+                - listitem [ref=f3e1296]:
+                  - button "Certificación IA recomendada" [ref=f3e1298] [cursor=pointer]:
+                    - generic [ref=f3e1300]:
+                      - button "Chat actions" [ref=f3e1301]
+                      - button "Pin chat" [ref=f3e1308]
+                - listitem [ref=f3e1320]:
+                  - button "LLM Providers Ranking" [ref=f3e1322] [cursor=pointer]:
+                    - generic [ref=f3e1324]:
+                      - button "Chat actions" [ref=f3e1325]
+                      - button "Pin chat" [ref=f3e1332]
+                - listitem [ref=f3e1344]:
+                  - button "OpenAI Plus with OmniRoute" [ref=f3e1346] [cursor=pointer]:
+                    - generic [ref=f3e1348]:
+                      - button "Chat actions" [ref=f3e1349]
+                      - button "Pin chat" [ref=f3e1356]
+                - listitem [ref=f3e1368]:
+                  - button "OmniRoute Alternatives Ranking" [ref=f3e1370] [cursor=pointer]:
+                    - generic [ref=f3e1372]:
+                      - button "Chat actions" [ref=f3e1373]
+                      - button "Pin chat" [ref=f3e1380]
+                - listitem [ref=f3e1392]:
+                  - button "AI Models Power/Cost Ranking" [ref=f3e1394] [cursor=pointer]:
+                    - generic [ref=f3e1396]:
+                      - button "Chat actions" [ref=f3e1397]
+                      - button "Pin chat" [ref=f3e1404]
+                - listitem [ref=f3e1416]:
+                  - button "Ranking plataformas empleo remoto" [ref=f3e1418] [cursor=pointer]:
+                    - generic [ref=f3e1420]:
+                      - button "Chat actions" [ref=f3e1421]
+                      - button "Pin chat" [ref=f3e1428]
+                - listitem [ref=f3e1440]:
+                  - button "USD trend map request" [ref=f3e1442] [cursor=pointer]:
+                    - generic [ref=f3e1444]:
+                      - button "Chat actions" [ref=f3e1445]
+                      - button "Pin chat" [ref=f3e1452]
+                - listitem [ref=f3e1464]:
+                  - button "AI Engineer Role Summary" [ref=f3e1466] [cursor=pointer]:
+                    - generic [ref=f3e1468]:
+                      - button "Chat actions" [ref=f3e1469]
+                      - button "Pin chat" [ref=f3e1476]
+                - listitem [ref=f3e1488]:
+                  - button "Error al dibujar circuito" [ref=f3e1490] [cursor=pointer]:
+                    - generic [ref=f3e1492]:
+                      - button "Chat actions" [ref=f3e1493]
+                      - button "Pin chat" [ref=f3e1500]
+                - listitem [ref=f3e1512]:
+                  - button "Cuenta de cobro Elizabeth" [ref=f3e1514] [cursor=pointer]:
+                    - generic [ref=f3e1516]:
+                      - button "Chat actions" [ref=f3e1517]
+                      - button "Pin chat" [ref=f3e1524]
+                - listitem [ref=f3e1536]:
+                  - button "Examen final Mecánica Cuántica" [ref=f3e1538] [cursor=pointer]:
+                    - generic [ref=f3e1540]:
+                      - button "Chat actions" [ref=f3e1541]
+                      - button "Pin chat" [ref=f3e1548]
+                - listitem [ref=f3e1560]:
+                  - button "Buscar en Gmail" [ref=f3e1562] [cursor=pointer]:
+                    - generic [ref=f3e1564]:
+                      - button "Chat actions" [ref=f3e1565]
+                      - button "Pin chat" [ref=f3e1572]
+                - listitem [ref=f3e1584]:
+                  - button "Conectar Outlook con OpenClaw" [ref=f3e1586] [cursor=pointer]:
+                    - generic [ref=f3e1588]:
+                      - button "Chat actions" [ref=f3e1589]
+                      - button "Pin chat" [ref=f3e1596]
+                - listitem [ref=f3e1608]:
+                  - button "Unir imagen jpg y gif" [ref=f3e1610] [cursor=pointer]:
+                    - generic [ref=f3e1612]:
+                      - button "Chat actions" [ref=f3e1613]
+                      - button "Pin chat" [ref=f3e1620]
+                - listitem [ref=f3e1632]:
+                  - button "Ranking de carpetas C/B" [ref=f3e1634] [cursor=pointer]:
+                    - generic [ref=f3e1636]:
+                      - button "Chat actions" [ref=f3e1637]
+                      - button "Pin chat" [ref=f3e1644]
+                - listitem [ref=f3e1656]:
+                  - button "Guía Ingeniero Senior IA" [ref=f3e1658] [cursor=pointer]:
+                    - generic [ref=f3e1660]:
+                      - button "Chat actions" [ref=f3e1661]
+                      - button "Pin chat" [ref=f3e1668]
+                - listitem [ref=f3e1680]:
+                  - button "Implementación QFT cíclica Qiskit" [ref=f3e1682] [cursor=pointer]:
+                    - generic [ref=f3e1684]:
+                      - button "Chat actions" [ref=f3e1685]
+                      - button "Pin chat" [ref=f3e1692]
+                - listitem [ref=f3e1704]:
+                  - button "Get BOT_TRAD_GITHUB_TOKEN" [ref=f3e1706] [cursor=pointer]:
+                    - generic [ref=f3e1708]:
+                      - button "Chat actions" [ref=f3e1709]
+                      - button "Pin chat" [ref=f3e1716]
+                - listitem [ref=f3e1728]:
+                  - button "Ranking modelos NVIDIA 2026" [ref=f3e1730] [cursor=pointer]:
+                    - generic [ref=f3e1732]:
+                      - button "Chat actions" [ref=f3e1733]
+                      - button "Pin chat" [ref=f3e1740]
+                - listitem [ref=f3e1752]:
+                  - status [ref=f3e1754]:
+                    - generic [ref=f3e1755]: Loading chats
+        - status [ref=f3e1765]
+      - generic [ref=f3e1766] [cursor=pointer]:
+        - button "Open profile menu" [ref=f3e1767]
+        - generic:
+          - generic:
+            - generic:
+              - generic: trochez
+              - generic: Plus
+    - separator [ref=f3e107]
+  - main [ref=f3e109]:
+    - group "Composer mode" [ref=f3e1769]:
+      - button "Chat" [pressed] [ref=f3e1770] [cursor=pointer]
+      - button "Work" [ref=f3e1771] [cursor=pointer]
+    - main [ref=f3e1778]:
+      - generic [ref=f3e1779]:
+        - heading "Ready when you are." [level=1] [ref=f3e1787]
+        - generic [ref=f3e1791]:
+          - generic [ref=f3e1795]:
+            - generic [ref=f3e1796]:
+              - button "Prepare the quantum programming lab due September 27" [ref=f3e1797] [cursor=pointer]
+              - button "Dismiss suggestion"
+            - generic [ref=f3e1804]:
+              - button "Give me a Monday briefing on AI engineering and software architecture changes relevant to my career" [ref=f3e1805] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f3e1807]: 🤖
+              - button "Dismiss suggestion"
+            - generic [ref=f3e1809]:
+              - button "Find the latest docs related to a project and summarize them." [ref=f3e1810] [cursor=pointer]
+              - button "Dismiss suggestion"
+          - generic [ref=f3e1819]:
+            - textbox "New chat in Bot_trading" [active] [ref=f3e1823]:
+              - paragraph: New chat in Bot_trading
+            - generic [ref=f3e1825]:
+              - button "Add files and more" [ref=f3e1828] [cursor=pointer]
+              - generic [ref=f3e1833]:
+                - 'button "Change project: Bot_trading" [ref=f3e1834] [cursor=pointer]':
+                  - generic [ref=f3e1835]: Bot_trading
+                - button "Don't work in a project"
+            - generic [ref=f3e1846]:
+              - button "Select ChatGPT model" [ref=f3e1850] [cursor=pointer]:
+                - generic [ref=f3e1851]: High
+              - generic [ref=f3e1861]:
+                - button "Dictate" [ref=f3e1864] [cursor=pointer]
+                - button "Send" [disabled] [ref=f3e1870] [cursor=pointer]
+  - status [ref=f3e1873]

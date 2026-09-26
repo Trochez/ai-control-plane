@@ -1,0 +1,28 @@
+- generic [ref=f6e4]:
+  - complementary [ref=f6e5]:
+    - generic [ref=f6e11]:
+      - generic [ref=f6e12]:
+        - generic [ref=f6e13]: ChatGPT
+        - generic [ref=f6e19]:
+          - button "Search" [ref=f6e21] [cursor=pointer]
+          - button "Hide sidebar" [expanded] [ref=f6e30] [cursor=pointer]
+      - navigation "Chat history" [ref=f6e35]:
+        - button "New chat" [ref=f6e39] [cursor=pointer]
+        - generic [ref=f6e51]:
+          - button "Scheduled" [ref=f6e52] [cursor=pointer]
+          - button "Library" [ref=f6e61] [cursor=pointer]
+          - button "Plugins" [ref=f6e69] [cursor=pointer]
+          - button "Explore" [ref=f6e78] [cursor=pointer]
+      - button "Open profile menu" [disabled] [ref=f6e96]:
+        - generic [ref=f6e97]:
+          - status [ref=f6e98]: Loading profile
+          - generic [ref=f6e102]:
+            - generic [ref=f6e103]: Juan Diego Trochez
+            - generic [ref=f6e104]: Plus
+    - generic:
+      - separator
+  - main [ref=f6e108]:
+    - generic [ref=f6e121]:
+      - button "Add files and more" [disabled] [ref=f6e124]
+      - textbox "Ask ChatGPT" [ref=f6e131]
+      - button "Send" [disabled] [ref=f6e134] [cursor=pointer]

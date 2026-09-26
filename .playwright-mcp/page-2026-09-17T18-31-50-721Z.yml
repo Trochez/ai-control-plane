@@ -1,0 +1,105 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e3]:
+    - generic [ref=f16e4]:
+      - link "logo Home" [ref=f16e5] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=f16e6]
+        - generic [ref=f16e7]: Home
+      - generic [ref=f16e9] [cursor=pointer]:
+        - img "list" [ref=f16e10]
+        - text: Projects
+      - text: ★
+      - link "list Create new" [ref=f16e12] [cursor=pointer]:
+        - /url: /x/new_project
+        - img "list" [ref=f16e13]
+        - generic [ref=f16e14]: Create new
+    - generic [ref=f16e15]:
+      - img "tromon92" [ref=f16e17] [cursor=pointer]
+      - generic [ref=f16e18] [cursor=pointer]
+  - generic [ref=f16e21]:
+    - generic [ref=f16e23]:
+      - link "bot_trading" [ref=f16e25] [cursor=pointer]:
+        - /url: /projects/bot_trading
+      - text: ›
+      - link "feature/GRU" [ref=f16e27] [cursor=pointer]:
+        - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - text: ›
+      - link "noop" [ref=f16e29] [cursor=pointer]:
+        - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+      - text: › Core CI contracts
+    - generic [ref=f16e31]:
+      - generic [ref=f16e32]:
+        - generic [ref=f16e33]: Project
+        - generic [ref=f16e34]:
+          - link "bot_trading" [ref=f16e35] [cursor=pointer]:
+            - /url: /projects/bot_trading
+          - link [ref=f16e36] [cursor=pointer]:
+            - /url: /projects/bot_trading/settings/general
+      - generic [ref=f16e38]: ›
+      - generic [ref=f16e39]:
+        - generic [ref=f16e40]: Branch
+        - link "feature/GRU" [ref=f16e41] [cursor=pointer]:
+          - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - generic [ref=f16e42]: ›
+      - generic [ref=f16e43]:
+        - generic [ref=f16e44]: Workflow
+        - link "noop" [ref=f16e45] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+        - text: (
+        - link "258a111 ↗" [ref=f16e46] [cursor=pointer]:
+          - /url: https://github.com/Trochez/bot_trading/commit/258a111c031dee9643cffb920518fcc1ca392565
+        - text: )
+      - generic [ref=f16e47]: ›
+      - generic [ref=f16e48]:
+        - generic [ref=f16e49]: Pipeline
+        - link "GRU Semaphore production fallback" [ref=f16e50] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+      - generic [ref=f16e51]: ›
+      - generic [ref=f16e52]:
+        - generic [ref=f16e53]: Block
+        - text: GRU validation
+    - generic [ref=f16e54]:
+      - generic [ref=f16e55]:
+        - heading "Core CI contracts" [level=1] [ref=f16e56]
+        - generic [ref=f16e57]: Failed
+      - generic [ref=f16e59]:
+        - link "Rerun Workflow" [ref=f16e60] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/rebuild
+        - link [ref=f16e62] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/edit
+          - button "Edit Workflow" [ref=f16e63]
+    - generic [ref=f16e64]: by Trochez · started Thu 17th Sep 2026 at 12:05
+    - generic [ref=f16e65]:
+      - link "Job log" [ref=f16e66] [cursor=pointer]:
+        - /url: /jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3
+      - link "Tests" [ref=f16e69] [cursor=pointer]:
+        - /url: /jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3/summary
+      - link "Artifacts" [ref=f16e73] [cursor=pointer]:
+        - /url: /jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3/artifacts
+      - link "Report" [ref=f16e77] [cursor=pointer]:
+        - /url: /jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3/report
+    - generic [ref=f16e82]:
+      - generic [ref=f16e83]:
+        - generic [ref=f16e84]: "Total Time:"
+        - generic [ref=f16e85]: 00:11
+      - generic [ref=f16e86]:
+        - link [ref=f16e88] [cursor=pointer]:
+          - /url: /jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3/plain_logs.txt
+          - img "arrow pointing top-right" [ref=f16e89]
+          - text: Raw
+        - generic [ref=f16e90]:
+          - generic [ref=f16e91] [cursor=pointer]:
+            - img "console" [ref=f16e92]
+            - text: CLI
+          - generic [ref=f16e93]: ·
+          - generic [ref=f16e94] [cursor=pointer]: SSH Debug
+        - generic [ref=f16e96] [cursor=pointer]:
+          - img "cogwheel" [ref=f16e97]
+          - text: Preferences
+    - generic [ref=f16e100]:
+      - link "↑" [ref=f16e101] [cursor=pointer]:
+        - /url: "#top"
+      - link "↓" [ref=f16e102] [cursor=pointer]:
+        - /url: "#bottom"
+    - group [ref=f16e106]:
+      - generic "Job Details Failed" [ref=f16e107] [cursor=pointer]

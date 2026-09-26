@@ -1,0 +1,93 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e4]:
+    - complementary [ref=f6e5]:
+      - generic [ref=f6e8]:
+        - navigation "App navigation" [ref=f6e9]:
+          - generic [ref=f6e10]:
+            - button "Home" [ref=f6e12] [cursor=pointer]
+            - button "Scheduled" [ref=f6e17] [cursor=pointer]
+            - button "Library" [ref=f6e23] [cursor=pointer]
+            - button "Images" [ref=f6e28] [cursor=pointer]
+            - button "Plugins" [ref=f6e34] [cursor=pointer]
+            - button "Explore" [ref=f6e39] [cursor=pointer]
+          - generic [ref=f6e47]:
+            - button "Help menu" [ref=f6e50] [cursor=pointer]
+            - button "Open profile menu" [ref=f6e59] [cursor=pointer]
+        - navigation "Home" [ref=f6e66]:
+          - generic [ref=f6e67]:
+            - generic [ref=f6e68]:
+              - generic [ref=f6e69]: ChatGPT
+              - generic [ref=f6e77]:
+                - button "Search" [ref=f6e79] [cursor=pointer]
+                - button "View activity" [ref=f6e87] [cursor=pointer]
+                - button "Hide sidebar" [expanded] [ref=f6e92] [cursor=pointer]
+            - button "New chat" [ref=f6e98] [cursor=pointer]
+          - generic [ref=f6e142]:
+            - generic [ref=f6e145]:
+              - generic [ref=f6e146]:
+                - button "Projects" [expanded] [ref=f6e149] [cursor=pointer]
+                - generic
+              - list [ref=f6e161]:
+                - listitem [ref=f6e162]
+                - listitem [ref=f6e192]
+                - listitem [ref=f6e222]
+                - listitem [ref=f6e252]
+                - listitem [ref=f6e282]
+            - generic [ref=f6e315]:
+              - generic [ref=f6e316]:
+                - button "Recents" [expanded] [ref=f6e319] [cursor=pointer]
+                - generic
+              - list [ref=f6e326]:
+                - listitem [ref=f6e327]
+                - listitem [ref=f6e351]
+                - listitem [ref=f6e375]
+                - listitem [ref=f6e399]
+                - listitem [ref=f6e423]
+                - listitem [ref=f6e447]
+                - listitem [ref=f6e471]
+                - listitem [ref=f6e495]
+                - listitem [ref=f6e519]
+                - listitem [ref=f6e543]
+                - listitem [ref=f6e567]
+      - separator [ref=f6e109]
+    - generic [ref=f6e110]:
+      - main [ref=f6e112]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic
+            - generic [ref=f6e587]:
+              - button "Share" [ref=f6e589] [cursor=pointer]
+              - button "More" [ref=f6e593] [cursor=pointer]
+        - generic [ref=f6e608]:
+          - generic [ref=f6e609]:
+            - generic [ref=f6e613]:
+              - generic [ref=f6e616]:
+                - separator "Wednesday 1:20 AM" [ref=f6e617]
+                - generic [ref=f6e622]
+              - generic [ref=f6e842]:
+                - separator "Wednesday 4:55 PM" [ref=f6e843]
+                - generic [ref=f6e847]
+              - generic [ref=f6e948]:
+                - separator "Wednesday 6:52 PM" [ref=f6e949]
+                - generic [ref=f6e953]
+              - generic [ref=f6e1072]:
+                - separator "Today 12:05 AM" [ref=f6e1073]
+                - generic [ref=f6e1077]
+            - generic [ref=f6e1185]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+              - heading "Latest response" [level=4] [ref=f6e1188]
+              - status [ref=f6e1189]
+              - generic [ref=f6e1200]:
+                - button "Add files and more" [ref=f6e1205] [cursor=pointer]
+                - textbox "Ask ChatGPT" [active] [ref=f6e1211]
+                - generic [ref=f6e1213]
+      - status [ref=f6e1243]
+  - status [ref=f6e1244]
+  - status [ref=f6e1245]
+  - status [ref=f6e1246]
+  - status [ref=f6e1247]

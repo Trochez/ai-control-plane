@@ -1,0 +1,11 @@
+{
+  "team_name": "live-observer-fix",
+  "created_at": "2026-09-24T05:32:58.523615+00:00",
+  "worker_count": 3,
+  "status": "active",
+  "tasks": [
+    "task-1",
+    "task-2",
+    "task-3"
+  ]
+}

@@ -1,0 +1,470 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e8]:
+        - navigation "App navigation" [ref=e9]:
+          - generic [ref=e10]:
+            - button "Home" [ref=e12] [cursor=pointer]
+            - button "Scheduled" [ref=e17] [cursor=pointer]
+            - button "Library" [ref=e23] [cursor=pointer]
+            - button "Images" [ref=e28] [cursor=pointer]
+            - button "Plugins" [ref=e34] [cursor=pointer]
+            - button "Explore" [ref=e39] [cursor=pointer]
+          - generic [ref=e47]:
+            - button "Help menu" [ref=e50] [cursor=pointer]
+            - button "Open profile menu" [ref=e59] [cursor=pointer]
+        - navigation "Home" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ChatGPT
+              - generic [ref=e76]:
+                - button "Search" [ref=e78] [cursor=pointer]
+                - button "View activity" [ref=e86] [cursor=pointer]
+                - button "Hide sidebar" [expanded] [ref=e91] [cursor=pointer]
+            - button "New chat" [ref=e97] [cursor=pointer]
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - button "Projects" [expanded] [ref=e115] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Project sidebar options"
+                      - button "Add new project" [ref=e120] [cursor=pointer]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - button "zircon_practica_unir" [ref=e132] [cursor=pointer]:
+                    - button "Project actions for zircon_practica_unir" [ref=e145]
+                    - button "New chat in zircon_practica_unir" [ref=e153]
+                - listitem [ref=e158]:
+                  - button "agentic_pipeline" [ref=e162] [cursor=pointer]:
+                    - button "Project actions for agentic_pipeline" [ref=e175]
+                    - button "New chat in agentic_pipeline" [ref=e183]
+                - listitem [ref=e188]:
+                  - button "body_finder_fast" [ref=e192] [cursor=pointer]:
+                    - button "Project actions for body_finder_fast" [ref=e205]
+                    - button "New chat in body_finder_fast" [ref=e213]
+                - listitem [ref=e218]:
+                  - button "Bot_trading" [ref=e222] [cursor=pointer]:
+                    - button "Project actions for Bot_trading" [ref=e235]
+                    - button "New chat in Bot_trading" [ref=e243]
+                - listitem [ref=e248]:
+                  - button "ubuntu problems" [ref=e252] [cursor=pointer]:
+                    - button "Project actions for ubuntu problems" [ref=e265]
+                    - button "New chat in ubuntu problems" [ref=e273]
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - button "Recents" [expanded] [ref=e285] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Chat sidebar options"
+                      - button "Filter chats and work"
+                      - generic:
+                        - button "New chat"
+              - list [ref=e292]:
+                - listitem [ref=e293]:
+                  - button "Modelo más potente en ChatGPT" [ref=e295] [cursor=pointer]:
+                    - generic [ref=e297]:
+                      - button "Chat actions" [ref=e298]
+                      - button "Pin chat" [ref=e305]
+                - listitem [ref=e365]:
+                  - button "Implementación CI completada" [ref=e367] [cursor=pointer]:
+                    - generic [ref=e369]:
+                      - button "Chat actions" [ref=e370]
+                      - button "Pin chat" [ref=e377]
+                - listitem [ref=e413]:
+                  - button "Ejecuta acción lectura Semaphore" [ref=e415] [cursor=pointer]:
+                    - generic [ref=e417]:
+                      - button "Chat actions" [ref=e418]
+                      - button "Pin chat" [ref=e425]
+                - listitem [ref=e317]:
+                  - button "Enlaces de compra ranking" [ref=e319] [cursor=pointer]:
+                    - generic [ref=e321]:
+                      - button "Chat actions" [ref=e322]
+                      - button "Pin chat" [ref=e329]
+                - listitem [ref=e341]:
+                  - button "Ranking precio calidad LLM local" [ref=e343] [cursor=pointer]:
+                    - generic [ref=e345]:
+                      - button "Chat actions" [ref=e346]
+                      - button "Pin chat" [ref=e353]
+                - listitem [ref=e389]:
+                  - button "Diagnóstico CI Semaphore" [ref=e391] [cursor=pointer]:
+                    - generic [ref=e393]:
+                      - button "Chat actions" [ref=e394]
+                      - button "Pin chat" [ref=e401]
+                - listitem [ref=e437]:
+                  - button "Resolver bolas azules y rojas" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e441]:
+                      - button "Chat actions" [ref=e442]
+                      - button "Pin chat" [ref=e449]
+                - listitem [ref=e461]:
+                  - button "Ranking RTX 5070 Ti" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e465]:
+                      - button "Chat actions" [ref=e466]
+                      - button "Pin chat" [ref=e473]
+                - listitem [ref=e485]:
+                  - button "Ranking pantallas OLED 2K" [ref=e487] [cursor=pointer]:
+                    - generic [ref=e489]:
+                      - button "Chat actions" [ref=e490]
+                      - button "Pin chat" [ref=e497]
+                - listitem [ref=e509]:
+                  - button "Ranking monitores OLED 4K" [ref=e511] [cursor=pointer]:
+                    - generic [ref=e513]:
+                      - button "Chat actions" [ref=e514]
+                      - button "Pin chat" [ref=e521]
+                - listitem [ref=e533]:
+                  - status [ref=e535]:
+                    - generic [ref=e536]: Loading chats
+      - separator [ref=e547]
+    - generic [ref=e548]:
+      - main [ref=e550]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=e635] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=e552]:
+              - button "Share" [ref=e554] [cursor=pointer]
+              - button "More" [ref=e558] [cursor=pointer]
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - generic [ref=e642]:
+              - generic [ref=e871]:
+                - separator "Wednesday 4:55 PM" [ref=e872]:
+                  - time [ref=e873]: Wednesday 4:55 PM
+                - generic [ref=e876]:
+                  - generic [ref=e877]:
+                    - generic [ref=e878]:
+                      - heading "You said:" [level=4] [ref=e879]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]: "[AI_LOOP_DELIVERY id=failure-evidence-025d7f19b1dd83b26733] Combined read-only failure evidence is attached for exact candidate_sha=None run_id=None pipeline_id=4df05bd2-6a81-41dc-9dfe-9e0051cd602c. Semaphore evidence and exact-SHA temporary-clone investigation are included. Local reproduction status=NOT_EXECUTED_NO_SAFE_EXTRACTED_COMMAND. Review this evidence before diagnosis; request only additional exact operator actions if needed. Do not rerun Semaphore yet."
+                        - generic [ref=e891]:
+                          - button "Copy message" [ref=e893] [cursor=pointer]
+                          - button "Share prompt" [ref=e897] [cursor=pointer]
+                          - button "See versions" [ref=e1394] [cursor=pointer]
+                          - button "Edit message" [ref=e1399] [cursor=pointer]
+                    - generic [ref=e913]:
+                      - button "Worked for 2m 32s" [ref=e914] [cursor=pointer]
+                      - generic: Worked for 2m 32s
+                    - generic [ref=e916]:
+                      - heading "ChatGPT said:" [level=4] [ref=e917]
+                      - generic [ref=e919]:
+                        - paragraph [ref=e920]:
+                          - text: Ejecuta esta acción exacta en el
+                          - strong [ref=e921]: control plane local
+                          - text: ". Es exclusivamente de lectura sobre Semaphore; no dispara ni reintenta ningún pipeline:"
+                        - generic [ref=e923]:
+                          - generic [ref=e924]:
+                            - generic [ref=e929]: Bash
+                            - generic [ref=e931]:
+                              - button "Enable word wrap" [ref=e933] [cursor=pointer]
+                              - button "Copy" [ref=e939] [cursor=pointer]
+                          - code [ref=e943]: "set -Eeuo pipefail umask 077 SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" BRANCH=\"feature/GRU\" SEM_WF=\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\" SEM_PPL=\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\" E=\"/tmp/ai-loop-sem-readonly-${SHA:0:12}-$(date -u +%Y%m%dT%H%M%SZ)\" mkdir -p \"$E\" fail() { echo \"READONLY_EVIDENCE=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } for c in curl jq grep tail sha256sum; do command -v \"$c\" >/dev/null 2>&1 || fail \"MISSING_COMMAND:$c\" 91 done if [ -f /opt/ai-loop/ai-loop.env ]; then set -a # shellcheck disable=SC1091 source /opt/ai-loop/ai-loop.env set +a fi SEM_TOKEN=\"${SEMAPHORE_API_TOKEN:-${SEMAPHORE_TOKEN:-}}\" SEM_BASE=\"${SEMAPHORE_API_URL:-${SEMAPHORE_ORG_URL:-${SEMAPHORE_URL:-${SEMAPHORE_SERVER_URL:-}}}}\" [ -n \"$SEM_TOKEN\" ] || fail \"SEMAPHORE_TOKEN_NOT_AVAILABLE\" 92 [ -n \"$SEM_BASE\" ] || fail \"SEMAPHORE_BASE_URL_NOT_AVAILABLE\" 93 SEM_BASE=\"${SEM_BASE%/}\" case \"$SEM_BASE\" in */api/v1alpha) SEM_API=\"$SEM_BASE\" ;; *) SEM_API=\"$SEM_BASE/api/v1alpha\" ;; esac curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/plumber-workflows/$SEM_WF\" \\ > \"$E/workflow.json\" \\ || fail \"WORKFLOW_FETCH_FAILED\" 101 curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/pipelines/$SEM_PPL?detailed=true\" \\ > \"$E/pipeline.json\" \\ || fail \"PIPELINE_FETCH_FAILED\" 102 WF_ID=\"$(jq -r '(.workflow // .).wf_id // empty' \"$E/workflow.json\")\" WF_SHA=\"$(jq -r '(.workflow // .).commit_sha // empty' \"$E/workflow.json\")\" WF_BRANCH=\"$(jq -r '(.workflow // .).branch_name // empty' \"$E/workflow.json\")\" PPL_ID=\"$(jq -r '(.pipeline // .).ppl_id // empty' \"$E/pipeline.json\")\" PPL_WF=\"$(jq -r '(.pipeline // .).wf_id // empty' \"$E/pipeline.json\")\" [ \"$WF_ID\" = \"$SEM_WF\" ] || fail \"WORKFLOW_ID_MISMATCH:$WF_ID\" 111 [ \"$WF_SHA\" = \"$SHA\" ] || fail \"WORKFLOW_SHA_MISMATCH:$WF_SHA\" 112 [ \"$WF_BRANCH\" = \"$BRANCH\" ] || fail \"WORKFLOW_BRANCH_MISMATCH:$WF_BRANCH\" 113 [ \"$PPL_ID\" = \"$SEM_PPL\" ] || fail \"PIPELINE_ID_MISMATCH:$PPL_ID\" 114 [ \"$PPL_WF\" = \"$SEM_WF\" ] || fail \"PIPELINE_WORKFLOW_MISMATCH:$PPL_WF\" 115 echo \"===== EXACT IDENTITY =====\" jq '(.workflow // .) | { wf_id, commit_sha, branch_name, created_at, rerun_of }' \"$E/workflow.json\" jq '(.pipeline // .) | { ppl_id, wf_id, name, state, result, result_reason, error_description, branch_name, yaml_file_name, created_at, running_at, done_at }' \"$E/pipeline.json\" jq -r ' (.blocks // [])[] as $b | ($b.jobs // [])[] | [ ($b.name // \"\"), (.name // \"\"), (.job_id // .id // \"\"), (.status // .state // \"\"), (.result // \"\") ] | @tsv ' \"$E/pipeline.json\" > \"$E/jobs.tsv\" echo \"===== ALL JOBS =====\" cat \"$E/jobs.tsv\" mkdir -p \"$E/jobs\" : > \"$E/non-success-summary.txt\" while IFS=$'\\t' read -r block job jid status result; do [ -n \"$jid\" ] || continue curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/jobs/$jid\" \\ > \"$E/jobs/$jid.metadata.json\" || true http=\"$( curl -sSL \\ -o \"$E/jobs/$jid.log.raw\" \\ -w '%{http_code}' \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/logs/$jid\" )\" case \"${result,,}:${status,,}\" in *failed*|*failure*|*stopped*|*cancelled*|*canceled*|*error*) { echo \"============================================================\" echo \"BLOCK=$block\" echo \"JOB=$job\" echo \"JOB_ID=$jid\" echo \"STATUS=$status\" echo \"RESULT=$result\" echo \"LOG_HTTP=$http\" if [[ \"$http\" =~ ^2 ]] && jq -e . \"$E/jobs/$jid.log.raw\" >/dev/null 2>&1; then echo \"--- NONZERO DIRECTIVES ---\" jq -r ' [ .. | objects | select( .exit_code? != null and (((.exit_code|tonumber?) // 0) != 0) ) | { directive:(.directive // .command // .name // \"UNKNOWN\"), exit_code, started_at, finished_at, output:(.output // .message // .text // null) } ] ' \"$E/jobs/$jid.log.raw\" echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo elif [[ \"$http\" =~ ^2 ]]; then echo \"--- FAILURE LINES ---\" grep -nEi \\ 'exit code|exited with|command failed|failed|error:|fatal:|permission denied|timed out|timeout|not found|denied|stopped|cancel' \\ \"$E/jobs/$jid.log.raw\" | head -250 || true echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo else echo \"LOG_UNAVAILABLE_HTTP=$http\" fi } >> \"$E/non-success-summary.txt\" ;; esac done < \"$E/jobs.tsv\" echo \"===== NON-SUCCESS JOB EVIDENCE =====\" cat \"$E/non-success-summary.txt\" echo \"===== EVIDENCE DIGEST =====\" sha256sum \"$E/workflow.json\" \"$E/pipeline.json\" \"$E/jobs.tsv\" \"$E/non-success-summary.txt\" echo \"SEMAPHORE_RERUN=NO\" echo \"SEMAPHORE_RETRY=NO\" echo \"SEMAPHORE_MUTATION=NO\" echo \"REPOSITORY_MUTATION=NO\" echo \"VPS_MUTATION=NO\" echo \"EVIDENCE_DIR=$E\" echo \"READONLY_EVIDENCE=PASS\""
+                        - paragraph [ref=e944]: "No se debe crear otro commit: 0c11a13e… ya es el HEAD remoto y corresponde al commit v4.6 existente. El siguiente paso depende únicamente del resultado de esta acción; con block/job/directive/exit_code podremos distinguir un defecto real de v4.6 de un fallo de infraestructura o una detención externa, sin gastar otro run de Semaphore."
+                  - generic [ref=e946]:
+                    - button "Copy" [ref=e948] [cursor=pointer]
+                    - button "Rate response" [ref=e952] [cursor=pointer]
+                    - button "Share" [ref=e956] [cursor=pointer]
+                    - button "Add to project sources" [ref=e961] [cursor=pointer]
+                    - button "Regenerate response" [ref=e1402] [cursor=pointer]
+                    - button "More actions" [ref=e969] [cursor=pointer]
+              - generic [ref=e977]:
+                - separator "Wednesday 6:52 PM" [ref=e978]:
+                  - time [ref=e979]: Wednesday 6:52 PM
+                - generic [ref=e982]:
+                  - generic [ref=e983]:
+                    - generic [ref=e984]:
+                      - heading "You said:" [level=4] [ref=e985]
+                      - generic [ref=e988]:
+                        - generic [ref=e989]: "[AI_LOOP_DELIVERY id=diagnosis-0c11a13e0c6c] /skillsbench best diagnosis with list of all granular causes of last failure in. md file with datetime in filename"
+                        - generic [ref=e997]:
+                          - button "Copy message" [ref=e999] [cursor=pointer]
+                          - button "Share prompt" [ref=e1003] [cursor=pointer]
+                          - button "Edit message" [ref=e1407] [cursor=pointer]
+                    - generic [ref=e1014]:
+                      - button "Worked for 4m 3s" [ref=e1015] [cursor=pointer]
+                      - generic: Worked for 4m 3s
+                    - generic [ref=e1017]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1018]
+                      - generic [ref=e1019]:
+                        - generic [ref=e1020]:
+                          - paragraph [ref=e1021]: He terminado el diagnóstico granular y lo dejé en un .md fechado.
+                          - paragraph [ref=e1022]:
+                            - text: La conclusión principal es que
+                            - strong [ref=e1023]: no existe evidencia de que el último fallo haya sido causado por un test o defecto del commit 0c11a13e…
+                            - text: . Semaphore terminó realmente con raw_state=done y raw_result=stopped; ci-status lo degradó a un FAILURE genérico.
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=e1027] [cursor=pointer]:
+                              - generic [ref=e1033]: Pasted text(20260923-192112)
+                          - paragraph [ref=e1034]:
+                            - text: "Además encontré varios fallos independientes en la cadena de diagnóstico: polling repetidamente UNKNOWN, pérdida intermitente de provider/run, timeouts de 120 segundos, incapacidad para recuperar los anchors exactos de Semaphore y un bundle que declara STATUS=PASS aunque deja vacíos CANDIDATE_SHA, RUN_ID, PIPELINE_RESULT, failed job y step."
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=e1038] [cursor=pointer]:
+                              - generic [ref=e1044]: Pasted text(20260923-192112)
+                            - button "Open preview of failure-evidence-bundle-025d7f19b1dd83b26733.txt" [ref=e1048] [cursor=pointer]:
+                              - generic [ref=e1054]: failure-evidence-bundle-025d7f1…
+                          - paragraph [ref=e1055]:
+                            - text: El documento distingue
+                            - strong [ref=e1056]: 12+ causas/factores granulares
+                            - text: ", separando claramente causa terminal, defectos del observador, bloqueos de evidencia y factores que"
+                            - strong [ref=e1057]: "no"
+                            - text: pueden atribuirse al fallo. También mantiene explícitamente bloqueado el rerun de Semaphore hasta clasificar por qué fue stopped.
+                          - paragraph [ref=e1058]: "SHA-256 del diagnóstico: 8cfabeb4b366004dd445958b9657a42ca88952bd93c46edfa7a52e8942559c64."
+                        - generic [ref=e1062]:
+                          - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md" [ref=e1063] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md"
+                              - generic: Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Download file"
+                  - generic [ref=e1065]:
+                    - button "Copy" [ref=e1067] [cursor=pointer]
+                    - button "Rate response" [ref=e1071] [cursor=pointer]
+                    - button "Share" [ref=e1075] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1080] [cursor=pointer]
+                    - button "Regenerate response" [ref=e1410] [cursor=pointer]
+                    - button "More actions" [ref=e1088] [cursor=pointer]
+                    - button "Sources" [ref=e1095] [cursor=pointer]
+              - generic [ref=e1101]:
+                - separator "Today 12:05 AM" [ref=e1102]:
+                  - time [ref=e1103]: Today 12:05 AM
+                - generic [ref=e1106]:
+                  - generic [ref=e1107]:
+                    - generic [ref=e1108]:
+                      - heading "You said:" [level=4] [ref=e1109]
+                      - generic [ref=e1112]:
+                        - generic [ref=e1114]:
+                          - generic [ref=e1115]:
+                            - generic [ref=e1116]: "This message is the result of the previously requested canonical operator action for authoritative run R20260923T012014. The action terminated with exit_code=91. The literal execution result was: READONLY_EVIDENCE=FAILED BLOCKER=MISSING_COMMAND:jq EVIDENCE_DIR=/tmp/ai-loop-sem-readonly-0c11a13e0c6c-20260924T194331Z No retry was performed. No repository, Semaphore, VPS, bot_trading, production, or outbound mutation was observed from that failed execution. The action MUST NOT be rerun. The previously generated diagnosis was provisional because it was generated before this failed operator result was delivered. Please reconcile/update the existing diagnosis using this literal operator result and continue from the corrected state. OPERATOR_RESULT_DELIVERY_ID=operator-result-delivery-b677dccd08404429a20721413bfdc9ed"
+                            - generic [aria-hidden] [ref=e1119]: …
+                          - button "Show more" [ref=e1120] [cursor=pointer]
+                        - generic [ref=e1126]:
+                          - button "Copy message" [ref=e1128] [cursor=pointer]
+                          - button "Share prompt" [ref=e1132] [cursor=pointer]
+                          - button "Edit message" [ref=e1415] [cursor=pointer]
+                    - generic [ref=e1143]:
+                      - button "Worked for 2m 18s" [ref=e1144] [cursor=pointer]
+                      - generic: Worked for 2m 18s
+                    - generic [ref=e1146]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1147]
+                      - generic [ref=e1148]:
+                        - generic [ref=e1149]:
+                          - paragraph [ref=e1150]: He reconciliado el diagnóstico con el resultado literal de la acción canónica. El documento original quedó actualizado y también dejé una copia versionada de la reconciliación.
+                          - paragraph [ref=e1151]:
+                            - text: "La corrección fundamental es esta:"
+                            - strong [ref=e1152]: la acción canónica no obtuvo ninguna evidencia nueva de Semaphore
+                            - text: . Terminó antes de realizar las consultas remotas con exit_code=91 por MISSING_COMMAND:jq. Por tanto, ese resultado no confirma fallo de API, autenticación, anchors, jobs ni tests. Tampoco modifica la conclusión previa de que el pipeline terminó como raw_state=done / raw_result=stopped, cuya causa/actor continúa sin determinarse.
+                          - paragraph [ref=e1153]: "El estado corregido queda así: CANONICAL_READONLY_ACTION=FAILED_LOCAL_PRECHECK, CANONICAL_ACTION_REACHED_SEMAPHORE_API=NO, CANONICAL_ACTION_RETRIED=NO, CANONICAL_ACTION_MUST_NOT_RERUN=YES, SAFE_TO_RERUN_SEMAPHORE=NO_NOT_YET_CLASSIFIED y FINAL_GO=NO. También añadí C-14, que identifica la dependencia no satisfecha de jq como un defecto del mecanismo diagnóstico, no del candidato ni de Semaphore."
+                          - paragraph [ref=e1154]: "SHA-256 de ambos: 5a6aa0fa371488bcb7664ec9703b4e04f6376fba1e65201ef032e4231b905cc7."
+                          - paragraph [ref=e1155]:
+                            - text: El siguiente paso correcto
+                            - strong [ref=e1156]: no es repetir esa acción ni relanzar Semaphore
+                            - text: . Debe ser una acción nueva, read-only y distinta, que consulte los mismos IDs autoritativos sin depender de jq —preferiblemente usando python3 y su biblioteca estándar, que ya forma parte del runtime del controlador— para recuperar workflow, pipeline, jobs y el motivo/actor del stopped.
+                        - generic [ref=e1159]:
+                          - generic [ref=e1160]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md" [ref=e1161] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                          - generic [ref=e1162]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md" [ref=e1163] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                  - generic [ref=e1165]:
+                    - button "Copy" [ref=e1167] [cursor=pointer]
+                    - button "Rate response" [ref=e1171] [cursor=pointer]
+                    - button "Share" [ref=e1175] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1180] [cursor=pointer]
+                    - button "Regenerate response" [ref=e1418] [cursor=pointer]
+                    - button "More actions" [ref=e1188] [cursor=pointer]
+                    - button "Sources" [ref=e1194] [cursor=pointer]
+              - generic [ref=e1273]:
+                - separator "Today 3:18 AM" [ref=e1274]:
+                  - time [ref=e1275]: Today 3:18 AM
+                - generic [ref=e1278]:
+                  - generic [ref=e1279]:
+                    - generic [ref=e1280]:
+                      - heading "You said:" [level=4] [ref=e1281]
+                      - generic [ref=e1284]:
+                        - generic [ref=e1286]:
+                          - generic [ref=e1287]:
+                            - generic [ref=e1288]: "This is the additional read-only Semaphore evidence previously requested. Identity verification passed. - Pipeline state: done - Pipeline result: stopped - RESULT_REASON=test - STOP_REASON=UNKNOWN - STOP_ACTOR=UNKNOWN - TERMINATED_BY=UNKNOWN - Blocks endpoint: HTTP 404 - Jobs endpoint: HTTP 404 - SHA-256 evidence manifest validation: passed - No Semaphore mutation occurred. - No repository, VPS, or production mutation occurred. No additional Semaphore query should be requested unless materially new evidence is needed. The historical jq-based action remains terminal and MUST NOT be retried. Please reconcile this evidence and provide the exact next action. ADDITIONAL_SEMAPHORE_EVIDENCE_DELIVERY_EE54D9160A514E2384B9AED3089D3524"
+                            - generic [aria-hidden] [ref=e1291]: …
+                          - button "Show more" [ref=e1292] [cursor=pointer]
+                        - generic [ref=e1298]:
+                          - button "Copy message" [ref=e1300] [cursor=pointer]
+                          - button "Share prompt" [ref=e1304] [cursor=pointer]
+                          - button "Edit message" [ref=e1423] [cursor=pointer]
+                    - generic [ref=e1332]:
+                      - button "Worked for 44s" [ref=e1333] [cursor=pointer]
+                      - generic: Worked for 44s
+                    - generic [ref=e1335]:
+                      - generic [ref=e1336]:
+                        - button "Analysis paused" [expanded] [ref=e1362] [cursor=pointer]
+                        - generic: Analysis paused
+                      - generic [ref=e1339]:
+                        - generic [ref=e1340]:
+                          - generic [ref=e1345]: Python
+                          - button "Copy" [ref=e1349] [cursor=pointer]
+                        - code [ref=e1353]:
+                          - generic [ref=e1354]:
+                            - generic [ref=e1355]: from pathlib import Path
+                            - generic [ref=e1356]: from datetime import datetime
+                            - generic [ref=e1357]: import hashlib
+                            - generic [ref=e1358]: src = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md")
+                            - generic [ref=e1359]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md")
+                            - generic [ref=e1360]: base = src.read_text(encoding="utf-8") if src.exists() else "# AI Loop last failure diagnosis\n"
+                            - generic [ref=e1361]: update = r"""
+                            - text: "--- # Reconciliation v2 — Additional authoritative Semaphore evidence **Local reconciliation timestamp:** 2026-09-25T03:18:00-05:00 **Authoritative run:** `R20260923T012014` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Pipeline:** `4df05bd2-6a81-41dc-9dfe-9e0051cd602c` ## Newly established facts The additional read-only evidence verified pipeline identity and established: ```text PIPELINE_STATE=done PIPELINE_RESULT=stopped RESULT_REASON=test STOP_REASON=UNKNOWN STOP_ACTOR=UNKNOWN TERMINATED_BY=UNKNOWN BLOCKS_ENDPOINT_HTTP=404 JOBS_ENDPOINT_HTTP=404 EVIDENCE_MANIFEST_SHA256=PASS SEMAPHORE_MUTATION=NO REPOSITORY_MUTATION=NO VPS_MUTATION=NO PRODUCTION_MUTATION=NO ``` The historical jq-based evidence action remains terminal: ```text HISTORICAL_JQ_ACTION=FAILED_LOCAL_PRECHECK EXIT_CODE=91 BLOCKER=MISSING_COMMAND:jq MUST_NOT_RETRY=YES ``` ## Corrected interpretation 1. The authoritative Semaphore pipeline did **not** finish successfully. Its terminal provider state is `done/stopped`. 2. `RESULT_REASON=test` materially narrows the failure classification toward the test/validation path, but it does **not** identify a concrete failed test, command, job, actor, or stop mechanism. 3. Because `STOP_REASON`, `STOP_ACTOR`, and `TERMINATED_BY` are all `UNKNOWN`, the evidence does not prove whether the stop was generated by a failing validation command, provider-side behavior, an external actor, or another orchestration condition. 4. The 404 responses from the blocks/jobs endpoints prevent retrospective attribution to a specific Semaphore block/job through those endpoints. 5. No new Semaphore query should be requested unless materially new evidence becomes necessary. 6. The prior jq-based action must never be rerun. 7. There is still no evidence that justifies a new repository commit, amend, revert, cherry-pick, or push. 8. There is still no basis for rerunning Semaphore yet; first isolate whether the exact candidate fails its versioned read-only validation commands locally. ## Exact next diagnostic boundary The exact candidate's `.semaphore/semaphore-production.yml` defines the first fallback block as: ```text GRU validation └─ Core CI contracts ``` This block contains only repository validation/unit/syntax/static-contract checks. Later blocks perform SSH, full-corpus acceptance, production deployment, and P2 acceptance and **must not** be executed during diagnosis. Therefore the next action is: ```text LOCAL_EXACT_SHA_READONLY_REPRODUCTION_OF_GRU_VALIDATION_ONLY ``` It must: - clone/copy the existing local repository into an isolated temporary directory; - checkout exactly `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390`; - create only a temporary local `feature/GRU` branch so the Semaphore branch invariant is faithfully reproduced; - set only `SEMAPHORE_WORKFLOW_TRIGGERED_BY_API=true`; - execute the `Core CI contracts` validation commands one granular step at a time; - capture stdout/stderr and each exit code; - stop at the first non-zero result; - never execute any later production/VPS block; - never query or mutate Semaphore; - never modify the source checkout; - never push, commit, deploy, SSH, or access production. ## Decision table after the next action | Result | Interpretation | Next state | |---|---|---| | A validation step fails locally | Concrete candidate-side validation defect reproduced | Diagnose that exact command/test; no Semaphore rerun | | All validation steps pass | `RESULT_REASON=test` is not reproducible in the candidate's first read-only validation block | Classify candidate validation as locally green; investigate stop/orchestration provenance only if materially needed | | Reproduction cannot start because local prerequisites are absent | Environment/reproduction blocker, not candidate failure | Report exact prerequisite; do not mutate production or Semaphore | | Any command attempts SSH/deploy/network mutation | Safety boundary violation | Abort immediately | ## Current release/diagnosis state ```text CANDIDATE_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 PIPELINE_STATE=done PIPELINE_RESULT=stopped RESULT_REASON=test CONCRETE_FAILED_JOB=UNKNOWN CONCRETE_FAILED_TEST=UNKNOWN STOP_ACTOR=UNKNOWN STOP_REASON=UNKNOWN LOCAL_EXACT_SHA_REPRODUCTION=PENDING SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE_YET FINAL_GO=NO DIAGNOSIS_STATUS=PARTIALLY_RESOLVED ``` \"\"\""
+                            - generic [ref=e1363]: dst.write_text(base.rstrip() + update + "\n", encoding="utf-8")
+                            - text: digest = hashlib.sha256(dst.read_bytes()).hexdigest()
+                            - generic [ref=e1364]:
+                              - text: print(
+                              - generic [ref=e1365]: "f\"Created: {dst}\""
+                              - text: )
+                            - generic [ref=e1366]:
+                              - text: print(
+                              - generic [ref=e1367]: "f\"SHA256: {digest}\""
+                              - text: )
+                    - generic [ref=e1369]:
+                      - generic [ref=e1370]:
+                        - button "Analyzed" [expanded] [ref=e1426] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=e1372]:
+                        - generic [ref=e1373]:
+                          - generic [ref=e1374]:
+                            - generic [ref=e1379]: Python
+                            - button "Copy" [ref=e1383] [cursor=pointer]
+                          - code [ref=e1387]:
+                            - generic [ref=e1388]:
+                              - generic [ref=e1389]: from pathlib import Path
+                              - generic [ref=e1390]: import hashlib
+                              - generic [ref=e1391]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md")
+                              - generic [ref=e1392]: content = r"""# DIAGNOSIS — AI Loop last failure, reconciled v2
+                              - text: "**Local reconciliation timestamp:** 2026-09-25T03:18:00-05:00 **Authoritative run:** `R20260923T012014` **Repository:** `Trochez/bot_trading` **Branch:** `feature/GRU` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Semaphore pipeline:** `4df05bd2-6a81-41dc-9dfe-9e0051cd602c` ## Executive conclusion The last CI run is authoritatively classified as: ```text PIPELINE_STATE=done PIPELINE_RESULT=stopped RESULT_REASON=test ``` This is stronger evidence than the earlier generic `FAILURE` normalization, but it still does **not** identify a concrete failed job, test, command, stop actor, or stop mechanism. The additional read-only investigation established: ```text STOP_REASON=UNKNOWN STOP_ACTOR=UNKNOWN TERMINATED_BY=UNKNOWN BLOCKS_ENDPOINT_HTTP=404 JOBS_ENDPOINT_HTTP=404 EVIDENCE_MANIFEST_SHA256=PASS SEMAPHORE_MUTATION=NO REPOSITORY_MUTATION=NO VPS_MUTATION=NO PRODUCTION_MUTATION=NO ``` Therefore the current evidence supports a **test-path-associated stop**, not yet a proven candidate test failure. The historical jq-based evidence action is terminal and must not be retried: ```text HISTORICAL_JQ_ACTION=FAILED_LOCAL_PRECHECK EXIT_CODE=91 BLOCKER=MISSING_COMMAND:jq MUST_NOT_RETRY=YES ``` ## Granular causes and contributing conditions ### C-01 — Terminal Semaphore state was `stopped`, not success The provider-level terminal state is `done/stopped`. Any normalization to a generic `FAILURE` loses the distinction between a failed command and a stopped pipeline. **Confidence:** confirmed. ### C-02 — `RESULT_REASON=test` associates the stop with the test/validation path The provider reports `RESULT_REASON=test`. This materially narrows diagnosis toward validation/test execution, but does not identify which test or whether a test assertion itself failed. **Confidence:** confirmed as provider metadata; concrete causal command unknown. ### C-03 — Stop provenance is unavailable All available stop provenance fields are unresolved: ```text STOP_REASON=UNKNOWN STOP_ACTOR=UNKNOWN TERMINATED_BY=UNKNOWN ``` It is therefore unsupported to claim that a person, controller, Semaphore internal mechanism, timeout, or test process explicitly stopped the run. **Confidence:** confirmed unknown. ### C-04 — Block-level retrospective evidence is unavailable through the attempted endpoint The blocks endpoint returned HTTP 404. This prevents obtaining the exact block result through that endpoint. **Confidence:** confirmed. ### C-05 — Job-level retrospective evidence is unavailable through the attempted endpoint The jobs endpoint returned HTTP 404. This prevents obtaining the exact failed/stopped job and its raw log through that endpoint. **Confidence:** confirmed. ### C-06 — No concrete failing test is currently established There is no authoritative job log, directive exit code, failed test name, traceback, or assertion tied to this pipeline. **Confidence:** confirmed absence in the available evidence. ### C-07 — Previous failure bundle was incomplete The earlier bundle carried the pipeline ID but omitted authoritative candidate/run/job/step details and could not reproduce a command. That bundle must not be treated as complete root-cause evidence. **Confidence:** confirmed from prior evidence. ### C-08 — Historical jq action failed before Semaphore evidence collection The canonical historical action exited with: ```text exit_code=91 BLOCKER=MISSING_COMMAND:jq ``` It failed locally before producing remote evidence and must not be rerun. **Confidence:** confirmed. ### C-09 — The jq absence is a diagnostic-tool dependency defect, not a candidate defect Missing `jq` explains only failure of that evidence-collection action. It does not explain the Semaphore `stopped/test` terminal state. **Confidence:** confirmed. ### C-10 — The AI-loop CI observer previously lost semantic precision The observer normalized the provider result to `FAILURE`, while the raw provider result was `stopped`. This is an observability/classification weakness because remediation differs between `failed` and `stopped`. **Confidence:** confirmed from prior evidence. ### C-11 — CI polling was intermittently unstable Previous controller logs showed repeated `CI UNKNOWN`, temporary loss of provider/run identity, and 120-second `ci-status` timeouts. These are contributing observability defects but are not proven causes of the Semaphore stop. **Confidence:** confirmed as contributing condition only. ### C-12 — Exact candidate repository identity remains intact The candidate was previously verified as the exact clean SHA under investigation: ```text 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 ``` No evidence currently justifies a new commit, amend, revert, cherry-pick, or push. **Confidence:** confirmed. ### C-13 — No Semaphore rerun is justified yet A rerun before reproducing the read-only validation path would destroy the clean diagnostic sequence and could mask a deterministic candidate-side failure. **Confidence:** high. ### C-14 — No further Semaphore query is currently required The latest evidence request already established the terminal state, result reason, unknown stop provenance, endpoint limitations, and manifest integrity. Further Semaphore querying should occur only if a materially new question cannot be answered locally. **Confidence:** high. ## Versioned pipeline boundary At candidate SHA `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390`, `.semaphore/semaphore-production.yml` begins with: ```text GRU validation └─ Core CI contracts ``` That first block consists of repository invariants, Python unit tests, Python syntax checks, shell syntax checks, and static grep-based contracts. Later blocks perform SSH, durable full-corpus acceptance, deployment, and P2 acceptance. Those later blocks are outside the next diagnostic action and must not be run. ## Exact next diagnostic action Run only the first `GRU validation / Core CI contracts` block locally against the exact candidate SHA in an isolated temporary clone. Required properties: - no Semaphore query; - no Semaphore rerun; - no repository mutation; - no push/commit; - no VPS or production access; - no SSH; - exact SHA checkout; - local temporary `feature/GRU` branch only; - `SEMAPHORE_WORKFLOW_TRIGGERED_BY_API=true`; - each validation command executed separately; - stop at first non-zero command; - preserve granular stdout/stderr and exit code. ## Decision after next action | Result | Interpretation | Next state | |---|---|---| | One validation command fails | Candidate-side read-only validation defect reproduced | Diagnose/fix only that exact defect; still no Semaphore rerun | | All validation commands pass | The provider's `RESULT_REASON=test` is not reproducible in the first validation block | Candidate core validation locally green; classify stop as unresolved orchestration/provider/other-stage event | | Reproduction cannot start | Local reproduction environment blocker | Report prerequisite; do not mutate Semaphore/production | | Any command attempts SSH/deploy/network mutation | Safety-boundary violation | Abort immediately | ## Current state ```text CANDIDATE_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 PIPELINE_STATE=done PIPELINE_RESULT=stopped RESULT_REASON=test CONCRETE_FAILED_JOB=UNKNOWN CONCRETE_FAILED_TEST=UNKNOWN STOP_ACTOR=UNKNOWN STOP_REASON=UNKNOWN LOCAL_EXACT_SHA_REPRODUCTION=PENDING SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE_YET FINAL_GO=NO DIAGNOSIS_STATUS=PARTIALLY_RESOLVED ``` \"\"\""
+                              - generic [ref=e1427]: dst.write_text(content, encoding="utf-8")
+                              - text: digest = hashlib.sha256(dst.read_bytes()).hexdigest()
+                              - generic [ref=e1428]:
+                                - text: print(
+                                - generic [ref=e1429]: "f\"{dst}\""
+                                - text: )
+                              - generic [ref=e1430]:
+                                - text: print(
+                                - generic [ref=e1431]: "f\"SHA256={digest}\""
+                                - text: )
+                        - generic [ref=e1433]:
+                          - generic [ref=e1434]: STDOUT/STDERR
+                          - generic [ref=e1435]: /mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md SHA256=2c50ec9736d0a54dadb1bd6ee1c7f9d4b90b11337f8d7fde344ca0243e443dd0
+                    - generic [ref=e1437]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1438]
+                      - generic [ref=e1439]:
+                        - generic [ref=e1440]:
+                          - paragraph [ref=e1441]:
+                            - text: "La evidencia queda reconciliada así: el pipeline exacto terminó done/stopped con RESULT_REASON=test, pero siguen desconocidos el job/test concreto y el actor/mecanismo del stop. Los 404 de blocks/jobs cierran esa vía retrospectiva por ahora."
+                            - strong [ref=e1442]: No corresponde consultar nuevamente Semaphore, relanzar el pipeline ni crear otro commit.
+                          - paragraph [ref=e1443]:
+                            - text: "Actualicé el diagnóstico con este estado:"
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md" [ref=e1445] [cursor=pointer]:
+                              - generic [ref=e1446]: DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md
+                            - text: ". SHA-256: 2c50ec9736d0a54dadb1bd6ee1c7f9d4b90b11337f8d7fde344ca0243e443dd0."
+                          - paragraph [ref=e1452]:
+                            - text: La
+                            - strong [ref=e1453]: acción siguiente exacta
+                            - text: es reproducir localmente, contra el SHA exacto,
+                            - strong [ref=e1454]: solo
+                            - text: GRU validation / Core CI contracts de .semaphore/semaphore-production.yml. Los bloques posteriores de SSH, full-corpus, deploy y P2 quedan expresamente fuera.
+                          - generic [ref=e1456]:
+                            - generic [ref=e1457]:
+                              - generic [ref=e1462]: Bash
+                              - generic [ref=e1464]:
+                                - button "Enable word wrap" [ref=e1466] [cursor=pointer]
+                                - button "Copy" [ref=e1472] [cursor=pointer]
+                            - generic [ref=e1475]:
+                              - code [ref=e1480]: "set -Eeuo pipefail umask 077 SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" SOURCE_REPO=\"${TARGET_REPO:-/mnt/d/works/bot_trad/bot_trading}\" E=\"/tmp/ai-loop-exact-sha-validation-${SHA:0:12}-$(date -u +%Y%m%dT%H%M%SZ)\" REPRO=\"$E/repo\" mkdir -p \"$E\" fail() { printf 'LOCAL_REPRO=BLOCKED\\n' printf 'BLOCKER=%s\\n' \"$1\" printf 'EVIDENCE_DIR=%s\\n' \"$E\" exit \"${2:-90}\" } command -v git >/dev/null 2>&1 || fail \"MISSING_COMMAND:git\" 91 command -v python3 >/dev/null 2>&1 || fail \"MISSING_COMMAND:python3\" 92 command -v bash >/dev/null 2>&1 || fail \"MISSING_COMMAND:bash\" 93 command -v grep >/dev/null 2>&1 || fail \"MISSING_COMMAND:grep\" 94 command -v diff >/dev/null 2>&1 || fail \"MISSING_COMMAND:diff\" 95 test -d \"$SOURCE_REPO/.git\" || fail \"SOURCE_REPO_NOT_FOUND:$SOURCE_REPO\" 96 git -C \"$SOURCE_REPO\" cat-file -e \"$SHA^{commit}\" \\ || fail \"SOURCE_REPO_MISSING_EXACT_SHA:$SHA\" 97 # ------------------------------------------------------------------ # Prove that the authoritative/source checkout is never changed. # ------------------------------------------------------------------ git -C \"$SOURCE_REPO\" rev-parse HEAD > \"$E/source-head.before\" git -C \"$SOURCE_REPO\" status --porcelain=v1 -uall > \"$E/source-status.before\" # ------------------------------------------------------------------ # Isolated local clone only. No fetch, pull, push or remote mutation. # ------------------------------------------------------------------ git clone --no-checkout \"$SOURCE_REPO\" \"$REPRO\" >\"$E/clone.log\" 2>&1 \\ || fail \"LOCAL_CLONE_FAILED\" 101 git -C \"$REPRO\" checkout --detach \"$SHA\" >>\"$E/clone.log\" 2>&1 \\ || fail \"EXACT_SHA_CHECKOUT_FAILED\" 102 git -C \"$REPRO\" switch -c feature/GRU >>\"$E/clone.log\" 2>&1 \\ || fail \"TEMP_FEATURE_GRU_BRANCH_FAILED\" 103 test \"$(git -C \"$REPRO\" rev-parse HEAD)\" = \"$SHA\" \\ || fail \"REPRO_SHA_MISMATCH\" 104 test \"$(git -C \"$REPRO\" branch --show-current)\" = \"feature/GRU\" \\ || fail \"REPRO_BRANCH_MISMATCH\" 105 # ------------------------------------------------------------------ # Empty HOME + no production/CI credentials. # ------------------------------------------------------------------ mkdir -p \"$E/home\" \"$E/guard-bin\" unset \\ SEMAPHORE_API_TOKEN SEMAPHORE_TOKEN SEMAPHORE_API_URL \\ SEMAPHORE_ORG_URL SEMAPHORE_URL SEMAPHORE_SERVER_URL \\ SERVER_HOST SERVER_USER SERVER_PORT \\ GH_TOKEN GITHUB_TOKEN CIRCLECI_TOKEN CIRCLE_TOKEN \\ SSH_AUTH_SOCK AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY \\ AWS_SESSION_TOKEN GOOGLE_APPLICATION_CREDENTIALS || true export HOME=\"$E/home\" export PYTHONDONTWRITEBYTECODE=1 export GIT_TERMINAL_PROMPT=0 export SEMAPHORE_WORKFLOW_TRIGGERED_BY_API=true # Hard-stop common outbound/mutation executables if a unit test unexpectedly # attempts to reach CI/VPS/production. for cmd in ssh scp sftp rsync curl wget gh semaphore sudo systemctl; do cat >\"$E/guard-bin/$cmd\" <<'EOF' #!/usr/bin/env bash echo \"SAFETY_GUARD_BLOCKED_OUTBOUND_COMMAND=$(basename \"$0\")\" >&2 exit 97 EOF chmod 700 \"$E/guard-bin/$cmd\" done export PATH=\"$E/guard-bin:$PATH\" cd \"$REPRO\" printf 'step\\tstatus\\texit_code\\n' > \"$E/results.tsv\" run_step() { id=\"$1\" shift log=\"$E/${id}.log\" echo \"================================================================\" echo \"STEP=$id\" printf 'COMMAND=' printf '%q ' \"$@\" echo set +e \"$@\" >\"$log\" 2>&1 rc=$? set -e cat \"$log\" if [ \"$rc\" -eq 0 ]; then printf '%s\\tPASS\\t0\\n' \"$id\" >> \"$E/results.tsv\" echo \"STEP_RESULT=PASS step=$id\" return 0 fi printf '%s\\tFAIL\\t%s\\n' \"$id\" \"$rc\" >> \"$E/results.tsv\" # Reconfirm source checkout untouched before terminating. git -C \"$SOURCE_REPO\" rev-parse HEAD > \"$E/source-head.after\" git -C \"$SOURCE_REPO\" status --porcelain=v1 -uall > \"$E/source-status.after\" diff -u \"$E/source-head.before\" \"$E/source-head.after\" \\ >\"$E/source-head.diff\" || true diff -u \"$E/source-status.before\" \"$E/source-status.after\" \\ >\"$E/source-status.diff\" || true if ! cmp -s \"$E/source-head.before\" \"$E/source-head.after\" || ! cmp -s \"$E/source-status.before\" \"$E/source-status.after\"; then echo \"SOURCE_REPOSITORY_INVARIANT=FAIL\" echo \"EVIDENCE_DIR=$E\" exit 98 fi echo \"SOURCE_REPOSITORY_INVARIANT=PASS\" echo \"LOCAL_REPRO=FAIL\" echo \"FIRST_FAILED_STEP=$id\" echo \"FIRST_FAILED_EXIT_CODE=$rc\" echo \"FAILED_LOG=$log\" echo \"SEMAPHORE_QUERY=NO\" echo \"SEMAPHORE_RERUN=NO\" echo \"VPS_ACCESS=NO\" echo \"PRODUCTION_ACCESS=NO\" echo \"REPOSITORY_PUSH=NO\" echo \"EVIDENCE_DIR=$E\" exit \"$rc\" } # ------------------------------------------------------------------ # Exact Semaphore production-fallback Core CI contract preconditions. # ------------------------------------------------------------------ run_step 00_preflight bash -c ' set -euo pipefail test \"${SEMAPHORE_WORKFLOW_TRIGGERED_BY_API:-false}\" = \"true\" test \"$(git branch --show-current)\" = \"feature/GRU\" [[ \"$(git rev-parse HEAD)\" =~ ^[0-9a-f]{40}$ ]] test \"$(git rev-parse HEAD)\" = \"'\"$SHA\"'\" ' # ------------------------------------------------------------------ # Exact unit-test sequence from .semaphore/semaphore-production.yml # ------------------------------------------------------------------ run_step 01_test_ci_breaker \\ python3 -m unittest -v ops.ci.breaker.tests.test_ci_breaker run_step 02_test_orphan_recovery_wait \\ python3 -m unittest -v ops.gru.test_remediate_orphan_recovery_wait run_step 03_test_plan01_data_foundation \\ python3 -m unittest -v apy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests run_step 04_test_p2_memory_bound \\ python3 -m unittest -v ops.ci.tests.test_p2_memory_bound_contract run_step 05_test_raw_payload_persistence \\ python3 -m unittest -v apy.tests.test_raw_payload_persistence run_step 06_test_full_corpus_durability \\ python3 -m unittest -v ops.ci.tests.test_full_corpus_durability_contract run_step 07_test_p1_dependency_validator \\ python3 -m unittest -v ops.ci.tests.test_p1_dependency_validator_contract run_step 08_test_p2_handoff_state_machine \\ python3 -m unittest -v ops.ci.tests.test_p2_handoff_state_machine run_step 09_test_p2_external_evidence \\ python3 -m unittest -v ops.ci.tests.test_p2_external_evidence_contract run_step 10_test_post_p2_live_acceptance \\ python3 -m unittest -v ops.ci.tests.test_post_p2_live_acceptance_contract run_step 11_test_post_p2_live_durability \\ python3 -m unittest -v ops.ci.tests.test_post_p2_live_durability run_step 12_test_single_commit_semaphore \\ python3 -m unittest -v ops.ci.tests.test_single_commit_semaphore_contract run_step 13_test_minimum_history_boundary \\ python3 -m unittest -v apy.tests.test_gru_minimum_history_boundary # ------------------------------------------------------------------ # Exact Python syntax checks from production YAML. # ------------------------------------------------------------------ run_step 14_python_syntax \\ python3 -m py_compile \\ ops/ci/breaker/ci_breaker.py \\ ops/gru/remediate_orphan_recovery_wait.py \\ apy/backfill/finalize_history_memory_bounded.py \\ apy/backfill/finalize_history_memory_bounded_entry.py \\ apy/model_process/gru/train_predict_gru.py \\ apy/raw_payload_persistence.py \\ apy/tests/test_raw_payload_persistence.py \\ ops/ci/tests/test_full_corpus_durability_contract.py # ------------------------------------------------------------------ # Exact shell syntax checks. bash -n parses only; it does not execute. # ------------------------------------------------------------------ run_step 15_shell_syntax \\ bash -n \\ apy/model_train_guard.sh \\ ops/ci/circleci_dispatch_feature_gru.sh \\ ops/ci/deploy_feature_gru_remote.sh \\ ops/ci/prepare_deploy_contract.sh \\ ops/ci/circleci_dispatch_gru_p2.sh \\ ops/ci/circleci_observe_gru_p2.sh \\ ops/ci/launch_gru_p2_remote.sh \\ ops/ci/observe_gru_p2_remote.sh \\ ops/ci/run_gru_p2_worker_wrapper.sh \\ ops/ci/run_gru_p2_remote.sh \\ ops/ci/launch_gru_full_corpus_remote.sh \\ ops/ci/supervise_gru_full_corpus.sh \\ ops/ci/observe_gru_full_corpus_remote.sh \\ ops/ci/run_gru_full_corpus_worker_wrapper.sh \\ ops/ci/status_gru_full_corpus.sh \\ ops/ci/verify_gru_full_corpus_evidence.sh \\ ops/ci/gru_p2_state.sh \\ ops/ci/launch_post_p2_live_remote.sh \\ ops/ci/supervise_post_p2_live.sh \\ ops/ci/observe_post_p2_live_remote.sh \\ ops/ci/run_post_p2_live_acceptance_remote.sh # ------------------------------------------------------------------ # Exact static contracts from production YAML. # ------------------------------------------------------------------ run_step 16_owner_contract \\ grep -Fq 'owner=user-cron sudo_required=false' \\ ops/ci/launch_gru_full_corpus_remote.sh run_step 17_flock_contract \\ grep -Fq 'flock --nonblock 9' \\ ops/ci/supervise_gru_full_corpus.sh run_step 18_lock_wait_contract \\ grep -Fq 'BOT_TRAD_GLOBAL_TRAIN_LOCK_WAIT_SECS=unlimited' \\ ops/ci/run_gru_full_corpus_worker_wrapper.sh run_step 19_worker_log_contract \\ grep -Fq 'exec >> \"$result_dir/worker.log\" 2>&1' \\ ops/ci/run_gru_full_corpus_worker_wrapper.sh run_step 20_sudo_free_contract bash -c ' set -euo pipefail if grep -nE \"^[[:space:]]*sudo([[:space:]]|$)\" \\ ops/ci/launch_gru_full_corpus_remote.sh \\ ops/ci/supervise_gru_full_corpus.sh \\ ops/ci/run_gru_full_corpus_worker_wrapper.sh \\ ops/ci/observe_gru_full_corpus_remote.sh; then echo \"ERROR: full-corpus live runtime must be sudo-free\" >&2 exit 1 fi ' # ------------------------------------------------------------------ # Prove source checkout remained byte/state-equivalent from Git's view. # ------------------------------------------------------------------ git -C \"$SOURCE_REPO\" rev-parse HEAD > \"$E/source-head.after\" git -C \"$SOURCE_REPO\" status --porcelain=v1 -uall > \"$E/source-status.after\" cmp -s \"$E/source-head.before\" \"$E/source-head.after\" \\ || fail \"SOURCE_HEAD_CHANGED\" 120 cmp -s \"$E/source-status.before\" \"$E/source-status.after\" \\ || fail \"SOURCE_WORKTREE_CHANGED\" 121 echo \"================================================================\" cat \"$E/results.tsv\" echo \"SOURCE_REPOSITORY_INVARIANT=PASS\" echo \"LOCAL_EXACT_SHA_VALIDATION=PASS\" echo \"VALIDATED_SHA=$SHA\" echo \"SEMAPHORE_QUERY=NO\" echo \"SEMAPHORE_RERUN=NO\" echo \"VPS_ACCESS=NO\" echo \"PRODUCTION_ACCESS=NO\" echo \"REPOSITORY_PUSH=NO\" echo \"EVIDENCE_DIR=$E\""
+                              - button [aria-hidden]
+                          - paragraph [ref=e1481]:
+                            - text: El resultado que necesito de esa acción es únicamente su salida literal. Si falla, el
+                            - strong [ref=e1482]: primer FIRST_FAILED_STEP
+                            - text: pasa a ser el nuevo punto causal concreto. Si llega a LOCAL_EXACT_SHA_VALIDATION=PASS, quedará demostrado que el RESULT_REASON=test de Semaphore
+                            - strong [ref=e1483]: no es reproducible en su primer bloque de validación
+                            - text: ", y el siguiente análisis se centrará en la procedencia del stopped, no en crear cambios de código ni repetir el CI."
+                            - button "View analysis" [ref=e1486] [cursor=pointer]
+                        - generic [ref=e1494]:
+                          - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md" [ref=e1495] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md"
+                              - generic: Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Download file"
+                  - generic [ref=e1497]:
+                    - button "Copy" [ref=e1499] [cursor=pointer]
+                    - button "Rate response" [ref=e1503] [cursor=pointer]
+                    - button "Share" [ref=e1507] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1512] [cursor=pointer]
+                    - button "Regenerate response" [ref=e1516] [cursor=pointer]
+                    - button "More actions" [ref=e1520] [cursor=pointer]
+                    - button "Sources" [ref=e1526] [cursor=pointer]
+            - generic [ref=e589]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+              - heading "Latest response" [level=4] [ref=e592]
+              - status [ref=e593]
+              - generic [ref=e602]:
+                - button "Expand" [ref=e1538] [cursor=pointer]
+                - generic [ref=e604]:
+                  - textbox "Ask ChatGPT" [active] [ref=e615]:
+                    - paragraph [ref=e1542]: "Requested result: FIRST GRU validation / Core CI contracts block for authoritative run R20260923T012014."
+                    - paragraph [ref=e1543]
+                    - paragraph [ref=e1544]: "Exact target SHA verification passed: 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 (branch context: feature/GRU)."
+                    - paragraph [ref=e1545]: CORE_CI_FIRST_BLOCK=PASS.
+                    - paragraph [ref=e1546]
+                    - paragraph [ref=e1547]: "- The exact target SHA was acquired in a fresh isolated temporary clone."
+                    - paragraph [ref=e1548]: "- Only the FIRST GRU validation / Core CI contracts block was executed."
+                    - paragraph [ref=e1549]: "- All requested unittest groups passed."
+                    - paragraph [ref=e1550]: "- One pandas-dependent runtime-boundary test was SKIPPED because pandas was unavailable."
+                    - paragraph [ref=e1551]: "- Python compilation passed."
+                    - paragraph [ref=e1552]: "- Shell syntax validation passed."
+                    - paragraph [ref=e1553]: "- Static contract checks passed."
+                    - paragraph [ref=e1554]: "- Detached checkout initially failed only because of the workflow branch assertion."
+                    - paragraph [ref=e1555]: "- The block was rerun using a local feature/GRU branch at the SAME exact target SHA."
+                    - paragraph [ref=e1556]: "- No source commit changed; the source repository remained unchanged at 44505ddbfa5062dc1c712fc90db72cb0c54de924."
+                    - paragraph [ref=e1557]: "- No later CI block was executed."
+                    - paragraph [ref=e1558]: "- No Semaphore query, SSH, VPS/production access, commit, or push occurred."
+                    - paragraph [ref=e1559]
+                    - paragraph [ref=e1560]: This result is NOT FINAL_GO, PRODUCTION_GO, END_TO_END_GO, or AI_LOOP_COMPLETE=GO.
+                    - paragraph [ref=e1561]: Please reconcile this result and provide the exact next action.
+                    - paragraph [ref=e1562]
+                    - paragraph [ref=e1563]: "CORE-CI-FIRST-BLOCK-RESULT-DELIVERY-MARKER: d18e030eb1db44099b6bdc5808a29719"
+                  - button "Add files and more" [ref=e609] [cursor=pointer]
+                  - generic [ref=e617]:
+                    - button "Select ChatGPT model" [ref=e1217] [cursor=pointer]:
+                      - generic [ref=e1218]: High
+                    - generic [ref=e618]:
+                      - button "Dictate" [ref=e621] [cursor=pointer]
+                      - button "Send" [ref=e1564] [cursor=pointer]
+      - status [ref=e630]
+  - status [ref=e631]
+  - status [ref=e632]
+  - status [ref=e633]
+  - status [ref=e634]: Response complete

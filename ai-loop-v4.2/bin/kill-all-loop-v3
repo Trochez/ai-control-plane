@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PAT='/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|opencode run|@playwright/mcp|ai-loop-chatgpt-profile|browser-broker-v1\.cjs'
+pkill -TERM -f '/opt/ai-loop/ai-loopd-v2.py|/opt/ai-loop/ai-loopd-v3.py' 2>/dev/null || true
+pkill -TERM -f 'opencode run' 2>/dev/null || true
+pkill -TERM -f '@playwright/mcp' 2>/dev/null || true
+pkill -TERM -f 'ai-loop-chatgpt-profile|browser-broker-v1\.cjs' 2>/dev/null || true
+sleep 2
+pkill -KILL -f '/opt/ai-loop/ai-loopd-v2.py|/opt/ai-loop/ai-loopd-v3.py' 2>/dev/null || true
+pkill -KILL -f 'browser-broker-v1\.cjs' 2>/dev/null || true
+left="$(pgrep -af "$PAT" | grep -vE 'pgrep|grep|kill-all-loop-v3' || true)"
+if [[ -n "$left" ]]; then
+  echo "AI_LOOP_KILL_ALL=FAIL"
+  printf '%s\n' "$left"
+  exit 1
+fi
+echo "AI_LOOP_KILL_ALL=PASS"

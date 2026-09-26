@@ -1,0 +1,20 @@
+{
+  "run_id": "R20260923T012014",
+  "status": "BLOCKED",
+  "runtime_version": "4.7.9",
+  "surface_classifier_false_positive": true,
+  "surface_normalization": "PASS",
+  "live_turn_provenance": "NOT_RUN",
+  "live_conversation_proof": "NOT_RUN",
+  "operator_action": {
+    "status": "FAILED_TERMINAL",
+    "retry_allowed": false
+  },
+  "operator_result_delivery": "PENDING",
+  "outbound_send": "BLOCKED",
+  "reason": "AWAITING_EXPLICIT_RESULT_DELIVERY_CONTINUATION",
+  "send_performed": false,
+  "conversation_url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "conversation_id": "6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "project_context": "Bot_trading"
+}

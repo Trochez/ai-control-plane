@@ -1,0 +1,196 @@
+- generic [active] [ref=f8e1] [box=0,0,3828,1912]:
+  - generic [ref=f8e4] [box=0,0,3828,1912]:
+    - complementary [ref=f8e5] [box=0,0,372,1912]:
+      - generic [ref=f8e11] [box=0,0,0,0]:
+        - generic [ref=f8e12] [box=0,0,372,52]:
+          - generic [ref=f8e13] [box=8,8,93,36]: ChatGPT
+          - generic [ref=f8e19] [box=292,8,72,36]:
+            - button "Search" [ref=f8e21] [cursor=pointer] [box=292,8,36,36]
+            - button "Hide sidebar" [expanded] [ref=f8e30] [cursor=pointer] [box=328,8,36,36]
+        - navigation "Chat history" [ref=f8e35] [box=0,52,372,1860]:
+          - button "New chat" [ref=f8e39] [cursor=pointer] [box=6,60,360,35]
+          - generic [ref=f8e48] [box=0,95,372,1753]:
+            - generic [ref=f8e51] [box=6,99,350,144]:
+              - button "Scheduled" [ref=f8e52] [cursor=pointer] [box=6,99,350,35]
+              - button "Library" [ref=f8e61] [cursor=pointer] [box=6,135,350,35]
+              - button "Plugins" [ref=f8e69] [cursor=pointer] [box=6,171,350,35]
+              - button "Explore" [ref=f8e78] [cursor=pointer] [box=6,207,350,35]
+            - generic [ref=f8e137] [box=0,0,0,0]:
+              - generic [ref=f8e140] [box=6,263,350,221]:
+                - generic [ref=f8e141] [box=6,263,350,36]:
+                  - button "Projects" [expanded] [ref=f8e144] [cursor=pointer] [box=12,263,334,36]
+                  - generic [box=354,269,0,24]:
+                    - generic [box=354,269,0,24]
+                - list [ref=f8e156] [box=6,299,350,184]:
+                  - listitem [ref=f8e157] [box=6,299,350,37]:
+                    - button "zircon_practica_unir" [ref=f8e161] [cursor=pointer] [box=6,299,350,36]
+                  - listitem [ref=f8e187] [box=6,336,350,37]:
+                    - button "agentic_pipeline" [ref=f8e191] [cursor=pointer] [box=6,336,350,36]
+                  - listitem [ref=f8e217] [box=6,373,350,37]:
+                    - button "body_finder_fast" [ref=f8e221] [cursor=pointer] [box=6,373,350,36]
+                  - listitem [ref=f8e247] [box=6,410,350,37]:
+                    - button "Bot_trading" [ref=f8e251] [cursor=pointer] [box=6,410,350,36]
+                  - listitem [ref=f8e277] [box=6,447,350,36]:
+                    - button "ubuntu problems" [ref=f8e281] [cursor=pointer] [box=6,447,350,36]
+              - generic [ref=f8e310] [box=6,504,350,1624]:
+                - generic [ref=f8e311] [box=6,504,350,36]:
+                  - button "Recents" [expanded] [ref=f8e314] [cursor=pointer] [box=12,504,334,36]
+                  - generic [box=354,510,0,25]:
+                    - generic [box=354,510,0,25]
+                - list [ref=f8e321] [box=6,540,350,1587]:
+                  - listitem [ref=f8e360] [box=6,540,350,37]:
+                    - generic [ref=f8e361] [box=6,540,350,36]
+                  - listitem [ref=f8e322] [box=6,577,350,37]:
+                    - generic [ref=f8e323] [box=6,577,350,36]
+                  - listitem [ref=f8e341] [box=6,614,350,37]:
+                    - generic [ref=f8e342] [box=6,614,350,36]
+                  - listitem [ref=f8e379] [box=6,651,350,37]:
+                    - generic [ref=f8e380] [box=6,651,350,36]
+                  - listitem [ref=f8e398] [box=6,688,350,37]:
+                    - generic [ref=f8e399] [box=6,688,350,36]
+                  - listitem [ref=f8e417] [box=6,725,350,37]:
+                    - generic [ref=f8e418] [box=6,725,350,36]
+                  - listitem [ref=f8e436] [box=6,762,350,37]:
+                    - generic [ref=f8e437] [box=6,762,350,36]
+                  - listitem [ref=f8e455] [box=6,799,350,37]:
+                    - generic [ref=f8e456] [box=6,799,350,36]
+                  - listitem [ref=f8e474] [box=6,836,350,37]:
+                    - generic [ref=f8e475] [box=6,836,350,36]
+                  - listitem [ref=f8e493] [box=6,873,350,37]:
+                    - generic [ref=f8e494] [box=6,873,350,36]
+                  - listitem [ref=f8e512] [box=6,910,350,37]:
+                    - generic [ref=f8e513] [box=6,910,350,36]
+                  - listitem [ref=f8e531] [box=6,947,350,37]:
+                    - generic [ref=f8e532] [box=6,947,350,36]
+                  - listitem [ref=f8e550] [box=6,984,350,37]:
+                    - generic [ref=f8e551] [box=6,984,350,36]
+                  - listitem [ref=f8e569] [box=6,1021,350,37]:
+                    - generic [ref=f8e570] [box=6,1021,350,36]
+                  - listitem [ref=f8e588] [box=6,1058,350,37]:
+                    - generic [ref=f8e589] [box=6,1058,350,36]
+                  - listitem [ref=f8e607] [box=6,1095,350,37]:
+                    - generic [ref=f8e608] [box=6,1095,350,36]
+                  - listitem [ref=f8e626] [box=6,1132,350,37]:
+                    - generic [ref=f8e627] [box=6,1132,350,36]
+                  - listitem [ref=f8e645] [box=6,1169,350,37]:
+                    - generic [ref=f8e646] [box=6,1169,350,36]
+                  - listitem [ref=f8e664] [box=6,1206,350,37]:
+                    - generic [ref=f8e665] [box=6,1206,350,36]
+                  - listitem [ref=f8e683] [box=6,1243,350,37]:
+                    - generic [ref=f8e684] [box=6,1243,350,36]
+                  - listitem [ref=f8e702] [box=6,1280,350,37]:
+                    - generic [ref=f8e703] [box=6,1280,350,36]
+                  - listitem [ref=f8e721] [box=6,1317,350,37]:
+                    - generic [ref=f8e722] [box=6,1317,350,36]
+                  - listitem [ref=f8e740] [box=6,1354,350,37]:
+                    - generic [ref=f8e741] [box=6,1354,350,36]
+                  - listitem [ref=f8e759] [box=6,1391,350,37]:
+                    - generic [ref=f8e760] [box=6,1391,350,36]
+                  - listitem [ref=f8e778] [box=6,1428,350,37]:
+                    - generic [ref=f8e779] [box=6,1428,350,36]
+                  - listitem [ref=f8e797] [box=6,1465,350,37]:
+                    - generic [ref=f8e798] [box=6,1465,350,36]
+                  - listitem [ref=f8e816] [box=6,1502,350,37]:
+                    - generic [ref=f8e817] [box=6,1502,350,36]
+                  - listitem [ref=f8e835] [box=6,1539,350,37]:
+                    - generic [ref=f8e836] [box=6,1539,350,36]
+                  - listitem [ref=f8e854] [box=6,1576,350,37]:
+                    - generic [ref=f8e855] [box=6,1576,350,36]
+                  - listitem [ref=f8e873] [box=6,1613,350,37]:
+                    - generic [ref=f8e874] [box=6,1613,350,36]
+                  - listitem [ref=f8e892] [box=6,1650,350,37]:
+                    - generic [ref=f8e893] [box=6,1650,350,36]
+                  - listitem [ref=f8e911] [box=6,1687,350,37]:
+                    - generic [ref=f8e912] [box=6,1687,350,36]
+                  - listitem [ref=f8e930] [box=6,1724,350,37]:
+                    - generic [ref=f8e931] [box=6,1724,350,36]
+                  - listitem [ref=f8e949] [box=6,1761,350,37]:
+                    - generic [ref=f8e950] [box=6,1761,350,36]
+                  - listitem [ref=f8e968] [box=6,1798,350,37]:
+                    - generic [ref=f8e969] [box=6,1798,350,36]
+                  - listitem [ref=f8e987] [box=6,1835,350,37]:
+                    - generic [ref=f8e988] [box=6,1835,350,36]
+                  - listitem [ref=f8e1006] [box=6,1872,350,37]:
+                    - generic [ref=f8e1007] [box=6,1872,350,36]
+                  - listitem [ref=f8e1025] [box=6,1909,350,37]:
+                    - generic [ref=f8e1026] [box=6,1909,350,36]
+                  - listitem [ref=f8e1044] [box=6,1946,350,37]:
+                    - generic [ref=f8e1045] [box=6,1946,350,36]
+                  - listitem [ref=f8e1063] [box=6,1983,350,36]:
+                    - generic [ref=f8e1064] [box=6,1983,350,36]
+                  - listitem [ref=f8e1082] [box=6,2019,350,108]:
+                    - status [ref=f8e1084] [box=6,2019,350,108]
+        - generic [ref=f8e1095] [cursor=pointer] [box=6,1854,360,52]:
+          - button "Open profile menu" [ref=f8e1096] [box=6,1854,360,52]
+          - generic [box=16,1860,340,40]:
+            - generic [box=16,1860,340,40]:
+              - generic [box=48,1860,308,40]:
+                - generic [box=48,1860,308,24]: trochez
+                - generic [box=48,1884,308,16]: Plus
+      - generic [box=364,-52,16,1964]:
+        - separator [box=364,-52,16,1964]
+    - generic [ref=f8e106] [box=0,0,0,0]:
+      - main [ref=f8e108] [box=372,0,3456,1912]:
+        - generic [box=0,0,3828,52]:
+          - generic [box=372,0,3456,52]:
+            - generic [box=380,0,3304,52]:
+              - generic [box=380,0,3304,52]:
+                - generic [box=380,8,135,36]:
+                  - navigation "Breadcrumb" [box=380,8,135,36]:
+                    - link "Bot_trading" [ref=f8e1097] [cursor=pointer] [box=380,8,135,36]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=f8e1104] [box=3690,8,130,36]:
+              - button "Share" [disabled] [ref=f8e1106] [box=3690,8,86,36]
+              - button "More" [ref=f8e1110] [cursor=pointer] [box=3784,8,36,36]
+        - generic [ref=f8e1124] [box=373,0,3455,1912]:
+          - generic [ref=f8e1125] [box=383,-31731,3435,33804]:
+            - generic [ref=f8e1127] [box=1717,-31731,768,33672]:
+              - status [ref=f8e1129] [box=2089,-31711,24,31]:
+                - generic [ref=f8e1134] [box=2112,-31712,1,1]: Loading older messages…
+              - generic [ref=f8e1136] [box=1717,-16493,768,17991]:
+                - generic [ref=f8e1544] [box=1717,-16493,768,6079]:
+                  - separator "Yesterday 5:14 PM" [ref=f8e1545] [box=1717,-16493,768,52]:
+                    - time [ref=f8e1546] [box=2036,-16477,129,20]: Yesterday 5:14 PM
+                  - generic [ref=f8e1549] [box=1717,-16435,768,6021]:
+                    - generic [ref=f8e1550] [box=1717,-16427,768,5961]
+                    - generic [ref=f8e1711] [box=1711,-10454,224,32]
+                - generic [ref=f8e1751] [box=1717,-10408,768,5541]:
+                  - separator "Yesterday 9:08 PM" [ref=f8e1752] [box=1717,-10408,768,52]:
+                    - time [ref=f8e1753] [box=2036,-10392,129,20]: Yesterday 9:08 PM
+                  - generic [ref=f8e1756] [box=1717,-10350,768,5483]:
+                    - generic [ref=f8e1757] [box=1717,-10342,768,5423]
+                    - generic [ref=f8e1943] [box=1711,-4907,224,32]
+                - generic [ref=f8e1983] [box=1717,-4861,768,5235]:
+                  - separator "Today 2:50 AM" [ref=f8e1984] [box=1717,-4861,768,52]:
+                    - time [ref=f8e1985] [box=2049,-4845,103,20]: Today 2:50 AM
+                  - generic [ref=f8e1988] [box=1717,-4803,768,5177]:
+                    - generic [ref=f8e1989] [box=1717,-4795,768,5117]
+                    - generic [ref=f8e2153] [box=1711,334,224,32]
+                - generic [ref=f8e2327] [box=1717,388,768,1102]:
+                  - generic [ref=f8e2328] [box=0,0,0,0]:
+                    - heading "You said:" [level=4] [ref=f8e2329] [box=1717,388,1,1]
+                    - generic [ref=f8e2332] [box=1717,388,768,610]
+                  - generic [ref=f8e2379] [box=1717,1002,768,488]:
+                    - generic [ref=f8e2380] [box=1717,1002,89,24]
+                    - generic [ref=f8e2383] [box=1717,1026,768,464]
+            - generic [ref=f8e2191] [box=383,1973,3435,24]: ChatGPT can make mistakes. Check important info.
+          - generic [box=373,1836,3455,76]:
+            - generic [box=1701,1836,800,52]:
+              - generic [box=1717,1836,768,0]:
+                - button [aria-hidden] [box=2085,1780,32,32]
+              - heading "Latest response" [level=4] [ref=f8e2194] [box=1717,1836,1,1]
+              - status [ref=f8e2195] [box=1717,1836,1,1]
+              - generic [ref=f8e2206] [box=1717,1836,768,52]:
+                - button "Add files and more" [ref=f8e2211] [cursor=pointer] [box=1725,1844,36,36]
+                - textbox "Ask ChatGPT" [ref=f8e2217] [box=1769,1844,535,36]:
+                  - paragraph [box=1769,1849,535,26]: Ask ChatGPT
+                - generic [ref=f8e2219] [box=2312,1844,165,36]:
+                  - button "Select ChatGPT model" [ref=f8e2223] [cursor=pointer] [box=2312,1844,85,36]:
+                    - generic [ref=f8e2224] [box=0,0,0,0]: High
+                  - generic [ref=f8e2234] [box=2397,1844,80,36]:
+                    - button "Dictate" [ref=f8e2237] [cursor=pointer] [box=2397,1844,36,36]
+                    - button "Stop" [ref=f8e2361] [cursor=pointer] [box=2441,1844,36,36]
+      - status [ref=f8e2249] [box=-1,-1,1,1]
+  - status [ref=f8e2250] [box=-1,1911,1,1]
+  - status [ref=f8e2251] [box=-1,-1,1,1]
+  - status [ref=f8e2252] [box=-1,1911,1,1]

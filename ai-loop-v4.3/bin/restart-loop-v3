@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+STATE=${1:-$(ls -1t /var/lib/ai-loop/state/*.v3.json 2>/dev/null | head -1 || true)}
+if [[ -z "$STATE" || ! -f "$STATE" ]]; then echo "No v3 state found" >&2; exit 2; fi
+set -a; source /opt/ai-loop/ai-loop.env; set +a
+if pgrep -af '/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|opencode run|@playwright/mcp|ai-loop-chatgpt-profile|browser-broker-v1\.cjs' | grep -vE 'pgrep|grep' >/dev/null 2>&1; then
+  echo "ERROR: loop/controller/browser transport already alive" >&2; exit 4
+fi
+BASE=$(basename "$STATE" .v3.json); LOG="/var/lib/ai-loop/logs/${BASE}.v3.log"
+nohup python3 /opt/ai-loop/ai-loopd-v3.py --state "$STATE" >>"$LOG" 2>&1 &
+PID=$!; echo "$PID" > "/var/lib/ai-loop/state/${BASE}.v3.pid"
+echo "STATE=$STATE"; echo "PID=$PID"; echo "LOG=$LOG"; echo "Monitor: tail -F '$LOG'"

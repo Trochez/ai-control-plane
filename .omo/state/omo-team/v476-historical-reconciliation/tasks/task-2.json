@@ -1,0 +1,6 @@
+{
+  "id": "task-2",
+  "role": "reviewer",
+  "category": "deep",
+  "description": "Inspect existing tests and release/versioning conventions for v4.7.x. Do not edit files. Identify required regression commands and likely missing tests for exactly-once historical response and operator action handling."
+}

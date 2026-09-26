@@ -1,0 +1,5 @@
+f312e7a6a9838312fad1c71e2076e93f461db218bb1c78dbeec942da88033d49  ai-loop-v4.3/browser-broker-v1.cjs
+df8442991b6d09486e8e4b60ccbdddee59ef18529e7a6701a715727c275e959e  ai-loop-v4.3/ai-loopd-v3.py
+77fccc190a44fc9d98e121fad0646d2fcec9dfd378f946c5430824b6b2e5b47a  ai-loop-v4.3/semaphore_evidence.py
+88907fa84f3dda3da3c4cf0d9d5b03b2f207452b3620826f233aa23398ea0465  ai-loop-v4.3/selftest-v4.3.py
+7be3de0f0ed71ea4b4c9507cd88239aea71ef06a3df0df24ca3a64af510404dd  ai-loop-v4.3/tests/test-reconciliation-v4.8.1.cjs

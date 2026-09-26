@@ -1,0 +1,304 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: ChatGPT
+          - generic [ref=e19]:
+            - button "Search" [ref=e21] [cursor=pointer]
+            - button "Hide sidebar" [expanded] [ref=e30] [cursor=pointer]
+        - navigation "Chat history" [ref=e35]:
+          - button "New chat" [ref=e39] [cursor=pointer]
+          - generic [ref=e48]:
+            - generic [ref=e51]:
+              - button "Scheduled" [ref=e52] [cursor=pointer]
+              - button "Library" [ref=e61] [cursor=pointer]
+              - button "Plugins" [ref=e69] [cursor=pointer]
+              - button "Explore" [ref=e78] [cursor=pointer]
+            - generic [ref=e89]:
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - button "Projects" [expanded] [ref=e96] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Project sidebar options"
+                        - button "Add new project" [ref=e101] [cursor=pointer]
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - button "zircon_practica_unir" [ref=e113] [cursor=pointer]:
+                      - button "Project actions for zircon_practica_unir" [ref=e126]
+                      - button "New chat in zircon_practica_unir" [ref=e134]
+                  - listitem [ref=e139]:
+                    - button "agentic_pipeline" [ref=e143] [cursor=pointer]:
+                      - button "Project actions for agentic_pipeline" [ref=e156]
+                      - button "New chat in agentic_pipeline" [ref=e164]
+                  - listitem [ref=e169]:
+                    - button "body_finder_fast" [ref=e173] [cursor=pointer]:
+                      - button "Project actions for body_finder_fast" [ref=e186]
+                      - button "New chat in body_finder_fast" [ref=e194]
+                  - listitem [ref=e199]:
+                    - button "Bot_trading" [ref=e203] [cursor=pointer]:
+                      - button "Project actions for Bot_trading" [ref=e216]
+                      - button "New chat in Bot_trading" [ref=e224]
+                  - listitem [ref=e229]:
+                    - button "ubuntu problems" [ref=e233] [cursor=pointer]:
+                      - button "Project actions for ubuntu problems" [ref=e246]
+                      - button "New chat in ubuntu problems" [ref=e254]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - button "Recents" [expanded] [ref=e266] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Chat sidebar options"
+                        - button "Filter chats and work"
+                        - generic
+                - list [ref=e273]:
+                  - listitem [ref=e274]:
+                    - generic [ref=e275]:
+                      - group "Implementación CI completada":
+                        - link "Implementación CI completada" [ref=e276] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab60f1b-0824-83e9-988e-8a437a22ca32
+                        - generic
+                  - listitem [ref=e293]:
+                    - generic [ref=e294]:
+                      - group "Modelo más potente en ChatGPT":
+                        - link "Modelo más potente en ChatGPT" [ref=e295] [cursor=pointer]:
+                          - /url: /g/g-p-6aacc8c63ee081918f198e49f3d5e03e/c/6aacc8db-aedc-83e9-b683-84de0f156577
+                        - generic
+                  - listitem [ref=e312]:
+                    - generic [ref=e313]:
+                      - group "Ejecuta acción lectura Semaphore":
+                        - link "Ejecuta acción lectura Semaphore" [ref=e314] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589
+                        - generic
+                  - listitem [ref=e331]:
+                    - generic [ref=e332]:
+                      - group "Enlaces de compra ranking":
+                        - link "Enlaces de compra ranking" [ref=e333] [cursor=pointer]:
+                          - /url: /c/6ab6247c-f828-83e9-aa05-41fa8a342c11
+                        - generic
+                  - listitem [ref=e350]:
+                    - generic [ref=e351]:
+                      - group "Ranking precio calidad LLM local":
+                        - link "Ranking precio calidad LLM local" [ref=e352] [cursor=pointer]:
+                          - /url: /c/6ab22607-3cd4-83e9-b11d-53dffe82172c
+                        - generic
+                  - listitem [ref=e369]:
+                    - generic [ref=e370]:
+                      - group "Diagnóstico CI Semaphore":
+                        - link "Diagnóstico CI Semaphore" [ref=e371] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab60424-7694-83e9-a23e-7f84c8c22f33
+                        - generic
+                  - listitem [ref=e388]:
+                    - generic [ref=e389]:
+                      - group "Resolver bolas azules y rojas":
+                        - link "Resolver bolas azules y rojas" [ref=e390] [cursor=pointer]:
+                          - /url: /c/6ab596d3-4e38-83e9-b802-eb98445fba02
+                        - generic
+                  - listitem [ref=e407]:
+                    - generic [ref=e408]:
+                      - group "Ranking RTX 5070 Ti":
+                        - link "Ranking RTX 5070 Ti" [ref=e409] [cursor=pointer]:
+                          - /url: /c/6ab4ba98-0c58-83e9-8c79-a5bc152177e9
+                        - generic
+                  - listitem [ref=e426]:
+                    - generic [ref=e427]:
+                      - group "Ranking pantallas OLED 2K":
+                        - link "Ranking pantallas OLED 2K" [ref=e428] [cursor=pointer]:
+                          - /url: /c/6ab4b258-7c10-83e9-bcce-9ac0487de2bf
+                        - generic
+                  - listitem [ref=e445]:
+                    - generic [ref=e446]:
+                      - group "Ranking monitores OLED 4K":
+                        - link "Ranking monitores OLED 4K" [ref=e447] [cursor=pointer]:
+                          - /url: /c/69f0644d-75ec-83e9-8fd1-81d34dd820c4
+                        - generic
+                  - listitem [ref=e464]:
+                    - status [ref=e466]:
+                      - generic [ref=e467]: Loading chats
+        - generic [ref=e484] [cursor=pointer]:
+          - button "Open profile menu" [ref=e485]
+          - generic:
+            - generic:
+              - generic:
+                - generic: trochez
+                - generic: Plus
+      - generic:
+        - separator
+    - generic [ref=e486]:
+      - main [ref=e488]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=e489] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=e496]:
+              - button "Share" [ref=e498] [cursor=pointer]
+              - button "More" [ref=e502] [cursor=pointer]
+        - generic [ref=e522]:
+          - generic [ref=e523]:
+            - generic [ref=e525]:
+              - status [ref=e527]:
+                - generic [ref=e532]: Loading older messages…
+              - generic [ref=e534]:
+                - generic [ref=e537]:
+                  - separator "Wednesday 4:55 PM" [ref=e538]:
+                    - time [ref=e539]: Wednesday 4:55 PM
+                  - generic [ref=e542]:
+                    - generic [ref=e543]:
+                      - generic [ref=e544]:
+                        - heading "You said:" [level=4] [ref=e545]
+                        - generic [ref=e548]
+                      - generic [ref=e579]:
+                        - button "Worked for 2m 32s" [ref=e580] [cursor=pointer]
+                        - generic: Worked for 2m 32s
+                      - generic [ref=e582]:
+                        - heading "ChatGPT said:" [level=4] [ref=e583]
+                        - generic [ref=e585]
+                    - generic [ref=e612]:
+                      - button "Copy" [ref=e614] [cursor=pointer]
+                      - button "Rate response" [ref=e618] [cursor=pointer]
+                      - button "Share" [ref=e622] [cursor=pointer]
+                      - button "Add to project sources" [ref=e1375] [cursor=pointer]
+                      - button "Read aloud" [ref=e640] [cursor=pointer]
+                      - button "Regenerate response" [ref=e644] [cursor=pointer]
+                      - button "More actions" [ref=e648] [cursor=pointer]
+                - generic [ref=e656]:
+                  - separator "Wednesday 6:52 PM" [ref=e657]:
+                    - time [ref=e658]: Wednesday 6:52 PM
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - generic [ref=e663]:
+                        - heading "You said:" [level=4] [ref=e664]
+                        - generic [ref=e667]
+                      - generic [ref=e693]:
+                        - button "Worked for 4m 3s" [ref=e694] [cursor=pointer]
+                        - generic: Worked for 4m 3s
+                      - generic [ref=e696]:
+                        - heading "ChatGPT said:" [level=4] [ref=e697]
+                        - generic [ref=e698]
+                    - generic [ref=e744]:
+                      - button "Copy" [ref=e746] [cursor=pointer]
+                      - button "Rate response" [ref=e750] [cursor=pointer]
+                      - button "Share" [ref=e754] [cursor=pointer]
+                      - button "Add to project sources" [ref=e1379] [cursor=pointer]
+                      - button "Read aloud" [ref=e772] [cursor=pointer]
+                      - button "Regenerate response" [ref=e776] [cursor=pointer]
+                      - button "More actions" [ref=e780] [cursor=pointer]
+                      - button "Sources" [ref=e787] [cursor=pointer]
+                - generic [ref=e793]:
+                  - separator "Today 12:05 AM" [ref=e794]:
+                    - time [ref=e795]: Today 12:05 AM
+                  - generic [ref=e798]:
+                    - generic [ref=e799]:
+                      - generic [ref=e800]:
+                        - heading "You said:" [level=4] [ref=e801]
+                        - generic [ref=e804]
+                      - generic [ref=e835]:
+                        - button "Worked for 2m 18s" [ref=e836] [cursor=pointer]
+                        - generic: Worked for 2m 18s
+                      - generic [ref=e838]:
+                        - heading "ChatGPT said:" [level=4] [ref=e839]
+                        - generic [ref=e840]
+                    - generic [ref=e857]:
+                      - button "Copy" [ref=e859] [cursor=pointer]
+                      - button "Rate response" [ref=e863] [cursor=pointer]
+                      - button "Share" [ref=e867] [cursor=pointer]
+                      - button "Add to project sources" [ref=e1383] [cursor=pointer]
+                      - button "Read aloud" [ref=e885] [cursor=pointer]
+                      - button "Regenerate response" [ref=e889] [cursor=pointer]
+                      - button "More actions" [ref=e893] [cursor=pointer]
+                      - button "Sources" [ref=e899] [cursor=pointer]
+                - generic [ref=e905]:
+                  - separator "Today 3:18 AM" [ref=e906]:
+                    - time [ref=e907]: Today 3:18 AM
+                  - generic [ref=e910]:
+                    - generic [ref=e911]:
+                      - generic [ref=e912]:
+                        - heading "You said:" [level=4] [ref=e913]
+                        - generic [ref=e916]
+                      - generic [ref=e947]:
+                        - button "Worked for 44s" [ref=e948] [cursor=pointer]
+                        - generic: Worked for 44s
+                      - generic [ref=e950]:
+                        - generic [ref=e951]
+                        - generic [ref=e954]
+                      - generic [ref=e983]:
+                        - generic [ref=e984]
+                        - generic [ref=e986]
+                      - generic [ref=e1017]:
+                        - heading "ChatGPT said:" [level=4] [ref=e1018]
+                        - generic [ref=e1019]
+                    - generic [ref=e1073]:
+                      - button "Copy" [ref=e1075] [cursor=pointer]
+                      - button "Rate response" [ref=e1079] [cursor=pointer]
+                      - button "Share" [ref=e1083] [cursor=pointer]
+                      - button "Add to project sources" [ref=e1387] [cursor=pointer]
+                      - button "Read aloud" [ref=e1101] [cursor=pointer]
+                      - button "Regenerate response" [ref=e1105] [cursor=pointer]
+                      - button "More actions" [ref=e1109] [cursor=pointer]
+                      - button "Sources" [ref=e1115] [cursor=pointer]
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]:
+                    - generic [ref=e1126]:
+                      - heading "You said:" [level=4] [ref=e1127]
+                      - generic [ref=e1130]:
+                        - generic [ref=e1132]
+                        - generic [ref=e1144]
+                    - generic [ref=e1161]:
+                      - button "Worked for 1m 57s" [ref=e1162] [cursor=pointer]
+                      - generic: Worked for 1m 57s
+                    - generic [ref=e1164]:
+                      - generic [ref=e1165]:
+                        - button "Analysis paused" [expanded] [ref=e1166] [cursor=pointer]
+                        - generic: Analysis paused
+                      - generic [ref=e1168]:
+                        - generic [ref=e1169]
+                        - code [ref=e1182]
+                    - generic [ref=e1192]:
+                      - generic [ref=e1193]:
+                        - button "Analyzed" [expanded] [ref=e1194] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=e1195]:
+                        - generic [ref=e1196]
+                        - generic [ref=e1220]
+                    - generic [ref=e1224]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1225]
+                      - generic [ref=e1226]:
+                        - generic [ref=e1227]
+                        - generic [ref=e1279]
+                  - generic [ref=e1282]:
+                    - button "Copy" [ref=e1284] [cursor=pointer]
+                    - button "Rate response" [ref=e1288] [cursor=pointer]
+                    - button "Share" [ref=e1292] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1391] [cursor=pointer]
+                    - button "Read aloud" [ref=e1310] [cursor=pointer]
+                    - button "Regenerate response" [ref=e1314] [cursor=pointer]
+                    - button "More actions" [ref=e1318] [cursor=pointer]
+                    - button "Sources" [ref=e1324] [cursor=pointer]
+            - generic [ref=e1328]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+              - heading "Latest response" [level=4] [ref=e1331]
+              - status [ref=e1332]
+              - generic [ref=e1343]:
+                - button "Add files and more" [ref=e1348] [cursor=pointer]
+                - textbox "Ask ChatGPT" [active] [ref=e1354]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=e1356]:
+                  - button "Select ChatGPT model" [ref=e1398] [cursor=pointer]:
+                    - generic [ref=e1399]: High
+                  - generic [ref=e1357]:
+                    - button "Dictate" [ref=e1360] [cursor=pointer]
+                    - button "Start Voice" [ref=e1366] [cursor=pointer]
+      - status [ref=e1409]
+  - status [ref=e1372]
+  - status [ref=e1373]
+  - status [ref=e1374]

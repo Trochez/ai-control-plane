@@ -1,0 +1,89 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e4]:
+    - complementary [ref=f4e5]:
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]:
+          - generic [ref=f4e13]: ChatGPT
+          - generic [ref=f4e19]:
+            - button "Search" [ref=f4e21] [cursor=pointer]
+            - button "Hide sidebar" [expanded] [ref=f4e30] [cursor=pointer]
+        - navigation "Chat history" [ref=f4e35]:
+          - button "New chat" [ref=f4e39] [cursor=pointer]
+          - generic [ref=f4e48]:
+            - generic [ref=f4e51]:
+              - button "Scheduled" [ref=f4e52] [cursor=pointer]
+              - button "Library" [ref=f4e61] [cursor=pointer]
+              - button "Plugins" [ref=f4e69] [cursor=pointer]
+              - button "Explore" [ref=f4e78] [cursor=pointer]
+            - generic [ref=f4e89]:
+              - generic [ref=f4e92]:
+                - generic [ref=f4e93]
+                - list [ref=f4e108]
+              - generic [ref=f4e262]:
+                - generic [ref=f4e263]
+                - list [ref=f4e273]
+        - generic [ref=f4e484] [cursor=pointer]:
+          - button "Open profile menu" [ref=f4e485]
+          - generic:
+            - generic:
+              - generic:
+                - generic: trochez
+                - generic: Plus
+      - generic:
+        - separator
+    - generic [ref=f4e486]:
+      - main [ref=f4e488]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic
+            - generic [ref=f4e490]:
+              - button "Share" [ref=f4e492] [cursor=pointer]
+              - button "More" [ref=f4e496] [cursor=pointer]
+        - generic [ref=f4e516]:
+          - generic [ref=f4e517]:
+            - generic [ref=f4e519]:
+              - status [ref=f4e521]:
+                - generic [ref=f4e526]: Loading older messages…
+              - generic [ref=f4e528]:
+                - generic [ref=f4e734]
+                - generic [ref=f4e930]
+                - generic [ref=f4e1109]
+                - generic [ref=f4e1514]
+            - generic [ref=f4e1298]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+              - heading "Latest response" [level=4] [ref=f4e1301]
+              - status [ref=f4e1302]
+              - generic [ref=f4e1313]:
+                - button "Add files and more" [ref=f4e1318] [cursor=pointer]
+                - textbox "Ask ChatGPT" [ref=f4e1324]
+                - generic [ref=f4e1326]
+      - status [ref=f4e1467]
+  - status [ref=f4e1339]
+  - status [ref=f4e1340]
+  - status [ref=f4e1341]: Response complete
+  - menu "Select ChatGPT model" [active] [ref=f4e2476]:
+    - generic [ref=f4e2477]:
+      - generic [ref=f4e2479]:
+        - generic [ref=f4e2481]:
+          - menuitem "Select model" [ref=f4e2482] [cursor=pointer]:
+            - generic [ref=f4e2483]: High
+          - generic [aria-hidden]:
+            - generic: Consumes usage limits faster
+        - generic [ref=f4e2490]:
+          - status: High, 3 of 3.
+          - generic: Use Left and Right arrow keys to adjust power
+          - menuitem "Power" [ref=f4e2491] [cursor=pointer]:
+            - slider [aria-hidden] [ref=f4e2502]
+      - generic [ref=f4e2506]:
+        - generic [ref=f4e2507]: Locked, opens access options
+        - menuitemradio [checked] [ref=f4e2508] [cursor=pointer]:
+          - generic [ref=f4e2509]: GPT-5.6 Sol
+        - menuitemradio [ref=f4e2513] [cursor=pointer]:
+          - generic [ref=f4e2515]:
+            - generic [ref=f4e2516]: GPT-5.5
+            - generic [ref=f4e2517]: Leaving on October 14

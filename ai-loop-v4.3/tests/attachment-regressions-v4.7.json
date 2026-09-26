@@ -1,0 +1,21 @@
+{
+  "empty_historical_composer": {
+    "source_diagnostic": "/var/lib/ai-loop/runs/R20260923T012014/browser/broker-diagnostics/2026-09-23T213606740Z-ATTACH_FILE.json",
+    "composer": {"present": true, "attachments": [], "text": ""},
+    "normal_controls": ["Add files", "Select ChatGPT model", "Dictate", "Start Voice"],
+    "historical_filename": "IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500.md",
+    "expected_attachments": []
+  },
+  "positive_current_attachment": {
+    "container": "data-composer-attachments",
+    "filename": "failure-evidence.json",
+    "remove_aria_label": "Remove failure-evidence.json",
+    "expected": {"name_control": true, "remove_control": true}
+  },
+  "stale_then_new_failure_evidence": {
+    "initial": "old-failure-evidence.json",
+    "removed_by": "Remove old-failure-evidence.json",
+    "next": "failure-evidence.json",
+    "expected_retry": "ATTACHED"
+  }
+}

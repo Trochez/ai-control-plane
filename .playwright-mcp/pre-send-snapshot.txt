@@ -1,0 +1,16 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e8]:
+        - navigation "App navigation" [ref=e9]
+        - navigation "Home" [ref=e65]
+      - separator [ref=e547]
+    - generic [ref=e548]:
+      - main [ref=e550]:
+        - generic
+        - generic [ref=e579]
+      - status [ref=e630]
+  - status [ref=e631]
+  - status [ref=e632]
+  - status [ref=e633]
+  - status [ref=e634]

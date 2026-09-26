@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+"""Run the protected remote CI status/evidence collector."""
+import subprocess
+import sys
+from pathlib import Path
+
+if len(sys.argv) != 2:
+    print('Usage: ci-status <SHA>', file=sys.stderr)
+    raise SystemExit(2)
+
+sha = sys.argv[1].strip()
+if len(sha) != 40:
+    print('ERROR: invalid SHA', file=sys.stderr)
+    raise SystemExit(2)
+
+wrapper = Path(__file__).with_name('vps-ssh')
+remote = r'''
+set -euo pipefail
+SHA="$1"
+set -a
+. /etc/bot-trading/ci-breaker.env
+set +a
+host="${SEMAPHORE_ORG_URL:?SEMAPHORE_ORG_URL is required}"
+project="${SEMAPHORE_PROJECT_ID:?SEMAPHORE_PROJECT_ID is required}"
+branch="${GITHUB_REF:-feature/GRU}"
+export host project branch
+python3 - "$SHA" <<'PY'
+import json, os, sys, urllib.parse, urllib.request
+sha = sys.argv[1]
+host = os.environ['host'].removeprefix('https://').removeprefix('http://').rstrip('/')
+project = os.environ['project']
+branch = os.environ['branch']
+with open('/var/lib/bot-trading-ci-breaker/state.json', encoding='utf-8') as f:
+    breaker = json.load(f)
+provider = breaker.get('route') or breaker.get('last_dispatched_provider')
+def get(url):
+    req = urllib.request.Request(url, headers={'Authorization': f"Token {os.environ['SEMAPHORE_API_TOKEN']}", 'Accept': 'application/json'})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode('utf-8'))
+def emit(status, **extra):
+    out = {'sha': sha, 'provider': provider, 'status': status, **extra}
+    print(json.dumps(out, sort_keys=True)); raise SystemExit
+if provider != 'semaphore': emit('PENDING', reason='unsupported_provider')
+items=get(f"https://{host}/api/v1alpha/plumber-workflows?{urllib.parse.urlencode({'project_id':project,'branch_name':branch})}")
+items=items.get('workflows', items.get('items', [])) if isinstance(items, dict) else items
+matches=[w for w in items or [] if str(w.get('commit_sha') or '') == sha]
+if not matches: emit('PENDING', reason='awaiting_semaphore_dispatch')
+w=sorted(matches, key=lambda x: str(x.get('created_at') or ''), reverse=True)[0]
+wid=w.get('wf_id') or w.get('workflow_id'); pid=w.get('initial_ppl_id') or w.get('pipeline_id')
+if not pid: emit('PENDING', run_id=wid, workflow_id=wid, reason='workflow_found_pipeline_not_ready')
+p=get(f'https://{host}/api/v1alpha/pipelines/{pid}').get('pipeline', {})
+state=str(p.get('state') or '').lower(); result=str(p.get('result') or '').lower()
+status='SUCCESS' if state in ('done','completed') and result in ('passed','success','succeeded') else ('FAILURE' if state in ('done','completed') else 'PENDING')
+out={'status':status,'provider':'semaphore','sha':sha,'workflow_id':wid,'pipeline_id':pid,'raw_state':state,'raw_result':result,'run_id':wid,'pipeline':{'state':state,'result':result},'blocks':[],'jobs':[],'collector_source':'api'}
+for endpoint,key in ((f'https://{host}/api/v1alpha/pipelines/{pid}/blocks','blocks'),(f'https://{host}/api/v1alpha/pipelines/{pid}/jobs','jobs')):
+    try:
+        data=get(endpoint); out[key]=data.get(key, data.get('items', [])) if isinstance(data,dict) else data
+    except Exception as exc:
+        out.setdefault('detail_error', str(exc))
+print(json.dumps(out, sort_keys=True))
+PY
+'''
+cmd = [str(wrapper), 'bash', '-s', '--', sha]
+result = subprocess.run(cmd, input=remote, text=True, capture_output=True)
+sys.stdout.write(result.stdout)
+sys.stderr.write(result.stderr)
+raise SystemExit(result.returncode)

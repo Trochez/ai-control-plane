@@ -1,0 +1,144 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e8]:
+        - navigation "App navigation" [ref=e9]:
+          - generic [ref=e10]:
+            - button "Home" [ref=e12] [cursor=pointer]
+            - button "Scheduled" [ref=e17] [cursor=pointer]
+            - button "Library" [ref=e23] [cursor=pointer]
+            - button "Images" [ref=e28] [cursor=pointer]
+            - button "Plugins" [ref=e34] [cursor=pointer]
+            - button "Explore" [ref=e39] [cursor=pointer]
+          - generic [ref=e47]:
+            - button "Help menu" [ref=e50] [cursor=pointer]
+            - button "Open profile menu" [ref=e59] [cursor=pointer]
+        - navigation "Home" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ChatGPT
+              - generic [ref=e76]:
+                - button "Search" [ref=e78] [cursor=pointer]
+                - button "View activity" [ref=e86] [cursor=pointer]
+                - button "Hide sidebar" [expanded] [ref=e91] [cursor=pointer]
+            - button "New chat" [ref=e97] [cursor=pointer]
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - button "Projects" [expanded] [ref=e115] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Project sidebar options"
+                      - button "Add new project" [ref=e120] [cursor=pointer]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - button "zircon_practica_unir" [ref=e132] [cursor=pointer]:
+                    - button "Project actions for zircon_practica_unir" [ref=e145]
+                    - button "New chat in zircon_practica_unir" [ref=e153]
+                - listitem [ref=e158]:
+                  - button "agentic_pipeline" [ref=e162] [cursor=pointer]:
+                    - button "Project actions for agentic_pipeline" [ref=e175]
+                    - button "New chat in agentic_pipeline" [ref=e183]
+                - listitem [ref=e188]:
+                  - button "body_finder_fast" [ref=e192] [cursor=pointer]:
+                    - button "Project actions for body_finder_fast" [ref=e205]
+                    - button "New chat in body_finder_fast" [ref=e213]
+                - listitem [ref=e218]:
+                  - button "Bot_trading" [ref=e222] [cursor=pointer]:
+                    - button "Project actions for Bot_trading" [ref=e235]
+                    - button "New chat in Bot_trading" [ref=e243]
+                - listitem [ref=e248]:
+                  - button "ubuntu problems" [ref=e252] [cursor=pointer]:
+                    - button "Project actions for ubuntu problems" [ref=e265]
+                    - button "New chat in ubuntu problems" [ref=e273]
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - button "Recents" [expanded] [ref=e285] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Chat sidebar options"
+                      - button "Filter chats and work"
+                      - generic:
+                        - button "New chat"
+              - list [ref=e292]:
+                - listitem [ref=e293]:
+                  - button "Modelo más potente en ChatGPT" [ref=e295] [cursor=pointer]:
+                    - generic [ref=e297]:
+                      - button "Chat actions" [ref=e298]
+                      - button "Pin chat" [ref=e305]
+                - listitem [ref=e317]:
+                  - button "Enlaces de compra ranking" [ref=e319] [cursor=pointer]:
+                    - generic [ref=e321]:
+                      - button "Chat actions" [ref=e322]
+                      - button "Pin chat" [ref=e329]
+                - listitem [ref=e341]:
+                  - button "Ranking precio calidad LLM local" [ref=e343] [cursor=pointer]:
+                    - generic [ref=e345]:
+                      - button "Chat actions" [ref=e346]
+                      - button "Pin chat" [ref=e353]
+                - listitem [ref=e365]:
+                  - button "Implementación CI completada" [ref=e367] [cursor=pointer]:
+                    - generic [ref=e369]:
+                      - button "Chat actions" [ref=e370]
+                      - button "Pin chat" [ref=e377]
+                - listitem [ref=e389]:
+                  - button "Diagnóstico CI Semaphore" [ref=e391] [cursor=pointer]:
+                    - generic [ref=e393]:
+                      - button "Chat actions" [ref=e394]
+                      - button "Pin chat" [ref=e401]
+                - listitem [ref=e413]:
+                  - button "Ejecuta acción lectura Semaphore" [ref=e415] [cursor=pointer]:
+                    - generic [ref=e417]:
+                      - button "Chat actions" [ref=e418]
+                      - button "Pin chat" [ref=e425]
+                - listitem [ref=e437]:
+                  - button "Resolver bolas azules y rojas" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e441]:
+                      - button "Chat actions" [ref=e442]
+                      - button "Pin chat" [ref=e449]
+                - listitem [ref=e461]:
+                  - button "Ranking RTX 5070 Ti" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e465]:
+                      - button "Chat actions" [ref=e466]
+                      - button "Pin chat" [ref=e473]
+                - listitem [ref=e485]:
+                  - button "Ranking pantallas OLED 2K" [ref=e487] [cursor=pointer]:
+                    - generic [ref=e489]:
+                      - button "Chat actions" [ref=e490]
+                      - button "Pin chat" [ref=e497]
+                - listitem [ref=e509]:
+                  - button "Ranking monitores OLED 4K" [ref=e511] [cursor=pointer]:
+                    - generic [ref=e513]:
+                      - button "Chat actions" [ref=e514]
+                      - button "Pin chat" [ref=e521]
+                - listitem [ref=e533]:
+                  - status [ref=e535]:
+                    - generic [ref=e536]: Loading chats
+      - separator [ref=e547]
+    - generic [ref=e548]:
+      - main [ref=e550]:
+        - generic [ref=e552]:
+          - button "Share" [disabled] [ref=e554]
+          - button "More" [ref=e558] [cursor=pointer]
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - status "Loading ChatGPT conversation" [ref=e583]
+            - generic [ref=e589]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - heading "Latest response" [level=4] [ref=e592]
+              - status [ref=e593]
+              - generic [ref=e604]:
+                - button "Add files and more" [disabled] [ref=e609]
+                - textbox "Ask ChatGPT" [active] [ref=e615]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=e618]:
+                  - button "Dictate" [disabled] [ref=e621]
+                  - button "Send" [disabled] [ref=e627] [cursor=pointer]
+      - status [ref=e630]
+  - status [ref=e631]
+  - status [ref=e632]
+  - status [ref=e633]
+  - status [ref=e634]

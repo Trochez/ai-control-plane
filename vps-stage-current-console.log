@@ -1,0 +1,3 @@
+Total messages: 1 (Errors: 0, Warnings: 1)
+
+[WARNING] WebSocket connection to 'wss://ws.chatgpt.com/p14/ws/user/user-lneTN0e7nDvtcKEed1D8IFaS?verify=1790372850-R1hU%252FfM0e3G5VxND9xt53tmhUW22UUaT31P3AzaNsUM%253D' failed: WebSocket is closed before the connection is established. @ https://chatgpt.com/cdn/assets/376616.7113a94b8a.js:217

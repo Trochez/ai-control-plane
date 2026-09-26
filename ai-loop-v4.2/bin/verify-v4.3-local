@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+node --check "$ROOT/chat-policy-v4.3.cjs"
+node --check "$ROOT/tests/test-chat-policy-v4.3.cjs"
+node "$ROOT/tests/test-chat-policy-v4.3.cjs"
+echo 'VERIFY_V4_3_LOCAL=PASS'

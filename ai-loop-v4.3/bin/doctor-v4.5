@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+CONFIG=${2:-${AI_LOOP_PROJECT_CONFIG:-/opt/ai-loop/project.yaml}}
+MODE=${4:-${AI_LOOP_RUN_KIND:-read_only_probe}}
+[[ "${1:-}" == "--config" && "${3:-}" == "--run-kind" && "${5:-}" == "--no-send" ]] || { echo 'Usage: doctor-v4.5 --config <project.yaml> --run-kind <read_only_probe|implementation> --no-send' >&2; exit 2; }
+[[ -f "$CONFIG" ]] || { echo "DOCTOR=BLOCKED_EXTERNAL reason=config_missing path=$CONFIG"; exit 20; }
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+python3 - "$ROOT" "$CONFIG" "$MODE" <<'PY'
+import importlib.util, pathlib, sys
+root=pathlib.Path(sys.argv[1]); config=pathlib.Path(sys.argv[2]); mode=sys.argv[3]
+spec=importlib.util.spec_from_file_location('ai_loop',root/'ai-loopd-v3.py')
+m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+m.PROJECT_YAML=config
+cfg=m.load_project(); missing=[]
+for k in ('repo_dir','control_repo_dir'):
+    if not pathlib.Path(cfg[k]).is_dir(): missing.append(f'{k}={cfg[k]}')
+for k in ('ci_status','vps_wrapper'):
+    if not pathlib.Path(cfg[k]).exists(): missing.append(f'{k}={cfg[k]}')
+if mode not in {'read_only_probe','implementation'}: missing.append('run_kind_invalid')
+print('DOCTOR_CONFIG=PASS mode='+mode+' repo_dir='+cfg['repo_dir'])
+if missing:
+    print('DOCTOR=BLOCKED_EXTERNAL missing='+';'.join(missing)); raise SystemExit(20)
+print('DOCTOR=PASS no_send=true browser_mode='+cfg['browser_mode'])
+PY

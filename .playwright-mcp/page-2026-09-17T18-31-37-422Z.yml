@@ -1,0 +1,69 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - link "logo Home" [ref=f12e5] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=f12e6]
+        - generic [ref=f12e7]: Home
+      - generic [ref=f12e9] [cursor=pointer]:
+        - img "list" [ref=f12e10]
+        - text: Projects
+      - text: ★
+      - link "list Create new" [ref=f12e12] [cursor=pointer]:
+        - /url: /x/new_project
+        - img "list" [ref=f12e13]
+        - generic [ref=f12e14]: Create new
+    - generic [ref=f12e15]:
+      - img "tromon92" [ref=f12e17] [cursor=pointer]
+      - generic [ref=f12e18] [cursor=pointer]
+  - generic [ref=f12e21]:
+    - generic [ref=f12e23]:
+      - link "bot_trading" [ref=f12e25] [cursor=pointer]:
+        - /url: /projects/bot_trading
+      - text: ›
+      - link "feature/GRU" [ref=f12e27] [cursor=pointer]:
+        - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - text: › noop
+    - generic [ref=f12e29]:
+      - generic [ref=f12e30]:
+        - generic [ref=f12e31]: Project
+        - generic [ref=f12e32]:
+          - link "bot_trading" [ref=f12e33] [cursor=pointer]:
+            - /url: /projects/bot_trading
+          - link [ref=f12e34] [cursor=pointer]:
+            - /url: /projects/bot_trading/settings/general
+      - generic [ref=f12e36]: ›
+      - generic [ref=f12e37]:
+        - generic [ref=f12e38]: Branch
+        - link "feature/GRU" [ref=f12e39] [cursor=pointer]:
+          - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - generic [ref=f12e40]: ›
+    - generic [ref=f12e41]:
+      - generic [ref=f12e43]:
+        - generic [ref=f12e44]: by Trochez, triggered Thu 17th Sep 2026 at 12:05
+        - generic [ref=f12e45]:
+          - img "commit" [ref=f12e46]
+          - link "258a111" [ref=f12e47] [cursor=pointer]:
+            - /url: https://github.com/Trochez/bot_trading/commit/258a111c031dee9643cffb920518fcc1ca392565
+        - generic [ref=f12e48]:
+          - img "console" [ref=f12e49]
+          - generic [ref=f12e50] [cursor=pointer]: CLI
+      - generic [ref=f12e51]:
+        - heading "noop" [level=1] [ref=f12e52]
+        - link "Rerun Workflow" [ref=f12e54] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/rebuild
+      - generic [ref=f12e55]:
+        - link "Workflow" [ref=f12e56] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+        - link "Tests" [ref=f12e59] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/summary
+        - link "Artifacts" [ref=f12e63] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/artifacts
+        - link "Report" [ref=f12e67] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/report
+    - generic [ref=f12e71]: Fetching pipelines...
+    - generic [ref=f12e74]:
+      - button "Show skipped blocks" [ref=f12e76] [cursor=pointer]
+      - link [ref=f12e78] [cursor=pointer]:
+        - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/edit
+        - button "Edit Workflow" [ref=f12e79]

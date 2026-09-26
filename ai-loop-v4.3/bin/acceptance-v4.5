@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCENARIO=${2:-}; CONFIG=${4:-}
+[[ "${1:-}" == "--scenario" && "${3:-}" == "--manifest" && -f "$CONFIG" ]] || { echo 'Usage: acceptance-v4.5 --scenario read-only|implementation|recovery|restart|target --manifest <project.yaml>' >&2; exit 2; }
+case "$SCENARIO" in read-only|implementation|recovery|restart|target) ;; *) echo 'ACCEPTANCE=INCOMPLETE_INTERNAL scenario_invalid'; exit 21 ;; esac
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+MODE=implementation; [[ "$SCENARIO" == read-only ]] && MODE=read_only_probe
+"$ROOT/bin/doctor-v4.5" --config "$CONFIG" --run-kind "$MODE" --no-send
+if [[ "${AI_LOOP_LIVE_ACCEPTANCE:-0}" != 1 ]]; then
+  echo "ACCEPTANCE=BLOCKED_EXTERNAL scenario=$SCENARIO reason=AI_LOOP_LIVE_ACCEPTANCE=1_required_and_authenticated_services_must_be_available"; exit 20
+fi
+echo "ACCEPTANCE=READY scenario=$SCENARIO next=run_the_configured_v3_controller_and_collect_acceptance_manifest"

@@ -1,0 +1,906 @@
+[
+  {
+    "i": 0,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Home",
+    "disabled": false
+  },
+  {
+    "i": 1,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Scheduled",
+    "disabled": false
+  },
+  {
+    "i": 2,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Library",
+    "disabled": false
+  },
+  {
+    "i": 3,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Images",
+    "disabled": false
+  },
+  {
+    "i": 4,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Plugins",
+    "disabled": false
+  },
+  {
+    "i": 5,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Explore",
+    "disabled": false
+  },
+  {
+    "i": 6,
+    "tag": "BUTTON",
+    "aria": "Help menu",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 7,
+    "tag": "BUTTON",
+    "aria": "Open profile menu",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 8,
+    "tag": "BUTTON",
+    "aria": "Search",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 9,
+    "tag": "BUTTON",
+    "aria": "View activity",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 10,
+    "tag": "BUTTON",
+    "aria": "Hide sidebar",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 11,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "New chat",
+    "disabled": false
+  },
+  {
+    "i": 12,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Projects",
+    "disabled": false
+  },
+  {
+    "i": 13,
+    "tag": "BUTTON",
+    "aria": "Project sidebar options",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 14,
+    "tag": "BUTTON",
+    "aria": "Add new project",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 15,
+    "tag": "BUTTON",
+    "aria": "Project actions for zircon_practica_unir",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 16,
+    "tag": "BUTTON",
+    "aria": "New chat in zircon_practica_unir",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 17,
+    "tag": "BUTTON",
+    "aria": "Project actions for agentic_pipeline",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 18,
+    "tag": "BUTTON",
+    "aria": "New chat in agentic_pipeline",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 19,
+    "tag": "BUTTON",
+    "aria": "Project actions for body_finder_fast",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 20,
+    "tag": "BUTTON",
+    "aria": "New chat in body_finder_fast",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 21,
+    "tag": "BUTTON",
+    "aria": "Project actions for Bot_trading",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 22,
+    "tag": "BUTTON",
+    "aria": "New chat in Bot_trading",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 23,
+    "tag": "BUTTON",
+    "aria": "Project actions for ubuntu problems",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 24,
+    "tag": "BUTTON",
+    "aria": "New chat in ubuntu problems",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 25,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Recents",
+    "disabled": false
+  },
+  {
+    "i": 26,
+    "tag": "BUTTON",
+    "aria": "Chat sidebar options",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 27,
+    "tag": "BUTTON",
+    "aria": "Filter chats and work",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 28,
+    "tag": "BUTTON",
+    "aria": "New chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 29,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 30,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 31,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 32,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 33,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 34,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 35,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 36,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 37,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 38,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 39,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 40,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 41,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 42,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 43,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 44,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 45,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 46,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 47,
+    "tag": "BUTTON",
+    "aria": "Chat actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 48,
+    "tag": "BUTTON",
+    "aria": "Pin chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 49,
+    "tag": "BUTTON",
+    "aria": "New chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 50,
+    "tag": "BUTTON",
+    "aria": "Show sidebar",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 51,
+    "tag": "BUTTON",
+    "aria": "New chat",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 52,
+    "tag": "BUTTON",
+    "aria": "Show sidebar",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 53,
+    "tag": "BUTTON",
+    "aria": "Share",
+    "title": null,
+    "text": "Share",
+    "disabled": false
+  },
+  {
+    "i": 54,
+    "tag": "BUTTON",
+    "aria": "More",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 55,
+    "tag": "BUTTON",
+    "aria": "IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500(1).md",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 56,
+    "tag": "BUTTON",
+    "aria": "Copy message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 57,
+    "tag": "BUTTON",
+    "aria": "Share prompt",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 58,
+    "tag": "BUTTON",
+    "aria": "Edit message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 61,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 63,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 65,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 66,
+    "tag": "BUTTON",
+    "aria": "Copy message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 67,
+    "tag": "BUTTON",
+    "aria": "Share prompt",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 68,
+    "tag": "BUTTON",
+    "aria": "See versions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 69,
+    "tag": "BUTTON",
+    "aria": "Edit message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 71,
+    "tag": "BUTTON",
+    "aria": "Enable word wrap",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 72,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 73,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 74,
+    "tag": "BUTTON",
+    "aria": "Rate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 75,
+    "tag": "BUTTON",
+    "aria": "Share",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 76,
+    "tag": "BUTTON",
+    "aria": "Add to project sources",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 77,
+    "tag": "BUTTON",
+    "aria": "Regenerate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 78,
+    "tag": "BUTTON",
+    "aria": "More actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 79,
+    "tag": "BUTTON",
+    "aria": "Copy message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 80,
+    "tag": "BUTTON",
+    "aria": "Share prompt",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 81,
+    "tag": "BUTTON",
+    "aria": "Edit message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 83,
+    "tag": "BUTTON",
+    "aria": "Open preview of Pasted text(20260923-192112).txt",
+    "title": null,
+    "text": "Pasted text(20260923-192112)",
+    "disabled": false
+  },
+  {
+    "i": 84,
+    "tag": "BUTTON",
+    "aria": "Open preview of Pasted text(20260923-192112).txt",
+    "title": null,
+    "text": "Pasted text(20260923-192112)",
+    "disabled": false
+  },
+  {
+    "i": 85,
+    "tag": "BUTTON",
+    "aria": "Open preview of failure-evidence-bundle-025d7f19b1dd83b26733.txt",
+    "title": null,
+    "text": "failure-evidence-bundle-025d7f1…",
+    "disabled": false
+  },
+  {
+    "i": 86,
+    "tag": "BUTTON",
+    "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 87,
+    "tag": "BUTTON",
+    "aria": "Download file",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 88,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 89,
+    "tag": "BUTTON",
+    "aria": "Rate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 90,
+    "tag": "BUTTON",
+    "aria": "Share",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 91,
+    "tag": "BUTTON",
+    "aria": "Add to project sources",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 92,
+    "tag": "BUTTON",
+    "aria": "Regenerate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 93,
+    "tag": "BUTTON",
+    "aria": "More actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 94,
+    "tag": "BUTTON",
+    "aria": "Sources",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 95,
+    "tag": "BUTTON",
+    "aria": null,
+    "title": null,
+    "text": "Show more",
+    "disabled": false
+  },
+  {
+    "i": 96,
+    "tag": "BUTTON",
+    "aria": "Copy message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 97,
+    "tag": "BUTTON",
+    "aria": "Share prompt",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 98,
+    "tag": "BUTTON",
+    "aria": "Edit message",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 100,
+    "tag": "BUTTON",
+    "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 101,
+    "tag": "BUTTON",
+    "aria": "Download file",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 102,
+    "tag": "BUTTON",
+    "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 103,
+    "tag": "BUTTON",
+    "aria": "Download file",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 104,
+    "tag": "BUTTON",
+    "aria": "Copy",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 105,
+    "tag": "BUTTON",
+    "aria": "Rate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 106,
+    "tag": "BUTTON",
+    "aria": "Share",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 107,
+    "tag": "BUTTON",
+    "aria": "Add to project sources",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 108,
+    "tag": "BUTTON",
+    "aria": "Regenerate response",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 109,
+    "tag": "BUTTON",
+    "aria": "More actions",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 110,
+    "tag": "BUTTON",
+    "aria": "Sources",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 111,
+    "tag": "BUTTON",
+    "aria": "Yes",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 112,
+    "tag": "BUTTON",
+    "aria": "No",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 113,
+    "tag": "BUTTON",
+    "aria": "Dismiss rating prompt",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 114,
+    "tag": "BUTTON",
+    "aria": "Scroll to bottom",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 115,
+    "tag": "BUTTON",
+    "aria": "Add files and more",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 116,
+    "tag": "DIV",
+    "aria": "Ask ChatGPT",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 117,
+    "tag": "BUTTON",
+    "aria": "Select ChatGPT model",
+    "title": null,
+    "text": "High",
+    "disabled": false
+  },
+  {
+    "i": 118,
+    "tag": "BUTTON",
+    "aria": "Dictate",
+    "title": null,
+    "text": "",
+    "disabled": false
+  },
+  {
+    "i": 119,
+    "tag": "BUTTON",
+    "aria": "Start Voice",
+    "title": null,
+    "text": "",
+    "disabled": false
+  }
+]

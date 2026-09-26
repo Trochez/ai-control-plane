@@ -1,0 +1,5 @@
+{
+  "id": "task-2",
+  "role": "consultant",
+  "description": "Inspect browser-broker-v1.cjs and controller semantic observer/recovery code. Propose exact minimal implementation for RESPONSE_MISSING, bounded GENERATING, reconciliation, and circuit breaker. Read-only; write findings to worker result file."
+}

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PLAN=${1:-}
+[[ -n "$PLAN" && -f "$PLAN" ]] || { echo "Usage: $0 /path/to/PLAN.md" >&2; exit 2; }
+for c in python3 node opencode git gh; do command -v "$c" >/dev/null || { echo "PREFLIGHT=FAIL missing=$c"; exit 10; }; done
+[[ -x /opt/ai-loop/bin/vps-ssh ]] || { echo "PREFLIGHT=FAIL missing=/opt/ai-loop/bin/vps-ssh"; exit 11; }
+[[ -f /opt/ai-loop/project.yaml ]] || { echo "PREFLIGHT=FAIL missing=/opt/ai-loop/project.yaml"; exit 12; }
+grep -q 'project_url:.*g-p-.*bot-trading' /opt/ai-loop/project.yaml || { echo "PREFLIGHT=FAIL project_url"; exit 13; }
+python3 - <<'PY'
+import importlib.util
+p='/opt/ai-loop/ai-loopd-v3.py'
+s=importlib.util.spec_from_file_location('a',p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+assert m.VERSION=='4.1.0',m.VERSION
+print('PREFLIGHT_VERSION=PASS version='+m.VERSION)
+print('PREFLIGHT_PLAYWRIGHT_NODE_ROOT='+str(m._playwright_node_module_root(False)))
+PY
+if pgrep -af '/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|browser-broker-v1\.cjs|opencode run|@playwright/mcp' | grep -vE 'pgrep|grep|preflight-v4.1' >/dev/null 2>&1; then
+  echo "PREFLIGHT=FAIL residual_processes"
+  pgrep -af '/opt/ai-loop/ai-loopd\.py|/opt/ai-loop/ai-loopd-v2\.py|/opt/ai-loop/ai-loopd-v3\.py|browser-broker-v1\.cjs|opencode run|@playwright/mcp' | grep -vE 'pgrep|grep|preflight-v4.1' || true
+  exit 14
+fi
+echo "PREFLIGHT=PASS plan=$(realpath "$PLAN")"

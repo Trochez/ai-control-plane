@@ -1,0 +1,7 @@
+plan in your immediately previous response is already approved plan for this iteration. Do NOT regenerate it, redesign it, or change its scope. Do not execute implementation.
+
+Create NOW exactly that same plan as actual downloadable Markdown (. md) file attachment using your file-generation capability. filename MUST include UTC date/time.
+
+response should contain real downloadable. md attachment. Do not paste complete plan again as inline chat text. one-line confirmation naming attached file is enough.
+
+downloadable. md attachment is only authoritative artifact for next implementation chat. If you cannot create real downloadable. md attachment, state that explicitly in one short sentence.

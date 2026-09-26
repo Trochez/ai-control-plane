@@ -1,0 +1,6 @@
+{
+  "id": "task-2",
+  "worker": "worker-2",
+  "description": "Inspect resumed FAILURE_ANALYSIS/EVIDENCE_COLLECTING control flow and circuit-breaker logic, including tests. Read-only; identify why legacy browser path is primary and propose exact regression test. Do not modify files.",
+  "status": "pending"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "R20260923T012014",
+  "runtime_version": "4.7.9",
+  "SURFACE_NORMALIZATION": "PASS",
+  "LIVE_TURN_PROVENANCE": "NOT_RUN",
+  "LIVE_CONVERSATION_PROOF": "NOT_RUN",
+  "OPERATOR_ACTION_EXECUTION": "FAILED_TERMINAL",
+  "OPERATOR_ACTION_RETRY_ALLOWED": false,
+  "OPERATOR_RESULT_DELIVERY": "PENDING",
+  "OUTBOUND_SEND": "BLOCKED",
+  "reason": "AWAITING_EXPLICIT_RESULT_DELIVERY_CONTINUATION",
+  "surface_classifier_false_positive": true,
+  "send_performed": false
+}

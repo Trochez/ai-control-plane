@@ -1,0 +1,577 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "model_fallback": true,
+  "runtime_fallback": {
+    "enabled": true,
+    "retry_on_errors": [
+      429,
+      500,
+      502,
+      503,
+      504,
+      529
+    ],
+    "retry_on_timeout": true,
+    "retry_on_network_error": true,
+    "max_fallback_attempts": 5,
+    "backoff_ms": 1000,
+    "max_backoff_ms": 30000,
+    "timeout_seconds": 120,
+    "cooldown_seconds": 30,
+    "model": "opencode-omniroute/ds/deepseek-v4-flash",
+    "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+  },
+  "providerOptions": {
+    "enable-auto-tool-choice": true,
+    "tool-call-parser": "auto",
+    "model": "opencode-omniroute/ds/deepseek-v4-flash",
+    "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+  },
+  "provider": {
+    "nvidia": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "openai": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "options": {
+        "timeout": 120000,
+        "chunkTimeout": 30000,
+        "model": "opencode-omniroute/ds/deepseek-v4-flash",
+        "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+      },
+      "models": {
+        "gpt-5": {
+          "name": "Gpt 5",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5-mini": {
+          "name": "Gpt 5 Mini",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.4": {
+          "name": "Gpt 5.4",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.4-mini": {
+          "name": "Gpt 5.4 Mini",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.4-nano": {
+          "name": "Gpt 5.4 Nano",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.4-pro": {
+          "name": "Gpt 5.4 Pro",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.5": {
+          "name": "Gpt 5.5",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        },
+        "gpt-5.5-pro": {
+          "name": "Gpt 5.5 Pro",
+          "model": "opencode-omniroute/ds/deepseek-v4-flash",
+          "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+        }
+      }
+    },
+    "opencode": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    }
+  },
+  "background_task": {
+    "staleTimeoutMs": 60000,
+    "circuitBreaker": {
+      "enabled": true,
+      "consecutiveThreshold": 50,
+      "maxToolCalls": 8000
+    },
+    "model": "opencode-omniroute/ds/deepseek-v4-flash",
+    "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+  },
+  "agents": {
+    "sisyphus": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "thinking": {
+        "type": "enabled",
+        "budgetTokens": 10000
+      },
+      "mode": "primary",
+      "category": "orchestrator",
+      "skills": [
+        "ralph",
+        "autopilot",
+        "ultrawork"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "write": true,
+        "task": true,
+        "webfetch": true,
+        "websearch": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow",
+        "task": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#9400D3",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "hephaestus": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "executor",
+      "skills": [],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "allow_non_gpt_model": true,
+      "color": "#4ECDC4",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "oracle": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "high",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "consultant",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#9B59B6",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "explore": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "search",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "low",
+      "color": "#3498DB",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "prometheus": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "planner",
+      "skills": [
+        "plan",
+        "ralplan"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#E74C3C",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "metis": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "analyst",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#1ABC9C",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "momus": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "reviewer",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#F39C12",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "librarian": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "research",
+      "tools": {
+        "webfetch": true,
+        "websearch": true,
+        "read": true,
+        "bash": true,
+        "edit": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#2ECC71",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "multimodal-looker": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "visual",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#E67E22",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "atlas": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "knowledge",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#95A5A6",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "sisyphus-junior": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "orchestrator-junior",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#FF6B6B",
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "ultrabrain": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "deep": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "artistry": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "quick": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "unspecified-low": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "unspecified-high": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    },
+    "writing": {
+      "model": "opencode-omniroute/ds/deepseek-v4-flash",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash",
+        "opencode-omniroute/ds/deepseek-v4-flash"
+      ],
+      "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+    }
+  },
+  "ranking_selection_note": {
+    "source_file": "oh-my-opencode-odslw.json",
+    "description": "All models set to opencode-omniroute/ds/deepseek-v4-flash (OmniRoute) for low-cost operation",
+    "generated_at": "2026-07-23"
+  },
+  "model": "opencode-omniroute/ds/deepseek-v4-flash",
+  "small_model": "opencode-omniroute/ds/deepseek-v4-flash"
+}

@@ -1,0 +1,42 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e4]:
+    - complementary [ref=f4e5]:
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]:
+          - generic [ref=f4e13]: ChatGPT
+          - generic [ref=f4e19]
+        - navigation "Chat history" [ref=f4e35]:
+          - button "New chat" [ref=f4e39] [cursor=pointer]
+          - generic [ref=f4e48]
+        - generic [ref=f4e484] [cursor=pointer]:
+          - button "Open profile menu" [ref=f4e485]
+          - generic
+      - generic:
+        - separator
+    - generic [ref=f4e486]:
+      - main [ref=f4e488]:
+        - generic:
+          - generic
+        - generic [ref=f4e516]:
+          - generic [ref=f4e517]
+          - generic
+      - status [ref=f4e1467]
+  - status [ref=f4e1339]
+  - status [ref=f4e1340]
+  - status [ref=f4e1341]: Response complete
+  - menu "Select ChatGPT model" [active] [ref=f4e2428]:
+    - generic [ref=f4e2429]:
+      - generic [ref=f4e2431]:
+        - generic [ref=f4e2433]:
+          - menuitem "Select model" [ref=f4e2434] [cursor=pointer]
+          - generic [aria-hidden]
+        - generic [ref=f4e2442]:
+          - status: High, 3 of 3.
+          - generic: Use Left and Right arrow keys to adjust power
+          - menuitem "Power" [ref=f4e2443] [cursor=pointer]
+      - generic [ref=f4e2458]:
+        - generic [ref=f4e2459]: Locked, opens access options
+        - menuitemradio [checked] [ref=f4e2460] [cursor=pointer]:
+          - generic [ref=f4e2461]: GPT-5.6 Sol
+        - menuitemradio [ref=f4e2465] [cursor=pointer]:
+          - generic [ref=f4e2467]

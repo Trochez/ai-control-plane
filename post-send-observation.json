@@ -1,0 +1,107 @@
+{
+  "url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "text": "eaker.tests.test_ci_breaker\n\nrun_step 02_test_orphan_recovery_wait \\\n  python3 -m unittest -v ops.gru.test_remediate_orphan_recovery_wait\n\nrun_step 03_test_plan01_data_foundation \\\n  python3 -m unittest -v apy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests\n\nrun_step 04_test_p2_memory_bound \\\n  python3 -m unittest -v ops.ci.tests.test_p2_memory_bound_contract\n\nrun_step 05_test_raw_payload_persistence \\\n  python3 -m unittest -v apy.tests.test_raw_payload_persistence\n\nrun_step 06_test_full_corpus_durability \\\n  python3 -m unittest -v ops.ci.tests.test_full_corpus_durability_contract\n\nrun_step 07_test_p1_dependency_validator \\\n  python3 -m unittest -v ops.ci.tests.test_p1_dependency_validator_contract\n\nrun_step 08_test_p2_handoff_state_machine \\\n  python3 -m unittest -v ops.ci.tests.test_p2_handoff_state_machine\n\nrun_step 09_test_p2_external_evidence \\\n  python3 -m unittest -v ops.ci.tests.test_p2_external_evidence_contract\n\nrun_step 10_test_post_p2_live_acceptance \\\n  python3 -m unittest -v ops.ci.tests.test_post_p2_live_acceptance_contract\n\nrun_step 11_test_post_p2_live_durability \\\n  python3 -m unittest -v ops.ci.tests.test_post_p2_live_durability\n\nrun_step 12_test_single_commit_semaphore \\\n  python3 -m unittest -v ops.ci.tests.test_single_commit_semaphore_contract\n\nrun_step 13_test_minimum_history_boundary \\\n  python3 -m unittest -v apy.tests.test_gru_minimum_history_boundary\n\n# ------------------------------------------------------------------\n# Exact Python syntax checks from production YAML.\n# ------------------------------------------------------------------\nrun_step 14_python_syntax \\\n  python3 -m py_compile \\\n    ops/ci/breaker/ci_breaker.py \\\n    ops/gru/remediate_orphan_recovery_wait.py \\\n    apy/backfill/finalize_history_memory_bounded.py \\\n    apy/backfill/finalize_history_memory_bounded_entry.py \\\n    apy/model_process/gru/train_predict_gru.py \\\n    apy/raw_payload_persistence.py \\\n    apy/tests/test_raw_payload_persistence.py \\\n    ops/ci/tests/test_full_corpus_durability_contract.py\n\n# ------------------------------------------------------------------\n# Exact shell syntax checks. bash -n parses only; it does not execute.\n# ------------------------------------------------------------------\nrun_step 15_shell_syntax \\\n  bash -n \\\n    apy/model_train_guard.sh \\\n    ops/ci/circleci_dispatch_feature_gru.sh \\\n    ops/ci/deploy_feature_gru_remote.sh \\\n    ops/ci/prepare_deploy_contract.sh \\\n    ops/ci/circleci_dispatch_gru_p2.sh \\\n    ops/ci/circleci_observe_gru_p2.sh \\\n    ops/ci/launch_gru_p2_remote.sh \\\n    ops/ci/observe_gru_p2_remote.sh \\\n    ops/ci/run_gru_p2_worker_wrapper.sh \\\n    ops/ci/run_gru_p2_remote.sh \\\n    ops/ci/launch_gru_full_corpus_remote.sh \\\n    ops/ci/supervise_gru_full_corpus.sh \\\n    ops/ci/observe_gru_full_corpus_remote.sh \\\n    ops/ci/run_gru_full_corpus_worker_wrapper.sh \\\n    ops/ci/status_gru_full_corpus.sh \\\n    ops/ci/verify_gru_full_corpus_evidence.sh \\\n    ops/ci/gru_p2_state.sh \\\n    ops/ci/launch_post_p2_live_remote.sh \\\n    ops/ci/supervise_post_p2_live.sh \\\n    ops/ci/observe_post_p2_live_remote.sh \\\n    ops/ci/run_post_p2_live_acceptance_remote.sh\n\n# ------------------------------------------------------------------\n# Exact static contracts from production YAML.\n# ------------------------------------------------------------------\nrun_step 16_owner_contract \\\n  grep -Fq 'owner=user-cron sudo_required=false' \\\n    ops/ci/launch_gru_full_corpus_remote.sh\n\nrun_step 17_flock_contract \\\n  grep -Fq 'flock --nonblock 9' \\\n    ops/ci/supervise_gru_full_corpus.sh\n\nrun_step 18_lock_wait_contract \\\n  grep -Fq 'BOT_TRAD_GLOBAL_TRAIN_LOCK_WAIT_SECS=unlimited' \\\n    ops/ci/run_gru_full_corpus_worker_wrapper.sh\n\nrun_step 19_worker_log_contract \\\n  grep -Fq 'exec >> \"$result_dir/worker.log\" 2>&1' \\\n    ops/ci/run_gru_full_corpus_worker_wrapper.sh\n\nrun_step 20_sudo_free_contract bash -c '\n  set -euo pipefail\n  if grep -nE \"^[[:space:]]*sudo([[:space:]]|$)\" \\\n       ops/ci/launch_gru_full_corpus_remote.sh \\\n       ops/ci/supervise_gru_full_corpus.sh \\\n       ops/ci/run_gru_full_corpus_worker_wrapper.sh \\\n       ops/ci/observe_gru_full_corpus_remote.sh; then\n    echo \"ERROR: full-corpus live runtime must be sudo-free\" >&2\n    exit 1\n  fi\n'\n\n# ------------------------------------------------------------------\n# Prove source checkout remained byte/state-equivalent from Git's view.\n# ------------------------------------------------------------------\ngit -C \"$SOURCE_REPO\" rev-parse HEAD > \"$E/source-head.after\"\ngit -C \"$SOURCE_REPO\" status --porcelain=v1 -uall > \"$E/source-status.after\"\n\ncmp -s \"$E/source-head.before\" \"$E/source-head.after\" \\\n  || fail \"SOURCE_HEAD_CHANGED\" 120\n\ncmp -s \"$E/source-status.before\" \"$E/source-status.after\" \\\n  || fail \"SOURCE_WORKTREE_CHANGED\" 121\n\necho \"================================================================\"\ncat \"$E/results.tsv\"\necho \"SOURCE_REPOSITORY_INVARIANT=PASS\"\necho \"LOCAL_EXACT_SHA_VALIDATION=PASS\"\necho \"VALIDATED_SHA=$SHA\"\necho \"SEMAPHORE_QUERY=NO\"\necho \"SEMAPHORE_RERUN=NO\"\necho \"VPS_ACCESS=NO\"\necho \"PRODUCTION_ACCESS=NO\"\necho \"REPOSITORY_PUSH=NO\"\necho \"EVIDENCE_DIR=$E\"\n\nEl resultado que necesito de esa acción es únicamente su salida literal. Si falla, el primer FIRST_FAILED_STEP pasa a ser el nuevo punto causal concreto. Si llega a LOCAL_EXACT_SHA_VALIDATION=PASS, quedará demostrado que el RESULT_REASON=test de Semaphore no es reproducible en su primer bloque de validación, y el siguiente análisis se centrará en la procedencia del stopped, no en crear cambios de código ni repetir el CI. \n\nDIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md\nDocument\nChatGPT can make mistakes. Check important info.\nLatest response\n\nRequested result: FIRST GRU validation / Core CI contracts block for authoritative run R20260923T012014.\n\n\n\n\nExact target SHA verification passed: 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 (branch context: feature/GRU).\n\nCORE_CI_FIRST_BLOCK=PASS.\n\n\n\n\n- The exact target SHA was acquired in a fresh isolated temporary clone.\n\n- Only the FIRST GRU validation / Core CI contracts block was executed.\n\n- All requested unittest groups passed.\n\n- One pandas-dependent runtime-boundary test was SKIPPED because pandas was unavailable.\n\n- Python compilation passed.\n\n- Shell syntax validation passed.\n\n- Static contract checks passed.\n\n- Detached checkout initially failed only because of the workflow branch assertion.\n\n- The block was rerun using a local feature/GRU branch at the SAME exact target SHA.\n\n- No source commit changed; the source repository remained unchanged at 44505ddbfa5062dc1c712fc90db72cb0c54de924.\n\n- No later CI block was executed.\n\n- No Semaphore query, SSH, VPS/production access, commit, or push occurred.\n\n\n\n\nThis result is NOT FINAL_GO, PRODUCTION_GO, END_TO_END_GO, or AI_LOOP_COMPLETE=GO.\n\nPlease reconcile this result and provide the exact next action.\n\n\n\n\nCORE-CI-FIRST-BLOCK-RESULT-DELIVERY-MARKER: d18e030eb1db44099b6bdc5808a29719\n\nHigh\nResponse complete",
+  "composer": true,
+  "buttons": [
+    {
+      "text": "",
+      "aria": "Copy",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Enable word wrap",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Copy",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Scroll to bottom",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "View analysis",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V2_20260925T031800-0500.md",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Download file",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Copy",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Rate response",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Share",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Add to project sources",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Regenerate response",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "More actions",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Sources",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Scroll to bottom",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Expand",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Add files and more",
+      "title": ""
+    },
+    {
+      "text": "High",
+      "aria": "Select ChatGPT model",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Dictate",
+      "title": ""
+    },
+    {
+      "text": "",
+      "aria": "Send",
+      "title": ""
+    }
+  ]
+}

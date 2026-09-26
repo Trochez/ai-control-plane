@@ -1,0 +1,5 @@
+{
+  "value": "This is the additional read-only Semaphore evidence previously requested.Identity verification passed.- Pipeline state: done- Pipeline result: stopped- RESULT_REASON=test- STOP_REASON=UNKNOWN- STOP_ACTOR=UNKNOWN- TERMINATED_BY=UNKNOWN- Blocks endpoint: HTTP 404- Jobs endpoint: HTTP 404- SHA-256 evidence manifest validation: passed- No Semaphore mutation occurred.- No repository, VPS, or production mutation occurred.No additional Semaphore query should be requested unless materially new evidence is needed. The historical jq-based action remains terminal and MUST NOT be retried.Please reconcile this evidence and provide the exact next action.ADDITIONAL_SEMAPHORE_EVIDENCE_DELIVERY_EE54D9160A514E2384B9AED3089D3524",
+  "disabled": false,
+  "aria": "Ask ChatGPT"
+}

@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e8]:
+        - navigation "App navigation" [ref=e9]:
+          - generic [ref=e10]:
+            - button "Home" [ref=e12] [cursor=pointer]
+            - button "Scheduled" [ref=e17] [cursor=pointer]
+            - button "Library" [ref=e23] [cursor=pointer]
+            - button "Images" [ref=e28] [cursor=pointer]
+            - button "Plugins" [ref=e34] [cursor=pointer]
+            - button "Explore" [ref=e39] [cursor=pointer]
+          - generic [ref=e47]:
+            - button "Help menu" [ref=e50] [cursor=pointer]
+            - button "Open profile menu" [ref=e59] [cursor=pointer]
+        - navigation "Home" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]
+            - button "New chat" [ref=e97] [cursor=pointer]
+          - generic [ref=e108]:
+            - generic [ref=e111]
+            - generic [ref=e281]
+      - separator [ref=e547]
+    - generic [ref=e548]:
+      - main [ref=e550]:
+        - generic:
+          - generic:
+            - generic
+            - generic [ref=e552]
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - generic [ref=e642]
+            - generic [ref=e589]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic
+      - status [ref=e630]
+  - status [ref=e631]
+  - status [ref=e632]
+  - status [ref=e633]
+  - status [ref=e634]

@@ -1,0 +1,392 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e4]:
+    - complementary [ref=f3e5]:
+      - generic [ref=f3e8]:
+        - navigation "App navigation" [ref=f3e9]:
+          - generic [ref=f3e10]:
+            - button "Home" [ref=f3e12] [cursor=pointer]
+            - button "Scheduled" [ref=f3e17] [cursor=pointer]
+            - button "Library" [ref=f3e23] [cursor=pointer]
+            - button "Images" [ref=f3e28] [cursor=pointer]
+            - button "Plugins" [ref=f3e34] [cursor=pointer]
+            - button "Explore" [ref=f3e39] [cursor=pointer]
+          - generic [ref=f3e47]:
+            - button "Help menu" [ref=f3e50] [cursor=pointer]
+            - button "Open profile menu" [ref=f3e59] [cursor=pointer]
+        - navigation "Home" [ref=f3e64]:
+          - generic [ref=f3e65]:
+            - generic [ref=f3e66]:
+              - generic [ref=f3e67]: ChatGPT
+              - generic [ref=f3e75]:
+                - button "Search" [ref=f3e77] [cursor=pointer]
+                - button "View activity" [ref=f3e85] [cursor=pointer]
+                - button "Hide sidebar" [expanded] [ref=f3e90] [cursor=pointer]
+            - button "New chat" [ref=f3e96] [cursor=pointer]
+          - generic [ref=f3e107]:
+            - generic [ref=f3e110]:
+              - generic [ref=f3e111]:
+                - button "Projects" [expanded] [ref=f3e114] [cursor=pointer]
+                - generic [ref=f3e118]:
+                  - generic:
+                    - generic:
+                      - button "Project sidebar options"
+                      - button "Add new project" [ref=f3e120] [cursor=pointer]
+              - list [ref=f3e127]:
+                - listitem [ref=f3e128]:
+                  - button "zircon_practica_unir" [ref=f3e132] [cursor=pointer]:
+                    - button "Project actions for zircon_practica_unir" [ref=f3e145]
+                    - button "New chat in zircon_practica_unir" [ref=f3e153]
+                - listitem [ref=f3e158]:
+                  - button "agentic_pipeline" [ref=f3e162] [cursor=pointer]:
+                    - button "Project actions for agentic_pipeline" [ref=f3e175]
+                    - button "New chat in agentic_pipeline" [ref=f3e183]
+                - listitem [ref=f3e188]:
+                  - button "body_finder_fast" [ref=f3e192] [cursor=pointer]:
+                    - button "Project actions for body_finder_fast" [ref=f3e205]
+                    - button "New chat in body_finder_fast" [ref=f3e213]
+                - listitem [ref=f3e218]:
+                  - button "Bot_trading" [ref=f3e222] [cursor=pointer]:
+                    - button "Project actions for Bot_trading" [ref=f3e235]
+                    - button "New chat in Bot_trading" [ref=f3e243]
+                - listitem [ref=f3e248]:
+                  - button "ubuntu problems" [ref=f3e252] [cursor=pointer]:
+                    - button "Project actions for ubuntu problems" [ref=f3e265]
+                    - button "New chat in ubuntu problems" [ref=f3e273]
+            - generic [ref=f3e281]:
+              - generic [ref=f3e282]:
+                - button "Recents" [expanded] [ref=f3e285] [cursor=pointer]
+                - generic [ref=f3e289]:
+                  - generic:
+                    - generic:
+                      - button "Chat sidebar options"
+                      - button "Filter chats and work"
+                      - generic:
+                        - button "New chat"
+              - list [ref=f3e293]:
+                - listitem [ref=f3e414]:
+                  - button "Ejecuta acción lectura Semaphore" [ref=f3e416] [cursor=pointer]:
+                    - generic [ref=f3e418]:
+                      - button "Chat actions" [ref=f3e419]
+                      - button "Pin chat" [ref=f3e426]
+                    - status "Working" [ref=f3e1232]
+                - listitem [ref=f3e294]:
+                  - button "Modelo más potente en ChatGPT" [ref=f3e296] [cursor=pointer]:
+                    - generic [ref=f3e298]:
+                      - button "Chat actions" [ref=f3e299]
+                      - button "Pin chat" [ref=f3e306]
+                - listitem [ref=f3e1182]:
+                  - button "Ranking precio calidad LLM local" [ref=f3e1184] [cursor=pointer]:
+                    - generic [ref=f3e1186]:
+                      - button "Chat actions" [ref=f3e1187]
+                      - button "Pin chat" [ref=f3e1194]
+                - listitem [ref=f3e318]:
+                  - button "Resolver bolas azules y rojas" [ref=f3e320] [cursor=pointer]:
+                    - generic [ref=f3e322]:
+                      - button "Chat actions" [ref=f3e323]
+                      - button "Pin chat" [ref=f3e330]
+                - listitem [ref=f3e342]:
+                  - button "Ranking RTX 5070 Ti" [ref=f3e344] [cursor=pointer]:
+                    - generic [ref=f3e346]:
+                      - button "Chat actions" [ref=f3e347]
+                      - button "Pin chat" [ref=f3e354]
+                - listitem [ref=f3e366]:
+                  - button "Ranking pantallas OLED 2K" [ref=f3e368] [cursor=pointer]:
+                    - generic [ref=f3e370]:
+                      - button "Chat actions" [ref=f3e371]
+                      - button "Pin chat" [ref=f3e378]
+                - listitem [ref=f3e390]:
+                  - button "Ranking monitores OLED 4K" [ref=f3e392] [cursor=pointer]:
+                    - generic [ref=f3e394]:
+                      - button "Chat actions" [ref=f3e395]
+                      - button "Pin chat" [ref=f3e402]
+                - listitem [ref=f3e438]:
+                  - button "Implementar plan y push" [ref=f3e440] [cursor=pointer]:
+                    - generic [ref=f3e442]:
+                      - button "Chat actions" [ref=f3e443]
+                      - button "Pin chat" [ref=f3e450]
+                - listitem [ref=f3e462]:
+                  - button "Probe evidence summary" [ref=f3e464] [cursor=pointer]:
+                    - generic [ref=f3e466]:
+                      - button "Chat actions" [ref=f3e467]
+                      - button "Pin chat" [ref=f3e474]
+                - listitem [ref=f3e486]:
+                  - button "Generate Implementation Plan" [ref=f3e488] [cursor=pointer]:
+                    - generic [ref=f3e490]:
+                      - button "Chat actions" [ref=f3e491]
+                      - button "Pin chat" [ref=f3e498]
+                - listitem [ref=f3e536]:
+                  - status [ref=f3e538]:
+                    - generic [ref=f3e539]: Loading chats
+      - separator [ref=f3e550]
+    - generic [ref=f3e551]:
+      - main [ref=f3e553]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=f3e554] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=f3e561]:
+              - button "Share" [disabled] [ref=f3e563]
+              - button "More" [ref=f3e567] [cursor=pointer]
+        - generic [ref=f3e588]:
+          - generic [ref=f3e589]:
+            - generic [ref=f3e593]:
+              - generic [ref=f3e596]:
+                - separator "Yesterday 1:20 AM" [ref=f3e597]:
+                  - time [ref=f3e598]: Yesterday 1:20 AM
+                - generic [ref=f3e602]:
+                  - generic [ref=f3e603]:
+                    - heading "You said:" [level=4] [ref=f3e604]
+                    - generic [ref=f3e605]:
+                      - generic [ref=f3e608]:
+                        - button "IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500(1).md" [ref=f3e609] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic "IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500(1).md"
+                            - generic: Document
+                      - generic [ref=f3e611]:
+                        - generic [ref=f3e612]: "[AI_LOOP_DELIVERY id=7fe0b5746796e93e22254d20] team pipeline: 1. implement completely attached .md plan 2. unique commit push in current branch (feature/GRU) AI_LOOP_REENTRY_GUARD: A previous browser delivery for this same plan was ambiguous. Before making ANY repository mutation or commit, inspect the current feature/GRU branch, remote HEAD, CI state, and the attached plan invariants. Treat current repository/CI state as authoritative. If the plan implementation or its required final commit already exists, DO NOT create, amend, revert, cherry-pick, or push a duplicate commit; continue only the remaining validation/deployment/GO work required by the plan. If another implementation is still active, do not race it; reconcile state first."
+                        - generic [ref=f3e620]:
+                          - button "Copy message" [ref=f3e622] [cursor=pointer]
+                          - button "Share prompt" [ref=f3e626] [cursor=pointer]
+                  - generic [ref=f3e634]:
+                    - generic [ref=f3e636]:
+                      - generic [ref=f3e637]:
+                        - button "Thinking" [expanded] [ref=f3e638] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: Thinking
+                              - generic [aria-hidden]:
+                                - generic: Thinking
+                      - generic [ref=f3e640]:
+                        - paragraph [ref=f3e642]: "Voy a tratar el estado actual como fuente de verdad antes de tocar nada: primero verificaré feature/GRU, HEAD remoto, CI activo y los invariantes/release gates del plan. Solo si falta implementación haré cambios; si ya existe, continuaré únicamente con validación y cierre."
+                        - paragraph [ref=f3e655]: Reviewed document sections for rest areas
+                        - paragraph [ref=f3e668]: Inspected local repository and Git state
+                        - paragraph [ref=f3e675]: Inspected branches, commits, GRU code, broker implementations, and CI workflows
+                        - paragraph [ref=f3e677]: "Ya confirmé el punto crítico del guard de reentrada: feature/GRU sigue en 44505ddb…; no aparece ningún commit nuevo que ya implemente v4.6. También hay workflows antiguos de ese SHA en estado failure, pero no veo una ejecución concurrente nueva sobre un HEAD posterior; seguiré inspeccionando el árbol y las rutas exactas antes de mutar."
+                        - paragraph [ref=f3e690]: Searched repository tree for plan artifacts
+                        - paragraph [ref=f3e697]: Clarified the target
+                        - paragraph [ref=f3e704]: Identified ai-loop paths and fetched the repository tree
+                        - paragraph [ref=f3e706]: Assessed implementation scope
+                        - paragraph [ref=f3e717]: Clarified ai-loop plan, repository, commit target, and operator workflow
+                        - paragraph [ref=f3e719]: "Encontré una fuente útil para no reconstruir a ciegas: hay un snapshot reciente del runtime (ai-loop-v4.3-current-20260922.tar.gz) y un snapshot del control plane en la biblioteca. Los usaré para comparar contra el plan v4.6 y generar cambios sobre una base real, sin tocar todavía feature/GRU."
+                        - paragraph [ref=f3e721]: Reconciled repository state and audited repository boundaries
+                    - generic [ref=f3e722]:
+                      - generic [ref=f3e723]:
+                        - button "Analyzed" [expanded] [ref=f3e724] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=f3e725]:
+                        - generic [ref=f3e726]:
+                          - generic [ref=f3e727]:
+                            - generic [ref=f3e732]: Python
+                            - button "Copy" [ref=f3e736] [cursor=pointer]
+                          - code [ref=f3e740]:
+                            - generic [ref=f3e741]:
+                              - generic [ref=f3e742]: from pathlib import Path
+                              - generic [ref=f3e743]: p=Path('/mnt/data/IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500(1).md')
+                              - generic [ref=f3e744]: text=p.read_text(encoding='utf-8')
+                              - generic [ref=f3e745]: len(text.splitlines()), text[:12000]
+                        - generic [ref=f3e747]:
+                          - generic [ref=f3e748]: Result
+                          - generic [ref=f3e749]: "(896, '# IMPLEMENTATION PLAN — ai-loop v4.6 Startup Policy Deferral, Hydration-Safe Hard Gate & Live Full-Loop Convergence\\n\\n**Generated:** 2026-09-22T23:57-05:00 \\n**Current runtime family:** ai-loop v4.x \\n**Target release:** ai-loop `v4.6.0` \\n**Execution environment:** Ubuntu / WSL control plane \\n**Controller:** `/opt/ai-loop/ai-loopd-v3.py` \\n**Browser broker:** `/opt/ai-loop/browser-broker-v1.cjs` \\n**Target project:** `bot_trading` \\n**Target branch:** `feature/GRU` \\n**Observed failing run:** `R20260922T160843` \\n\\n---\\n\\n# 0. Mandatory objective\\n\\nThe implementation is complete only when a real Ubuntu live canary executes the entire loop successfully and ends at independently validated:\\n\\n```text\\nFINAL_GO\\nAI_LOOP_COMPLETE=GO\\n```\\n\\nThe implementation team MUST NOT stop after fixing the current startup policy bug.\\n\\nIf any new bug appears during unit, integration, restart, synthetic, or live testing, the team must:\\n\\n```text\\ncapture evidence\\n→ reproduce deterministically\\n→ add regression test\\n→ fix root cause\\n→ rerun complete test suite\\n→ rerun 100-loop synthetic soak\\n→ rerun a brand-new live canary\\n→ repeat until FINAL_GO\\n```\\n\\nAn ai-loop implementation defect is never an acceptable final blocker.\\n\\n---\\n\\n# 1. Current diagnosis\\n\\nThe last real run produced:\\n\\n```text\\nai-loopd-v3 version=4.4.0 run=R20260922T160843 phase=IMPLEMENTING\\nOPENCODE_SEMANTIC_CAPABILITY=PASS\\nBROWSER_BROKER=PASS\\nDETERMINISTIC_CHAT_POLICY RETRY attempt=1 purpose=startup\\n CHAT_SURFACE_HYDRATION_TIMEOUT\\nDETERMINISTIC_CHAT_POLICY RETRY attempt=2 purpose=startup\\n CHAT_SURFACE_HYDRATION_TIMEOUT\\nCHATGPT_CHAT_POLICY_GUARD_FAILED\\n```\\n\\nThe controller exited before doing useful reconciliation.\\n\\nThe current failure class has two distinct root causes.\\n\\n## 1.1 Hydration ordering bug\\n\\nThe browser policy logic can treat the presence of the reasoning trigger (`High`) as enough evidence that policy controls are hydrated.\\n\\nConceptually:\\n\\n```javascript\\nreturn q.chat || q.trigger ? q : null;\\n```\\n\\nThis is unsafe because the reasoning trigger may mount before the Chat/Work surface control.\\n\\nPossible live sequence:\\n\\n```text\\nt=0 ms High trigger exists\\n Chat control absent\\n\\nt=300 ms High trigger exists\\n Chat control absent\\n\\nt=900 ms High trigger exists\\n Chat control appears and is selected\\n```\\n\\nThe current implementation may stop waiting at `t=0` because `q.trigger` is truthy.\\n\\nIt then tries to interact with Chat before Chat exists.\\n\\n## 1.2 Truthy-object wait predicate bug\\n\\nA wait such as:\\n\\n```javascript\\nwaitUntil(() => observe(\\'surface_actionable\\'))\\n```\\n\\nis unsafe if `observe()` always returns an object.\\n\\nThe object itself is truthy even when:\\n\\n```text\\nsurface_actionable = false\\n```\\n\\nThe wait can therefore finish immediately.\\n\\nEvery wait predicate must return either:\\n\\n```text\\ntrue / valid terminal state\\n```\\n\\nor:\\n\\n```text\\nfalse / null\\n```\\n\\nuntil its actual condition is satisfied.\\n\\n## 1.3 Startup policy guard is placed too early\\n\\nThe runtime currently treats startup policy verification as a fatal gate.\\n\\nThat is unnecessary during a resume/startup phase when the controller is only trying to:\\n\\n- observe current state;\\n- reconcile an existing run;\\n- read an existing conversation;\\n- decide what phase it is in.\\n\\nThere is no outbound side effect yet.\\n\\nThe hard Chat/Sol/High gate belongs immediately before any outbound controller message.\\n\\nCorrect architecture:\\n\\n```text\\nstartup / resume\\n ↓\\nbrowser starts\\n ↓\\nbest-effort startup policy probe\\n ├─ PASS → checkpoint\\n └─ temporarily unproven → log + continue read-only\\n ↓\\nreconcile state\\n ↓\\nobserve assistant / CI / pending actions\\n ↓\\nbefore ANY outbound Send\\n ↓\\nHARD POLICY GATE\\n ↓\\nChat + GPT-5.6 Sol + High proven\\n ↓\\nSend allowed\\n```\\n\\n---\\n\\n# 2. Non-negotiable invariants\\n\\n1. `startup` / `resume` policy failure caused only by temporary UI hydration MUST NOT terminate the controller.\\n2. Startup must never send a message while policy is unproven.\\n3. Every outbound Send MUST execute a fresh hard policy gate.\\n4. The hard policy gate must prove:\\n ```text\\n surface = Chat\\n model contract = GPT-5.6 Sol\\n reasoning = High\\n ```\\n5. The reasoning trigger MUST NOT satisfy the Chat surface hydration wait.\\n6. A truthy object MUST NOT accidentally satisfy a wait predicate.\\n7. No blind resend after possible Send.\\n8. No duplicate attachment/action/commit/pipeline side effect after restart.\\n9. Startup deferral must not weaken final pre-Send safety.\\n10. The implementation team must continue live debugging until a full loop reaches validated GO.\\n\\n---\\n\\n# 3. Target architecture\\n\\n## 3.1 Startup policy probe\\n\\nIntroduce explicit modes:\\n\\n```text\\nPOLICY_PROBE\\nPOLICY_HARD_GATE\\n```\\n\\n### `POLICY_PROBE`\\n\\nUsed at:\\n\\n```text\\nstartup\\nresume\\nread-only reconciliation\\n```\\n\\nBehavior:\\n\\n```text\\ntry to observe Chat/Sol/High\\nif PASS:\\n persist policy checkpoint\\nif temporarily unavailable:\\n persist DEFERRED\\n preserve diagnostics\\n continue read-only\\nif definitely wrong but correctable:\\n optional bounded correction is allowed\\nif unsafe/unknown:\\n do not Send\\n continue only read-only paths\\n```\\n\\nA probe must not cause process termination merely because the UI is not hydrated.\\n\\n### `POLICY_HARD_GATE`\\n\\nUsed immediately before:\\n\\n```text\\nbootstrap Send\\nevidence Send\\nprocede\\nfollow-up\\nfinal-review request\\ndiagnosis request\\nreplan request\\nany other controller-originated message\\n```\\n\\nBehavior:\\n\\n```text\\nwait until Chat surface controls are actually hydrated\\nprove Chat selected\\nwait until reasoning/model control is hydrated\\nprove High\\nprove Sol contract\\nonly then permit Send\\n```\\n\\nA hard gate failure blocks Send but should leave the controller alive when safe to retry later.\\n\\n---\\n\\n# 4. Surface hydration state machine\\n\\nImplement explicit states:\\n\\n```text\\nSURFACE_UNKNOWN\\nSURFACE_WAITING\\nSURFACE_CHAT_SELECTED\\nSURFACE_WORK_SELECTED\\nSURFACE_OTHER_SELECTED\\nSURFACE_TIMEOUT\\n```\\n\\n## 4.1 Surface wait predicate\\n\\nCorrect predicate shape:\\n\\n```javascript\\nconst q = await observeSurface();\\n\\nif (q.chatSelected) return q;\\nif (q.chatActionable) return q;\\nif (q.otherSurfaceSelected && q.chatActionable) return q;\\n\\nreturn null;\\n```\\n\\nDo NOT use:\\n\\n```javascript\\nreturn q;\\n```\\n\\nDo NOT use reasoning state as a substitute for surface readiness.\\n\\n## 4.2 Reasoning wait\\n\\nOnly after the surface phase is complete:\\n\\n```text\\nsurface == Chat\\n```\\n\\nbegin the reasoning phase.\\n\\nCorrect reasoning predicate:\\n\\n```javascript\\nconst q = await observeReasoning();\\n\\nif (q.selectedEffort === \\'high\\') return q;\\nif (q.reasoningControlActionable) return q;\\n\\nreturn null;\\n```\\n\\n---\\n\\n# 5. Hard policy gate\\n\\nThe final proof immediately before Send must be performed in one deterministic broker operation.\\n\\nRequired proof:\\n\\n```json\\n{\\n \"surface\": \"chat\",\\n \"surface_selected\": true,\\n \"reasoning\": \"high\",\\n \"model_contract\": \"gpt-5.6-sol\",\\n \"proof\": {\\n \"surface\": \"...\",\\n \"reasoning\": \"...\",\\n \"model\": \"...\"\\n }\\n}\\n```\\n\\nIf any field is UNKNOWN:\\n\\n```text\\nSEND FORBIDDEN\\n```\\n\\n---\\n\\n# 6. Startup/resume behavior\\n\\nCurrent behavior:\\n\\n```text\\nensure_chat_policy(startup)\\n→ error\\n→ raise RuntimeError\\n→ daemon exits\\n```\\n\\nTarget:\\n\\n```text\\nstartup_policy_probe()\\n ↓\\nPASS\\nor\\nDEFERRED_TRANSIENT\\n ↓\\npersist checkpoint\\n ↓\\ncontinue FSM read-only reconciliation\\n```\\n\\nExample desired log:\\n\\n```text\\nSTARTUP_POLICY PROBE_DEFERRED reason=CHAT_SURFACE_NOT_HYDRATED\\nSTARTUP_POLICY controller_continues_read_only=true\\n```\\n\\nLater, before a Send:\\n\\n```text\\nOUTBOUND_POLICY HARD_GATE purpose=evidence_send\\nCHAT_SURFACE PASS surface=chat\\nMODEL_GUARD PASS model=gpt-5.6-sol reasoning=high\\nDELIVERY_READY ...\\n```\\n\\n---\\n\\n# 7. Controller changes\\n\\nThe controller must classify policy errors.\\n\\n## 7.1 Retryable/deferred\\n\\nExamples:\\n\\n```text\\nCHAT_SURFACE_HYDRATION_TIMEOUT\\nREASONING_CONTROL_HYDRATION_TIMEOUT\\nSURFACE_TEMPORARILY_UNAVAILABLE\\nBROWSER_UI_NOT_SETTLED\\n```\\n\\nAt startup/resume:\\n\\n```text\\ndefer + continue read-only\\n```\\n\\nBefore Send:\\n\\n```text\\nblock Send + bounded retry/poll\\n```\\n\\n## 7.2 Fatal policy errors\\n\\nExamples:\\n\\n```text\\nWRONG_ACCOUNT\\nPROJECT_CONTEXT_OTHER\\nUNSAFE_SURFACE\\nUNRECOVERABLE_BROWSER_AUTH\\n```\\n\\nThese may stop outbound work and require explicit resolution.\\n\\nThey must not be conflated with hydration delay.\\n\\n---\\n\\n# 8. Team\\n\\n**Team size: 8**\\n\\n| Role | Code | Responsibility |\\n|---|---|---|\\n| Technical Lead | TL | integration, invariants, release decision |\\n| Browser Policy Engineer | BPE | hydration and Chat/Sol/High broker logic |\\n| Controller/FSM Engineer | CFE | startup deferral, pre-Send hard gate |\\n| State/Idempotency Engineer | SIE | restart/reconcile safety |\\n| Semantic/OpenCode Engineer | SOE | verify browser-free semantic path remains intact |\\n| Test & Chaos Engineer | TCE | regressions, fault injection, soak |\\n| SRE / Live Validation Engineer | SRE | Ubuntu canary, diagnostics, repeated live cycles |\\n| Independent Auditor | IRA | evidence review and release gates |\\n\\n---\\n\\n# 9. Atomic backlog\\n\\n## WS0 — Freeze evidence\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B001 | TL | Create context snapshot for `R20260922T160843`. |\\n| B002 | IRA | Preserve current source SHA manifest. |\\n| B003 | TCE | Preserve both `ENSURE_CHAT_POLICY` diagnostics as fixtures. |\\n| B004 | TCE | Add exact log regression for startup hydration timeout. |\\n\\n## WS1 — Surface hydration correctness\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B005 | BPE | Separate surface observation from reasoning observation. |\\n| B006 | BPE | Remove any `q.chat || q.trigger` style readiness predicate. |\\n| B007 | BPE | Implement `waitForChatSurfaceHydration()`. |\\n| B008 | BPE | Ensure wait predicate returns null until Chat is selected/actionable. |\\n| B009 | BPE | Add Chat-selected fast path. |\\n| B010 | BPE | Add Work/Codex→Chat correction path. |\\n| B011 | TCE | Test High present before Chat. |\\n| B012 | TCE | Test Chat appears after 100 ms. |\\n| B013 | TCE | Test Chat appears after 1 s. |\\n| B014 | TCE | Test Chat appears near timeout boundary. |\\n| B015 | TCE | Test Chat never appears. |\\n| B016 | IRA | Audit no reasoning signal can terminate surface wait. |\\n\\n## WS2 — Reasoning hydration correctness\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B017 | BPE | Start reasoning check only after Chat surface proof. |\\n| B018 | BPE | Implement `waitForReasoningHydration()`. |\\n| B019 | BPE | Preserve High→Sol proof contract. |\\n| B020 | BPE | Require persisted selected High state. |\\n| B021 | TCE | Test delayed High trigger. |\\n| B022 | TCE | Test Medium→High transition. |\\n| B023 | TCE | Test trigger exists but selected state unknown. |\\n| B024 | IRA | Audit no successful click is treated as proof by itself. |\\n\\n## WS3 — Fix truthy-object waits\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B025 | BPE | Locate all broker `waitUntil` predicates. |\\n| B026 | BPE | Replace object-truthiness waits with explicit condition predicates. |\\n| B027 | TCE | Add a regression where observer object exists but condition=false. |\\n| B028 | TCE | Add a regression where condition becomes true only on fifth observation. |\\n| B029 | IRA | Audit entire broker for equivalent truthy-object bugs. |\\n\\n## WS4 — Startup policy deferral\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B030 | CFE | Split startup probe from hard policy gate. |\\n| B031 | CFE | Introduce `STARTUP_POLICY=PASS|DEFERRED|BLOCKED`. |\\n| B032 | CFE | Treat hydration timeout as DEFERRED at startup. |\\n| B033 | CFE | Persist startup policy checkpoint/diagnostics. |\\n| B034 | CFE | Continue read-only FSM after DEFERRED. |\\n| B035 | CFE | Prevent startup DEFERRED state from authorizing Send. |\\n| B036 | TCE | Test existing-run resume with startup hydration timeout. |\\n| B037 | TCE | Verify controller stays alive. |\\n| B038 | TCE | Verify assistant/state reconciliation continues. |\\n| B039 | IRA | Verify startup deferral does not weaken Send protection. |\\n\\n## WS5 — Mandatory pre-Send hard gate\\n\\n| ID | Owner | Task |\\n|---|---|---|\\n| B040 | CFE | Route every outbound controller message through hard policy gate. |\\n| B041 | CFE | Audit bootstrap Send. |\\n| B042 | CFE | Audit evidence Send. |\\n| B043 | CFE | Audit `procede`. |\\n|')"
+                    - generic [ref=f3e750]:
+                      - generic [ref=f3e751]:
+                        - button "Analyzed" [expanded] [ref=f3e752] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=f3e753]:
+                        - generic [ref=f3e754]:
+                          - generic [ref=f3e755]:
+                            - generic [ref=f3e760]: Python
+                            - button "Copy" [ref=f3e764] [cursor=pointer]
+                          - code [ref=f3e768]:
+                            - generic [ref=f3e769]:
+                              - text: lines=text.splitlines()
+                              - generic [ref=f3e770]: "for start,end in [(430,700),(700,897)]:"
+                              - generic [ref=f3e771]:
+                                - text: print(
+                                - generic [ref=f3e772]: "f\"\\n--- {start}-{end} ---\""
+                                - text: )
+                              - generic [ref=f3e773]:
+                                - text: print("\n".join(
+                                - generic [ref=f3e774]:
+                                  - text: f"
+                                  - generic [ref=f3e775]: "{i+1}"
+                                  - text: ": {lines[i]}\""
+                                - text: for i in range(start-1,min(end,len(lines)))))
+                        - generic [ref=f3e777]:
+                          - generic [ref=f3e778]: STDOUT/STDERR
+                          - generic [ref=f3e779]: "--- 430-700 --- 430: 431: | Role | Code | Responsibility | 432: |---|---|---| 433: | Technical Lead | TL | integration, invariants, release decision | 434: | Browser Policy Engineer | BPE | hydration and Chat/Sol/High broker logic | 435: | Controller/FSM Engineer | CFE | startup deferral, pre-Send hard gate | 436: | State/Idempotency Engineer | SIE | restart/reconcile safety | 437: | Semantic/OpenCode Engineer | SOE | verify browser-free semantic path remains intact | 438: | Test & Chaos Engineer | TCE | regressions, fault injection, soak | 439: | SRE / Live Validation Engineer | SRE | Ubuntu canary, diagnostics, repeated live cycles | 440: | Independent Auditor | IRA | evidence review and release gates | 441: 442: --- 443: 444: # 9. Atomic backlog 445: 446: ## WS0 — Freeze evidence 447: 448: | ID | Owner | Task | 449: |---|---|---| 450: | B001 | TL | Create context snapshot for `R20260922T160843`. | 451: | B002 | IRA | Preserve current source SHA manifest. | 452: | B003 | TCE | Preserve both `ENSURE_CHAT_POLICY` diagnostics as fixtures. | 453: | B004 | TCE | Add exact log regression for startup hydration timeout. | 454: 455: ## WS1 — Surface hydration correctness 456: 457: | ID | Owner | Task | 458: |---|---|---| 459: | B005 | BPE | Separate surface observation from reasoning observation. | 460: | B006 | BPE | Remove any `q.chat || q.trigger` style readiness predicate. | 461: | B007 | BPE | Implement `waitForChatSurfaceHydration()`. | 462: | B008 | BPE | Ensure wait predicate returns null until Chat is selected/actionable. | 463: | B009 | BPE | Add Chat-selected fast path. | 464: | B010 | BPE | Add Work/Codex→Chat correction path. | 465: | B011 | TCE | Test High present before Chat. | 466: | B012 | TCE | Test Chat appears after 100 ms. | 467: | B013 | TCE | Test Chat appears after 1 s. | 468: | B014 | TCE | Test Chat appears near timeout boundary. | 469: | B015 | TCE | Test Chat never appears. | 470: | B016 | IRA | Audit no reasoning signal can terminate surface wait. | 471: 472: ## WS2 — Reasoning hydration correctness 473: 474: | ID | Owner | Task | 475: |---|---|---| 476: | B017 | BPE | Start reasoning check only after Chat surface proof. | 477: | B018 | BPE | Implement `waitForReasoningHydration()`. | 478: | B019 | BPE | Preserve High→Sol proof contract. | 479: | B020 | BPE | Require persisted selected High state. | 480: | B021 | TCE | Test delayed High trigger. | 481: | B022 | TCE | Test Medium→High transition. | 482: | B023 | TCE | Test trigger exists but selected state unknown. | 483: | B024 | IRA | Audit no successful click is treated as proof by itself. | 484: 485: ## WS3 — Fix truthy-object waits 486: 487: | ID | Owner | Task | 488: |---|---|---| 489: | B025 | BPE | Locate all broker `waitUntil` predicates. | 490: | B026 | BPE | Replace object-truthiness waits with explicit condition predicates. | 491: | B027 | TCE | Add a regression where observer object exists but condition=false. | 492: | B028 | TCE | Add a regression where condition becomes true only on fifth observation. | 493: | B029 | IRA | Audit entire broker for equivalent truthy-object bugs. | 494: 495: ## WS4 — Startup policy deferral 496: 497: | ID | Owner | Task | 498: |---|---|---| 499: | B030 | CFE | Split startup probe from hard policy gate. | 500: | B031 | CFE | Introduce `STARTUP_POLICY=PASS|DEFERRED|BLOCKED`. | 501: | B032 | CFE | Treat hydration timeout as DEFERRED at startup. | 502: | B033 | CFE | Persist startup policy checkpoint/diagnostics. | 503: | B034 | CFE | Continue read-only FSM after DEFERRED. | 504: | B035 | CFE | Prevent startup DEFERRED state from authorizing Send. | 505: | B036 | TCE | Test existing-run resume with startup hydration timeout. | 506: | B037 | TCE | Verify controller stays alive. | 507: | B038 | TCE | Verify assistant/state reconciliation continues. | 508: | B039 | IRA | Verify startup deferral does not weaken Send protection. | 509: 510: ## WS5 — Mandatory pre-Send hard gate 511: 512: | ID | Owner | Task | 513: |---|---|---| 514: | B040 | CFE | Route every outbound controller message through hard policy gate. | 515: | B041 | CFE | Audit bootstrap Send. | 516: | B042 | CFE | Audit evidence Send. | 517: | B043 | CFE | Audit `procede`. | 518: | B044 | CFE | Audit diagnosis request. | 519: | B045 | CFE | Audit replan request. | 520: | B046 | CFE | Audit final review request. | 521: | B047 | CFE | Audit artifact follow-up message. | 522: | B048 | TCE | Assert no Send path bypasses hard gate. | 523: | B049 | IRA | Perform source-wide outbound-message audit. | 524: 525: ## WS6 — Restart/idempotency 526: 527: | ID | Owner | Task | 528: |---|---|---| 529: | B050 | SIE | Verify deferred startup state survives restart. | 530: | B051 | SIE | Verify pending delivery ledger survives restart. | 531: | B052 | SIE | Reconcile existing user-turn marker before resend. | 532: | B053 | TCE | Kill controller during startup deferred state. | 533: | B054 | TCE | Kill controller immediately before hard gate. | 534: | B055 | TCE | Kill controller immediately after Send click. | 535: | B056 | TCE | Verify zero duplicate Send after all restart scenarios. | 536: | B057 | IRA | Approve idempotency evidence. | 537: 538: ## WS7 — Preserve previous v4.4 fixes 539: 540: | ID | Owner | Task | 541: |---|---|---| 542: | B058 | BPE | Re-run canonical project tests. | 543: | B059 | BPE | Re-run fresh-draft tests. | 544: | B060 | BPE | Re-run attachment proof tests. | 545: | B061 | BPE | Re-run attachment idempotency tests. | 546: | B062 | TCE | Re-run stale unsent draft tests. | 547: | B063 | TCE | Re-run exact attachment DOM regression. | 548: | B064 | IRA | Verify v4.6 does not regress project/attachment fixes. | 549: 550: ## WS8 — Post-Send pipeline 551: 552: | ID | Owner | Task | 553: |---|---|---| 554: | B065 | SOE | Verify assistant observer path. | 555: | B066 | SOE | Verify OpenCode text-only classification. | 556: | B067 | SOE | Verify fenced-block metadata selection. | 557: | B068 | TCE | Test malformed semantic output retry. | 558: | B069 | TCE | Test GENERATING→SETTLED. | 559: | B070 | TCE | Test rate-limit path. | 560: | B071 | IRA | Verify no model browser authority reintroduced. | 561: 562: ## WS9 — Tool integrations 563: 564: | ID | Owner | Task | 565: |---|---|---| 566: | B072 | SRE | Verify local operator path. | 567: | B073 | SRE | Verify GitHub read-only path. | 568: | B074 | SRE | Verify VPS wrapper path. | 569: | B075 | SRE | Verify Semaphore read-only/evidence path. | 570: | B076 | TCE | Test integration failure classifications. | 571: | B077 | IRA | Verify exact identity binding for GitHub/CI/VPS evidence. | 572: 573: ## WS10 — Synthetic full-loop acceptance 574: 575: | ID | Owner | Task | 576: |---|---|---| 577: | B078 | TCE | Run full fake loop startup→Send→action→evidence→CI→GO. | 578: | B079 | TCE | Run failure→diagnosis→replan→second iteration→GO. | 579: | B080 | TCE | Inject startup hydration delay in full fake loop. | 580: | B081 | TCE | Inject browser crash during startup probe. | 581: | B082 | TCE | Inject browser crash before Send. | 582: | B083 | TCE | Run 100 consecutive synthetic full loops. | 583: | B084 | IRA | Require 100/100 GO and zero duplicate side effects. | 584: 585: ## WS11 — Live Ubuntu canary 586: 587: | ID | Owner | Task | 588: |---|---|---| 589: | B085 | SRE | Clean all old controller/broker/OpenCode processes. | 590: | B086 | SRE | Run full preflight. | 591: | B087 | SRE | Launch brand-new safe live canary. | 592: | B088 | IRA | Prove project/fresh draft. | 593: | B089 | IRA | Prove Chat/Sol/High. | 594: | B090 | IRA | Prove exact attachment once. | 595: | B091 | IRA | Prove exact bootstrap Send once. | 596: | B092 | IRA | Prove assistant settlement. | 597: | B093 | IRA | Prove local action round-trip. | 598: | B094 | IRA | Prove GitHub round-trip. | 599: | B095 | IRA | Prove VPS round-trip. | 600: | B096 | IRA | Prove Semaphore round-trip. | 601: | B097 | IRA | Prove multiple post-bootstrap Sends. | 602: | B098 | IRA | Prove FINAL_GO validation. | 603: | B099 | SRE | Archive complete live evidence. | 604: 605: ## WS12 — Mandatory fix-until-GO loop 606: 607: | ID | Owner | Task | 608: |---|---|---| 609: | B100 | TL | If live canary fails, do not finish. | 610: | B101 | TL | Create defect record from live evidence. | 611: | B102 | TCE | Add deterministic regression reproducer. | 612: | B103 | Assigned engineer | Implement root-cause fix. | 613: | B104 | TCE | Run complete local suite. | 614: | B105 | TCE | Run 100-loop soak. | 615: | B106 | SRE | Run a brand-new live canary. | 616: | B107 | TL | Repeat B100-B106 until GO. | 617: | B108 | IRA | Approve only a final clean run ending in GO. | 618: 619: ## WS13 — Target plan acceptance 620: 621: | ID | Owner | Task | 622: |---|---|---| 623: | B109 | TL | Preflight real target plan. | 624: | B110 | IRA | Verify re-entry guard against current branch state. | 625: | B111 | SRE | Launch new real target loop. | 626: | B112 | IRA | Observe through all required tool/CI phases. | 627: | B113 | TL | Apply same fix-until-success rule to any ai-loop bug. | 628: | B114 | IRA | Require validated GO. | 629: 630: ## WS14 — Release 631: 632: | ID | Owner | Task | 633: |---|---|---| 634: | B115 | TL | Set runtime version to 4.6.0. | 635: | B116 | TCE | Run py_compile. | 636: | B117 | TCE | Run node --check. | 637: | B118 | TCE | Run applicable legacy selftests. | 638: | B119 | TCE | Run v4.6 regression suite. | 639: | B120 | TCE | Run final 100-loop soak. | 640: | B121 | SRE | Test clean install and v4.5→v4.6 upgrade. | 641: | B122 | IRA | Build release evidence matrix. | 642: | B123 | IRA | Generate SHA-256 manifest. | 643: | B124 | TL | Produce `ai-loop-v4.6.tar.gz` only after all gates pass. | 644: 645: --- 646: 647: # 10. Mandatory regression scenarios 648: 649: ## Regression R160843-A — reasoning appears before Chat 650: 651: ```text 652: read 1: 653: reasoning=high 654: chat absent 655: 656: read 2: 657: reasoning=high 658: chat absent 659: 660: read 5: 661: reasoning=high 662: chat present+selected 663: ``` 664: 665: Expected: 666: 667: ```text 668: PASS 669: no outer retry 670: no premature timeout 671: ``` 672: 673: ## Regression R160843-B — observer object truthiness 674: 675: Observer returns: 676: 677: ```json 678: {\"surface_actionable\": false} 679: ``` 680: 681: for the first four reads. 682: 683: Expected: 684: 685: ```text 686: wait continues 687: ``` 688: 689: On fifth read: 690: 691: ```json 692: {\"surface_actionable\": true} 693: ``` 694: 695: Expected: 696: 697: ```text 698: wait completes 699: ``` 700: --- 700-897 --- 700: 701: ## Regression R160843-C — startup probe deferred 702: 703: Existing run resumes while Chat surface is not hydrated. 704: 705: Expected: 706: 707: ```text 708: STARTUP_POLICY=DEFERRED 709: controller remains alive 710: no Send 711: FSM read-only reconciliation continues 712: ``` 713: 714: ## Regression R160843-D — hard gate later succeeds 715: 716: After deferred startup, before a later evidence Send: 717: 718: ```text 719: Chat hydrates 720: High selected 721: ``` 722: 723: Expected: 724: 725: ```text 726: HARD_POLICY_GATE=PASS 727: Send occurs exactly once 728: ``` 729: 730: --- 731: 732: # 11. Release gates 733: 734: | Gate | Requirement | 735: |---|---| 736: | G0 | evidence frozen | 737: | G1 | R160843-A regression green | 738: | G2 | R160843-B regression green | 739: | G3 | startup deferral green | 740: | G4 | hard pre-Send gate green | 741: | G5 | project/fresh-draft regressions green | 742: | G6 | attachment regressions green | 743: | G7 | restart/idempotency matrix green | 744: | G8 | assistant/semantic/action path green | 745: | G9 | local/GitHub/VPS/Semaphore paths green | 746: | G10 | CI/replan path green | 747: | G11 | 100/100 synthetic loops GO | 748: | G12 | live Ubuntu safe canary FINAL_GO | 749: | G13 | real target loop FINAL_GO | 750: | G14 | independent audit approves evidence | 751: | G15 | clean release artifact + manifest | 752: 753: No gate may be skipped. 754: 755: --- 756: 757: # 12. Expected healthy live log 758: 759: A successful resume/start may legitimately show: 760: 761: ```text 762: ai-loopd-v3 version=4.6.0 ... 763: BROWSER_BROKER=PASS ... 764: STARTUP_POLICY PROBE_DEFERRED reason=surface_not_hydrated 765: STARTUP_POLICY controller_continues_read_only=true 766: ``` 767: 768: This is acceptable because no Send is occurring. 769: 770: Before an outbound message, the log MUST show: 771: 772: ```text 773: OUTBOUND_POLICY HARD_GATE purpose=... 774: CHAT_SURFACE PASS surface=chat 775: MODEL_GUARD PASS model=gpt-5.6-sol reasoning=high 776: DELIVERY_READY ... 777: DELIVERY_SENT ... 778: DELIVERY_PROOF PASS ... 779: ``` 780: 781: The final live run must end with: 782: 783: ```text 784: FINAL_GO_VALIDATED ... 785: AI_LOOP_COMPLETE=GO 786: ``` 787: 788: --- 789: 790: # 13. Pre-mortem 791: 792: ## Failure 1 — startup deferral accidentally weakens Send safety 793: 794: **Mitigation** 795: - one central outbound Send function; 796: - hard policy gate inside that function; 797: - source-wide audit; 798: - test that every outbound message passes through it. 799: 800: ## Failure 2 — hydration bug moves from Chat surface to reasoning control 801: 802: **Mitigation** 803: - independent surface and reasoning state machines; 804: - explicit condition predicates; 805: - delayed-control fixtures. 806: 807: ## Failure 3 — controller remains alive but spins forever 808: 809: **Mitigation** 810: - bounded read-only reconciliation intervals; 811: - phase progress watchdog; 812: - structured diagnostics; 813: - no blind high-frequency polling. 814: 815: ## Failure 4 — later live stage exposes new untested bug 816: 817: **Mitigation** 818: - mandatory recursive fix-until-GO protocol; 819: - team cannot stop at first downstream failure. 820: 821: --- 822: 823: # 14. ADR 824: 825: ## Decision 826: 827: Make startup policy verification non-fatal for transient hydration failures, while making the pre-Send policy gate stronger and centralized. 828: 829: ## Why 830: 831: Startup/read-only reconciliation has no outbound side effect and therefore does not need to die because a visual control has not mounted yet. 832: 833: Outbound Send is the safety boundary. 834: 835: ## Consequences 836: 837: Positive: 838: 839: - resume is resilient to transient UI hydration; 840: - no weaker Send protection; 841: - fewer unnecessary daemon restarts; 842: - clearer separation between read-only reconciliation and side effects. 843: 844: Costs: 845: 846: - controller policy state becomes two-mode; 847: - requires comprehensive outbound-message audit. 848: 849: --- 850: 851: # 15. Team execution command 852: 853: Run in an OpenCode session: 854: 855: ```text 856: /team implement completely IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500.md; execute all local, integration, restart, synthetic and live Ubuntu tests required by the plan. If any bug appears during live testing, capture evidence, add a regression, fix it, rerun the full suite and rerun a brand-new canary. Do not finish until a real live loop reaches independently validated FINAL_GO / AI_LOOP_COMPLETE=GO. 857: ``` 858: 859: --- 860: 861: # 16. Independent verification command 862: 863: After `/team` claims completion: 864: 865: ```text 866: /ralph verify every invariant, task acceptance, restart matrix, R20260922T160843 regressions, 100-loop soak, live Ubuntu tool round-trips, FINAL_GO evidence and release gate G0-G15 in IMPLEMENTATION_PLAN_AI_LOOP_V4_6_STARTUP_POLICY_DEFERRED_GUARD_20260922T2357-0500.md. Do not accept source assertions or partial logs as proof. 867: ``` 868: 869: --- 870: 871: # 17. Definition of Done 872: 873: v4.6 is complete only when: 874: 875: ```text 876: [PASS] reasoning-before-Chat regression 877: [PASS] truthy-object wait regression 878: [PASS] startup policy hydration timeout does not kill controller 879: [PASS] startup deferral never authorizes Send 880: [PASS] every outbound Send executes hard Chat/Sol/High gate 881: [PASS] previous project/fresh-draft fixes remain green 882: [PASS] previous attachment fixes remain green 883: [PASS] restart matrix has zero duplicate side effects 884: [PASS] local action live 885: [PASS] GitHub live 886: [PASS] VPS live 887: [PASS] Semaphore live 888: [PASS] multiple evidence Sends live 889: [PASS] 100/100 synthetic loops GO 890: [PASS] safe Ubuntu live canary FINAL_GO 891: [PASS] real target loop FINAL_GO 892: [PASS] no uncaught Python/Node exception in final acceptance 893: [PASS] independent audit G0-G15 894: ``` 895: 896: Anything less is an unfinished release candidate."
+                    - generic [ref=f3e780]:
+                      - generic [ref=f3e781]:
+                        - button "Analyzed" [expanded] [ref=f3e782] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=f3e783]:
+                        - generic [ref=f3e784]:
+                          - generic [ref=f3e785]:
+                            - generic [ref=f3e790]: Python
+                            - button "Copy" [ref=f3e794] [cursor=pointer]
+                          - code [ref=f3e798]:
+                            - generic [ref=f3e799]:
+                              - generic [ref=f3e800]: "for i in range(300,430):"
+                              - generic [ref=f3e801]:
+                                - text: print(
+                                - generic [ref=f3e802]:
+                                  - text: f"
+                                  - generic [ref=f3e803]: "{i+1}"
+                                  - text: ": {lines[i]}\""
+                                - text: )
+                        - generic [ref=f3e805]:
+                          - generic [ref=f3e806]: STDOUT/STDERR
+                          - generic [ref=f3e807]: "301: ```javascript 302: const q = await observeReasoning(); 303: 304: if (q.selectedEffort === 'high') return q; 305: if (q.reasoningControlActionable) return q; 306: 307: return null; 308: ``` 309: 310: --- 311: 312: # 5. Hard policy gate 313: 314: The final proof immediately before Send must be performed in one deterministic broker operation. 315: 316: Required proof: 317: 318: ```json 319: { 320: \"surface\": \"chat\", 321: \"surface_selected\": true, 322: \"reasoning\": \"high\", 323: \"model_contract\": \"gpt-5.6-sol\", 324: \"proof\": { 325: \"surface\": \"...\", 326: \"reasoning\": \"...\", 327: \"model\": \"...\" 328: } 329: } 330: ``` 331: 332: If any field is UNKNOWN: 333: 334: ```text 335: SEND FORBIDDEN 336: ``` 337: 338: --- 339: 340: # 6. Startup/resume behavior 341: 342: Current behavior: 343: 344: ```text 345: ensure_chat_policy(startup) 346: → error 347: → raise RuntimeError 348: → daemon exits 349: ``` 350: 351: Target: 352: 353: ```text 354: startup_policy_probe() 355: ↓ 356: PASS 357: or 358: DEFERRED_TRANSIENT 359: ↓ 360: persist checkpoint 361: ↓ 362: continue FSM read-only reconciliation 363: ``` 364: 365: Example desired log: 366: 367: ```text 368: STARTUP_POLICY PROBE_DEFERRED reason=CHAT_SURFACE_NOT_HYDRATED 369: STARTUP_POLICY controller_continues_read_only=true 370: ``` 371: 372: Later, before a Send: 373: 374: ```text 375: OUTBOUND_POLICY HARD_GATE purpose=evidence_send 376: CHAT_SURFACE PASS surface=chat 377: MODEL_GUARD PASS model=gpt-5.6-sol reasoning=high 378: DELIVERY_READY ... 379: ``` 380: 381: --- 382: 383: # 7. Controller changes 384: 385: The controller must classify policy errors. 386: 387: ## 7.1 Retryable/deferred 388: 389: Examples: 390: 391: ```text 392: CHAT_SURFACE_HYDRATION_TIMEOUT 393: REASONING_CONTROL_HYDRATION_TIMEOUT 394: SURFACE_TEMPORARILY_UNAVAILABLE 395: BROWSER_UI_NOT_SETTLED 396: ``` 397: 398: At startup/resume: 399: 400: ```text 401: defer + continue read-only 402: ``` 403: 404: Before Send: 405: 406: ```text 407: block Send + bounded retry/poll 408: ``` 409: 410: ## 7.2 Fatal policy errors 411: 412: Examples: 413: 414: ```text 415: WRONG_ACCOUNT 416: PROJECT_CONTEXT_OTHER 417: UNSAFE_SURFACE 418: UNRECOVERABLE_BROWSER_AUTH 419: ``` 420: 421: These may stop outbound work and require explicit resolution. 422: 423: They must not be conflated with hydration delay. 424: 425: --- 426: 427: # 8. Team 428: 429: **Team size: 8** 430:"
+              - generic [ref=f3e810]:
+                - separator "Yesterday 4:55 PM" [ref=f3e811]:
+                  - time [ref=f3e812]: Yesterday 4:55 PM
+                - generic [ref=f3e815]:
+                  - generic [ref=f3e816]:
+                    - generic [ref=f3e817]:
+                      - heading "You said:" [level=4] [ref=f3e818]
+                      - generic [ref=f3e821]:
+                        - generic [ref=f3e822]: "[AI_LOOP_DELIVERY id=failure-evidence-025d7f19b1dd83b26733] Combined read-only failure evidence is attached for exact candidate_sha=None run_id=None pipeline_id=4df05bd2-6a81-41dc-9dfe-9e0051cd602c. Semaphore evidence and exact-SHA temporary-clone investigation are included. Local reproduction status=NOT_EXECUTED_NO_SAFE_EXTRACTED_COMMAND. Review this evidence before diagnosis; request only additional exact operator actions if needed. Do not rerun Semaphore yet."
+                        - generic [ref=f3e830]:
+                          - button "Copy message" [ref=f3e832] [cursor=pointer]
+                          - button "Share prompt" [ref=f3e836] [cursor=pointer]
+                    - generic [ref=f3e852]:
+                      - button "Worked for 2m 32s" [ref=f3e853] [cursor=pointer]
+                      - generic: Worked for 2m 32s
+                    - generic [ref=f3e855]:
+                      - heading "ChatGPT said:" [level=4] [ref=f3e856]
+                      - generic [ref=f3e858]:
+                        - paragraph [ref=f3e859]:
+                          - text: Ejecuta esta acción exacta en el
+                          - strong [ref=f3e860]: control plane local
+                          - text: ". Es exclusivamente de lectura sobre Semaphore; no dispara ni reintenta ningún pipeline:"
+                        - generic [ref=f3e862]:
+                          - generic [ref=f3e863]:
+                            - generic [ref=f3e868]: Bash
+                            - generic [ref=f3e870]:
+                              - button "Enable word wrap" [ref=f3e872] [cursor=pointer]
+                              - button "Copy" [ref=f3e878] [cursor=pointer]
+                          - code [ref=f3e882]: "set -Eeuo pipefail umask 077 SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" BRANCH=\"feature/GRU\" SEM_WF=\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\" SEM_PPL=\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\" E=\"/tmp/ai-loop-sem-readonly-${SHA:0:12}-$(date -u +%Y%m%dT%H%M%SZ)\" mkdir -p \"$E\" fail() { echo \"READONLY_EVIDENCE=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } for c in curl jq grep tail sha256sum; do command -v \"$c\" >/dev/null 2>&1 || fail \"MISSING_COMMAND:$c\" 91 done if [ -f /opt/ai-loop/ai-loop.env ]; then set -a # shellcheck disable=SC1091 source /opt/ai-loop/ai-loop.env set +a fi SEM_TOKEN=\"${SEMAPHORE_API_TOKEN:-${SEMAPHORE_TOKEN:-}}\" SEM_BASE=\"${SEMAPHORE_API_URL:-${SEMAPHORE_ORG_URL:-${SEMAPHORE_URL:-${SEMAPHORE_SERVER_URL:-}}}}\" [ -n \"$SEM_TOKEN\" ] || fail \"SEMAPHORE_TOKEN_NOT_AVAILABLE\" 92 [ -n \"$SEM_BASE\" ] || fail \"SEMAPHORE_BASE_URL_NOT_AVAILABLE\" 93 SEM_BASE=\"${SEM_BASE%/}\" case \"$SEM_BASE\" in */api/v1alpha) SEM_API=\"$SEM_BASE\" ;; *) SEM_API=\"$SEM_BASE/api/v1alpha\" ;; esac curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/plumber-workflows/$SEM_WF\" \\ > \"$E/workflow.json\" \\ || fail \"WORKFLOW_FETCH_FAILED\" 101 curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/pipelines/$SEM_PPL?detailed=true\" \\ > \"$E/pipeline.json\" \\ || fail \"PIPELINE_FETCH_FAILED\" 102 WF_ID=\"$(jq -r '(.workflow // .).wf_id // empty' \"$E/workflow.json\")\" WF_SHA=\"$(jq -r '(.workflow // .).commit_sha // empty' \"$E/workflow.json\")\" WF_BRANCH=\"$(jq -r '(.workflow // .).branch_name // empty' \"$E/workflow.json\")\" PPL_ID=\"$(jq -r '(.pipeline // .).ppl_id // empty' \"$E/pipeline.json\")\" PPL_WF=\"$(jq -r '(.pipeline // .).wf_id // empty' \"$E/pipeline.json\")\" [ \"$WF_ID\" = \"$SEM_WF\" ] || fail \"WORKFLOW_ID_MISMATCH:$WF_ID\" 111 [ \"$WF_SHA\" = \"$SHA\" ] || fail \"WORKFLOW_SHA_MISMATCH:$WF_SHA\" 112 [ \"$WF_BRANCH\" = \"$BRANCH\" ] || fail \"WORKFLOW_BRANCH_MISMATCH:$WF_BRANCH\" 113 [ \"$PPL_ID\" = \"$SEM_PPL\" ] || fail \"PIPELINE_ID_MISMATCH:$PPL_ID\" 114 [ \"$PPL_WF\" = \"$SEM_WF\" ] || fail \"PIPELINE_WORKFLOW_MISMATCH:$PPL_WF\" 115 echo \"===== EXACT IDENTITY =====\" jq '(.workflow // .) | { wf_id, commit_sha, branch_name, created_at, rerun_of }' \"$E/workflow.json\" jq '(.pipeline // .) | { ppl_id, wf_id, name, state, result, result_reason, error_description, branch_name, yaml_file_name, created_at, running_at, done_at }' \"$E/pipeline.json\" jq -r ' (.blocks // [])[] as $b | ($b.jobs // [])[] | [ ($b.name // \"\"), (.name // \"\"), (.job_id // .id // \"\"), (.status // .state // \"\"), (.result // \"\") ] | @tsv ' \"$E/pipeline.json\" > \"$E/jobs.tsv\" echo \"===== ALL JOBS =====\" cat \"$E/jobs.tsv\" mkdir -p \"$E/jobs\" : > \"$E/non-success-summary.txt\" while IFS=$'\\t' read -r block job jid status result; do [ -n \"$jid\" ] || continue curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/jobs/$jid\" \\ > \"$E/jobs/$jid.metadata.json\" || true http=\"$( curl -sSL \\ -o \"$E/jobs/$jid.log.raw\" \\ -w '%{http_code}' \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/logs/$jid\" )\" case \"${result,,}:${status,,}\" in *failed*|*failure*|*stopped*|*cancelled*|*canceled*|*error*) { echo \"============================================================\" echo \"BLOCK=$block\" echo \"JOB=$job\" echo \"JOB_ID=$jid\" echo \"STATUS=$status\" echo \"RESULT=$result\" echo \"LOG_HTTP=$http\" if [[ \"$http\" =~ ^2 ]] && jq -e . \"$E/jobs/$jid.log.raw\" >/dev/null 2>&1; then echo \"--- NONZERO DIRECTIVES ---\" jq -r ' [ .. | objects | select( .exit_code? != null and (((.exit_code|tonumber?) // 0) != 0) ) | { directive:(.directive // .command // .name // \"UNKNOWN\"), exit_code, started_at, finished_at, output:(.output // .message // .text // null) } ] ' \"$E/jobs/$jid.log.raw\" echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo elif [[ \"$http\" =~ ^2 ]]; then echo \"--- FAILURE LINES ---\" grep -nEi \\ 'exit code|exited with|command failed|failed|error:|fatal:|permission denied|timed out|timeout|not found|denied|stopped|cancel' \\ \"$E/jobs/$jid.log.raw\" | head -250 || true echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo else echo \"LOG_UNAVAILABLE_HTTP=$http\" fi } >> \"$E/non-success-summary.txt\" ;; esac done < \"$E/jobs.tsv\" echo \"===== NON-SUCCESS JOB EVIDENCE =====\" cat \"$E/non-success-summary.txt\" echo \"===== EVIDENCE DIGEST =====\" sha256sum \"$E/workflow.json\" \"$E/pipeline.json\" \"$E/jobs.tsv\" \"$E/non-success-summary.txt\" echo \"SEMAPHORE_RERUN=NO\" echo \"SEMAPHORE_RETRY=NO\" echo \"SEMAPHORE_MUTATION=NO\" echo \"REPOSITORY_MUTATION=NO\" echo \"VPS_MUTATION=NO\" echo \"EVIDENCE_DIR=$E\" echo \"READONLY_EVIDENCE=PASS\""
+                        - paragraph [ref=f3e883]: "No se debe crear otro commit: 0c11a13e… ya es el HEAD remoto y corresponde al commit v4.6 existente. El siguiente paso depende únicamente del resultado de esta acción; con block/job/directive/exit_code podremos distinguir un defecto real de v4.6 de un fallo de infraestructura o una detención externa, sin gastar otro run de Semaphore."
+                  - generic [ref=f3e885]:
+                    - button "Copy" [ref=f3e887] [cursor=pointer]
+                    - button "Rate response" [ref=f3e891] [cursor=pointer]
+                    - button "Share" [ref=f3e895] [cursor=pointer]
+                    - button "Add to project sources" [ref=f3e1129] [cursor=pointer]
+                    - button "More actions" [ref=f3e916] [cursor=pointer]
+              - generic [ref=f3e924]:
+                - separator "Yesterday 6:52 PM" [ref=f3e925]:
+                  - time [ref=f3e926]: Yesterday 6:52 PM
+                - generic [ref=f3e929]:
+                  - generic [ref=f3e930]:
+                    - generic [ref=f3e931]:
+                      - heading "You said:" [level=4] [ref=f3e932]
+                      - generic [ref=f3e935]:
+                        - generic [ref=f3e936]: "[AI_LOOP_DELIVERY id=diagnosis-0c11a13e0c6c] /skillsbench best diagnosis with list of all granular causes of last failure in. md file with datetime in filename"
+                        - generic [ref=f3e944]:
+                          - button "Copy message" [ref=f3e946] [cursor=pointer]
+                          - button "Share prompt" [ref=f3e950] [cursor=pointer]
+                    - generic [ref=f3e961]:
+                      - button "Worked for 4m 3s" [ref=f3e962] [cursor=pointer]
+                      - generic: Worked for 4m 3s
+                    - generic [ref=f3e964]:
+                      - heading "ChatGPT said:" [level=4] [ref=f3e965]
+                      - generic [ref=f3e966]:
+                        - generic [ref=f3e967]:
+                          - paragraph [ref=f3e968]: He terminado el diagnóstico granular y lo dejé en un .md fechado.
+                          - paragraph [ref=f3e969]:
+                            - text: La conclusión principal es que
+                            - strong [ref=f3e970]: no existe evidencia de que el último fallo haya sido causado por un test o defecto del commit 0c11a13e…
+                            - text: . Semaphore terminó realmente con raw_state=done y raw_result=stopped; ci-status lo degradó a un FAILURE genérico.
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=f3e974] [cursor=pointer]:
+                              - generic [ref=f3e980]: Pasted text(20260923-192112)
+                          - paragraph [ref=f3e981]:
+                            - text: "Además encontré varios fallos independientes en la cadena de diagnóstico: polling repetidamente UNKNOWN, pérdida intermitente de provider/run, timeouts de 120 segundos, incapacidad para recuperar los anchors exactos de Semaphore y un bundle que declara STATUS=PASS aunque deja vacíos CANDIDATE_SHA, RUN_ID, PIPELINE_RESULT, failed job y step."
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=f3e985] [cursor=pointer]:
+                              - generic [ref=f3e991]: Pasted text(20260923-192112)
+                            - button "Open preview of failure-evidence-bundle-025d7f19b1dd83b26733.txt" [ref=f3e995] [cursor=pointer]:
+                              - generic [ref=f3e1001]: failure-evidence-bundle-025d7f1…
+                          - paragraph [ref=f3e1002]:
+                            - text: El documento distingue
+                            - strong [ref=f3e1003]: 12+ causas/factores granulares
+                            - text: ", separando claramente causa terminal, defectos del observador, bloqueos de evidencia y factores que"
+                            - strong [ref=f3e1004]: "no"
+                            - text: pueden atribuirse al fallo. También mantiene explícitamente bloqueado el rerun de Semaphore hasta clasificar por qué fue stopped.
+                          - paragraph [ref=f3e1005]: "SHA-256 del diagnóstico: 8cfabeb4b366004dd445958b9657a42ca88952bd93c46edfa7a52e8942559c64."
+                        - generic [ref=f3e1009]:
+                          - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md" [ref=f3e1010] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md"
+                              - generic: Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Download file"
+                  - generic [ref=f3e1012]:
+                    - button "Copy" [ref=f3e1014] [cursor=pointer]
+                    - button "Rate response" [ref=f3e1018] [cursor=pointer]
+                    - button "Share" [ref=f3e1022] [cursor=pointer]
+                    - button "Add to project sources" [ref=f3e1133] [cursor=pointer]
+                    - button "More actions" [ref=f3e1043] [cursor=pointer]
+                    - button "Sources" [ref=f3e1050] [cursor=pointer]
+              - generic [ref=f3e1239]:
+                - separator "Today 12:05 AM" [ref=f3e1240]:
+                  - time [ref=f3e1241]: Today 12:05 AM
+                - generic [ref=f3e1245]:
+                  - generic [ref=f3e1246]:
+                    - heading "You said:" [level=4] [ref=f3e1247]
+                    - generic [ref=f3e1250]:
+                      - generic [ref=f3e1252]:
+                        - generic [ref=f3e1253]:
+                          - generic [ref=f3e1254]: "This message is the result of the previously requested canonical operator action for authoritative run R20260923T012014. The action terminated with exit_code=91. The literal execution result was: READONLY_EVIDENCE=FAILED BLOCKER=MISSING_COMMAND:jq EVIDENCE_DIR=/tmp/ai-loop-sem-readonly-0c11a13e0c6c-20260924T194331Z No retry was performed. No repository, Semaphore, VPS, bot_trading, production, or outbound mutation was observed from that failed execution. The action MUST NOT be rerun. The previously generated diagnosis was provisional because it was generated before this failed operator result was delivered. Please reconcile/update the existing diagnosis using this literal operator result and continue from the corrected state. OPERATOR_RESULT_DELIVERY_ID=operator-result-delivery-b677dccd08404429a20721413bfdc9ed"
+                          - generic [aria-hidden] [ref=f3e1257]: …
+                        - button "Show more" [ref=f3e1258] [cursor=pointer]
+                      - generic [ref=f3e1264]:
+                        - button "Copy message" [ref=f3e1266] [cursor=pointer]
+                        - button "Share prompt" [ref=f3e1270] [cursor=pointer]
+                  - generic [ref=f3e1293]:
+                    - generic [ref=f3e1294]:
+                      - button "Updating Failure Diagnosis With Read-Only Action Findings" [expanded] [ref=f3e1295] [cursor=pointer]
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: Updating Failure Diagnosis With Read-Only Action Findings
+                              - generic [aria-hidden]:
+                                - generic: Updating Failure Diagnosis With Read-Only Action Findings
+                    - generic [ref=f3e1297]:
+                      - paragraph [ref=f3e1299]:
+                        - text: "Voy a corregir el diagnóstico existente sin volver a ejecutar la acción canónica. La actualización va a cambiar explícitamente el estatus de esa investigación:"
+                        - strong [ref=f3e1300]: no produjo evidencia de Semaphore porque falló antes de consultar nada, debido a jq ausente
+                        - text: ", y por tanto no puede usarse para confirmar ni refutar la causa del stopped."
+                      - paragraph [ref=f3e1313]: Inspected diagnosis files and reviewed failure logs
+                      - paragraph [ref=f3e1315]:
+                        - text: "El nuevo resultado no cambia el hecho de que Semaphore quedó en done/stopped, pero sí corrige una inferencia del diagnóstico: la acción canónica"
+                        - strong [ref=f3e1316]: nunca llegó a consultar Semaphore
+                        - text: . Su fallo es local y previo (exit_code=91, MISSING_COMMAND:jq), así que no aporta evidencia adicional sobre jobs, logs, actor del stop ni causa del pipeline.
+            - generic [ref=f3e1054]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - button "Scroll to bottom" [ref=f3e1274] [cursor=pointer]
+              - heading "Latest response" [level=4] [ref=f3e1057]
+              - status [ref=f3e1058]
+              - generic [ref=f3e1069]:
+                - button "Add files and more" [ref=f3e1074] [cursor=pointer]
+                - textbox "Ask ChatGPT" [ref=f3e1080]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=f3e1082]:
+                  - button "Select ChatGPT model" [ref=f3e1086] [cursor=pointer]:
+                    - generic [ref=f3e1087]: High
+                  - generic [ref=f3e1097]:
+                    - button "Dictate" [ref=f3e1100] [cursor=pointer]
+                    - button "Stop" [ref=f3e1279] [cursor=pointer]
+      - status [ref=f3e1112]
+  - status [ref=f3e1113]
+  - status [ref=f3e1114]
+  - status [ref=f3e1115]
+  - status [ref=f3e1116]

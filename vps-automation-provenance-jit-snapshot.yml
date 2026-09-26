@@ -1,0 +1,69 @@
+- generic [ref=f8e1] [box=0,0,3828,1912]:
+  - generic [ref=f8e4] [box=0,0,3828,1912]:
+    - complementary [ref=f8e5] [box=0,0,372,1912]:
+      - generic [ref=f8e11] [box=0,0,0,0]:
+        - generic [ref=f8e12] [box=0,0,372,52]:
+          - generic [ref=f8e13] [box=8,8,93,36]: ChatGPT
+          - generic [ref=f8e19] [box=292,8,72,36]:
+            - button "Search" [ref=f8e21] [cursor=pointer] [box=292,8,36,36]
+            - button "Hide sidebar" [expanded] [ref=f8e30] [cursor=pointer] [box=328,8,36,36]
+        - navigation "Chat history" [ref=f8e35] [box=0,52,372,1860]:
+          - button "New chat" [ref=f8e39] [cursor=pointer] [box=6,60,360,35]
+          - generic [ref=f8e48] [box=0,95,372,1753]:
+            - generic [ref=f8e51] [box=6,99,350,144]:
+              - button "Scheduled" [ref=f8e52] [cursor=pointer] [box=6,99,350,35]
+              - button "Library" [ref=f8e61] [cursor=pointer] [box=6,135,350,35]
+              - button "Plugins" [ref=f8e69] [cursor=pointer] [box=6,171,350,35]
+              - button "Explore" [ref=f8e78] [cursor=pointer] [box=6,207,350,35]
+            - generic [ref=f8e137] [box=0,0,0,0]:
+              - generic [ref=f8e140] [box=6,263,350,221]:
+                - generic [ref=f8e141] [box=6,263,350,36]
+                - list [ref=f8e156] [box=6,299,350,184]
+              - generic [ref=f8e310] [box=6,504,350,1624]:
+                - generic [ref=f8e311] [box=6,504,350,36]
+                - list [ref=f8e321] [box=6,540,350,1587]
+        - generic [ref=f8e1095] [cursor=pointer] [box=6,1854,360,52]:
+          - button "Open profile menu" [ref=f8e1096] [box=6,1854,360,52]
+          - generic [box=16,1860,340,40]:
+            - generic [box=16,1860,340,40]:
+              - generic [box=48,1860,308,40]:
+                - generic [box=48,1860,308,24]: trochez
+                - generic [box=48,1884,308,16]: Plus
+      - generic [box=364,-52,16,1964]:
+        - separator [box=364,-52,16,1964]
+    - generic [ref=f8e106] [box=0,0,0,0]:
+      - main [ref=f8e108] [box=372,0,3456,1912]:
+        - generic [box=0,0,3828,52]:
+          - generic [box=372,0,3456,52]:
+            - generic [box=380,0,3304,52]:
+              - generic [box=380,0,3304,52]:
+                - generic [box=380,8,135,36]
+            - generic [ref=f8e1104] [box=3690,8,130,36]:
+              - button "Share" [ref=f8e1106] [cursor=pointer] [box=3690,8,86,36]
+              - button "More" [ref=f8e1110] [cursor=pointer] [box=3784,8,36,36]
+        - generic [ref=f8e1124] [box=373,0,3455,1912]:
+          - generic [ref=f8e1125] [box=383,-30351,3435,32263]:
+            - generic [ref=f8e1127] [box=1717,-30351,768,32131]:
+              - status [ref=f8e1129] [box=2089,-30331,24,31]:
+                - generic [ref=f8e1134] [box=2112,-30332,1,1]: Loading older messages…
+              - generic [ref=f8e1136] [box=1717,-30278,768,32032]:
+                - generic [ref=f8e1139] [box=1717,-30278,768,9290]
+                - generic [ref=f8e1350] [box=1717,-20982,768,5863]
+                - generic [ref=f8e1544] [box=1717,-15113,768,6079]
+                - generic [ref=f8e1751] [box=1717,-9028,768,5541]
+                - generic [ref=f8e1983] [box=1717,-3481,768,5235]
+            - generic [ref=f8e2191] [box=383,1812,3435,24]: ChatGPT can make mistakes. Check important info.
+          - generic [box=373,1836,3455,76]:
+            - generic [box=1701,1836,800,52]:
+              - generic [box=1717,1836,768,0]:
+                - button [aria-hidden] [box=2085,1780,32,32]
+              - heading "Latest response" [level=4] [ref=f8e2194] [box=1717,1836,1,1]
+              - status [ref=f8e2195] [box=1717,1836,1,1]
+              - generic [ref=f8e2206] [box=1717,1836,768,52]:
+                - button "Add files and more" [ref=f8e2211] [cursor=pointer] [box=1725,1844,36,36]
+                - textbox "Ask ChatGPT" [active] [ref=f8e2217] [box=1769,1844,535,36]
+                - generic [ref=f8e2219] [box=2312,1844,165,36]
+      - status [ref=f8e2249] [box=-1,-1,1,1]
+  - status [ref=f8e2250] [box=-1,1911,1,1]
+  - status [ref=f8e2251] [box=-1,-1,1,1]
+  - status [ref=f8e2252] [box=-1,1911,1,1]

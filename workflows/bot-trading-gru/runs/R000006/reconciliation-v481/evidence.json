@@ -1,0 +1,20 @@
+{
+  "run_id": "R20260923T012014",
+  "runtime_version": "4.8.1",
+  "acceptance": "BLOCKED",
+  "live_range_witness": "UNVERIFIED",
+  "historical_immutable_provenance": "UNVERIFIED",
+  "cross_source_provenance": "UNVERIFIED",
+  "conversation_identity_proof": "UNVERIFIED",
+  "outbound_send": "BLOCKED",
+  "outbound_reason": "AWAITING_EXPLICIT_RESULT_DELIVERY_CONTINUATION",
+  "operator_action_execution": "FAILED_TERMINAL",
+  "operator_action_retry_allowed": false,
+  "final_go": "UNVERIFIED",
+  "ai_loop_complete": "UNVERIFIED",
+  "local_validation": "PASS",
+  "live_scan_performed": false,
+  "installation_performed": false,
+  "send_performed": false,
+  "operator_action_retried": false
+}

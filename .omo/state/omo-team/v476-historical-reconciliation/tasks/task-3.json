@@ -1,0 +1,6 @@
+{
+  "id": "task-3",
+  "role": "searcher",
+  "category": "search",
+  "description": "Locate installed run/controller configuration and current live diagnostics relevant to R20260923T012014. Do not edit files. Determine whether the exact prior operator action is materialized and safe to execute, and report blockers."
+}

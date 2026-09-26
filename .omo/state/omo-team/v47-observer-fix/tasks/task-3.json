@@ -1,0 +1,5 @@
+{
+  "id": "task-3",
+  "role": "reviewer",
+  "description": "Inspect current tests/install flow and design regression coverage for the seven required observer states plus no-resend resume behavior and bounded recovery. Read-only; write findings to worker result file."
+}

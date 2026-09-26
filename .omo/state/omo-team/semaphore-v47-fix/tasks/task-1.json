@@ -1,0 +1,6 @@
+{
+  "id": "task-1",
+  "worker": "worker-1",
+  "description": "Compare source and deployed controller/install manifest; identify exact wiring or packaging defect. Read-only; report file:line evidence and recommended minimal fix. Do not modify files.",
+  "status": "pending"
+}

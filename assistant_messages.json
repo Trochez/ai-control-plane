@@ -1,0 +1,174 @@
+[
+  {
+    "i": 0,
+    "text": "Diagnóstico completo generado en .md, con fecha/hora en el nombre y separación entre causa raíz, causas contribuyentes, defecto secundario, no-causas, cadena causal y estado correctivo.\n\nDescargar diagnóstico\n\nEl hallazgo central es que el último fallo pertenece al SHA temporal 258a111…: Semaphore ejecutó ese commit y test_p2_handoff_state_machine terminó en Ran 0 tests / NO TESTS RAN, coherente con el override accidental de unittest.TestCase.run. \n\nfailure-evidence-bundle-a12eee4…\n\n El bundle también confirma que ese SHA es hijo directo de dc4e2eef… y que el worktree investigado estaba limpio. \n\nfailure-evidence-bundle-a12eee4…\n\n ",
+    "codes": []
+  },
+  {
+    "i": 1,
+    "text": "Plan completo generado en .md con fecha/hora, equipo de 5 roles, gates de ejecución, matriz de pruebas pre-Semaphore, política para ahorrar créditos y backlog de 55 tareas atómicas asignadas.\n\nDescargar plan COMPLETE_GO\n\nEl plan parte del fallo exacto de 258a111…, donde test_p2_handoff_state_machine terminó con Ran 0 tests / NO TESTS RAN, y de que ese SHA es hijo directo de dc4e2eef…. \n\nfailure-evidence-bundle-a12eee4… +1\n\nEl contrato central queda fijado así: 44505ddbfa5062dc1c712fc90db72cb0c54de924 es el único commit de remediación permitido; después de él, cero commits adicionales. Antes de gastar otro crédito de Semaphore se exige auditoría del commit, fresh-clone exact-SHA, 6/6 tests P2, discovery completo, reproducción íntegra de GRU validation, verificación independiente y una segunda validación después del cutover de feature/GRU. Sólo entonces se permite un nuevo workflow para el SHA correcto. ",
+    "codes": []
+  },
+  {
+    "i": 2,
+    "text": "scovered test count requires investigation before Semaphore.\n\n8.6 Exact reproduction of GRU validation / Core CI contracts\n\nExecute, in the same order as Semaphore:\n\nops.ci.breaker.tests.test_ci_breaker\nops.gru.test_remediate_orphan_recovery_wait\napy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests\nops.ci.tests.test_p2_memory_bound_contract\napy.tests.test_raw_payload_persistence\nops.ci.tests.test_full_corpus_durability_contract\nops.ci.tests.test_p1_dependency_validator_contract\nops.ci.tests.test_p2_handoff_state_machine\nops.ci.tests.test_p2_external_evidence_contract\nops.ci.tests.test_post_p2_live_acceptance_contract\nops.ci.tests.test_post_p2_live_durability\nops.ci.tests.test_single_commit_semaphore_contract\napy.tests.test_gru_minimum_history_boundary\n\nThen execute the exact:\n\npy_compile checks;\n\nbash -n checks;\n\nfull-corpus marker greps;\n\nprivilege-dependency scan;\n\nfinal production-validation marker.\n\nExpected terminal marker:\n\nSEMAPHORE_PRODUCTION_VALIDATION=PASS\n8.7 Minimum-history runtime boundary\n\nThe CI interpreter may legitimately skip the pandas-dependent runtime portion if pandas is absent.\n\nTo reduce risk further, additionally run the 24/25/26 runtime-boundary test in a dependency-complete project environment where pandas is installed.\n\nRequired result:\n\n24 rows -> rejected as insufficient\n25 rows -> accepted boundary\n26 rows -> accepted\n\nThis must not modify production data.\n\n8.8 Static exact-result identity checks\n\nVerify source contains:\n\np2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status\n\nVerify source no longer contains:\n\nlatest_result_file\n\nExpected count: 0.\n\n8.9 Test lifecycle collision check\n\nVerify no project helper overrides the unittest lifecycle method:\n\ndef run(self,\n\nwithin test_p2_handoff_state_machine.py.\n\nExpected project-helper count: 0.\n\n8.10 Repository integrity\n\nRun:\n\ngit diff --check\ngit status --porcelain\n\nExpected:\n\nno whitespace errors\nclean fresh validation clone\n8.11 Commit-object integrity\n\nVerify:\n\nHEAD = 44505ddb...\nparent = dc4e2eef...\nchanged files = exactly 2\n8.12 Semaphore topology\n\nVerify .semaphore/semaphore-production.yml contains exactly six production blocks and the dependency chain is unchanged.\n\n8.13 No-privilege dependency\n\nValidate full-corpus live runtime scripts do not require privileged execution.\n\nThe safety scan itself must use a form accepted by the operator/runtime policy so the preflight is actually executed rather than skipped by an external safety parser.\n\n8.14 Deployment script syntax and exact-SHA semantics\n\nValidate deployment scripts with bash -n.\n\nConfirm deployment resolves the expected exact SHA and fails closed on branch/SHA mismatch.\n\n8.15 Production read-only preflight\n\nBefore Semaphore launch, read-only verify:\n\nproduction current SHA;\n\nproduction branch;\n\ntracked status;\n\nrelevant runtime services;\n\navailable disk/memory sufficient for workflow;\n\n/tmp/log baseline fingerprint/metadata for immutability comparison.\n\nDo not alter production in this gate.\n\n9. Semaphore credit-saving policy\nBefore launch\n\nSemaphore launch is forbidden unless all are true:\n\nG0_GO\nG1_GO\nG2_GO\nG3_GO\nG4_GO\nG5_GO\nDuring launch\n\nUse one new workflow tied to final exact SHA.\n\nDo not launch parallel duplicate pipelines.\n\nIf a block fails\n\nCode/contract failure\n\nno automatic retry;\n\nno additional commit under this plan;\n\ncapture exact failure evidence;\n\nmark zero-additional-commit objective as not achieved.\n\nTransient infrastructure failure\n\nA retry is allowed only if evidence proves all of:\n\nexact Git SHA unchanged;\n\nsource command did not produce a code/test failure;\n\nfailure occurred in provisioning/network/agent/tooling layer;\n\nrerun does not hide a deterministic failure.\n\n10. Six-block acceptance criteria\nBlock 1 — GRU validation\n\nMust pass all test, compile, syntax, marker and privilege gates.\n\nCritical regression:\n\ntest_p2_handoff_state_machine:\n6 tests, not 0\nBlock 2 — Full-corpus acceptance launch\n\nMust create/attach exact-SHA durable authority without privileged runtime dependency.\n\nBlock 3 — Full-corpus acceptance final watch\n\nMust finish with durable exact-SHA acceptance evidence.\n\nNo stale run may satisfy current acceptance.\n\nBlock 4 — Deploy exact feature GRU SHA\n\nProduction must deploy exactly:\n\n44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nDeployment must fail closed on SHA mismatch.\n\nBlock 5 — P2 acceptance launch\n\nMust bind durable launch authority to exact build + SHA.\n\nBlock 6 — P2 acceptance final watch\n\nMust accept only the terminal result corresponding to the same build + SHA.\n\nA stale same-SHA result from another build must not produce GO.\n\n11. Atomic assigned backlog\nID\tOwner\tAtomic task\tAcceptance evidence\nB001\tRelease Lead\tFreeze failed SHA, base SHA and final SHA in release record\tThree literal SHAs recorded\nB002\tIndependent Verifier\tVerify 44505ddb... exists in GitHub\tCommit metadata captured\nB003\tIndependent Verifier\tVerify parent of 44505ddb... is exactly dc4e2eef...\tParent SHA evidence\nB004\tIndependent Verifier\tCompare dc4e2eef... → 44505ddb...\tExactly two files changed\nB005\tIndependent Verifier\tVerify observer blob SHA\t001a58683d9...\nB006\tIndependent Verifier\tVerify handoff-test blob SHA\te46b9a0733c...\nB007\tPython Engineer\tFresh-clone exact final SHA\tDetached clean HEAD evidence\nB008\tPython Engineer\tRun Python syntax check on handoff tests\tExit 0\nB009\tRuntime Engineer\tRun Bash syntax check on P2 observer\tExit 0\nB010\tPython Engineer\tRun targeted P2 handoff suite\t6 tests OK\nB011\tPython Engineer\tVerify stale-build rejection test\tnamed test OK\nB012\tPython Engineer\tVerify exact-build acceptance test\tnamed test OK\nB013\tPython Engineer\tRun related remediation contracts\t3 tests OK\nB014\tPython Engineer\tRun full ops/ci/tests discovery\t≥38 tests, all OK\nB015\tPython Engineer\tRun dependency-complete 24/25/26 runtime-boundary test\tboundary PASS\nB016\tRuntime Engineer\tVerify no latest_result_file remains\tcount 0\nB017\tPython Engineer\tVerify no custom TestCase.run remains\tcount 0\nB018\tCI Engineer\tReproduce full Semaphore Core CI contracts command sequence\tterminal PASS marker\nB019\tCI Engineer\tRun all py_compile gates from Semaphore\tall exit 0\nB020\tCI Engineer\tRun all bash -n gates from Semaphore\tall exit 0\nB021\tCI Engineer\tRun full-corpus contract marker checks\tall markers present\nB022\tCI Engineer\tRun policy-compatible privilege-dependency scan\tno live runtime privilege dependency\nB023\tRelease Lead\tRun git diff --check\tno errors\nB024\tRelease Lead\tVerify validation worktree clean\tclean\nB025\tCI Engineer\tVerify six-block Semaphore topology\texact six blocks/dependencies\nB026\tRuntime Engineer\tRead-only production capacity/state preflight\tevidence bundle\nB027\tRuntime Engineer\tRecord /tmp/log baseline\timmutable baseline evidence\nB028\tIndependent Verifier\tReview B001–B027 evidence\tPREPUBLISH_GO\nB029\tRelease Lead\tObtain explicit authorization for non-fast-forward branch ref rewrite\tauthorization recorded\nB030\tRelease Lead\tMove feature/GRU from 258a111... to 44505ddb...\tremote ref exact\nB031\tIndependent Verifier\tVerify 258a111... unreachable from feature/GRU\tancestry PASS\nB032\tIndependent Verifier\tVerify final branch parent = dc4e2eef...\texact parent evidence\nB033\tRelease Lead\tConfirm no commit created during branch cutover\tcommit invariant\nB034\tPython Engineer\tFresh-clone remote feature/GRU after cutover\tHEAD exact final SHA\nB035\tCI Engineer\tRe-run deterministic Core CI contracts preflight from remote clone\tPASS\nB036\tIndependent Verifier\tIssue SEMAPHORE_TRIGGER_GO\tchecklist GO\nB037\tCI Engineer\tTrigger one new Semaphore workflow\tnew run ID, exact final SHA\nB038\tCI Engineer\tVerify Semaphore checkout SHA\t44505ddb...\nB039\tCI Engineer\tObserve Block 1 GRU validation\tPassed\nB040\tCI Engineer\tObserve Block 2 full-corpus launch\tPassed\nB041\tRuntime Engineer\tVerify full-corpus durable authority identity\texact SHA/run\nB042\tCI Engineer\tObserve Block 3 full-corpus final watch\tPassed\nB043\tRuntime Engineer\tValidate durable full-corpus evidence\tPASS\nB044\tCI Engineer\tObserve Block 4 exact-SHA deploy\tPassed\nB045\tRuntime Engineer\tVerify production HEAD immediately after deploy\texact final SHA\nB046\tCI Engineer\tObserve Block 5 P2 acceptance launch\tPassed\nB047\tRuntime Engineer\tVerify P2 launch authority = exact build + SHA\tidentity PASS\nB048\tCI Engineer\tObserve Block 6 P2 final watch\tPassed\nB049\tRuntime Engineer\tVerify terminal P2 result exact build + SHA\tdurable PASS\nB050\tRuntime Engineer\tVerify production tracked status clean\ttracked-clean\nB051\tRuntime Engineer\tCompare /tmp/log against baseline\tno prohibited mutation\nB052\tRelease Lead\tRemove prohibited dummy remote branch if still present, without commit\tbranch absent\nB053\tIndependent Verifier\tVerify no commit exists after 44505ddb... on feature/GRU\ttopology PASS\nB054\tIndependent Verifier\tVerify all six Semaphore blocks passed\tsix PASS records\nB055\tRelease Lead\tPublish COMPLETE_GO record\tall gates G0–G8 GO\n12. Backlog dependency chain\nB001\n  ↓\nB002-B006\n  ↓\nB007-B027\n  ↓\nB028 PREPUBLISH_GO\n  ↓\nB029 authorization\n  ↓\nB030 branch cutover\n  ↓\nB031-B035\n  ↓\nB036 SEMAPHORE_TRIGGER_GO\n  ↓\nB037\n  ↓\nB038\n  ↓\nB039\n  ↓\nB040-B043\n  ↓\nB044-B045\n  ↓\nB046-B049\n  ↓\nB050-B054\n  ↓\nB055 COMPLETE_GO\n\nNo task that triggers limited CI credits is permitted before B036.\n\n13. Stop rules\n\nBecause the mandatory objective prohibits additional commits, recovery must not create commits.\n\nBefore branch cutover\n\nIf any deterministic preflight fails:\n\ndo not move feature/GRU;\n\ndo not launch Semaphore;\n\nstop and report the failed gate.\n\nAfter branch cutover but before Semaphore\n\nIf remote exact-SHA revalidation fails:\n\ndo not launch Semaphore;\n\npreserve evidence;\n\ndo not create a fix commit under this plan.\n\nDuring Semaphore\n\nIf a deterministic code test fails:\n\nstop;\n\ncollect exact logs;\n\ndo not spend credits on blind reruns;\n\ndo not create another commit.\n\nIf a proven transient infrastructure failure occurs:\n\nthe exact same SHA may be rerun only after failure classification.\n\n14. COMPLETE_GO definition\n\nThe release is COMPLETE_GO only when all are simultaneously true:\n\nfeature/GRU HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nHEAD parent\n= dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n\naccidental 258a111...\n= not reachable from feature/GRU\n\nadditional commits after canonical remediation\n= 0\n\nSemaphore GRU validation\n= PASS\n\nSemaphore full-corpus launch\n= PASS\n\nSemaphore full-corpus final watch\n= PASS\n\nSemaphore exact-SHA deploy\n= PASS\n\nSemaphore P2 launch\n= PASS\n\nSemaphore P2 final watch\n= PASS\n\nproduction HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nproduction tracked status\n= clean\n\n/tmp/log prohibited mutation\n= none\n\nfull-corpus authority\n= exact final SHA\n\nP2 terminal authority\n= exact final SHA + exact build\n\ndummy/prohibited branch\n= absent\n\nAnything less is not COMPLETE_GO.\n\n15. Credit-minimization rationale\n\nThe previous failure was deterministic and visible from source structure. Spending Semaphore credits before exact reproduction of the first block allowed a known-bad SHA to consume a workflow.\n\nThis plan reverses the order:\n\nimmutable commit-object audit;\n\nexact-SHA fresh-clone tests;\n\ncomplete first-block reproduction;\n\nindependent verification;\n\nbranch publication;\n\nsecond remote exact-SHA preflight;\n\nonly then one Semaphore production workflow.\n\nThe design front-loads cheap deterministic validation and reserves Semaphore credits for live acceptance/deployment stages that cannot be fully substituted by local tests.\n\n16. Final execution contract\n\nNo one may create another code commit after 44505ddbfa5062dc1c712fc90db72cb0c54de924. The only permitted repository write required to establish the final candidate is the controlled ref rewrite of feature/GRU from accidental SHA 258a111... to canonical remediation SHA 44505ddb.... Semaphore may be triggered only after exact-SHA local and remote preflight gates pass.\n\nThis preserves the single-remediation-commit objective and maximizes the probability that the next Semaphore workflow reaches COMPLETE_GO without consuming credits on a known deterministic failure.",
+    "codes": [
+      {
+        "j": 0,
+        "text": "def run(self, root, service=\"inactive\", expect=0):"
+      },
+      {
+        "j": 1,
+        "text": "Ran 0 tests\nNO TESTS RAN"
+      },
+      {
+        "j": 2,
+        "text": "run(...) -> run_state(...)"
+      },
+      {
+        "j": 3,
+        "text": "(CIRCLE_BUILD_NUM, EXPECTED_SHA)"
+      },
+      {
+        "j": 4,
+        "text": "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+      },
+      {
+        "j": 5,
+        "text": "feature/GRU\n258a111...  --controlled ref rewrite-->  44505ddb..."
+      },
+      {
+        "j": 6,
+        "text": "d4960be98cee3edef96413ee77f200ce744d3461\n    |\n    v\ndc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n    |\n    v\n44505ddbfa5062dc1c712fc90db72cb0c54de924   <-- feature/GRU"
+      },
+      {
+        "j": 7,
+        "text": "dc4e2eef...\n    |\n    +-- 258a111...  noop\n            |\n            +-- any fix commit"
+      },
+      {
+        "j": 8,
+        "text": "dc4e2eef... -> 258a111... -> revert -> final fix"
+      },
+      {
+        "j": 9,
+        "text": "validate immutable commit object\n        ↓\nindependent audit\n        ↓\ncontrolled branch ref rewrite\n        ↓\nfresh remote exact-SHA validation\n        ↓\nONE Semaphore production workflow\n        ↓\nsix blocks PASS\n        ↓\nproduction exact-SHA verification\n        ↓\nCOMPLETE_GO"
+      },
+      {
+        "j": 10,
+        "text": "commit = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nparent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60"
+      },
+      {
+        "j": 11,
+        "text": "ops/ci/observe_gru_p2_remote.sh\nops/ci/tests/test_p2_handoff_state_machine.py"
+      },
+      {
+        "j": 12,
+        "text": "ops/ci/observe_gru_p2_remote.sh\nblob = 001a58683d9bb791ad5bbc58ff8b9a9145d3960a\n\nops/ci/tests/test_p2_handoff_state_machine.py\nblob = e46b9a0733c3866805b5177713293eb4c63f1a95"
+      },
+      {
+        "j": 13,
+        "text": "feature/GRU:\n258a111c031dee9643cffb920518fcc1ca392565\n    ->\n44505ddbfa5062dc1c712fc90db72cb0c54de924"
+      },
+      {
+        "j": 14,
+        "text": "HEAD == 44505ddb...\nHEAD^ == dc4e2eef..."
+      },
+      {
+        "j": 15,
+        "text": "SEMAPHORE_GIT_SHA = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nbranch = feature/GRU"
+      },
+      {
+        "j": 16,
+        "text": "branch = feature/GRU\nHEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924\ntracked_status = clean"
+      },
+      {
+        "j": 17,
+        "text": "python3 -m py_compile \\\n  ops/ci/tests/test_p2_handoff_state_machine.py"
+      },
+      {
+        "j": 18,
+        "text": "bash -n ops/ci/observe_gru_p2_remote.sh"
+      },
+      {
+        "j": 19,
+        "text": "python3 -m unittest -v \\\n  ops.ci.tests.test_p2_handoff_state_machine"
+      },
+      {
+        "j": 20,
+        "text": "Ran 6 tests\nOK"
+      },
+      {
+        "j": 21,
+        "text": "test_observer_rejects_stale_same_sha_other_build_result ... ok\ntest_observer_accepts_exact_current_build_result ... ok"
+      },
+      {
+        "j": 22,
+        "text": "python3 -m unittest -v \\\n  ops.ci.tests.test_p2_external_evidence_contract \\\n  ops.ci.tests.test_single_commit_semaphore_contract \\\n  ops.ci.tests.test_post_p2_live_durability"
+      },
+      {
+        "j": 23,
+        "text": "Ran 3 tests\nOK"
+      },
+      {
+        "j": 24,
+        "text": "python3 -m unittest discover \\\n  -s ops/ci/tests \\\n  -p 'test_*.py' \\\n  -v"
+      },
+      {
+        "j": 25,
+        "text": "Ran 38 tests\nOK"
+      },
+      {
+        "j": 26,
+        "text": "ops.ci.breaker.tests.test_ci_breaker\nops.gru.test_remediate_orphan_recovery_wait\napy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests\nops.ci.tests.test_p2_memory_bound_contract\napy.tests.test_raw_payload_persistence\nops.ci.tests.test_full_corpus_durability_contract\nops.ci.tests.test_p1_dependency_validator_contract\nops.ci.tests.test_p2_handoff_state_machine\nops.ci.tests.test_p2_external_evidence_contract\nops.ci.tests.test_post_p2_live_acceptance_contract\nops.ci.tests.test_post_p2_live_durability\nops.ci.tests.test_single_commit_semaphore_contract\napy.tests.test_gru_minimum_history_boundary"
+      },
+      {
+        "j": 27,
+        "text": "SEMAPHORE_PRODUCTION_VALIDATION=PASS"
+      },
+      {
+        "j": 28,
+        "text": "24 rows -> rejected as insufficient\n25 rows -> accepted boundary\n26 rows -> accepted"
+      },
+      {
+        "j": 29,
+        "text": "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+      },
+      {
+        "j": 30,
+        "text": "latest_result_file"
+      },
+      {
+        "j": 31,
+        "text": "def run(self,"
+      },
+      {
+        "j": 32,
+        "text": "git diff --check\ngit status --porcelain"
+      },
+      {
+        "j": 33,
+        "text": "no whitespace errors\nclean fresh validation clone"
+      },
+      {
+        "j": 34,
+        "text": "HEAD = 44505ddb...\nparent = dc4e2eef...\nchanged files = exactly 2"
+      },
+      {
+        "j": 35,
+        "text": "G0_GO\nG1_GO\nG2_GO\nG3_GO\nG4_GO\nG5_GO"
+      },
+      {
+        "j": 36,
+        "text": "test_p2_handoff_state_machine:\n6 tests, not 0"
+      },
+      {
+        "j": 37,
+        "text": "B001\n  ↓\nB002-B006\n  ↓\nB007-B027\n  ↓\nB028 PREPUBLISH_GO\n  ↓\nB029 authorization\n  ↓\nB030 branch cutover\n  ↓\nB031-B035\n  ↓\nB036 SEMAPHORE_TRIGGER_GO\n  ↓\nB037\n  ↓\nB038\n  ↓\nB039\n  ↓\nB040-B043\n  ↓\nB044-B045\n  ↓\nB046-B049\n  ↓\nB050-B054\n  ↓\nB055 COMPLETE_GO"
+      },
+      {
+        "j": 38,
+        "text": "feature/GRU HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nHEAD parent\n= dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n\naccidental 258a111...\n= not reachable from feature/GRU\n\nadditional commits after canonical remediation\n= 0\n\nSemaphore GRU validation\n= PASS\n\nSemaphore full-corpus launch\n= PASS\n\nSemaphore full-corpus final watch\n= PASS\n\nSemaphore exact-SHA deploy\n= PASS\n\nSemaphore P2 launch\n= PASS\n\nSemaphore P2 final watch\n= PASS\n\nproduction HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nproduction tracked status\n= clean\n\n/tmp/log prohibited mutation\n= none\n\nfull-corpus authority\n= exact final SHA\n\nP2 terminal authority\n= exact final SHA + exact build\n\ndummy/prohibited branch\n= absent"
+      }
+    ]
+  }
+]

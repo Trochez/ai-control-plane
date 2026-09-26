@@ -1,0 +1,325 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e8]:
+        - navigation "App navigation" [ref=e9]:
+          - generic [ref=e10]:
+            - button "Home" [ref=e12] [cursor=pointer]
+            - button "Scheduled" [ref=e17] [cursor=pointer]
+            - button "Library" [ref=e23] [cursor=pointer]
+            - button "Images" [ref=e28] [cursor=pointer]
+            - button "Plugins" [ref=e34] [cursor=pointer]
+            - button "Explore" [ref=e39] [cursor=pointer]
+          - generic [ref=e47]:
+            - button "Help menu" [ref=e50] [cursor=pointer]
+            - button "Open profile menu" [ref=e59] [cursor=pointer]
+        - navigation "Home" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ChatGPT
+              - generic [ref=e76]:
+                - button "Search" [ref=e78] [cursor=pointer]
+                - button "View activity" [ref=e86] [cursor=pointer]
+                - button "Hide sidebar" [expanded] [ref=e91] [cursor=pointer]
+            - button "New chat" [ref=e97] [cursor=pointer]
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - button "Projects" [expanded] [ref=e115] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Project sidebar options"
+                      - button "Add new project" [ref=e120] [cursor=pointer]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - button "zircon_practica_unir" [ref=e132] [cursor=pointer]:
+                    - button "Project actions for zircon_practica_unir" [ref=e145]
+                    - button "New chat in zircon_practica_unir" [ref=e153]
+                - listitem [ref=e158]:
+                  - button "agentic_pipeline" [ref=e162] [cursor=pointer]:
+                    - button "Project actions for agentic_pipeline" [ref=e175]
+                    - button "New chat in agentic_pipeline" [ref=e183]
+                - listitem [ref=e188]:
+                  - button "body_finder_fast" [ref=e192] [cursor=pointer]:
+                    - button "Project actions for body_finder_fast" [ref=e205]
+                    - button "New chat in body_finder_fast" [ref=e213]
+                - listitem [ref=e218]:
+                  - button "Bot_trading" [ref=e222] [cursor=pointer]:
+                    - button "Project actions for Bot_trading" [ref=e235]
+                    - button "New chat in Bot_trading" [ref=e243]
+                - listitem [ref=e248]:
+                  - button "ubuntu problems" [ref=e252] [cursor=pointer]:
+                    - button "Project actions for ubuntu problems" [ref=e265]
+                    - button "New chat in ubuntu problems" [ref=e273]
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - button "Recents" [expanded] [ref=e285] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Chat sidebar options"
+                      - button "Filter chats and work"
+                      - generic:
+                        - button "New chat"
+              - list [ref=e292]:
+                - listitem [ref=e413]:
+                  - button "Ejecuta acción lectura Semaphore" [ref=e415] [cursor=pointer]:
+                    - generic [ref=e417]:
+                      - button "Chat actions" [ref=e418]
+                      - button "Pin chat" [ref=e425]
+                    - status "Working" [ref=e1266]
+                - listitem [ref=e365]:
+                  - button "Implementación CI completada" [ref=e367] [cursor=pointer]:
+                    - generic [ref=e369]:
+                      - button "Chat actions" [ref=e370]
+                      - button "Pin chat" [ref=e377]
+                - listitem [ref=e293]:
+                  - button "Modelo más potente en ChatGPT" [ref=e295] [cursor=pointer]:
+                    - generic [ref=e297]:
+                      - button "Chat actions" [ref=e298]
+                      - button "Pin chat" [ref=e305]
+                - listitem [ref=e317]:
+                  - button "Enlaces de compra ranking" [ref=e319] [cursor=pointer]:
+                    - generic [ref=e321]:
+                      - button "Chat actions" [ref=e322]
+                      - button "Pin chat" [ref=e329]
+                - listitem [ref=e341]:
+                  - button "Ranking precio calidad LLM local" [ref=e343] [cursor=pointer]:
+                    - generic [ref=e345]:
+                      - button "Chat actions" [ref=e346]
+                      - button "Pin chat" [ref=e353]
+                - listitem [ref=e389]:
+                  - button "Diagnóstico CI Semaphore" [ref=e391] [cursor=pointer]:
+                    - generic [ref=e393]:
+                      - button "Chat actions" [ref=e394]
+                      - button "Pin chat" [ref=e401]
+                - listitem [ref=e437]:
+                  - button "Resolver bolas azules y rojas" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e441]:
+                      - button "Chat actions" [ref=e442]
+                      - button "Pin chat" [ref=e449]
+                - listitem [ref=e461]:
+                  - button "Ranking RTX 5070 Ti" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e465]:
+                      - button "Chat actions" [ref=e466]
+                      - button "Pin chat" [ref=e473]
+                - listitem [ref=e485]:
+                  - button "Ranking pantallas OLED 2K" [ref=e487] [cursor=pointer]:
+                    - generic [ref=e489]:
+                      - button "Chat actions" [ref=e490]
+                      - button "Pin chat" [ref=e497]
+                - listitem [ref=e509]:
+                  - button "Ranking monitores OLED 4K" [ref=e511] [cursor=pointer]:
+                    - generic [ref=e513]:
+                      - button "Chat actions" [ref=e514]
+                      - button "Pin chat" [ref=e521]
+                - listitem [ref=e533]:
+                  - status [ref=e535]:
+                    - generic [ref=e536]: Loading chats
+      - separator [ref=e547]
+    - generic [ref=e548]:
+      - main [ref=e550]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=e635] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=e552]:
+              - button "Share" [disabled] [ref=e554]
+              - button "More" [ref=e558] [cursor=pointer]
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - generic [ref=e642]:
+              - generic [ref=e871]:
+                - separator "Wednesday 4:55 PM" [ref=e872]:
+                  - time [ref=e873]: Wednesday 4:55 PM
+                - generic [ref=e876]:
+                  - generic [ref=e877]:
+                    - generic [ref=e878]:
+                      - heading "You said:" [level=4] [ref=e879]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]: "[AI_LOOP_DELIVERY id=failure-evidence-025d7f19b1dd83b26733] Combined read-only failure evidence is attached for exact candidate_sha=None run_id=None pipeline_id=4df05bd2-6a81-41dc-9dfe-9e0051cd602c. Semaphore evidence and exact-SHA temporary-clone investigation are included. Local reproduction status=NOT_EXECUTED_NO_SAFE_EXTRACTED_COMMAND. Review this evidence before diagnosis; request only additional exact operator actions if needed. Do not rerun Semaphore yet."
+                        - generic [ref=e891]:
+                          - button "Copy message" [ref=e893] [cursor=pointer]
+                          - button "Share prompt" [ref=e897] [cursor=pointer]
+                    - generic [ref=e913]:
+                      - button "Worked for 2m 32s" [ref=e914] [cursor=pointer]
+                      - generic: Worked for 2m 32s
+                    - generic [ref=e916]:
+                      - heading "ChatGPT said:" [level=4] [ref=e917]
+                      - generic [ref=e919]:
+                        - paragraph [ref=e920]:
+                          - text: Ejecuta esta acción exacta en el
+                          - strong [ref=e921]: control plane local
+                          - text: ". Es exclusivamente de lectura sobre Semaphore; no dispara ni reintenta ningún pipeline:"
+                        - generic [ref=e923]:
+                          - generic [ref=e924]:
+                            - generic [ref=e929]: Bash
+                            - generic [ref=e931]:
+                              - button "Enable word wrap" [ref=e933] [cursor=pointer]
+                              - button "Copy" [ref=e939] [cursor=pointer]
+                          - code [ref=e943]: "set -Eeuo pipefail umask 077 SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" BRANCH=\"feature/GRU\" SEM_WF=\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\" SEM_PPL=\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\" E=\"/tmp/ai-loop-sem-readonly-${SHA:0:12}-$(date -u +%Y%m%dT%H%M%SZ)\" mkdir -p \"$E\" fail() { echo \"READONLY_EVIDENCE=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } for c in curl jq grep tail sha256sum; do command -v \"$c\" >/dev/null 2>&1 || fail \"MISSING_COMMAND:$c\" 91 done if [ -f /opt/ai-loop/ai-loop.env ]; then set -a # shellcheck disable=SC1091 source /opt/ai-loop/ai-loop.env set +a fi SEM_TOKEN=\"${SEMAPHORE_API_TOKEN:-${SEMAPHORE_TOKEN:-}}\" SEM_BASE=\"${SEMAPHORE_API_URL:-${SEMAPHORE_ORG_URL:-${SEMAPHORE_URL:-${SEMAPHORE_SERVER_URL:-}}}}\" [ -n \"$SEM_TOKEN\" ] || fail \"SEMAPHORE_TOKEN_NOT_AVAILABLE\" 92 [ -n \"$SEM_BASE\" ] || fail \"SEMAPHORE_BASE_URL_NOT_AVAILABLE\" 93 SEM_BASE=\"${SEM_BASE%/}\" case \"$SEM_BASE\" in */api/v1alpha) SEM_API=\"$SEM_BASE\" ;; *) SEM_API=\"$SEM_BASE/api/v1alpha\" ;; esac curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/plumber-workflows/$SEM_WF\" \\ > \"$E/workflow.json\" \\ || fail \"WORKFLOW_FETCH_FAILED\" 101 curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/pipelines/$SEM_PPL?detailed=true\" \\ > \"$E/pipeline.json\" \\ || fail \"PIPELINE_FETCH_FAILED\" 102 WF_ID=\"$(jq -r '(.workflow // .).wf_id // empty' \"$E/workflow.json\")\" WF_SHA=\"$(jq -r '(.workflow // .).commit_sha // empty' \"$E/workflow.json\")\" WF_BRANCH=\"$(jq -r '(.workflow // .).branch_name // empty' \"$E/workflow.json\")\" PPL_ID=\"$(jq -r '(.pipeline // .).ppl_id // empty' \"$E/pipeline.json\")\" PPL_WF=\"$(jq -r '(.pipeline // .).wf_id // empty' \"$E/pipeline.json\")\" [ \"$WF_ID\" = \"$SEM_WF\" ] || fail \"WORKFLOW_ID_MISMATCH:$WF_ID\" 111 [ \"$WF_SHA\" = \"$SHA\" ] || fail \"WORKFLOW_SHA_MISMATCH:$WF_SHA\" 112 [ \"$WF_BRANCH\" = \"$BRANCH\" ] || fail \"WORKFLOW_BRANCH_MISMATCH:$WF_BRANCH\" 113 [ \"$PPL_ID\" = \"$SEM_PPL\" ] || fail \"PIPELINE_ID_MISMATCH:$PPL_ID\" 114 [ \"$PPL_WF\" = \"$SEM_WF\" ] || fail \"PIPELINE_WORKFLOW_MISMATCH:$PPL_WF\" 115 echo \"===== EXACT IDENTITY =====\" jq '(.workflow // .) | { wf_id, commit_sha, branch_name, created_at, rerun_of }' \"$E/workflow.json\" jq '(.pipeline // .) | { ppl_id, wf_id, name, state, result, result_reason, error_description, branch_name, yaml_file_name, created_at, running_at, done_at }' \"$E/pipeline.json\" jq -r ' (.blocks // [])[] as $b | ($b.jobs // [])[] | [ ($b.name // \"\"), (.name // \"\"), (.job_id // .id // \"\"), (.status // .state // \"\"), (.result // \"\") ] | @tsv ' \"$E/pipeline.json\" > \"$E/jobs.tsv\" echo \"===== ALL JOBS =====\" cat \"$E/jobs.tsv\" mkdir -p \"$E/jobs\" : > \"$E/non-success-summary.txt\" while IFS=$'\\t' read -r block job jid status result; do [ -n \"$jid\" ] || continue curl -fsSL \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/jobs/$jid\" \\ > \"$E/jobs/$jid.metadata.json\" || true http=\"$( curl -sSL \\ -o \"$E/jobs/$jid.log.raw\" \\ -w '%{http_code}' \\ -H \"Authorization: Token $SEM_TOKEN\" \\ -H \"User-Agent: ai-loop-readonly-evidence\" \\ \"$SEM_API/logs/$jid\" )\" case \"${result,,}:${status,,}\" in *failed*|*failure*|*stopped*|*cancelled*|*canceled*|*error*) { echo \"============================================================\" echo \"BLOCK=$block\" echo \"JOB=$job\" echo \"JOB_ID=$jid\" echo \"STATUS=$status\" echo \"RESULT=$result\" echo \"LOG_HTTP=$http\" if [[ \"$http\" =~ ^2 ]] && jq -e . \"$E/jobs/$jid.log.raw\" >/dev/null 2>&1; then echo \"--- NONZERO DIRECTIVES ---\" jq -r ' [ .. | objects | select( .exit_code? != null and (((.exit_code|tonumber?) // 0) != 0) ) | { directive:(.directive // .command // .name // \"UNKNOWN\"), exit_code, started_at, finished_at, output:(.output // .message // .text // null) } ] ' \"$E/jobs/$jid.log.raw\" echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo elif [[ \"$http\" =~ ^2 ]]; then echo \"--- FAILURE LINES ---\" grep -nEi \\ 'exit code|exited with|command failed|failed|error:|fatal:|permission denied|timed out|timeout|not found|denied|stopped|cancel' \\ \"$E/jobs/$jid.log.raw\" | head -250 || true echo \"--- LOG TAIL ---\" tail -c 20000 \"$E/jobs/$jid.log.raw\" echo else echo \"LOG_UNAVAILABLE_HTTP=$http\" fi } >> \"$E/non-success-summary.txt\" ;; esac done < \"$E/jobs.tsv\" echo \"===== NON-SUCCESS JOB EVIDENCE =====\" cat \"$E/non-success-summary.txt\" echo \"===== EVIDENCE DIGEST =====\" sha256sum \"$E/workflow.json\" \"$E/pipeline.json\" \"$E/jobs.tsv\" \"$E/non-success-summary.txt\" echo \"SEMAPHORE_RERUN=NO\" echo \"SEMAPHORE_RETRY=NO\" echo \"SEMAPHORE_MUTATION=NO\" echo \"REPOSITORY_MUTATION=NO\" echo \"VPS_MUTATION=NO\" echo \"EVIDENCE_DIR=$E\" echo \"READONLY_EVIDENCE=PASS\""
+                        - paragraph [ref=e944]: "No se debe crear otro commit: 0c11a13e… ya es el HEAD remoto y corresponde al commit v4.6 existente. El siguiente paso depende únicamente del resultado de esta acción; con block/job/directive/exit_code podremos distinguir un defecto real de v4.6 de un fallo de infraestructura o una detención externa, sin gastar otro run de Semaphore."
+                  - generic [ref=e946]:
+                    - button "Copy" [ref=e948] [cursor=pointer]
+                    - button "Rate response" [ref=e952] [cursor=pointer]
+                    - button "Share" [ref=e956] [cursor=pointer]
+                    - button "Add to project sources" [ref=e961] [cursor=pointer]
+                    - button "More actions" [ref=e969] [cursor=pointer]
+              - generic [ref=e977]:
+                - separator "Wednesday 6:52 PM" [ref=e978]:
+                  - time [ref=e979]: Wednesday 6:52 PM
+                - generic [ref=e982]:
+                  - generic [ref=e983]:
+                    - generic [ref=e984]:
+                      - heading "You said:" [level=4] [ref=e985]
+                      - generic [ref=e988]:
+                        - generic [ref=e989]: "[AI_LOOP_DELIVERY id=diagnosis-0c11a13e0c6c] /skillsbench best diagnosis with list of all granular causes of last failure in. md file with datetime in filename"
+                        - generic [ref=e997]:
+                          - button "Copy message" [ref=e999] [cursor=pointer]
+                          - button "Share prompt" [ref=e1003] [cursor=pointer]
+                    - generic [ref=e1014]:
+                      - button "Worked for 4m 3s" [ref=e1015] [cursor=pointer]
+                      - generic: Worked for 4m 3s
+                    - generic [ref=e1017]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1018]
+                      - generic [ref=e1019]:
+                        - generic [ref=e1020]:
+                          - paragraph [ref=e1021]: He terminado el diagnóstico granular y lo dejé en un .md fechado.
+                          - paragraph [ref=e1022]:
+                            - text: La conclusión principal es que
+                            - strong [ref=e1023]: no existe evidencia de que el último fallo haya sido causado por un test o defecto del commit 0c11a13e…
+                            - text: . Semaphore terminó realmente con raw_state=done y raw_result=stopped; ci-status lo degradó a un FAILURE genérico.
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=e1027] [cursor=pointer]:
+                              - generic [ref=e1033]: Pasted text(20260923-192112)
+                          - paragraph [ref=e1034]:
+                            - text: "Además encontré varios fallos independientes en la cadena de diagnóstico: polling repetidamente UNKNOWN, pérdida intermitente de provider/run, timeouts de 120 segundos, incapacidad para recuperar los anchors exactos de Semaphore y un bundle que declara STATUS=PASS aunque deja vacíos CANDIDATE_SHA, RUN_ID, PIPELINE_RESULT, failed job y step."
+                            - button "Open preview of Pasted text(20260923-192112).txt" [ref=e1038] [cursor=pointer]:
+                              - generic [ref=e1044]: Pasted text(20260923-192112)
+                            - button "Open preview of failure-evidence-bundle-025d7f19b1dd83b26733.txt" [ref=e1048] [cursor=pointer]:
+                              - generic [ref=e1054]: failure-evidence-bundle-025d7f1…
+                          - paragraph [ref=e1055]:
+                            - text: El documento distingue
+                            - strong [ref=e1056]: 12+ causas/factores granulares
+                            - text: ", separando claramente causa terminal, defectos del observador, bloqueos de evidencia y factores que"
+                            - strong [ref=e1057]: "no"
+                            - text: pueden atribuirse al fallo. También mantiene explícitamente bloqueado el rerun de Semaphore hasta clasificar por qué fue stopped.
+                          - paragraph [ref=e1058]: "SHA-256 del diagnóstico: 8cfabeb4b366004dd445958b9657a42ca88952bd93c46edfa7a52e8942559c64."
+                        - generic [ref=e1062]:
+                          - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md" [ref=e1063] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md"
+                              - generic: Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Download file"
+                  - generic [ref=e1065]:
+                    - button "Copy" [ref=e1067] [cursor=pointer]
+                    - button "Rate response" [ref=e1071] [cursor=pointer]
+                    - button "Share" [ref=e1075] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1080] [cursor=pointer]
+                    - button "More actions" [ref=e1088] [cursor=pointer]
+                    - button "Sources" [ref=e1095] [cursor=pointer]
+              - generic [ref=e1101]:
+                - separator "Today 12:05 AM" [ref=e1102]:
+                  - time [ref=e1103]: Today 12:05 AM
+                - generic [ref=e1106]:
+                  - generic [ref=e1107]:
+                    - generic [ref=e1108]:
+                      - heading "You said:" [level=4] [ref=e1109]
+                      - generic [ref=e1112]:
+                        - generic [ref=e1114]:
+                          - generic [ref=e1115]:
+                            - generic [ref=e1116]: "This message is the result of the previously requested canonical operator action for authoritative run R20260923T012014. The action terminated with exit_code=91. The literal execution result was: READONLY_EVIDENCE=FAILED BLOCKER=MISSING_COMMAND:jq EVIDENCE_DIR=/tmp/ai-loop-sem-readonly-0c11a13e0c6c-20260924T194331Z No retry was performed. No repository, Semaphore, VPS, bot_trading, production, or outbound mutation was observed from that failed execution. The action MUST NOT be rerun. The previously generated diagnosis was provisional because it was generated before this failed operator result was delivered. Please reconcile/update the existing diagnosis using this literal operator result and continue from the corrected state. OPERATOR_RESULT_DELIVERY_ID=operator-result-delivery-b677dccd08404429a20721413bfdc9ed"
+                            - generic [aria-hidden] [ref=e1119]: …
+                          - button "Show more" [ref=e1120] [cursor=pointer]
+                        - generic [ref=e1126]:
+                          - button "Copy message" [ref=e1128] [cursor=pointer]
+                          - button "Share prompt" [ref=e1132] [cursor=pointer]
+                    - generic [ref=e1143]:
+                      - button "Worked for 2m 18s" [ref=e1144] [cursor=pointer]
+                      - generic: Worked for 2m 18s
+                    - generic [ref=e1146]:
+                      - heading "ChatGPT said:" [level=4] [ref=e1147]
+                      - generic [ref=e1148]:
+                        - generic [ref=e1149]:
+                          - paragraph [ref=e1150]: He reconciliado el diagnóstico con el resultado literal de la acción canónica. El documento original quedó actualizado y también dejé una copia versionada de la reconciliación.
+                          - paragraph [ref=e1151]:
+                            - text: "La corrección fundamental es esta:"
+                            - strong [ref=e1152]: la acción canónica no obtuvo ninguna evidencia nueva de Semaphore
+                            - text: . Terminó antes de realizar las consultas remotas con exit_code=91 por MISSING_COMMAND:jq. Por tanto, ese resultado no confirma fallo de API, autenticación, anchors, jobs ni tests. Tampoco modifica la conclusión previa de que el pipeline terminó como raw_state=done / raw_result=stopped, cuya causa/actor continúa sin determinarse.
+                          - paragraph [ref=e1153]: "El estado corregido queda así: CANONICAL_READONLY_ACTION=FAILED_LOCAL_PRECHECK, CANONICAL_ACTION_REACHED_SEMAPHORE_API=NO, CANONICAL_ACTION_RETRIED=NO, CANONICAL_ACTION_MUST_NOT_RERUN=YES, SAFE_TO_RERUN_SEMAPHORE=NO_NOT_YET_CLASSIFIED y FINAL_GO=NO. También añadí C-14, que identifica la dependencia no satisfecha de jq como un defecto del mecanismo diagnóstico, no del candidato ni de Semaphore."
+                          - paragraph [ref=e1154]: "SHA-256 de ambos: 5a6aa0fa371488bcb7664ec9703b4e04f6376fba1e65201ef032e4231b905cc7."
+                          - paragraph [ref=e1155]:
+                            - text: El siguiente paso correcto
+                            - strong [ref=e1156]: no es repetir esa acción ni relanzar Semaphore
+                            - text: . Debe ser una acción nueva, read-only y distinta, que consulte los mismos IDs autoritativos sin depender de jq —preferiblemente usando python3 y su biblioteca estándar, que ya forma parte del runtime del controlador— para recuperar workflow, pipeline, jobs y el motivo/actor del stopped.
+                        - generic [ref=e1159]:
+                          - generic [ref=e1160]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md" [ref=e1161] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_20260925T000500-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                          - generic [ref=e1162]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md" [ref=e1163] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                  - generic [ref=e1165]:
+                    - button "Copy" [ref=e1167] [cursor=pointer]
+                    - button "Rate response" [ref=e1171] [cursor=pointer]
+                    - button "Share" [ref=e1175] [cursor=pointer]
+                    - button "Add to project sources" [ref=e1180] [cursor=pointer]
+                    - button "More actions" [ref=e1188] [cursor=pointer]
+                    - button "Sources" [ref=e1194] [cursor=pointer]
+              - generic [ref=e1273]:
+                - separator "Today 3:18 AM" [ref=e1274]:
+                  - time [ref=e1275]: Today 3:18 AM
+                - generic [ref=e1280]:
+                  - heading "You said:" [level=4] [ref=e1281]
+                  - generic [ref=e1284]:
+                    - generic [ref=e1286]:
+                      - generic [ref=e1287]:
+                        - generic [ref=e1288]: "This is the additional read-only Semaphore evidence previously requested. Identity verification passed. - Pipeline state: done - Pipeline result: stopped - RESULT_REASON=test - STOP_REASON=UNKNOWN - STOP_ACTOR=UNKNOWN - TERMINATED_BY=UNKNOWN - Blocks endpoint: HTTP 404 - Jobs endpoint: HTTP 404 - SHA-256 evidence manifest validation: passed - No Semaphore mutation occurred. - No repository, VPS, or production mutation occurred. No additional Semaphore query should be requested unless materially new evidence is needed. The historical jq-based action remains terminal and MUST NOT be retried. Please reconcile this evidence and provide the exact next action. ADDITIONAL_SEMAPHORE_EVIDENCE_DELIVERY_EE54D9160A514E2384B9AED3089D3524"
+                        - generic [aria-hidden] [ref=e1291]: …
+                      - button "Show more" [ref=e1292] [cursor=pointer]
+                    - generic [ref=e1298]:
+                      - button "Copy message" [ref=e1300] [cursor=pointer]
+                      - button "Share prompt" [ref=e1304] [cursor=pointer]
+            - generic [ref=e589]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - button "Scroll to bottom" [ref=e1308] [cursor=pointer]
+              - heading "Latest response" [level=4] [ref=e592]
+              - status [ref=e593]
+              - generic [ref=e604]:
+                - button "Add files and more" [ref=e609] [cursor=pointer]
+                - textbox "Ask ChatGPT" [ref=e615]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=e617]:
+                  - button "Select ChatGPT model" [ref=e1217] [cursor=pointer]:
+                    - generic [ref=e1218]: High
+                  - generic [ref=e618]:
+                    - button "Dictate" [ref=e621] [cursor=pointer]
+                    - button "Stop" [ref=e1313] [cursor=pointer]
+      - status [ref=e630]
+  - status [ref=e631]
+  - status [ref=e632]
+  - status [ref=e633]
+  - status [ref=e634]

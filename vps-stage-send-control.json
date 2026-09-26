@@ -1,0 +1,19 @@
+{
+  "textareas": [],
+  "buttons": [
+    {
+      "i": 155,
+      "text": "",
+      "aria": "Dictate",
+      "title": "",
+      "disabled": false
+    },
+    {
+      "i": 156,
+      "text": "",
+      "aria": "Send",
+      "title": "",
+      "disabled": false
+    }
+  ]
+}

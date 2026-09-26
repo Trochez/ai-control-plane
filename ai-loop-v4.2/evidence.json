@@ -1,0 +1,48 @@
+{
+  "status": "BLOCKED_EXTERNAL",
+  "version": "4.3.0-policy-increment",
+  "repository": "/mnt/d/works/ai-control-plane",
+  "branch": "main",
+  "head_sha": "6e6d377dae2a9400357d0cd03c6836a17f05c41b",
+  "target": "ai-loop-v4.2",
+  "tests": [
+    {
+      "command": "./bin/verify-v4.3-local",
+      "result": "PASS",
+      "markers": [
+        "POLICY_V4_3_EXACT_SELECTION=PASS",
+        "POLICY_V4_3_MODEL_SOL_OPTION_NOT_FOUND=PASS",
+        "POLICY_V4_3_NEGATIVE_CASES=PASS",
+        "POLICY_V4_3_PROOF_BINDING=PASS",
+        "VERIFY_V4_3_LOCAL=PASS"
+      ]
+    },
+    {
+      "command": "./bin/verify-v4.2-local",
+      "result": "PASS",
+      "markers": [
+        "BROKER_TEST_V4_2=PASS",
+        "SELFTEST_V4_2_RELEASE_CANDIDATE_LOCAL=PASS",
+        "VERIFY_V4_2_LOCAL=PASS"
+      ]
+    },
+    {
+      "command": "git diff --check -- ai-loop-v4.2/chat-policy-v4.3.cjs ai-loop-v4.2/tests/test-chat-policy-v4.3.cjs ai-loop-v4.2/bin/verify-v4.3-local ai-loop-v4.2/README.md",
+      "result": "PASS"
+    }
+  ],
+  "implemented_files": [
+    "chat-policy-v4.3.cjs",
+    "tests/test-chat-policy-v4.3.cjs",
+    "bin/verify-v4.3-local",
+    "README.md"
+  ],
+  "external_blockers": [
+    "live /opt/ai-loop and /var/lib/ai-loop unavailable or unverified",
+    "authenticated ChatGPT/Chrome session unavailable or unverified",
+    "original incident JSON/HTML/PNG unavailable or unverified",
+    "GitHub write access, Semaphore, VPS, and deployment unavailable or unverified",
+    "live canaries and gates T38-T42 not executed"
+  ],
+  "preservation": "Unrelated dirty and untracked worktree content was not cleaned or reverted."
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "R20260923T012014",
+  "runtime_version": "4.7.9",
+  "status": "BLOCKED",
+  "normalization_attempted": false,
+  "surface_classifier_false_positive": true,
+  "decision": "STOP_WITHOUT_NORMALIZATION",
+  "reason": "The positive work/codex matches are passive or non-surface DOM: hidden historical Work text, CSS/icon class names, and a visible sidebar filter control labelled 'Filter chats and work'. The live conversation remains the required ChatGPT conversation URL and no active Work/Codex surface control was proven.",
+  "url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "conversation_id": "6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "project_context": "Bot_trading",
+  "evidence": [
+    "reconciliation-v479-classifier-trigger-evidence.json",
+    "reconciliation-v479-classifier-trigger-summary.json",
+    "reconciliation-v479-pre-surface-proof.json",
+    "reconciliation-v479-pre-surface-proof.html",
+    "reconciliation-v479-pre-surface-proof.png"
+  ]
+}

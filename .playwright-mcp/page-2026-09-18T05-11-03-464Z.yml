@@ -1,0 +1,1017 @@
+- generic:
+  - link [ref=e4209] [cursor=pointer]:
+    - /url: "#main"
+    - text: Skip to content
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic [aria-hidden]:
+            - generic:
+              - navigation:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /
+                      - generic: New chat
+                  - generic:
+                    - button:
+                      - generic: Search
+                  - generic:
+                    - button:
+                      - generic: Recents
+                - generic:
+                  - generic:
+                    - button
+              - generic:
+                - heading [level=2]: Chat history
+                - generic:
+                  - navigation:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link:
+                            - /url: /
+                            - generic: ChatGPT
+                          - generic:
+                            - button
+                            - button [expanded]
+                    - generic:
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /
+                            - generic: New chat
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Ctrl
+                                  - text: +
+                                - generic:
+                                  - generic: Shift
+                                  - text: +
+                                - generic: O
+                    - link:
+                      - /url: /library?entry_point=sidebar
+                      - generic: Library
+                    - link:
+                      - /url: /scheduled
+                      - generic: Scheduled
+                    - link:
+                      - /url: /plugins
+                      - generic: Plugins
+                    - generic: More
+                    - generic:
+                      - generic:
+                        - button [expanded]:
+                          - heading [level=2]: Projects
+                        - generic:
+                          - button [ref=e4210] [cursor=pointer]
+                          - button [ref=e4211] [cursor=pointer]
+                      - list:
+                        - listitem:
+                          - generic:
+                            - button:
+                              - generic: Bot_trading
+                            - generic:
+                              - button [ref=e4212] [cursor=pointer]
+                              - button [ref=e4213] [cursor=pointer]
+                        - listitem:
+                          - generic:
+                            - button:
+                              - generic: body_finder_fast
+                            - generic:
+                              - button [ref=e4214] [cursor=pointer]
+                              - button [ref=e4215] [cursor=pointer]
+                        - listitem:
+                          - generic:
+                            - button:
+                              - generic: ubuntu problems
+                            - generic:
+                              - button [ref=e4216] [cursor=pointer]
+                              - button [ref=e4217] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - button [expanded]:
+                          - heading [level=2]: Chats
+                        - generic:
+                          - link [ref=e4218] [cursor=pointer]:
+                            - /url: /
+                          - button [ref=e4219] [cursor=pointer]
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa23336-8a84-83e9-989a-03ffd2815f1a
+                              - generic: Diseñar loop DevOps autónomo
+                              - generic:
+                                - generic:
+                                  - button [ref=e4220] [cursor=pointer]
+                                  - button [ref=e4221] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa47f95-75a4-83e9-8575-4b06a3e89e01
+                              - generic: Ranking hardware LLM local
+                              - generic:
+                                - generic:
+                                  - button [ref=e4222] [cursor=pointer]
+                                  - button [ref=e4223] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa9a2f3-ad98-83e9-8670-adb0a6c1ccee
+                              - generic: Ranking celulares Colombia
+                              - generic:
+                                - generic:
+                                  - button [ref=e4224] [cursor=pointer]
+                                  - button [ref=e4225] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa640b5-ff24-83e9-8c1a-c4f73fc83d1b
+                              - generic: Consultar vigencia SOAT
+                              - generic:
+                                - generic:
+                                  - button [ref=e4226] [cursor=pointer]
+                                  - button [ref=e4227] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa3c667-3bfc-83e9-b6d5-cd2c8b1e8f7e
+                              - generic: Ranking hardware LLM local
+                              - generic:
+                                - generic:
+                                  - button [ref=e4228] [cursor=pointer]
+                                  - button [ref=e4229] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa263b8-a584-83e9-bba1-e10fa3423079
+                              - generic: Comparar modelos IA globales
+                              - generic:
+                                - generic:
+                                  - button [ref=e4230] [cursor=pointer]
+                                  - button [ref=e4231] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa0b132-6254-83e9-b1ab-707f02c7d7be
+                              - generic: Marco de trabajo Codex ChatGPT
+                              - generic:
+                                - generic:
+                                  - button [ref=e4232] [cursor=pointer]
+                                  - button [ref=e4233] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9d11a0-14f4-83e9-a48d-545adbc6f5d1?messageId=finalAgentTurnStart
+                              - generic: Semaphore Pipeline Watch
+                              - generic:
+                                - generic:
+                                  - button [ref=e4234] [cursor=pointer]
+                                  - button [ref=e4235] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa11538-57cc-83e9-ba22-d27baa8ec07e?messageId=finalAgentTurnStart
+                              - generic: Semaphore Pipeline Watch
+                              - generic:
+                                - generic:
+                                  - button [ref=e4236] [cursor=pointer]
+                                  - button [ref=e4237] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa0b7bf-3188-83e9-94cc-c91f06fd0fa4
+                              - generic: Ranking Codex Models Cost Benefit
+                              - generic:
+                                - generic:
+                                  - button [ref=e4238] [cursor=pointer]
+                                  - button [ref=e4239] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa0b22e-28d4-83e9-98b6-e1442d34c4ad
+                              - generic: Marco de trabajo OpenCode
+                              - generic:
+                                - generic:
+                                  - button [ref=e4240] [cursor=pointer]
+                                  - button [ref=e4241] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa07b1f-e348-83e9-9c2c-d8fe1ea91e40
+                              - generic: Tutorial CapCut narrado
+                              - generic:
+                                - generic:
+                                  - button [ref=e4242] [cursor=pointer]
+                                  - button [ref=e4243] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6aa050bf-949c-83e9-9bb9-6c71bec5fa68
+                              - generic: Customize CV Match
+                              - generic:
+                                - generic:
+                                  - button [ref=e4244] [cursor=pointer]
+                                  - button [ref=e4245] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9dc354-cb88-83e9-8192-f33fde802e1d?messageId=finalAgentTurnStart
+                              - generic: GRU Full-Corpus Watch
+                              - generic:
+                                - generic:
+                                  - button [ref=e4246] [cursor=pointer]
+                                  - button [ref=e4247] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9c521c-e558-83e9-ac49-3ef00c1cdfea?messageId=finalAgentTurnStart
+                              - generic: P2 Gate Watch
+                              - generic:
+                                - generic:
+                                  - button [ref=e4248] [cursor=pointer]
+                                  - button [ref=e4249] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9baa04-b68c-83e9-b343-833d2d6f1616?messageId=finalAgentTurnStart
+                              - generic: "CircleCI #144 Watch"
+                              - generic:
+                                - generic:
+                                  - button [ref=e4250] [cursor=pointer]
+                                  - button [ref=e4251] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9ba672-1da0-83e9-9893-e00df035adf8?messageId=finalAgentTurnStart
+                              - generic: "CircleCI #144 Watch"
+                              - generic:
+                                - generic:
+                                  - button [ref=e4252] [cursor=pointer]
+                                  - button [ref=e4253] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a9b65de-141c-83e9-9634-8c0b2d4b494c?messageId=finalAgentTurnStart
+                              - generic: "CircleCI #133 Watch"
+                              - generic:
+                                - generic:
+                                  - button [ref=e4254] [cursor=pointer]
+                                  - button [ref=e4255] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a99a248-a93c-83e9-9ed3-0c9b53a7a89f?messageId=finalAgentTurnStart
+                              - generic: "Deploy #56 Watch"
+                              - generic:
+                                - generic:
+                                  - button [ref=e4256] [cursor=pointer]
+                                  - button [ref=e4257] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a99eeb3-2084-83e9-a9a1-e7c21b9e53a7?messageId=finalAgentTurnStart
+                              - generic: "Deploy #56 Watch"
+                              - generic:
+                                - generic:
+                                  - button [ref=e4258] [cursor=pointer]
+                                  - button [ref=e4259] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a987dbe-030c-83e9-8fd1-025a3da8ffb3?messageId=finalAgentTurnStart
+                              - generic: GRU P2 GO Watch
+                              - generic:
+                                - generic:
+                                  - button [ref=e4260] [cursor=pointer]
+                                  - button [ref=e4261] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a947f1e-a6d4-83e9-b77a-135e76d14152
+                              - generic: Impresión sobre ti
+                              - generic:
+                                - generic:
+                                  - button [ref=e4262] [cursor=pointer]
+                                  - button [ref=e4263] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a909c64-eca0-83e9-99c1-afd9b0661cc8
+                              - generic: Conectar SSH MySQL
+                              - generic:
+                                - generic:
+                                  - button [ref=e4264] [cursor=pointer]
+                                  - button [ref=e4265] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a8aada6-97a8-83e9-82d5-ed204fc156e6
+                              - generic: Ubuntu Upgrade Troubleshooting
+                              - generic:
+                                - generic:
+                                  - button [ref=e4266] [cursor=pointer]
+                                  - button [ref=e4267] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a8a3175-2fb4-83e9-aa32-deb60c8682f9
+                              - generic: Fix Scripts For Profiles
+                              - generic:
+                                - generic:
+                                  - button [ref=e4268] [cursor=pointer]
+                                  - button [ref=e4269] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a8c0e47-5e98-83e9-b2b0-347fb2d40e04
+                              - generic: Recomendaciones para dormir mejor
+                              - generic:
+                                - generic:
+                                  - button [ref=e4270] [cursor=pointer]
+                                  - button [ref=e4271] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a88d318-9270-83e9-962d-b07241ec1991
+                              - generic: Búsqueda de soportes laborales
+                              - generic:
+                                - generic:
+                                  - button [ref=e4272] [cursor=pointer]
+                                  - button [ref=e4273] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a878b13-3d74-83e9-b423-91f2df14e94c
+                              - generic: Configure OpenCode Desktop Launcher
+                              - generic:
+                                - generic:
+                                  - button [ref=e4274] [cursor=pointer]
+                                  - button [ref=e4275] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a7dc85f-1e24-83e9-b358-f1b0c3885c94
+                              - generic: Bluetooth Mesh People Detection
+                              - generic:
+                                - generic:
+                                  - button [ref=e4276] [cursor=pointer]
+                                  - button [ref=e4277] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a81531a-86f4-83e9-8333-e6771bd45aa3
+                              - generic: Ranking Open Source Detection Apps
+                              - generic:
+                                - generic:
+                                  - button [ref=e4278] [cursor=pointer]
+                                  - button [ref=e4279] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/25c3f4f8-7129-4095-85cb-b4789941d646
+                              - generic: Desafíos de moda urbana
+                              - generic:
+                                - generic:
+                                  - button [ref=e4280] [cursor=pointer]
+                                  - button [ref=e4281] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a7ffb95-1708-83e9-adc8-0a3562dd5fdf
+                              - generic: Android Device Lab Setup
+                              - generic:
+                                - generic:
+                                  - button [ref=e4282] [cursor=pointer]
+                                  - button [ref=e4283] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a669387-aa34-83e9-acc4-6d0e292762c5
+                              - generic: Preparación entrevista Python
+                              - generic:
+                                - generic:
+                                  - button [ref=e4284] [cursor=pointer]
+                                  - button [ref=e4285] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a77d13d-fcf8-83e9-a763-4b8fa917960a
+                              - generic: Comando /status en Codex
+                              - generic:
+                                - generic:
+                                  - button [ref=e4286] [cursor=pointer]
+                                  - button [ref=e4287] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a776888-4ec8-83e9-8ba2-35994e9a04a2
+                              - generic: Búsqueda de meme español
+                              - generic:
+                                - generic:
+                                  - button [ref=e4288] [cursor=pointer]
+                                  - button [ref=e4289] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a73e3bd-c648-83e9-9791-826f9310f8a7
+                              - generic: What is AIApply
+                              - generic:
+                                - generic:
+                                  - button [ref=e4290] [cursor=pointer]
+                                  - button [ref=e4291] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a737eb6-2a18-83e9-a455-74736ed952f3
+                              - generic: OpenCode Desktop Script
+                              - generic:
+                                - generic:
+                                  - button [ref=e4292] [cursor=pointer]
+                                  - button [ref=e4293] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a710471-99c0-83e9-8c1a-08c1c35b84a3
+                              - generic: Ranking escritorios Linux
+                              - generic:
+                                - generic:
+                                  - button [ref=e4294] [cursor=pointer]
+                                  - button [ref=e4295] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a608ee0-3364-83e9-bb9e-173c5c4a0819?messageId=finalAgentTurnStart
+                              - generic: Daily Tech & Markets Brief
+                              - generic:
+                                - generic:
+                                  - button [ref=e4296] [cursor=pointer]
+                                  - button [ref=e4297] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a6fcf9c-3220-83e9-80b7-550b1a04e2e5
+                              - generic: Instalar OpenCode Desktop
+                              - generic:
+                                - generic:
+                                  - button [ref=e4298] [cursor=pointer]
+                                  - button [ref=e4299] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a685d10-4a0c-83e9-be17-13948f86e175
+                              - generic: Ranking LinkedIn Job Search
+                              - generic:
+                                - generic:
+                                  - button [ref=e4300] [cursor=pointer]
+                                  - button [ref=e4301] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a6692ef-dbcc-83e9-8340-97687a22b490
+                              - generic: Preparación entrevista técnica
+                              - generic:
+                                - generic:
+                                  - button [ref=e4302] [cursor=pointer]
+                                  - button [ref=e4303] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a656eb5-be7c-83e9-94a5-7ba886728f56
+                              - generic: Set GPT in OmniRoute
+                              - generic:
+                                - generic:
+                                  - button [ref=e4304] [cursor=pointer]
+                                  - button [ref=e4305] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a64f3e3-8780-83e9-be30-e44aaffd184a
+                              - generic: Certificación IA recomendada
+                              - generic:
+                                - generic:
+                                  - button [ref=e4306] [cursor=pointer]
+                                  - button [ref=e4307] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a631ea6-01e4-83e9-9974-ac3bf93d1c87
+                              - generic: LLM Providers Ranking
+                              - generic:
+                                - generic:
+                                  - button [ref=e4308] [cursor=pointer]
+                                  - button [ref=e4309] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a61c165-6b50-83e9-b2c8-7c0d3da5e0b5
+                              - generic: OpenAI Plus with OmniRoute
+                              - generic:
+                                - generic:
+                                  - button [ref=e4310] [cursor=pointer]
+                                  - button [ref=e4311] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a610b49-e4a4-83e9-8799-449c4af071fa
+                              - generic: OmniRoute Alternatives Ranking
+                              - generic:
+                                - generic:
+                                  - button [ref=e4312] [cursor=pointer]
+                                  - button [ref=e4313] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a608f31-3fe4-83e9-a7b9-96788df81554
+                              - generic: AI Models Power/Cost Ranking
+                              - generic:
+                                - generic:
+                                  - button [ref=e4314] [cursor=pointer]
+                                  - button [ref=e4315] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a1e969a-1c48-83e9-84e7-5af78e71bec7
+                              - generic: Ranking plataformas empleo remoto
+                              - generic:
+                                - generic:
+                                  - button [ref=e4316] [cursor=pointer]
+                                  - button [ref=e4317] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a5a8e15-5330-83e9-a115-1cf72f43112f
+                              - generic: USD trend map request
+                              - generic:
+                                - generic:
+                                  - button [ref=e4318] [cursor=pointer]
+                                  - button [ref=e4319] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a5990df-b498-83e9-9e0b-f8d6246771b5
+                              - generic: AI Engineer Role Summary
+                              - generic:
+                                - generic:
+                                  - button [ref=e4320] [cursor=pointer]
+                                  - button [ref=e4321] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a46957b-d5b4-83e9-8fb7-77d39589a965
+                              - generic: Error al dibujar circuito
+                              - generic:
+                                - generic:
+                                  - button [ref=e4322] [cursor=pointer]
+                                  - button [ref=e4323] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a3dd134-ddd8-83e9-8582-ff06a1f8859c
+                              - generic: Cuenta de cobro Elizabeth
+                              - generic:
+                                - generic:
+                                  - button [ref=e4324] [cursor=pointer]
+                                  - button [ref=e4325] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a420777-ac4c-83e9-8289-8ad14cf21270
+                              - generic: Examen final Mecánica Cuántica
+                              - generic:
+                                - generic:
+                                  - button [ref=e4326] [cursor=pointer]
+                                  - button [ref=e4327] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a41fcdb-ba30-83e9-a848-af337c6e852d
+                              - generic: Buscar en Gmail
+                              - generic:
+                                - generic:
+                                  - button [ref=e4328] [cursor=pointer]
+                                  - button [ref=e4329] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a14b6d6-d230-83e9-a3a7-9c9e97f8ce9e
+                              - generic: Conectar Outlook con OpenClaw
+                              - generic:
+                                - generic:
+                                  - button [ref=e4330] [cursor=pointer]
+                                  - button [ref=e4331] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a3ad148-454c-83e9-9beb-fcd09eb2cd63
+                              - generic: Unir imagen jpg y gif
+                              - generic:
+                                - generic:
+                                  - button [ref=e4332] [cursor=pointer]
+                                  - button [ref=e4333] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a38b210-f6d0-83e9-bc3f-0d0a6b318232
+                              - generic: Ranking de carpetas C/B
+                              - generic:
+                                - generic:
+                                  - button [ref=e4334] [cursor=pointer]
+                                  - button [ref=e4335] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a323ac3-d3f0-83e9-8981-4d19324ece52
+                              - generic: Guía Ingeniero Senior IA
+                              - generic:
+                                - generic:
+                                  - button [ref=e4336] [cursor=pointer]
+                                  - button [ref=e4337] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a3198f4-92f0-83e9-8ff8-b97096c52efa
+                              - generic: Implementación QFT cíclica Qiskit
+                              - generic:
+                                - generic:
+                                  - button [ref=e4338] [cursor=pointer]
+                                  - button [ref=e4339] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a2f9cb3-5f50-83e9-aa9b-16f6f9faba1f
+                              - generic: Get BOT_TRAD_GITHUB_TOKEN
+                              - generic:
+                                - generic:
+                                  - button [ref=e4340] [cursor=pointer]
+                                  - button [ref=e4341] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a2c4b27-31d8-83e9-958a-0f83f6a0e590
+                              - generic: Ranking modelos NVIDIA 2026
+                              - generic:
+                                - generic:
+                                  - button [ref=e4342] [cursor=pointer]
+                                  - button [ref=e4343] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a29b79e-cf3c-83e9-bdd1-dce231f666f8
+                              - generic: Precios repuestos BWS Cali
+                              - generic:
+                                - generic:
+                                  - button [ref=e4344] [cursor=pointer]
+                                  - button [ref=e4345] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a230134-b8e0-83e9-adc9-0f25eeee0ab6
+                              - generic: Paradas recomendadas San Andrés
+                              - generic:
+                                - generic:
+                                  - button [ref=e4346] [cursor=pointer]
+                                  - button [ref=e4347] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a20ceb8-1470-83e9-b675-2e038a3d779a
+                              - generic: Sostenimiento de rizos
+                              - generic:
+                                - generic:
+                                  - button [ref=e4348] [cursor=pointer]
+                                  - button [ref=e4349] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a20aca6-d9dc-83e9-88bd-3fdaa38e0d66
+                              - generic: Ranking renta de moto
+                              - generic:
+                                - generic:
+                                  - button [ref=e4350] [cursor=pointer]
+                                  - button [ref=e4351] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a1772fd-dd8c-83e9-9d8b-2d6cc6c52eab
+                              - generic: Reemplazo cable flex Dell
+                              - generic:
+                                - generic:
+                                  - button [ref=e4352] [cursor=pointer]
+                                  - button [ref=e4353] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a175281-07d4-83e9-addc-0c1dd6d6114e
+                              - generic: Mejorar calidad imagen
+                              - generic:
+                                - generic:
+                                  - button [ref=e4354] [cursor=pointer]
+                                  - button [ref=e4355] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a0a2031-2268-83e9-9a38-8cbca8b02fd9
+                              - generic: Ranking tetracilíndricos Feria 2026
+                              - generic:
+                                - generic:
+                                  - button [ref=e4356] [cursor=pointer]
+                                  - button [ref=e4357] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a13cba3-53f4-83e9-9b32-797a6d9984db
+                              - generic: Circuitos cuánticos Bell Qiskit
+                              - generic:
+                                - generic:
+                                  - button [ref=e4358] [cursor=pointer]
+                                  - button [ref=e4359] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a111fb5-aedc-83e9-bce6-706e2706d25c
+                              - generic: Total a pagar con propina
+                              - generic:
+                                - generic:
+                                  - button [ref=e4360] [cursor=pointer]
+                                  - button [ref=e4361] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69e9b364-4c5c-83e9-8a79-28e847d22b61
+                              - generic: Actualización CV Agentic Orchestration
+                              - generic:
+                                - generic:
+                                  - button [ref=e4362] [cursor=pointer]
+                                  - button [ref=e4363] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a06b0fc-ba3c-83e9-83ca-697746e7e731
+                              - generic: Obtener Meta Access Token
+                              - generic:
+                                - generic:
+                                  - button [ref=e4364] [cursor=pointer]
+                                  - button [ref=e4365] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a0754eb-ba80-83e9-8977-6455f4ea3957
+                              - generic: Mejor relación desempeño/costo Plus
+                              - generic:
+                                - generic:
+                                  - button [ref=e4366] [cursor=pointer]
+                                  - button [ref=e4367] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69f7a86d-cf74-83e9-9239-4e5b30c88f1f
+                              - generic: Recuperación disco duro fallo
+                              - generic:
+                                - generic:
+                                  - button [ref=e4368] [cursor=pointer]
+                                  - button [ref=e4369] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/6a0634b8-cce8-83e9-8a21-c1dcb35b64cf
+                              - generic: Model Ranking Request
+                              - generic:
+                                - generic:
+                                  - button [ref=e4370] [cursor=pointer]
+                                  - button [ref=e4371] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69f2f762-c1b0-83e9-bb60-81b8c32d30e0
+                              - generic: Model Search Request
+                              - generic:
+                                - generic:
+                                  - button [ref=e4372] [cursor=pointer]
+                                  - button [ref=e4373] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69fd9569-b564-83e9-83e7-e50341e3718e
+                              - generic: Fincas campestres Valle 2026
+                              - generic:
+                                - generic:
+                                  - button [ref=e4374] [cursor=pointer]
+                                  - button [ref=e4375] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69fe557c-3318-83e9-8717-e9409722bdde
+                              - generic: Uso de groserías y respeto
+                              - generic:
+                                - generic:
+                                  - button [ref=e4376] [cursor=pointer]
+                                  - button [ref=e4377] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69fad1de-0544-8333-9ab8-57043a8d530d
+                              - generic: Ranking modelos Nvidia
+                              - generic:
+                                - generic:
+                                  - button [ref=e4378] [cursor=pointer]
+                                  - button [ref=e4379] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69fb7d3c-788c-83e9-806d-963267de4bdc
+                              - generic: Ranking OpenCode Alternatives
+                              - generic:
+                                - generic:
+                                  - button [ref=e4380] [cursor=pointer]
+                                  - button [ref=e4381] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69fc4349-e790-83e9-a32b-c934f2cd5968
+                              - generic: Ranking proveedores LLM
+                              - generic:
+                                - generic:
+                                  - button [ref=e4382] [cursor=pointer]
+                                  - button [ref=e4383] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69ebe61a-7118-83e9-98c2-76faa4392726
+                              - generic: Explicación reporte LLM
+                              - generic:
+                                - generic:
+                                  - button [ref=e4384] [cursor=pointer]
+                                  - button [ref=e4385] [cursor=pointer]
+                          - listitem:
+                            - link:
+                              - /url: /c/69f98a59-6558-8332-ad41-a6e21ee58c3c
+                              - generic: OpenViking Project Setup
+                              - generic:
+                                - generic:
+                                  - button [ref=e4386] [cursor=pointer]
+                                  - button [ref=e4387] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic:
+                          - generic:
+                            - generic: Juan Diego Trochez
+                            - generic: Plus
+                        - button [ref=e4388] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - generic [aria-hidden]:
+                  - banner:
+                    - radiogroup [ref=e4389] [cursor=pointer]:
+                      - generic [ref=e3980]:
+                        - radio [ref=e4390]: Chat
+                        - radio [checked] [ref=e4391]:
+                          - generic [ref=e3985]: Work
+                - generic:
+                  - main:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=1]:
+                                          - generic:
+                                            - generic:
+                                              - button
+                                            - generic: What should we work on?
+                        - generic:
+                          - generic [ref=e4019]:
+                            - generic [ref=e4020]:
+                              - generic [ref=e4024]:
+                                - button [ref=e4392] [cursor=pointer]
+                                - textbox [aria-hidden] [ref=e4393]:
+                                  - paragraph [ref=e4031]: Work on anything
+                                - generic [aria-hidden] [ref=e4032]:
+                                  - button [ref=e4394] [cursor=pointer]:
+                                    - generic [ref=e4038]:
+                                      - generic [ref=e4086]: GPT-5.6 Sol
+                                      - generic [ref=e4087]: Light
+                                  - generic [ref=e4041]:
+                                    - button [ref=e4395] [cursor=pointer]
+                                    - button [disabled] [ref=e4396] [cursor=pointer]
+                              - button [aria-hidden] [ref=e4075]
+                              - button [aria-hidden] [ref=e4076]
+                              - button [aria-hidden] [ref=e4077]
+                            - generic [ref=e4092]:
+                              - button [ref=e4397] [cursor=pointer]:
+                                - generic [ref=e4095]: Project
+                              - button [ref=e4398] [cursor=pointer]:
+                                - generic [ref=e4099]: Files
+                              - button [ref=e4399] [cursor=pointer]:
+                                - generic [ref=e4103]: Plugins
+                              - button [ref=e4400] [cursor=pointer]:
+                                - generic [ref=e4110]: Get desktop app
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - region "See what Work can do":
+                                    - generic [aria-hidden]:
+                                      - generic:
+                                        - heading [level=2]: See what Work can do
+                                      - generic:
+                                        - button:
+                                          - generic: Previous tasks
+                                        - button:
+                                          - generic: Next tasks
+                                        - button:
+                                          - generic: Dismiss Work suggestions
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - article:
+                                              - group:
+                                                - button "Try" [ref=e4131] [cursor=pointer]
+                                                - generic:
+                                                  - heading "Build a 70B hardware explorer" [level=3]
+                                                  - paragraph: Compare price, memory, model fit, and value interactively.
+                                        - generic:
+                                          - generic:
+                                            - article:
+                                              - group:
+                                                - button "Try" [ref=e4152] [cursor=pointer]
+                                                - generic:
+                                                  - heading "Brief the feature/GRU CI state" [level=3]
+                                                  - paragraph: Summarize the latest commit, checks, failures, and next action.
+                                        - generic:
+                                          - generic:
+                                            - article:
+                                              - group:
+                                                - button "Try" [ref=e4165] [cursor=pointer]
+                                                - generic:
+                                                  - heading "Create my implementation-plan skill" [level=3]
+                                                  - paragraph: Reuse your plan-to-commit workflow with strict CI validation.
+                                        - generic [aria-hidden]:
+                                          - generic:
+                                            - article:
+                                              - group:
+                                                - button [ref=e4170] [cursor=pointer]:
+                                                  - generic [ref=e4171]: Try
+                                                - generic:
+                                                  - heading [level=3]: Create the AI loop handoff
+                                                  - paragraph: Capture validated setup, baseline, commands, and remaining build.
+  - alert
+  - status
+  - dialog "Settings" [ref=e4403]:
+    - banner [ref=e4405]:
+      - generic:
+        - generic:
+          - heading "Settings" [level=2]
+    - generic [ref=e4407]:
+      - generic [ref=e4408]:
+        - button "Close" [active] [ref=e4410] [cursor=pointer]
+        - searchbox "Search settings" [ref=e4414]
+        - tablist "Settings" [ref=e4416]:
+          - tab "General" [ref=e4417] [cursor=pointer]
+          - tab "Notifications" [ref=e4423] [cursor=pointer]
+          - tab "Personalization" [selected] [ref=e4429] [cursor=pointer]
+          - tab "Plugins" [ref=e4435] [cursor=pointer]
+          - tab "Voice" [ref=e4441] [cursor=pointer]
+          - tab "Billing" [ref=e4447] [cursor=pointer]
+          - tab "Usage" [ref=e4453] [cursor=pointer]
+          - tab "Analytics" [ref=e4459] [cursor=pointer]
+          - tab "Data controls" [ref=e4465] [cursor=pointer]
+          - tab "Cloud browser" [ref=e4471] [cursor=pointer]
+          - tab "Storage" [ref=e4477] [cursor=pointer]
+          - tab "Safety" [ref=e4483] [cursor=pointer]
+          - tab "Security and login" [ref=e4489] [cursor=pointer]
+          - tab "Parental controls" [ref=e4495] [cursor=pointer]
+          - tab "Trusted contact" [ref=e4501] [cursor=pointer]
+          - tab "Account" [ref=e4507] [cursor=pointer]
+          - tab "Keyboard" [ref=e4513] [cursor=pointer]
+      - tabpanel "Personalization" [ref=e4519]:
+        - generic [ref=e4520]:
+          - generic [ref=e4521]:
+            - heading "Back Choose your pet" [level=3] [ref=e4524]:
+              - generic [ref=e4525]:
+                - button "Back" [ref=e4526] [cursor=pointer]
+                - generic [ref=e4529]: Choose your pet
+            - button "Upload pet" [ref=e4531] [cursor=pointer]
+          - group "Pet options" [ref=e4536]:
+            - button "Create a pet with ChatGPT Describe what you want, and ChatGPT will make it for you." [ref=e4539] [cursor=pointer]:
+              - generic [ref=e4543]:
+                - generic [ref=e4544]: Create a pet with ChatGPT
+                - generic [ref=e4545]: Describe what you want, and ChatGPT will make it for you.
+            - generic [ref=e4546]:
+              - radio "Codex The original Codex companion." [checked] [ref=e4547]
+              - generic [ref=e4549] [cursor=pointer]:
+                - generic [ref=e4550]: Codex
+                - generic [ref=e4551]: The original Codex companion.
+              - generic:
+                - generic:
+                  - generic: Codex
+                  - generic: The original Codex companion.
+            - generic [ref=e4552]:
+              - radio "Dewey A calm companion for focused workspace days" [ref=e4553]
+              - generic [ref=e4555] [cursor=pointer]:
+                - generic [ref=e4556]: Dewey
+                - generic [ref=e4557]: A calm companion for focused workspace days
+              - generic:
+                - generic:
+                  - generic: Dewey
+                  - generic: A calm companion for focused workspace days
+            - generic [ref=e4558]:
+              - radio "Fireball Hot path energy for fast iteration." [ref=e4559]
+              - generic [ref=e4561] [cursor=pointer]:
+                - generic [ref=e4562]: Fireball
+                - generic [ref=e4563]: Hot path energy for fast iteration.
+              - generic:
+                - generic:
+                  - generic: Fireball
+                  - generic: Hot path energy for fast iteration.
+            - generic [ref=e4564]:
+              - radio "Hoots A sharp-eyed owl for polished work in a blink." [ref=e4565]
+              - generic [ref=e4567] [cursor=pointer]:
+                - generic [ref=e4568]: Hoots
+                - generic [ref=e4569]: A sharp-eyed owl for polished work in a blink.
+              - generic:
+                - generic:
+                  - generic: Hoots
+                  - generic: A sharp-eyed owl for polished work in a blink.
+            - generic [ref=e4570]:
+              - radio "Rocky A steady rock for when the inbox gets out of control" [ref=e4571]
+              - generic [ref=e4573] [cursor=pointer]:
+                - generic [ref=e4574]: Rocky
+                - generic [ref=e4575]: A steady rock for when the inbox gets out of control
+              - generic:
+                - generic:
+                  - generic: Rocky
+                  - generic: A steady rock for when the inbox gets out of control
+            - generic [ref=e4576]:
+              - radio "Seedy Small green shoots for new ideas." [ref=e4577]
+              - generic [ref=e4579] [cursor=pointer]:
+                - generic [ref=e4580]: Seedy
+                - generic [ref=e4581]: Small green shoots for new ideas.
+              - generic:
+                - generic:
+                  - generic: Seedy
+                  - generic: Small green shoots for new ideas.
+            - generic [ref=e4582]:
+              - radio "Stacky A balanced stack for deep work." [ref=e4583]
+              - generic [ref=e4585] [cursor=pointer]:
+                - generic [ref=e4586]: Stacky
+                - generic [ref=e4587]: A balanced stack for deep work.
+              - generic:
+                - generic:
+                  - generic: Stacky
+                  - generic: A balanced stack for deep work.
+            - generic [ref=e4588]:
+              - radio "BSOD A tiny blue-screen gremlin." [ref=e4589]
+              - generic [ref=e4591] [cursor=pointer]:
+                - generic [ref=e4592]: BSOD
+                - generic [ref=e4593]: A tiny blue-screen gremlin.
+              - generic:
+                - generic:
+                  - generic: BSOD
+                  - generic: A tiny blue-screen gremlin.
+            - generic [ref=e4594]:
+              - radio "Null Signal Quiet signal from the void." [ref=e4595]
+              - generic [ref=e4597] [cursor=pointer]:
+                - generic [ref=e4598]: Null Signal
+                - generic [ref=e4599]: Quiet signal from the void.
+              - generic:
+                - generic:
+                  - generic: Null Signal
+                  - generic: Quiet signal from the void.
+            - generic [ref=e4600]:
+              - radio "Do not show pet" [ref=e4601]
+              - generic [ref=e4602] [cursor=pointer]: Do not show pet
+              - generic: Do not show pet

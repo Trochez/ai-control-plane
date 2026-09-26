@@ -1,0 +1,47 @@
+{
+  "status": "FAIL",
+  "captured_at": "2026-09-25T01:49:16.488Z",
+  "current_url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "expected_url": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589",
+  "url_match": true,
+  "project_context": "TARGET",
+  "surface": "chat",
+  "work": true,
+  "codex": true,
+  "fingerprint_matches": [
+    {
+      "value": "failure-evidence-025d7f19b1dd83b26733",
+      "html": true,
+      "text": true
+    },
+    {
+      "value": "diagnosis-0c11a13e0c6c",
+      "html": true,
+      "text": true
+    },
+    {
+      "value": "1e649da7-f024-44e9-aa37-8d48ed6a70bf",
+      "html": true,
+      "text": false
+    },
+    {
+      "value": "59ee4348-f877-4c79-9494-5f54cebda141",
+      "html": true,
+      "text": false
+    },
+    {
+      "value": "DIAGNOSIS_AI_LOOP_LAST_FAILURE_20260923T185200-0500.md",
+      "html": true,
+      "text": true
+    },
+    {
+      "value": "8cfabeb4b366004dd445958b9657a42ca88952bd93c46edfa7a52e8942559c64",
+      "html": true,
+      "text": true
+    }
+  ],
+  "html_length": 3584361,
+  "html_sha256": "db8fab493de5af7812cac917e823fb5a10e2d8b99a57320d974693eb26821817",
+  "send_performed": false,
+  "navigation_performed": false
+}

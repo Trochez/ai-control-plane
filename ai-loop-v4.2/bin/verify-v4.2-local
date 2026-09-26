@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+python3 -m py_compile "$ROOT/ai-loopd-v3.py" "$ROOT/selftest-v4.2.py"
+node --check "$ROOT/browser-broker-v1.cjs"
+node --check "$ROOT/playwright-bootstrap-worker.cjs"
+node --check "$ROOT/playwright-bootstrap-observer.cjs"
+node --check "$ROOT/playwright-artifact-worker.cjs"
+bash -n "$ROOT/install.sh"
+node "$ROOT/tests/test-browser-broker-v4.2.cjs"
+python3 "$ROOT/selftest-v4.2.py"
+echo 'VERIFY_V4_2_LOCAL=PASS'

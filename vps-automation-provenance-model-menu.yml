@@ -1,0 +1,232 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e4]:
+    - complementary [ref=f6e5]:
+      - generic [ref=f6e11]:
+        - generic [ref=f6e12]:
+          - generic [ref=f6e13]: ChatGPT
+          - generic [ref=f6e19]:
+            - button "Search" [ref=f6e21] [cursor=pointer]
+            - button "Hide sidebar" [expanded] [ref=f6e30] [cursor=pointer]
+        - navigation "Chat history" [ref=f6e35]:
+          - button "New chat" [ref=f6e39] [cursor=pointer]
+          - generic [ref=f6e48]:
+            - generic [ref=f6e51]:
+              - button "Scheduled" [ref=f6e52] [cursor=pointer]
+              - button "Library" [ref=f6e61] [cursor=pointer]
+              - button "Plugins" [ref=f6e69] [cursor=pointer]
+              - button "Explore" [ref=f6e78] [cursor=pointer]
+            - generic [ref=f6e137]:
+              - generic [ref=f6e140]:
+                - generic [ref=f6e141]:
+                  - button "Projects" [expanded] [ref=f6e144] [cursor=pointer]
+                  - generic:
+                    - generic
+                - list [ref=f6e156]:
+                  - listitem [ref=f6e157]:
+                    - button "zircon_practica_unir" [ref=f6e161] [cursor=pointer]
+                  - listitem [ref=f6e187]:
+                    - button "agentic_pipeline" [ref=f6e191] [cursor=pointer]
+                  - listitem [ref=f6e217]:
+                    - button "body_finder_fast" [ref=f6e221] [cursor=pointer]
+                  - listitem [ref=f6e247]:
+                    - button "Bot_trading" [ref=f6e251] [cursor=pointer]
+                  - listitem [ref=f6e277]:
+                    - button "ubuntu problems" [ref=f6e281] [cursor=pointer]
+              - generic [ref=f6e310]:
+                - generic [ref=f6e311]:
+                  - button "Recents" [expanded] [ref=f6e314] [cursor=pointer]
+                  - generic:
+                    - generic
+                - list [ref=f6e321]:
+                  - listitem [ref=f6e322]:
+                    - generic [ref=f6e323]
+                  - listitem [ref=f6e341]:
+                    - generic [ref=f6e342]
+                  - listitem [ref=f6e360]:
+                    - generic [ref=f6e361]
+                  - listitem [ref=f6e379]:
+                    - generic [ref=f6e380]
+                  - listitem [ref=f6e398]:
+                    - generic [ref=f6e399]
+                  - listitem [ref=f6e417]:
+                    - generic [ref=f6e418]
+                  - listitem [ref=f6e436]:
+                    - generic [ref=f6e437]
+                  - listitem [ref=f6e455]:
+                    - generic [ref=f6e456]
+                  - listitem [ref=f6e474]:
+                    - generic [ref=f6e475]
+                  - listitem [ref=f6e493]:
+                    - generic [ref=f6e494]
+                  - listitem [ref=f6e512]:
+                    - generic [ref=f6e513]
+                  - listitem [ref=f6e531]:
+                    - generic [ref=f6e532]
+                  - listitem [ref=f6e550]:
+                    - generic [ref=f6e551]
+                  - listitem [ref=f6e569]:
+                    - generic [ref=f6e570]
+                  - listitem [ref=f6e588]:
+                    - generic [ref=f6e589]
+                  - listitem [ref=f6e607]:
+                    - generic [ref=f6e608]
+                  - listitem [ref=f6e626]:
+                    - generic [ref=f6e627]
+                  - listitem [ref=f6e645]:
+                    - generic [ref=f6e646]
+                  - listitem [ref=f6e664]:
+                    - generic [ref=f6e665]
+                  - listitem [ref=f6e683]:
+                    - generic [ref=f6e684]
+                  - listitem [ref=f6e702]:
+                    - generic [ref=f6e703]
+                  - listitem [ref=f6e721]:
+                    - generic [ref=f6e722]
+                  - listitem [ref=f6e740]:
+                    - generic [ref=f6e741]
+                  - listitem [ref=f6e759]:
+                    - generic [ref=f6e760]
+                  - listitem [ref=f6e778]:
+                    - generic [ref=f6e779]
+                  - listitem [ref=f6e797]:
+                    - generic [ref=f6e798]
+                  - listitem [ref=f6e816]:
+                    - generic [ref=f6e817]
+                  - listitem [ref=f6e835]:
+                    - generic [ref=f6e836]
+                  - listitem [ref=f6e854]:
+                    - generic [ref=f6e855]
+                  - listitem [ref=f6e873]:
+                    - generic [ref=f6e874]
+                  - listitem [ref=f6e892]:
+                    - generic [ref=f6e893]
+                  - listitem [ref=f6e911]:
+                    - generic [ref=f6e912]
+                  - listitem [ref=f6e930]:
+                    - generic [ref=f6e931]
+                  - listitem [ref=f6e949]:
+                    - generic [ref=f6e950]
+                  - listitem [ref=f6e968]:
+                    - generic [ref=f6e969]
+                  - listitem [ref=f6e987]:
+                    - generic [ref=f6e988]
+                  - listitem [ref=f6e1006]:
+                    - generic [ref=f6e1007]
+                  - listitem [ref=f6e1025]:
+                    - generic [ref=f6e1026]
+                  - listitem [ref=f6e1044]:
+                    - generic [ref=f6e1045]
+                  - listitem [ref=f6e1063]:
+                    - generic [ref=f6e1064]
+                  - listitem [ref=f6e1082]:
+                    - status [ref=f6e1084]
+        - generic [ref=f6e1095] [cursor=pointer]:
+          - button "Open profile menu" [ref=f6e1096]
+          - generic:
+            - generic:
+              - generic:
+                - generic: trochez
+                - generic: Plus
+      - generic:
+        - separator
+    - generic [ref=f6e106]:
+      - main [ref=f6e108]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=f6e1097] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=f6e1104]:
+              - button "Share" [ref=f6e1106] [cursor=pointer]
+              - button "More" [ref=f6e1110] [cursor=pointer]
+        - generic [ref=f6e1124]:
+          - generic [ref=f6e1125]:
+            - generic [ref=f6e1127]:
+              - status [ref=f6e1129]:
+                - generic [ref=f6e1134]: Loading older messages…
+              - generic [ref=f6e1136]:
+                - generic [ref=f6e1139]:
+                  - separator "Yesterday 3:18 AM" [ref=f6e1140]:
+                    - time [ref=f6e1141]: Yesterday 3:18 AM
+                  - generic [ref=f6e1144]:
+                    - generic [ref=f6e1145]
+                    - generic [ref=f6e1307]
+                - generic [ref=f6e1350]:
+                  - generic [ref=f6e1351]:
+                    - generic [ref=f6e1352]
+                    - generic [ref=f6e1387]
+                    - generic [ref=f6e1390]
+                    - generic [ref=f6e1418]
+                    - generic [ref=f6e1450]
+                  - generic [ref=f6e1504]:
+                    - button "Copy" [ref=f6e1506] [cursor=pointer]
+                    - button "Rate response" [ref=f6e1510] [cursor=pointer]
+                    - button "Share" [ref=f6e1514] [cursor=pointer]
+                    - button "Add to project sources" [ref=f6e1519] [cursor=pointer]
+                    - button "Read aloud" [ref=f6e1524] [cursor=pointer]
+                    - button "Regenerate response" [ref=f6e1528] [cursor=pointer]
+                    - button "More actions" [ref=f6e1532] [cursor=pointer]
+                    - button "Sources" [ref=f6e1538] [cursor=pointer]
+                - generic [ref=f6e1544]:
+                  - separator "Yesterday 5:14 PM" [ref=f6e1545]:
+                    - time [ref=f6e1546]: Yesterday 5:14 PM
+                  - generic [ref=f6e1549]:
+                    - generic [ref=f6e1550]
+                    - generic [ref=f6e1711]
+                - generic [ref=f6e1751]:
+                  - separator "Yesterday 9:08 PM" [ref=f6e1752]:
+                    - time [ref=f6e1753]: Yesterday 9:08 PM
+                  - generic [ref=f6e1756]:
+                    - generic [ref=f6e1757]
+                    - generic [ref=f6e1943]
+                - generic [ref=f6e1983]:
+                  - separator "Today 2:50 AM" [ref=f6e1984]:
+                    - time [ref=f6e1985]: Today 2:50 AM
+                  - generic [ref=f6e1988]:
+                    - generic [ref=f6e1989]
+                    - generic [ref=f6e2153]
+            - generic [ref=f6e2191]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - generic:
+                - button [aria-hidden]
+              - heading "Latest response" [level=4] [ref=f6e2194]
+              - status [ref=f6e2195]
+              - generic [ref=f6e2206]:
+                - button "Add files and more" [ref=f6e2211] [cursor=pointer]
+                - textbox "Ask ChatGPT" [ref=f6e2217]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=f6e2219]:
+                  - button "Select ChatGPT model" [expanded] [ref=f6e2223] [cursor=pointer]:
+                    - generic [ref=f6e2224]: Thinking effort
+                  - generic [ref=f6e2234]:
+                    - button "Dictate" [ref=f6e2237] [cursor=pointer]
+                    - button "Start Voice" [ref=f6e2243] [cursor=pointer]
+      - status [ref=f6e2249]
+  - status [ref=f6e2250]
+  - status [ref=f6e2251]
+  - status [ref=f6e2252]
+  - menu "Select ChatGPT model" [active] [ref=f6e2256]:
+    - generic [ref=f6e2257]:
+      - generic [ref=f6e2259]:
+        - generic [ref=f6e2261]:
+          - menuitem "Select model" [ref=f6e2262] [cursor=pointer]:
+            - generic [ref=f6e2263]: High
+          - generic [aria-hidden]:
+            - generic: Consumes usage limits faster
+        - generic [ref=f6e2270]:
+          - status: High, 3 of 3.
+          - generic: Use Left and Right arrow keys to adjust power
+          - menuitem "Power" [ref=f6e2271] [cursor=pointer]:
+            - slider [aria-hidden] [ref=f6e2282]
+      - generic [ref=f6e2286]:
+        - generic [ref=f6e2287]: Locked, opens access options
+        - menuitemradio [checked] [ref=f6e2288] [cursor=pointer]:
+          - generic [ref=f6e2289]: GPT-5.6 Sol
+        - menuitemradio [ref=f6e2293] [cursor=pointer]:
+          - generic [ref=f6e2295]:
+            - generic [ref=f6e2296]: GPT-5.5
+            - generic [ref=f6e2297]: Leaving on October 14

@@ -1,0 +1,969 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e4]:
+    - complementary [ref=f8e5]:
+      - generic [ref=f8e11]:
+        - generic [ref=f8e12]:
+          - generic [ref=f8e13]: ChatGPT
+          - generic [ref=f8e19]:
+            - button "Search" [ref=f8e21] [cursor=pointer]
+            - button "Hide sidebar" [expanded] [ref=f8e30] [cursor=pointer]
+        - navigation "Chat history" [ref=f8e35]:
+          - button "New chat" [ref=f8e39] [cursor=pointer]
+          - generic [ref=f8e48]:
+            - generic [ref=f8e51]:
+              - button "Scheduled" [ref=f8e52] [cursor=pointer]
+              - button "Library" [ref=f8e61] [cursor=pointer]
+              - button "Plugins" [ref=f8e69] [cursor=pointer]
+              - button "Explore" [ref=f8e78] [cursor=pointer]
+            - generic [ref=f8e137]:
+              - generic [ref=f8e140]:
+                - generic [ref=f8e141]:
+                  - button "Projects" [expanded] [ref=f8e144] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Project sidebar options"
+                        - button "Add new project" [ref=f8e149] [cursor=pointer]
+                - list [ref=f8e156]:
+                  - listitem [ref=f8e157]:
+                    - button "zircon_practica_unir" [ref=f8e161] [cursor=pointer]:
+                      - button "Project actions for zircon_practica_unir" [ref=f8e174]
+                      - button "New chat in zircon_practica_unir" [ref=f8e182]
+                  - listitem [ref=f8e187]:
+                    - button "agentic_pipeline" [ref=f8e191] [cursor=pointer]:
+                      - button "Project actions for agentic_pipeline" [ref=f8e204]
+                      - button "New chat in agentic_pipeline" [ref=f8e212]
+                  - listitem [ref=f8e217]:
+                    - button "body_finder_fast" [ref=f8e221] [cursor=pointer]:
+                      - button "Project actions for body_finder_fast" [ref=f8e234]
+                      - button "New chat in body_finder_fast" [ref=f8e242]
+                  - listitem [ref=f8e247]:
+                    - button "Bot_trading" [ref=f8e251] [cursor=pointer]:
+                      - button "Project actions for Bot_trading" [ref=f8e264]
+                      - button "New chat in Bot_trading" [ref=f8e272]
+                  - listitem [ref=f8e277]:
+                    - button "ubuntu problems" [ref=f8e281] [cursor=pointer]:
+                      - button "Project actions for ubuntu problems" [ref=f8e294]
+                      - button "New chat in ubuntu problems" [ref=f8e302]
+              - generic [ref=f8e310]:
+                - generic [ref=f8e311]:
+                  - button "Recents" [expanded] [ref=f8e314] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Chat sidebar options"
+                        - button "Filter chats and work"
+                        - generic:
+                          - generic:
+                            - button "New chat"
+                - list [ref=f8e321]:
+                  - listitem [ref=f8e322]:
+                    - generic [ref=f8e323]:
+                      - group "Modelo más potente en ChatGPT":
+                        - link "Modelo más potente en ChatGPT" [ref=f8e324] [cursor=pointer]:
+                          - /url: /g/g-p-6aacc8c63ee081918f198e49f3d5e03e/c/6aacc8db-aedc-83e9-b683-84de0f156577
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e330] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e337] [cursor=pointer]
+                  - listitem [ref=f8e360]:
+                    - generic [ref=f8e361]:
+                      - group "Ejecuta acción lectura Semaphore":
+                        - link "Ejecuta acción lectura Semaphore" [ref=f8e362] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab36fa5-78a8-83e9-9926-6ca0ede44589
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e368] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e375] [cursor=pointer]
+                  - listitem [ref=f8e341]:
+                    - generic [ref=f8e342]:
+                      - group "Implementación CI completada":
+                        - link "Implementación CI completada" [ref=f8e343] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab60f1b-0824-83e9-988e-8a437a22ca32
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e349] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e356] [cursor=pointer]
+                  - listitem [ref=f8e379]:
+                    - generic [ref=f8e380]:
+                      - group "Enlaces de compra ranking":
+                        - link "Enlaces de compra ranking" [ref=f8e381] [cursor=pointer]:
+                          - /url: /c/6ab6247c-f828-83e9-aa05-41fa8a342c11
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e387] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e394] [cursor=pointer]
+                  - listitem [ref=f8e398]:
+                    - generic [ref=f8e399]:
+                      - group "Ranking precio calidad LLM local":
+                        - link "Ranking precio calidad LLM local" [ref=f8e400] [cursor=pointer]:
+                          - /url: /c/6ab22607-3cd4-83e9-b11d-53dffe82172c
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e406] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e413] [cursor=pointer]
+                  - listitem [ref=f8e417]:
+                    - generic [ref=f8e418]:
+                      - group "Diagnóstico CI Semaphore":
+                        - link "Diagnóstico CI Semaphore" [ref=f8e419] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab60424-7694-83e9-a23e-7f84c8c22f33
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e425] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e432] [cursor=pointer]
+                  - listitem [ref=f8e436]:
+                    - generic [ref=f8e437]:
+                      - group "Resolver bolas azules y rojas":
+                        - link "Resolver bolas azules y rojas" [ref=f8e438] [cursor=pointer]:
+                          - /url: /c/6ab596d3-4e38-83e9-b802-eb98445fba02
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e444] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e451] [cursor=pointer]
+                  - listitem [ref=f8e455]:
+                    - generic [ref=f8e456]:
+                      - group "Ranking RTX 5070 Ti":
+                        - link "Ranking RTX 5070 Ti" [ref=f8e457] [cursor=pointer]:
+                          - /url: /c/6ab4ba98-0c58-83e9-8c79-a5bc152177e9
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e463] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e470] [cursor=pointer]
+                  - listitem [ref=f8e474]:
+                    - generic [ref=f8e475]:
+                      - group "Ranking pantallas OLED 2K":
+                        - link "Ranking pantallas OLED 2K" [ref=f8e476] [cursor=pointer]:
+                          - /url: /c/6ab4b258-7c10-83e9-bcce-9ac0487de2bf
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e482] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e489] [cursor=pointer]
+                  - listitem [ref=f8e493]:
+                    - generic [ref=f8e494]:
+                      - group "Ranking monitores OLED 4K":
+                        - link "Ranking monitores OLED 4K" [ref=f8e495] [cursor=pointer]:
+                          - /url: /c/69f0644d-75ec-83e9-8fd1-81d34dd820c4
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e501] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e508] [cursor=pointer]
+                  - listitem [ref=f8e512]:
+                    - generic [ref=f8e513]:
+                      - group "Implementar plan y push":
+                        - link "Implementar plan y push" [ref=f8e514] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab36f33-4b9c-83e9-8c62-6ed4edd4e6b3
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e520] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e527] [cursor=pointer]
+                  - listitem [ref=f8e531]:
+                    - generic [ref=f8e532]:
+                      - group "Probe evidence summary":
+                        - link "Probe evidence summary" [ref=f8e533] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab3483c-5580-83e9-87ca-dded09964de9
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e539] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e546] [cursor=pointer]
+                  - listitem [ref=f8e550]:
+                    - generic [ref=f8e551]:
+                      - group "Generate Implementation Plan":
+                        - link "Generate Implementation Plan" [ref=f8e552] [cursor=pointer]:
+                          - /url: /g/g-p-6aacc8c63ee081918f198e49f3d5e03e/c/6ab23686-a9a4-83e9-87a1-634ac0106292
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e558] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e565] [cursor=pointer]
+                  - listitem [ref=f8e569]:
+                    - generic [ref=f8e570]:
+                      - group "Resumen proyecto Manzanillo":
+                        - link "Resumen proyecto Manzanillo" [ref=f8e571] [cursor=pointer]:
+                          - /url: /c/6ab2f020-7af8-83e9-af1b-ec841a0dabf7
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e577] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e584] [cursor=pointer]
+                  - listitem [ref=f8e588]:
+                    - generic [ref=f8e589]:
+                      - group "Implement Plan Commit Push":
+                        - link "Implement Plan Commit Push" [ref=f8e590] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6ab2ee63-3710-83e9-a373-56099ed3241e
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e596] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e603] [cursor=pointer]
+                  - listitem [ref=f8e607]:
+                    - generic [ref=f8e608]:
+                      - group "Ranking hardware LLM local":
+                        - link "Ranking hardware LLM local" [ref=f8e609] [cursor=pointer]:
+                          - /url: /c/6aa47f95-75a4-83e9-8575-4b06a3e89e01
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e615] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e622] [cursor=pointer]
+                  - listitem [ref=f8e626]:
+                    - generic [ref=f8e627]:
+                      - group "Implementar Pipeline Y Publicar Commit":
+                        - link "Implementar Pipeline Y Publicar Commit" [ref=f8e628] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aadac36-529c-83e9-af59-a347f2d6f7f2
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e634] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e641] [cursor=pointer]
+                  - listitem [ref=f8e645]:
+                    - generic [ref=f8e646]:
+                      - group "Implementar Plan Y Push":
+                        - link "Implementar Plan Y Push" [ref=f8e647] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aacc83a-5d1c-83e9-8a6e-86c8e39ac52b
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e653] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e660] [cursor=pointer]
+                  - listitem [ref=f8e664]:
+                    - generic [ref=f8e665]:
+                      - group "Diseñar loop DevOps autónomo":
+                        - link "Diseñar loop DevOps autónomo" [ref=f8e666] [cursor=pointer]:
+                          - /url: /g/g-p-6aacc8c63ee081918f198e49f3d5e03e/c/6aa23336-8a84-83e9-989a-03ffd2815f1a
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e672] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e679] [cursor=pointer]
+                  - listitem [ref=f8e683]:
+                    - generic [ref=f8e684]:
+                      - group "Pipeline Implement Push Status":
+                        - link "Pipeline Implement Push Status" [ref=f8e685] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aaa4c0e-d308-83e9-ad24-017840b62639
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e691] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e698] [cursor=pointer]
+                  - listitem [ref=f8e702]:
+                    - generic [ref=f8e703]:
+                      - group "Pipeline implementation status":
+                        - link "Pipeline implementation status" [ref=f8e704] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa8ea94-e980-83e9-9b5f-9832ea92013e
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e710] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e717] [cursor=pointer]
+                  - listitem [ref=f8e721]:
+                    - generic [ref=f8e722]:
+                      - group "Ranking celulares Colombia":
+                        - link "Ranking celulares Colombia" [ref=f8e723] [cursor=pointer]:
+                          - /url: /c/6aa9a2f3-ad98-83e9-8670-adb0a6c1ccee
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e729] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e736] [cursor=pointer]
+                  - listitem [ref=f8e740]:
+                    - generic [ref=f8e741]:
+                      - group "Implementación y commit único":
+                        - link "Implementación y commit único" [ref=f8e742] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa2e076-b52c-83e9-bb1d-f8880b09726d
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e748] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e755] [cursor=pointer]
+                  - listitem [ref=f8e759]:
+                    - generic [ref=f8e760]:
+                      - group "Consultar vigencia SOAT":
+                        - link "Consultar vigencia SOAT" [ref=f8e761] [cursor=pointer]:
+                          - /url: /c/6aa640b5-ff24-83e9-8c1a-c4f73fc83d1b
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e767] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e774] [cursor=pointer]
+                  - listitem [ref=f8e778]:
+                    - generic [ref=f8e779]:
+                      - group "Ranking hardware LLM local":
+                        - link "Ranking hardware LLM local" [ref=f8e780] [cursor=pointer]:
+                          - /url: /c/6aa3c667-3bfc-83e9-b6d5-cd2c8b1e8f7e
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e786] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e793] [cursor=pointer]
+                  - listitem [ref=f8e797]:
+                    - generic [ref=f8e798]:
+                      - group "Comparar modelos IA globales":
+                        - link "Comparar modelos IA globales" [ref=f8e799] [cursor=pointer]:
+                          - /url: /c/6aa263b8-a584-83e9-bba1-e10fa3423079
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e805] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e812] [cursor=pointer]
+                  - listitem [ref=f8e816]:
+                    - generic [ref=f8e817]:
+                      - group "GRU Semaphore Watch":
+                        - link "GRU Semaphore Watch" [ref=f8e818] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa1aafc-5c1c-83e9-b1af-8bed15dd3cea
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e824] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e831] [cursor=pointer]
+                  - listitem [ref=f8e835]:
+                    - generic [ref=f8e836]:
+                      - group "Marco de trabajo Codex ChatGPT":
+                        - link "Marco de trabajo Codex ChatGPT" [ref=f8e837] [cursor=pointer]:
+                          - /url: /c/6aa0b132-6254-83e9-b1ab-707f02c7d7be
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e843] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e850] [cursor=pointer]
+                  - listitem [ref=f8e854]:
+                    - generic [ref=f8e855]:
+                      - group "GRU Full-Corpus Watch":
+                        - link "GRU Full-Corpus Watch" [ref=f8e856] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6a9d0cd0-d518-83e9-b980-f3971d133b63
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e862] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e869] [cursor=pointer]
+                  - listitem [ref=f8e873]:
+                    - generic [ref=f8e874]:
+                      - group "Semaphore Pipeline Watch":
+                        - link "Semaphore Pipeline Watch" [ref=f8e875] [cursor=pointer]:
+                          - /url: /c/6a9d11a0-14f4-83e9-a48d-545adbc6f5d1
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e881] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e888] [cursor=pointer]
+                  - listitem [ref=f8e892]:
+                    - generic [ref=f8e893]:
+                      - group "Semaphore Pipeline Watch":
+                        - link "Semaphore Pipeline Watch" [ref=f8e894] [cursor=pointer]:
+                          - /url: /c/6aa11538-57cc-83e9-ba22-d27baa8ec07e
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e900] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e907] [cursor=pointer]
+                  - listitem [ref=f8e911]:
+                    - generic [ref=f8e912]:
+                      - group "Ranking Codex Models Cost Benefit":
+                        - link "Ranking Codex Models Cost Benefit" [ref=f8e913] [cursor=pointer]:
+                          - /url: /c/6aa0b7bf-3188-83e9-94cc-c91f06fd0fa4
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e919] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e926] [cursor=pointer]
+                  - listitem [ref=f8e930]:
+                    - generic [ref=f8e931]:
+                      - group "Marco de trabajo OpenCode":
+                        - link "Marco de trabajo OpenCode" [ref=f8e932] [cursor=pointer]:
+                          - /url: /c/6aa0b22e-28d4-83e9-98b6-e1442d34c4ad
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e938] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e945] [cursor=pointer]
+                  - listitem [ref=f8e949]:
+                    - generic [ref=f8e950]:
+                      - group "Tutorial CapCut narrado":
+                        - link "Tutorial CapCut narrado" [ref=f8e951] [cursor=pointer]:
+                          - /url: /c/6aa07b1f-e348-83e9-9c2c-d8fe1ea91e40
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e957] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e964] [cursor=pointer]
+                  - listitem [ref=f8e968]:
+                    - generic [ref=f8e969]:
+                      - group "Customize CV Match":
+                        - link "Customize CV Match" [ref=f8e970] [cursor=pointer]:
+                          - /url: /c/6aa050bf-949c-83e9-9bb9-6c71bec5fa68
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e976] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e983] [cursor=pointer]
+                  - listitem [ref=f8e987]:
+                    - generic [ref=f8e988]:
+                      - group "Implementación y pruebas release":
+                        - link "Implementación y pruebas release" [ref=f8e989] [cursor=pointer]:
+                          - /url: /g/g-p-6a8159c0d5d881918dbc15fb5285df9d/c/6a9d3ec8-5b10-83e9-9b76-98a07d62e639
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e995] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e1002] [cursor=pointer]
+                  - listitem [ref=f8e1006]:
+                    - generic [ref=f8e1007]:
+                      - group "GRU Full-Corpus Watch":
+                        - link "GRU Full-Corpus Watch" [ref=f8e1008] [cursor=pointer]:
+                          - /url: /c/6a9dc354-cb88-83e9-8192-f33fde802e1d
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e1014] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e1021] [cursor=pointer]
+                  - listitem [ref=f8e1025]:
+                    - generic [ref=f8e1026]:
+                      - group "Implementación No Completada":
+                        - link "Implementación No Completada" [ref=f8e1027] [cursor=pointer]:
+                          - /url: /g/g-p-6a8159c0d5d881918dbc15fb5285df9d/c/6a993d58-c2c0-83e9-ad45-259096ea3a4d
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e1033] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e1040] [cursor=pointer]
+                  - listitem [ref=f8e1044]:
+                    - generic [ref=f8e1045]:
+                      - group "P2 Gate Watch":
+                        - link "P2 Gate Watch" [ref=f8e1046] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6a9bf139-e968-83e9-88ae-9d8c60a46d18
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e1052] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e1059] [cursor=pointer]
+                  - listitem [ref=f8e1063]:
+                    - generic [ref=f8e1064]:
+                      - group "P2 Gate Watch":
+                        - link "P2 Gate Watch" [ref=f8e1065] [cursor=pointer]:
+                          - /url: /c/6a9c521c-e558-83e9-ac49-3ef00c1cdfea
+                        - generic:
+                          - generic:
+                            - button "Chat actions" [ref=f8e1071] [cursor=pointer]
+                            - button "Pin chat" [ref=f8e1078] [cursor=pointer]
+                  - listitem [ref=f8e1082]:
+                    - status [ref=f8e1084]:
+                      - generic [ref=f8e1085]: Loading chats
+        - generic [ref=f8e1095] [cursor=pointer]:
+          - button "Open profile menu" [ref=f8e1096]
+          - generic:
+            - generic:
+              - generic:
+                - generic: trochez
+                - generic: Plus
+      - generic:
+        - separator
+    - generic [ref=f8e106]:
+      - main [ref=f8e108]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Breadcrumb":
+                    - link "Bot_trading" [ref=f8e1097] [cursor=pointer]:
+                      - /url: /g/g-p-68782097d6388191b7538c01b189cce8/project
+            - generic [ref=f8e1104]:
+              - button "Share" [ref=f8e1106] [cursor=pointer]
+              - button "More" [ref=f8e1110] [cursor=pointer]
+        - generic [ref=f8e1124]:
+          - generic [ref=f8e1125]:
+            - generic [ref=f8e1127]:
+              - status [ref=f8e1129]:
+                - generic [ref=f8e1134]: Loading older messages…
+              - generic [ref=f8e1136]:
+                - generic [ref=f8e1544]:
+                  - separator "Yesterday 5:14 PM" [ref=f8e1545]:
+                    - time [ref=f8e1546]: Yesterday 5:14 PM
+                  - generic [ref=f8e1549]:
+                    - generic [ref=f8e1550]:
+                      - generic [ref=f8e1551]:
+                        - heading "You said:" [level=4] [ref=f8e1552]
+                        - generic [ref=f8e1555]:
+                          - generic [ref=f8e1557]:
+                            - generic [ref=f8e1558]:
+                              - generic [ref=f8e1559]: "[VPS_STAGE_PROVENANCE_RESULT_DELIVERY id=e1608f3725b2422cb9e8ce91b13e05d5] This is the requested READONLY_VPS_STAGE_PROVENANCE_LOOKUP result for authoritative run R20260923T012014. The VPS checkout exists at /opt/bot_trad/bot_trading_gru/. The current branch is feature/GRU and the current active HEAD is d4960be98cee3edef96413ee77f200ce744d3461. The target SHA is 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390. It exists in the VPS repository object database, but it is NOT active and is NOT an ancestor of the active checkout. Classification: TARGET_SHA_PRESENT_NOT_ACTIVE. The VPS worktree is dirty with extensive untracked runtime/deployment artifacts. A running simulator process references the checkout path. No checkout, reset, sync, fetch, deployment, service mutation, process mutation, Semaphore query, commit, or push occurred. The first local GRU/Core CI block passed against the exact target SHA, but that SHA is not what the VPS currently has active. This result is NOT production/end-to-end GO. Please reconcile the provenance evidence and state the exact next action."
+                              - generic [aria-hidden] [ref=f8e1562]: …
+                            - button "Show more" [ref=f8e1563] [cursor=pointer]
+                          - generic [ref=f8e1569]:
+                            - button "Copy message" [ref=f8e1571] [cursor=pointer]
+                            - button "Share prompt" [ref=f8e1575] [cursor=pointer]
+                            - button "Edit message" [ref=f8e2550] [cursor=pointer]
+                      - generic [ref=f8e1586]:
+                        - button "Worked for 20s" [ref=f8e1587] [cursor=pointer]
+                        - generic: Worked for 20s
+                      - generic [ref=f8e1589]:
+                        - generic [ref=f8e1590]:
+                          - button "Analysis paused" [expanded] [ref=f8e1591] [cursor=pointer]
+                          - generic: Analysis paused
+                        - generic [ref=f8e1593]:
+                          - generic [ref=f8e1594]:
+                            - generic [ref=f8e1599]: Python
+                            - button "Copy" [ref=f8e1603] [cursor=pointer]
+                          - code [ref=f8e1607]:
+                            - generic [ref=f8e1608]:
+                              - generic [ref=f8e1609]: from pathlib import Path
+                              - generic [ref=f8e1610]: import hashlib
+                              - generic [ref=f8e1611]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md")
+                              - generic [ref=f8e1612]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v4
+                              - text: "**Authoritative run:** `R20260923T012014` **Repository:** `Trochez/bot_trading` **Branch:** `feature/GRU` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` ## Newly reconciled provenance The first local `GRU validation / Core CI contracts` block passed against the exact candidate SHA. The production VPS currently reports: ```text ACTIVE_BRANCH=feature/GRU ACTIVE_HEAD=d4960be98cee3edef96413ee77f200ce744d3461 TARGET_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 TARGET_SHA_PRESENT_IN_OBJECT_DB=YES TARGET_SHA_ACTIVE=NO TARGET_SHA_ANCESTOR_OF_ACTIVE=NO CLASSIFICATION=TARGET_SHA_PRESENT_NOT_ACTIVE ``` The production worktree is dirty with extensive untracked runtime/deployment artifacts and a running simulator process references the checkout. No mutation occurred during provenance lookup. ## Corrected interpretation 1. `0c11a13e...` is not the currently deployed production revision. 2. The fact that the object exists locally proves only that the VPS repository has seen/fetched the object; it does not prove deployment. 3. Because `0c11a13e...` is not an ancestor of the current active SHA, current checkout state alone cannot distinguish: - never promoted; - promoted and later rolled back/reset; - promotion started but failed before final marker publication. 4. A dirty production worktree and active simulator make any deployment/sync/reset unsafe at this point. 5. There is still no basis for a new code commit. 6. There is still no basis for rerunning Semaphore. 7. The next step must reconstruct historical deployment provenance read-only. ## Exact next boundary Inspect, read-only: - `HEAD` and branch reflogs for the exact target SHA; - deployment markers under `/tmp`; - deploy evidence/log roots for exact target SHA; - full-corpus durable result state for exact SHA; - P2 durable result state for exact SHA; - current simulator/process metadata; - worktree identities. No checkout/reset/fetch/pull/push. No service action. No process signal. No Semaphore query. No deployment script execution. ## Decision table | Evidence | Classification | |---|---| | Target SHA appears in production HEAD/branch reflog followed by return to older SHA | `PROMOTED_THEN_ROLLED_BACK_OR_RESET` | | Target SHA absent from production reflog, but full-corpus terminal success exists | `FULL_CORPUS_REACHED_DEPLOY_NOT_PROVEN` | | Target SHA absent from production reflog and deploy markers/logs | `DEPLOY_BOUNDARY_NOT_REACHED` | | Target SHA appears only in fetch/object/reflog refs but never HEAD | `FETCHED_NOT_PROMOTED` | | Deploy marker/log shows target, but current HEAD older | `DEPLOY_ATTEMPT_OR_PROMOTION_WITH_LATER_REVERSION` | | P2 exact-SHA durable state exists | `P2_BOUNDARY_REACHED` | ## Current state ```text CORE_CI_FIRST_BLOCK=PASS TARGET_SHA_PRESENT_NOT_ACTIVE=YES TARGET_SHA_CURRENTLY_DEPLOYED=NO TARGET_SHA_DEPLOYED_HISTORICALLY=UNKNOWN PRODUCTION_WORKTREE_DIRTY=YES ACTIVE_SIMULATOR_REFERENCES_CHECKOUT=YES SAFE_TO_DEPLOY_NOW=NO SAFE_TO_RESET_NOW=NO SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE NEXT_ACTION=READONLY_HISTORICAL_DEPLOYMENT_PROVENANCE FINAL_GO=NO DIAGNOSIS_STATUS=PARTIALLY_RESOLVED ``` \"\"\""
+                              - generic [ref=f8e1613]: dst.write_text(content, encoding="utf-8")
+                              - generic [ref=f8e1614]: print(dst)
+                              - generic [ref=f8e1615]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                      - generic [ref=f8e1617]:
+                        - generic [ref=f8e1618]:
+                          - button "Analyzed" [expanded] [ref=f8e1619] [cursor=pointer]
+                          - generic: Analyzed
+                        - generic [ref=f8e1620]:
+                          - generic [ref=f8e1621]:
+                            - generic [ref=f8e1622]:
+                              - generic [ref=f8e1627]: Python
+                              - button "Copy" [ref=f8e1631] [cursor=pointer]
+                            - code [ref=f8e1635]:
+                              - generic [ref=f8e1636]:
+                                - generic [ref=f8e1637]: from pathlib import Path
+                                - generic [ref=f8e1638]: import hashlib
+                                - generic [ref=f8e1639]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md")
+                                - generic [ref=f8e1640]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v4
+                                - text: "**Authoritative run:** `R20260923T012014` **Repository:** `Trochez/bot_trading` **Branch:** `feature/GRU` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` ## Newly reconciled provenance The first local `GRU validation / Core CI contracts` block passed against the exact candidate SHA. The production VPS currently reports: ```text ACTIVE_BRANCH=feature/GRU ACTIVE_HEAD=d4960be98cee3edef96413ee77f200ce744d3461 TARGET_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 TARGET_SHA_PRESENT_IN_OBJECT_DB=YES TARGET_SHA_ACTIVE=NO TARGET_SHA_ANCESTOR_OF_ACTIVE=NO CLASSIFICATION=TARGET_SHA_PRESENT_NOT_ACTIVE ``` The production worktree is dirty with extensive untracked runtime/deployment artifacts and a running simulator process references the checkout. No mutation occurred during provenance lookup. ## Corrected interpretation 1. `0c11a13e...` is not the currently deployed production revision. 2. The fact that the object exists locally proves only that the VPS repository has seen/fetched the object; it does not prove deployment. 3. Because `0c11a13e...` is not an ancestor of the current active SHA, current checkout state alone cannot distinguish: - never promoted; - promoted and later rolled back/reset; - promotion started but failed before final marker publication. 4. A dirty production worktree and active simulator make any deployment/sync/reset unsafe at this point. 5. There is still no basis for a new code commit. 6. There is still no basis for rerunning Semaphore. 7. The next step must reconstruct historical deployment provenance read-only. ## Exact next boundary Inspect, read-only: - `HEAD` and branch reflogs for the exact target SHA; - deployment markers under `/tmp`; - deploy evidence/log roots for exact target SHA; - full-corpus durable result state for exact SHA; - P2 durable result state for exact SHA; - current simulator/process metadata; - worktree identities. No checkout/reset/fetch/pull/push. No service action. No process signal. No Semaphore query. No deployment script execution. ## Decision table | Evidence | Classification | |---|---| | Target SHA appears in production HEAD/branch reflog followed by return to older SHA | `PROMOTED_THEN_ROLLED_BACK_OR_RESET` | | Target SHA absent from production reflog, but full-corpus terminal success exists | `FULL_CORPUS_REACHED_DEPLOY_NOT_PROVEN` | | Target SHA absent from production reflog and deploy markers/logs | `DEPLOY_BOUNDARY_NOT_REACHED` | | Target SHA appears only in fetch/object/reflog refs but never HEAD | `FETCHED_NOT_PROMOTED` | | Deploy marker/log shows target, but current HEAD older | `DEPLOY_ATTEMPT_OR_PROMOTION_WITH_LATER_REVERSION` | | P2 exact-SHA durable state exists | `P2_BOUNDARY_REACHED` | ## Current state ```text CORE_CI_FIRST_BLOCK=PASS TARGET_SHA_PRESENT_NOT_ACTIVE=YES TARGET_SHA_CURRENTLY_DEPLOYED=NO TARGET_SHA_DEPLOYED_HISTORICALLY=UNKNOWN PRODUCTION_WORKTREE_DIRTY=YES ACTIVE_SIMULATOR_REFERENCES_CHECKOUT=YES SAFE_TO_DEPLOY_NOW=NO SAFE_TO_RESET_NOW=NO SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE NEXT_ACTION=READONLY_HISTORICAL_DEPLOYMENT_PROVENANCE FINAL_GO=NO DIAGNOSIS_STATUS=PARTIALLY_RESOLVED ``` \"\"\""
+                                - generic [ref=f8e1641]: dst.write_text(content, encoding="utf-8")
+                                - generic [ref=f8e1642]: print(str(dst))
+                                - generic [ref=f8e1643]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                          - generic [ref=f8e1645]:
+                            - generic [ref=f8e1646]: STDOUT/STDERR
+                            - generic [ref=f8e1647]: /mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md SHA256=946d16d145ce3ad06371c1084e0562fd7d4a21ff9e4f14b7cd370271bb574617
+                      - generic [ref=f8e1649]:
+                        - heading "ChatGPT said:" [level=4] [ref=f8e1650]
+                        - generic [ref=f8e1651]:
+                          - generic [ref=f8e1652]:
+                            - paragraph [ref=f8e1653]:
+                              - text: "La evidencia queda reconciliada así:"
+                              - strong [ref=f8e1654]: 0c11a13e… está presente en el VPS pero no está activo, no es ancestro del HEAD productivo actual y el primer bloque Core CI sí pasa localmente
+                              - text: . Por tanto, ya no corresponde buscar un fallo en ese primer bloque.
+                            - paragraph [ref=f8e1655]:
+                              - text: "Tampoco es seguro desplegar ahora: el checkout productivo está sucio y existe un simulador activo referenciándolo. El punto todavía desconocido es histórico:"
+                              - strong [ref=f8e1656]: si 0c11a13e… nunca llegó a promoción, si llegó y fue revertido, o si el deploy empezó pero falló antes de publicar sus markers finales
+                              - text: .
+                            - paragraph [ref=f8e1657]:
+                              - text: "Actualicé el diagnóstico:"
+                              - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md" [ref=f8e1659] [cursor=pointer]:
+                                - generic [ref=f8e1660]: DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md
+                              - text: ". SHA-256: 946d16d145ce3ad06371c1084e0562fd7d4a21ff9e4f14b7cd370271bb574617."
+                            - paragraph [ref=f8e1666]:
+                              - text: La
+                              - strong [ref=f8e1667]: acción exacta siguiente
+                              - text: "es esta inspección histórica estrictamente read-only:"
+                            - generic [ref=f8e1669]:
+                              - generic [ref=f8e1670]:
+                                - generic [ref=f8e1675]: Bash
+                                - generic [ref=f8e1677]:
+                                  - button "Enable word wrap" [ref=f8e1679] [cursor=pointer]
+                                  - button "Copy" [ref=f8e1685] [cursor=pointer]
+                              - code [ref=f8e1689]: "set -Eeuo pipefail umask 077 SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" ACTIVE_EXPECTED=\"d4960be98cee3edef96413ee77f200ce744d3461\" VPS=\"/opt/ai-loop/bin/vps-ssh\" E=\"$(mktemp -d \"/tmp/ai-loop-historical-deploy-${SHA:0:12}.XXXXXX\")\" fail() { echo \"HISTORICAL_DEPLOY_PROVENANCE=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } test -x \"$VPS\" || fail \"VPS_WRAPPER_MISSING:$VPS\" 91 command -v sha256sum >/dev/null 2>&1 || fail \"MISSING_COMMAND:sha256sum\" 92 REMOTE_SCRIPT=\"$(cat <<'REMOTE' set -u SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" ACTIVE_EXPECTED=\"d4960be98cee3edef96413ee77f200ce744d3461\" SHORT=\"${SHA:0:12}\" PROD=\"/opt/bot_trad/bot_trading_gru\" P2=\"/var/lib/bot-trading-gru-p2\" echo \"===== IDENTITY =====\" echo \"TARGET_SHA=$SHA\" if [ ! -d \"$PROD/.git\" ]; then echo \"PRODUCTION_REPO=ABSENT\" exit 93 fi branch=\"$( git -c safe.directory=\"$PROD\" \\ -C \"$PROD\" branch --show-current 2>/dev/null || true )\" head=\"$( git -c safe.directory=\"$PROD\" \\ -C \"$PROD\" rev-parse HEAD 2>/dev/null || true )\" echo \"ACTIVE_BRANCH=${branch:-UNKNOWN}\" echo \"ACTIVE_HEAD=${head:-UNKNOWN}\" if [ \"$head\" = \"$ACTIVE_EXPECTED\" ]; then echo \"ACTIVE_HEAD_EXPECTED=YES\" else echo \"ACTIVE_HEAD_EXPECTED=NO\" fi if git -c safe.directory=\"$PROD\" \\ -C \"$PROD\" cat-file -e \"${SHA}^{commit}\" 2>/dev/null; then echo \"TARGET_OBJECT_PRESENT=YES\" else echo \"TARGET_OBJECT_PRESENT=NO\" fi echo echo \"===== PRODUCTION REFLOG PROVENANCE =====\" TARGET_HEAD_REFLOG=0 TARGET_BRANCH_REFLOG=0 head_log=\"$PROD/.git/logs/HEAD\" branch_log=\"$PROD/.git/logs/refs/heads/feature/GRU\" if [ -r \"$head_log\" ]; then echo \"HEAD_REFLOG=READABLE\" if grep -Fq \"$SHA\" \"$head_log\"; then TARGET_HEAD_REFLOG=1 echo \"TARGET_IN_HEAD_REFLOG=YES\" grep -n -F \"$SHA\" \"$head_log\" \\ | tail -n 30 \\ | sed 's/^/HEAD_REFLOG_MATCH /' else echo \"TARGET_IN_HEAD_REFLOG=NO\" fi echo \"--- recent HEAD reflog transitions involving target/current SHA ---\" grep -n -E \"$SHA|$ACTIVE_EXPECTED\" \"$head_log\" \\ | tail -n 60 \\ | sed 's/^/HEAD_REFLOG_RELEVANT /' \\ || true else echo \"HEAD_REFLOG=ABSENT_OR_UNREADABLE\" fi if [ -r \"$branch_log\" ]; then echo \"FEATURE_GRU_REFLOG=READABLE\" if grep -Fq \"$SHA\" \"$branch_log\"; then TARGET_BRANCH_REFLOG=1 echo \"TARGET_IN_FEATURE_GRU_REFLOG=YES\" grep -n -F \"$SHA\" \"$branch_log\" \\ | tail -n 30 \\ | sed 's/^/FEATURE_GRU_REFLOG_MATCH /' else echo \"TARGET_IN_FEATURE_GRU_REFLOG=NO\" fi echo \"--- recent branch transitions involving target/current SHA ---\" grep -n -E \"$SHA|$ACTIVE_EXPECTED\" \"$branch_log\" \\ | tail -n 60 \\ | sed 's/^/FEATURE_GRU_REFLOG_RELEVANT /' \\ || true else echo \"FEATURE_GRU_REFLOG=ABSENT_OR_UNREADABLE\" fi echo echo \"===== ALL REF NAMES CURRENTLY POINTING TO TARGET =====\" git -c safe.directory=\"$PROD\" \\ -C \"$PROD\" for-each-ref \\ --format='%(refname) %(objectname)' 2>/dev/null \\ | awk -v sha=\"$SHA\" '$2 == sha {print \"TARGET_REF \" $0}' \\ || true echo echo \"===== DEPLOYMENT MARKERS =====\" DEPLOY_MARKER_TRACE=0 for f in \\ /tmp/bot_trad_feature_gru_sync_verified.sha \\ /tmp/bot_trad_feature_gru_release_status.txt \\ /tmp/bot_trad_feature_gru_deploy_engine.txt do label=\"$(basename \"$f\")\" if [ ! -e \"$f\" ]; then echo \"MARKER_ABSENT=$f\" continue fi if [ ! -r \"$f\" ]; then echo \"MARKER_UNREADABLE=$f\" continue fi stat -c \\ 'MARKER_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true if grep -Fq \"$SHA\" \"$f\"; then DEPLOY_MARKER_TRACE=1 echo \"MARKER_TARGET_SHA_MATCH=YES path=$f\" grep -F \"$SHA\" \"$f\" \\ | head -n 20 \\ | sed \"s/^/MARKER_CONTENT $label /\" else echo \"MARKER_TARGET_SHA_MATCH=NO path=$f\" fi done echo echo \"===== DEPLOY LOG PROVENANCE =====\" DEPLOY_LOG_TRACE=0 for d in /tmp/bot_trad_deploy_logs_*; do [ -d \"$d\" ] || continue echo \"DEPLOY_LOG_ROOT=$d\" while IFS= read -r f; do [ -n \"$f\" ] || continue DEPLOY_LOG_TRACE=1 echo \"DEPLOY_LOG_TARGET_FILE=$f\" stat -c \\ 'DEPLOY_LOG_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true grep -n -E \\ \"$SHA|CANDIDATE_STAGING=|POST_PROMOTION_VERIFY=|FINAL_DEPLOY_VERIFY|CI_DEPLOY_VERIFIED|ROLLBACK|DEPLOYMENT_ALREADY_APPLIED|ERROR:\" \\ \"$f\" 2>/dev/null \\ | tail -n 120 \\ | sed 's/^/DEPLOY_LOG_MATCH /' \\ || true done < <( grep -RIl --binary-files=without-match \\ \"$SHA\" \"$d\" 2>/dev/null \\ | head -n 100 ) done echo echo \"===== FULL CORPUS HISTORICAL PROVENANCE =====\" FC_TRACE=0 FC_SUCCESS=0 FC_FAILED=0 github_home=\"$( getent passwd githubactions 2>/dev/null \\ | awk -F: 'NR==1 {print $6}' )\" if [ -n \"${github_home:-}\" ]; then FC=\"$github_home/.local/state/bot-trading-gru-full-corpus\" echo \"GITHUBACTIONS_HOME=$github_home\" echo \"FULL_CORPUS_STATE_DIR=$FC\" if [ -d \"$FC/results\" ]; then while IFS= read -r d; do [ -n \"$d\" ] || continue FC_TRACE=1 echo \"FULL_CORPUS_TARGET_RESULT_DIR=$d\" status=\"$d/worker.status\" if [ -r \"$status\" ]; then echo \"--- worker.status ---\" sed -n -E \\ '/^(state|exit_code|mode|sha|run_id|contract|reason|timestamp)=/p' \\ \"$status\" \\ | sed 's/^/FULL_CORPUS_STATUS /' state=\"$( sed -n 's/^state=//p' \"$status\" \\ | head -n1 )\" case \"$state\" in SUCCESS) FC_SUCCESS=1 ;; FAILED) FC_FAILED=1 ;; esac else echo \"FULL_CORPUS_STATUS=ABSENT_OR_UNREADABLE\" fi if [ -r \"$d/worker.log\" ]; then echo \"--- worker.log relevant markers ---\" grep -n -E \\ \"$SHA|FULL_CORPUS_|CANDIDATE_|VALIDATION_|HISTORY_|DEPENDENCY_|ERROR:\" \\ \"$d/worker.log\" 2>/dev/null \\ | tail -n 160 \\ | sed 's/^/FULL_CORPUS_LOG /' \\ || true fi done < <( find \"$FC/results\" \\ -mindepth 1 \\ -maxdepth 1 \\ -type d \\ \\( -name \"*${SHORT}*\" -o -name \"*${SHA}*\" \\) \\ -print 2>/dev/null \\ | sort ) else echo \"FULL_CORPUS_RESULTS=ABSENT\" fi for f in \"$FC/request.env\" \"$FC/active.env\"; do [ -r \"$f\" ] || continue if grep -Fq \"$SHA\" \"$f\"; then FC_TRACE=1 echo \"FULL_CORPUS_ACTIVE_IDENTITY_FILE=$f\" sed -n -E \\ '/^(MODE|EXPECTED_SHA|REPOSITORY|RUN_ID|CONTRACT_VERSION|WORKTREE|PID)=/p' \\ \"$f\" \\ | sed 's/^/FULL_CORPUS_IDENTITY /' fi done else echo \"GITHUBACTIONS_HOME=UNKNOWN\" fi echo echo \"===== P2 HISTORICAL PROVENANCE =====\" P2_TRACE=0 if [ -d \"$P2\" ]; then for f in \"$P2/request.env\" \"$P2/active.env\"; do [ -r \"$f\" ] || continue if grep -Fq \"$SHA\" \"$f\"; then P2_TRACE=1 echo \"P2_TARGET_IDENTITY_FILE=$f\" sed -n -E \\ '/^(EXPECTED_SHA|REPOSITORY|CIRCLE_BUILD_NUM|RUN_ID|PID|MODE|WORKTREE)=/p' \\ \"$f\" \\ | sed 's/^/P2_IDENTITY /' fi done if [ -d \"$P2/results\" ]; then while IFS= read -r f; do [ -n \"$f\" ] || continue P2_TRACE=1 echo \"P2_TARGET_RESULT_FILE=$f\" stat -c \\ 'P2_RESULT_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true tr ' ' '\\n' < \"$f\" 2>/dev/null \\ | grep -E \\ '^(state|exit_code|sha|build|reason|timestamp)=' \\ | sed 's/^/P2_STATUS /' \\ || true done < <( find \"$P2/results\" \\ -maxdepth 1 \\ -type f \\ \\( -name \"*${SHA}*\" -o -name \"*${SHORT}*\" \\) \\ -print 2>/dev/null \\ | sort ) fi else echo \"P2_STATE_DIR=ABSENT\" fi echo echo \"===== ACTIVE PROCESS SNAPSHOT =====\" ps -eo pid=,ppid=,lstart=,etime=,args= 2>/dev/null \\ | grep -F \"$PROD\" \\ | grep -v '[g]rep -F' \\ | sed 's/^/PROCESS /' \\ || true echo echo \"===== WORKTREE SNAPSHOT =====\" git -c safe.directory=\"$PROD\" \\ -C \"$PROD\" worktree list --porcelain 2>/dev/null \\ | sed 's/^/WORKTREE /' \\ || true echo echo \"===== CLASSIFICATION INPUTS =====\" echo \"TARGET_HEAD_REFLOG=$TARGET_HEAD_REFLOG\" echo \"TARGET_BRANCH_REFLOG=$TARGET_BRANCH_REFLOG\" echo \"DEPLOY_MARKER_TRACE=$DEPLOY_MARKER_TRACE\" echo \"DEPLOY_LOG_TRACE=$DEPLOY_LOG_TRACE\" echo \"FULL_CORPUS_TRACE=$FC_TRACE\" echo \"FULL_CORPUS_TERMINAL_SUCCESS=$FC_SUCCESS\" echo \"FULL_CORPUS_TERMINAL_FAILED=$FC_FAILED\" echo \"P2_TRACE=$P2_TRACE\" if [ \"$P2_TRACE\" -eq 1 ]; then echo \"HISTORICAL_STAGE=P2_BOUNDARY_REACHED\" elif [ \"$TARGET_HEAD_REFLOG\" -eq 1 ] || \\ [ \"$TARGET_BRANCH_REFLOG\" -eq 1 ]; then echo \"HISTORICAL_STAGE=TARGET_ENTERED_PRODUCTION_REFLOG\" elif [ \"$DEPLOY_MARKER_TRACE\" -eq 1 ] || \\ [ \"$DEPLOY_LOG_TRACE\" -eq 1 ]; then echo \"HISTORICAL_STAGE=DEPLOY_ATTEMPT_EVIDENCE_FOUND\" elif [ \"$FC_SUCCESS\" -eq 1 ]; then echo \"HISTORICAL_STAGE=FULL_CORPUS_TERMINAL_SUCCESS_DEPLOY_NOT_PROVEN\" elif [ \"$FC_TRACE\" -eq 1 ]; then echo \"HISTORICAL_STAGE=FULL_CORPUS_BOUNDARY_REACHED\" else echo \"HISTORICAL_STAGE=NO_POST_VALIDATION_DURABLE_EVIDENCE_FOUND\" fi echo echo \"REMOTE_MUTATION=NO\" echo \"CHECKOUT_OR_RESET=NO\" echo \"FETCH_OR_PULL=NO\" echo \"PROCESS_SIGNAL=NO\" echo \"SERVICE_ACTION=NO\" echo \"DEPLOY_EXECUTION=NO\" echo \"SEMAPHORE_QUERY=NO\" echo \"SEMAPHORE_RERUN=NO\" echo \"HISTORICAL_DEPLOY_PROVENANCE=PASS\" REMOTE )\" set +e \"$VPS\" \"$REMOTE_SCRIPT\" \\ >\"$E/historical-deploy-provenance.txt\" 2>&1 rc=$? set -e cat \"$E/historical-deploy-provenance.txt\" if [ \"$rc\" -ne 0 ]; then echo \"HISTORICAL_DEPLOY_PROVENANCE=FAILED\" echo \"VPS_WRAPPER_EXIT_CODE=$rc\" echo \"EVIDENCE_DIR=$E\" exit \"$rc\" fi echo echo \"===== LOCAL EVIDENCE DIGEST =====\" sha256sum \"$E/historical-deploy-provenance.txt\" echo \"LOCAL_ONLY_EVIDENCE_WRITE=YES\" echo \"VPS_MUTATION=NO\" echo \"SEMAPHORE_MUTATION=NO\" echo \"SOURCE_REPOSITORY_MUTATION=NO\" echo \"EVIDENCE_DIR=$E\""
+                            - paragraph [ref=f8e1690]: El campo decisivo será HISTORICAL_STAGE.
+                            - list [ref=f8e1691]:
+                              - listitem [ref=f8e1692]: Si aparece TARGET_ENTERED_PRODUCTION_REFLOG, sabremos que el candidato fue promovido y después hubo reversión/reset.
+                              - listitem [ref=f8e1693]: Si aparece FULL_CORPUS_TERMINAL_SUCCESS_DEPLOY_NOT_PROVEN, el pipeline superó full-corpus pero no hay prueba de promoción.
+                              - listitem [ref=f8e1694]: Si aparece FULL_CORPUS_BOUNDARY_REACHED, el stop estuvo como mínimo después del primer bloque y dentro/alrededor de full-corpus.
+                              - listitem [ref=f8e1695]:
+                                - text: Si aparece NO_POST_VALIDATION_DURABLE_EVIDENCE_FOUND, la evidencia apuntará a que el pipeline se detuvo
+                                - strong [ref=f8e1696]: antes de cualquier side effect durable posterior al Core CI
+                                - text: .
+                            - paragraph [ref=f8e1697]:
+                              - text: No ejecutes sync, reset, deploy, kill del simulador ni rerun de Semaphore antes de reconciliar esta salida.
+                              - button "View analysis" [ref=f8e1700] [cursor=pointer]
+                          - generic [ref=f8e1708]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md" [ref=f8e1709] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V4_20260925T171400-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                    - generic [ref=f8e1711]:
+                      - button "Copy" [ref=f8e1713] [cursor=pointer]
+                      - button "Rate response" [ref=f8e1717] [cursor=pointer]
+                      - button "Share" [ref=f8e1721] [cursor=pointer]
+                      - button "Add to project sources" [ref=f8e1726] [cursor=pointer]
+                      - button "Read aloud" [ref=f8e1731] [cursor=pointer]
+                      - button "Regenerate response" [ref=f8e2553] [cursor=pointer]
+                      - button "More actions" [ref=f8e1739] [cursor=pointer]
+                      - button "Sources" [ref=f8e1745] [cursor=pointer]
+                - generic [ref=f8e1751]:
+                  - separator "Yesterday 9:08 PM" [ref=f8e1752]:
+                    - time [ref=f8e1753]: Yesterday 9:08 PM
+                  - generic [ref=f8e1756]:
+                    - generic [ref=f8e1757]:
+                      - generic [ref=f8e1758]:
+                        - heading "You said:" [level=4] [ref=f8e1759]
+                        - generic [ref=f8e1762]:
+                          - generic [ref=f8e1764]:
+                            - generic [ref=f8e1765]:
+                              - generic [ref=f8e1766]: "HISTORICAL_DEPLOY_PROVENANCE_RESULT_DELIVERY_MARKER_f5a948740cc64545a06723090a21b47e This is the completed READONLY_HISTORICAL_DEPLOY_PROVENANCE_INSPECTION result for authoritative run R20260923T012014. HISTORICAL_DEPLOY_PROVENANCE=PARTIALLY_ESTABLISHED Target SHA: 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 Current VPS SHA: d4960be98cee3edef96413ee77f200ce744d3461 Current VPS branch: feature/GRU VPS path: /opt/bot_trad/bot_trading_gru/ - Target SHA exists in VPS Git evidence. - Target SHA is not the current checkout. - Target SHA is not an ancestor of the current HEAD. - Target SHA is not active based on the persisted evidence. - Historical activation of target SHA remains UNPROVEN. - Successful deployment of target SHA remains UNPROVEN. - Best available current-checkout activation anchor: 2026-09-13 14:38:23 +0000. - Actor: UNKNOWN. - Activation mechanism: UNKNOWN. - Replacement details: UNKNOWN. - Deployment semantics: UNKNOWN. No VPS, Git, service, GitHub, Semaphore, repository, or production mutation occurred. Presence of the target SHA in the Git object database is not proof of deployment, and the prior stopped Semaphore workflow is not proof of deployment. This result is NOT production GO, end-to-end GO, deployment GO, or AI_LOOP_COMPLETE. Please reconcile this provenance evidence and state the exact next action."
+                              - generic [aria-hidden] [ref=f8e1769]: …
+                            - button "Show more" [ref=f8e1770] [cursor=pointer]
+                          - generic [ref=f8e1776]:
+                            - button "Copy message" [ref=f8e1778] [cursor=pointer]
+                            - button "Share prompt" [ref=f8e1782] [cursor=pointer]
+                            - button "Edit message" [ref=f8e2558] [cursor=pointer]
+                      - generic [ref=f8e1793]:
+                        - button "Worked for 43s" [ref=f8e1794] [cursor=pointer]
+                        - generic: Worked for 43s
+                      - generic [ref=f8e1796]:
+                        - generic [ref=f8e1797]:
+                          - button "Analysis paused" [expanded] [ref=f8e1798] [cursor=pointer]
+                          - generic: Analysis paused
+                        - generic [ref=f8e1800]:
+                          - generic [ref=f8e1801]:
+                            - generic [ref=f8e1806]: Python
+                            - button "Copy" [ref=f8e1810] [cursor=pointer]
+                          - code [ref=f8e1814]:
+                            - generic [ref=f8e1815]:
+                              - generic [ref=f8e1816]: from pathlib import Path
+                              - generic [ref=f8e1817]: import hashlib
+                              - generic [ref=f8e1818]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md")
+                              - generic [ref=f8e1819]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v5
+                              - text: "**Reconciled:** 2026-09-25 21:08:00 -05:00 **Authoritative run:** `R20260923T012014` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Proven facts - The exact candidate SHA passed the reproduced first `GRU validation / Core CI contracts` block. - Semaphore's authoritative terminal state is `done/stopped` with `RESULT_REASON=test`. - No concrete failed test/job/step has been recovered. - The candidate object exists in the production VPS Git object database. - The candidate is not the current production checkout. - The candidate is not an ancestor of the current production HEAD. - Historical activation/deployment of the candidate remains unproven. - The current production worktree is dirty and has an active simulator referencing it. - No mutation was made by the provenance inspections. ## Corrected interpretation The available evidence does not support a candidate code failure in the first CI block and does not prove production deployment. The next unresolved boundary is the local control-plane chronology: 1. when the exact Semaphore run first became terminal from the controller's perspective; 2. why repeated `CI UNKNOWN` persisted despite an exact run and SHA; 3. whether controller `SIGTERM` events happened before or after the provider had already stopped; 4. whether controller restart/version changes altered failure interpretation or evidence recovery; 5. whether a local stop/restart command, service event, OOM event, or other local lifecycle event can explain the controller `signal=15`. ## Required next action Perform one local, read-only forensic correlation over: - `/var/lib/ai-loop/logs/R20260923T012014.v3.log`; - `/var/lib/ai-loop/state/R20260923T012014.v3.json` if present; - other AI-loop logs containing the exact SHA/workflow/pipeline/run IDs; - local system journal/process lifecycle evidence around the relevant timestamps; - exact control-plane scripts only as text when needed to explain state transitions. No Semaphore query. No VPS query. No process signal. No service change. No repository mutation. No CI rerun. No commit/push/deploy. ## Current classification ```text CORE_CI_FIRST_BLOCK=PASS CANDIDATE_CODE_FAILURE_PROVEN=NO CANDIDATE_DEPLOYED_CURRENTLY=NO CANDIDATE_DEPLOYED_HISTORICALLY=UNPROVEN SEMAPHORE_TERMINAL_STATE=done/stopped SEMAPHORE_RESULT_REASON=test CONTROL_PLANE_OBSERVABILITY_DEGRADED=YES CONTROLLER_SIGTERM_EVENTS=CONFIRMED SIGTERM_CAUSAL_RELATION_TO_SEMAPHORE_STOP=UNKNOWN NEXT_ACTION=LOCAL_CONTROL_PLANE_FORENSIC_CORRELATION SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_DEPLOY=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE FINAL_GO=NO ``` \"\"\""
+                              - generic [ref=f8e1820]: dst.write_text(content, encoding="utf-8")
+                              - generic [ref=f8e1821]: print(dst)
+                              - generic [ref=f8e1822]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                      - generic [ref=f8e1824]:
+                        - generic [ref=f8e1825]:
+                          - button "Analyzed" [expanded] [ref=f8e1826] [cursor=pointer]
+                          - generic: Analyzed
+                        - generic [ref=f8e1827]:
+                          - generic [ref=f8e1828]:
+                            - generic [ref=f8e1829]:
+                              - generic [ref=f8e1834]: Python
+                              - button "Copy" [ref=f8e1838] [cursor=pointer]
+                            - code [ref=f8e1842]:
+                              - generic [ref=f8e1843]:
+                                - generic [ref=f8e1844]: from pathlib import Path
+                                - generic [ref=f8e1845]: import hashlib
+                                - generic [ref=f8e1846]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md")
+                                - generic [ref=f8e1847]: text = """# DIAGNOSIS — AI Loop last failure, reconciled v5
+                                - text: "**Reconciled:** 2026-09-25 21:08:00 -05:00 **Authoritative run:** `R20260923T012014` **Candidate SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Proven facts - The exact candidate SHA passed the reproduced first `GRU validation / Core CI contracts` block. - Semaphore's authoritative terminal state is `done/stopped` with `RESULT_REASON=test`. - No concrete failed test/job/step has been recovered. - The candidate object exists in the production VPS Git object database. - The candidate is not the current production checkout. - The candidate is not an ancestor of the current production HEAD. - Historical activation/deployment of the candidate remains unproven. - The current production worktree is dirty and has an active simulator referencing it. - No mutation was made by the provenance inspections. ## Corrected interpretation The available evidence does not support a candidate code failure in the first CI block and does not prove production deployment. The next unresolved boundary is the local control-plane chronology: 1. when the exact Semaphore run first became terminal from the controller's perspective; 2. why repeated `CI UNKNOWN` persisted despite an exact run and SHA; 3. whether controller `SIGTERM` events happened before or after the provider had already stopped; 4. whether controller restart/version changes altered failure interpretation or evidence recovery; 5. whether a local stop/restart command, service event, OOM event, or other local lifecycle event can explain the controller `signal=15`. ## Required next action Perform one local, read-only forensic correlation over: - `/var/lib/ai-loop/logs/R20260923T012014.v3.log`; - `/var/lib/ai-loop/state/R20260923T012014.v3.json` if present; - other AI-loop logs containing the exact SHA/workflow/pipeline/run IDs; - local system journal/process lifecycle evidence around the relevant timestamps; - exact control-plane scripts only as text when needed to explain state transitions. No Semaphore query. No VPS query. No process signal. No service change. No repository mutation. No CI rerun. No commit/push/deploy. ## Current classification ```text CORE_CI_FIRST_BLOCK=PASS CANDIDATE_CODE_FAILURE_PROVEN=NO CANDIDATE_DEPLOYED_CURRENTLY=NO CANDIDATE_DEPLOYED_HISTORICALLY=UNPROVEN SEMAPHORE_TERMINAL_STATE=done/stopped SEMAPHORE_RESULT_REASON=test CONTROL_PLANE_OBSERVABILITY_DEGRADED=YES CONTROLLER_SIGTERM_EVENTS=CONFIRMED SIGTERM_CAUSAL_RELATION_TO_SEMAPHORE_STOP=UNKNOWN NEXT_ACTION=LOCAL_CONTROL_PLANE_FORENSIC_CORRELATION SAFE_TO_RERUN_SEMAPHORE=NO SAFE_TO_DEPLOY=NO SAFE_TO_CREATE_NEW_COMMIT=NO_EVIDENCE FINAL_GO=NO ``` \"\"\""
+                                - generic [ref=f8e1848]: dst.write_text(text, encoding="utf-8")
+                                - generic [ref=f8e1849]:
+                                  - text: print(
+                                  - generic [ref=f8e1850]: "f\"{dst}\\nSHA256={hashlib.sha256(dst.read_bytes()).hexdigest()}\""
+                                  - text: )
+                          - generic [ref=f8e1852]:
+                            - generic [ref=f8e1853]: STDOUT/STDERR
+                            - generic [ref=f8e1854]: /mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md SHA256=d9827a9a155407104b3a48ae418b3b46884d9fd755dde0becc5c0f8321519167
+                      - generic [ref=f8e1856]:
+                        - heading "ChatGPT said:" [level=4] [ref=f8e1857]
+                        - generic [ref=f8e1858]:
+                          - generic [ref=f8e1859]:
+                            - paragraph [ref=f8e1860]:
+                              - text: "Queda reconciliado un nivel más:"
+                              - strong [ref=f8e1861]: no existe evidencia suficiente de que 0c11a13e… haya sido desplegado alguna vez
+                              - text: . Su presencia en el object database del VPS no demuestra activación; el checkout activo continúa en d4960be…, el target no es ancestro suyo y la activación histórica sigue UNPROVEN.
+                            - paragraph [ref=f8e1862]:
+                              - text: Al mismo tiempo, el primer bloque del candidato sí pasó. Por tanto, el cuello de botella ya está entre
+                              - strong [ref=f8e1863]: el seguimiento/orquestación del CI y las etapas posteriores al primer bloque
+                              - text: ", no en un fallo reproducible de Core CI contracts. Además, los logs conocidos muestran CI UNKNOWN repetido y después controller signal=15; posteriormente ci-status sí pudo observar done/stopped."
+                              - button "Open preview of Pasted text(20260923-192112).txt" [ref=f8e1867] [cursor=pointer]:
+                                - generic [ref=f8e1873]: Pasted text(20260923-192112)
+                              - text: También hay reinicios posteriores del mismo run en FAILURE_ANALYSIS, lo que confirma que el lifecycle del controller tuvo interrupciones independientes que deben correlacionarse antes de tocar CI o producción.
+                              - button "Open preview of Pasted text.txt" [ref=f8e1877] [cursor=pointer]:
+                                - generic [ref=f8e1883]: Pasted text
+                            - paragraph [ref=f8e1884]:
+                              - text: "Actualicé el diagnóstico:"
+                              - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md" [ref=f8e1886] [cursor=pointer]:
+                                - generic [ref=f8e1887]: DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md
+                              - text: ". SHA-256: d9827a9a155407104b3a48ae418b3b46884d9fd755dde0becc5c0f8321519167."
+                            - paragraph [ref=f8e1893]:
+                              - text: La
+                              - strong [ref=f8e1894]: acción exacta siguiente
+                              - text: "es exclusivamente forense local del control-plane. No consulta Semaphore, no consulta el VPS y no modifica procesos, servicios ni repositorios:"
+                            - generic [ref=f8e1896]:
+                              - generic [ref=f8e1897]:
+                                - generic [ref=f8e1902]: Bash
+                                - generic [ref=f8e1904]:
+                                  - button "Enable word wrap" [ref=f8e1906] [cursor=pointer]
+                                  - button "Copy" [ref=f8e1912] [cursor=pointer]
+                              - code [ref=f8e1916]: "set -Eeuo pipefail umask 077 RUN=\"R20260923T012014\" SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" WF=\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\" PPL=\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\" ROOT=\"/var/lib/ai-loop\" LOG=\"$ROOT/logs/${RUN}.v3.log\" E=\"$(mktemp -d \"/tmp/ai-loop-local-forensics-${RUN}.XXXXXX\")\" fail() { echo \"LOCAL_CONTROL_PLANE_FORENSICS=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } for c in python3 grep sed awk find stat sha256sum journalctl ps; do command -v \"$c\" >/dev/null 2>&1 || fail \"MISSING_COMMAND:$c\" 91 done test -r \"$LOG\" || fail \"RUN_LOG_NOT_READABLE:$LOG\" 92 echo \"RUN=$RUN\" echo \"TARGET_SHA=$SHA\" echo \"WORKFLOW_ID=$WF\" echo \"PIPELINE_ID=$PPL\" echo \"EVIDENCE_DIR=$E\" ############################################################################### # 1. Preserve hashes only. No source file is modified. ############################################################################### echo \"===== SOURCE EVIDENCE HASHES =====\" sha256sum \"$LOG\" | tee \"$E/run-log.sha256\" find \"$ROOT/state\" \\ -maxdepth 1 \\ -type f \\ -name \"${RUN}*\" \\ -print 2>/dev/null \\ | sort \\ | while IFS= read -r f; do sha256sum \"$f\" done \\ | tee \"$E/state-files.sha256\" ############################################################################### # 2. Exact run chronology. ############################################################################### echo echo \"===== EXACT RUN CHRONOLOGY =====\" grep -nE \\ \"$SHA|$WF|$PPL|CI UNKNOWN|CI SUCCESS|CI FAILURE|raw_result|raw_state|Semaphore|signal=15|phase=|FAILURE_ANALYSIS|IMPLEMENTING|CI_WATCH|EVIDENCE|TimeoutExpired|NOT_FOUND|controller\" \\ \"$LOG\" \\ >\"$E/run-chronology.txt\" || true cat \"$E/run-chronology.txt\" ############################################################################### # 3. First/last relevant events and SIGTERM chronology. ############################################################################### echo echo \"===== KEY EVENT SUMMARY =====\" python3 - \"$LOG\" \"$SHA\" \"$WF\" \"$PPL\" <<'PY' \\ | tee \"$E/key-events.txt\" import re import sys path, sha, wf, ppl = sys.argv[1:] patterns = { \"candidate\": re.compile(re.escape(sha)), \"workflow\": re.compile(re.escape(wf)), \"pipeline\": re.compile(re.escape(ppl)), \"ci_unknown\": re.compile(r\"\\bCI UNKNOWN\\b\"), \"ci_failure\": re.compile(r\"\\bCI FAILURE\\b\"), \"ci_success\": re.compile(r\"\\bCI SUCCESS\\b\"), \"signal15\": re.compile(r\"controller signal=15\"), \"timeout\": re.compile(r\"TimeoutExpired|timed out\", re.I), \"semaphore_not_found\": re.compile(r\"SEMAPHORE_EXACT_ANCHORS_NOT_FOUND\"), \"failure_analysis\": re.compile(r\"phase=FAILURE_ANALYSIS\"), } events = {k: [] for k in patterns} with open(path, encoding=\"utf-8\", errors=\"replace\") as fh: for lineno, line in enumerate(fh, 1): for key, rx in patterns.items(): if rx.search(line): events[key].append((lineno, line.rstrip())) for key, values in events.items(): print(f\"{key.upper()}_COUNT={len(values)}\") if values: print(f\"{key.upper()}_FIRST_LINE={values[0][0]}\") print(f\"{key.upper()}_FIRST={values[0][1]}\") print(f\"{key.upper()}_LAST_LINE={values[-1][0]}\") print(f\"{key.upper()}_LAST={values[-1][1]}\") PY ############################################################################### # 4. Context around every controller SIGTERM. ############################################################################### echo echo \"===== SIGTERM CONTEXT =====\" python3 - \"$LOG\" <<'PY' \\ | tee \"$E/sigterm-context.txt\" import sys path = sys.argv[1] with open(path, encoding=\"utf-8\", errors=\"replace\") as fh: lines = fh.readlines() hits = [ i for i, line in enumerate(lines) if \"controller signal=15\" in line ] print(f\"SIGTERM_COUNT={len(hits)}\") for seq, idx in enumerate(hits, 1): print(f\"--- SIGTERM_{seq}_CONTEXT_BEGIN ---\") lo = max(0, idx - 12) hi = min(len(lines), idx + 13) for j in range(lo, hi): print(f\"{j+1}:{lines[j].rstrip()}\") print(f\"--- SIGTERM_{seq}_CONTEXT_END ---\") PY ############################################################################### # 5. State JSON: print only diagnostic allowlisted fields. # Do not dump URLs, prompts, credentials, or browser payloads. ############################################################################### echo echo \"===== STATE SNAPSHOT =====\" STATE_FILES=\"$( find \"$ROOT/state\" \\ -maxdepth 1 \\ -type f \\ -name \"${RUN}*.json\" \\ -print 2>/dev/null \\ | sort )\" if [ -z \"$STATE_FILES\" ]; then echo \"STATE_FILE=NOT_FOUND\" else while IFS= read -r state; do [ -n \"$state\" ] || continue echo \"STATE_FILE=$state\" stat -c \\ 'STATE_STAT mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$state\" 2>/dev/null || true python3 - \"$state\" <<'PY' import json import sys path = sys.argv[1] try: with open(path, encoding=\"utf-8\") as fh: obj = json.load(fh) except Exception as exc: print(f\"STATE_JSON_READ=FAILED:{type(exc).__name__}:{exc}\") raise SystemExit(0) wanted = { \"run_id\", \"phase\", \"stage\", \"failure_stage\", \"baseline_sha\", \"candidate_sha\", \"candidate\", \"iteration\", \"go_confirmed\", \"last_ci\", \"ci_status\", \"ci_provider\", \"breaker_state\", \"breaker_route\", \"last_dispatched_provider\", \"last_dispatched_sha\", \"workflow_id\", \"pipeline_id\", \"run_id\", \"status\", \"raw_state\", \"raw_result\", \"reason\", } def walk(value, path=\"\"): if isinstance(value, dict): for key, val in value.items(): here = f\"{path}.{key}\" if path else key if key in wanted: if isinstance(val, (str, int, float, bool)) or val is None: print(f\"STATE {here}={val!r}\") elif isinstance(val, dict): safe = {} for k, v in val.items(): if k in wanted and ( isinstance(v, (str, int, float, bool)) or v is None ): safe[k] = v print( f\"STATE {here}=\" + json.dumps(safe, sort_keys=True) ) walk(val, here) elif isinstance(value, list): for i, item in enumerate(value): walk(item, f\"{path}[{i}]\") walk(obj) PY done <<<\"$STATE_FILES\" fi | tee \"$E/state-diagnostic.txt\" ############################################################################### # 6. Search existing LOCAL AI-loop evidence only. # No remote/network calls. ############################################################################### echo echo \"===== LOCAL EXACT-ID ARTIFACT INDEX =====\" for base in \\ /var/lib/ai-loop \\ /opt/ai-loop/evidence do [ -d \"$base\" ] || continue grep -RIl \\ --binary-files=without-match \\ -e \"$SHA\" \\ -e \"$WF\" \\ -e \"$PPL\" \\ \"$base\" 2>/dev/null \\ | head -n 200 done \\ | sort -u \\ | tee \"$E/local-artifact-index.txt\" ############################################################################### # 7. Extract only lines relevant to stop/status chronology from those files. ############################################################################### echo echo \"===== LOCAL ARTIFACT RELEVANT LINES =====\" while IFS= read -r f; do [ -r \"$f\" ] || continue echo \"--- FILE=$f ---\" grep -nE \\ \"$SHA|$WF|$PPL|raw_result|raw_state|stopped|signal=15|TimeoutExpired|SEMAPHORE_EXACT_ANCHORS_NOT_FOUND|CI UNKNOWN|CI FAILURE|FAILURE_ANALYSIS\" \\ \"$f\" 2>/dev/null \\ | tail -n 160 \\ || true done <\"$E/local-artifact-index.txt\" \\ | tee \"$E/local-artifact-relevant-lines.txt\" ############################################################################### # 8. Read-only system journal correlation around FIRST known incident window. # # Known interesting period: # 2026-09-23 19:03-19:09 UTC CI UNKNOWN -> controller signal=15. ############################################################################### echo echo \"===== SYSTEM JOURNAL 18:30-20:40 UTC =====\" set +e journalctl \\ --since \"2026-09-23 18:30:00 UTC\" \\ --until \"2026-09-23 20:40:00 UTC\" \\ --no-pager \\ -o short-iso 2>/dev/null \\ | grep -Ei \\ 'ai-loop|ai-loopd|opencode|python|SIGTERM|signal|terminat|killed|kill|oom|out of memory|systemd|cron|nohup' \\ >\"$E/journal-incident-window.txt\" journal_rc=${PIPESTATUS[0]} set -e if [ \"$journal_rc\" -eq 0 ]; then cat \"$E/journal-incident-window.txt\" else echo \"SYSTEM_JOURNAL=UNAVAILABLE_OR_INCOMPLETE rc=$journal_rc\" fi ############################################################################### # 9. User journal, if available. ############################################################################### echo echo \"===== USER JOURNAL 18:30-20:40 UTC =====\" set +e journalctl \\ --user \\ --since \"2026-09-23 18:30:00 UTC\" \\ --until \"2026-09-23 20:40:00 UTC\" \\ --no-pager \\ -o short-iso 2>/dev/null \\ | grep -Ei \\ 'ai-loop|ai-loopd|opencode|python|SIGTERM|signal|terminat|killed|kill|systemd' \\ >\"$E/user-journal-incident-window.txt\" uj_rc=${PIPESTATUS[0]} set -e if [ \"$uj_rc\" -eq 0 ]; then cat \"$E/user-journal-incident-window.txt\" else echo \"USER_JOURNAL=UNAVAILABLE_OR_INCOMPLETE rc=$uj_rc\" fi ############################################################################### # 10. Narrow shell-history check for explicit controller lifecycle commands. # No general history dump. ############################################################################### echo echo \"===== LOCAL LIFECYCLE COMMAND HISTORY =====\" HIST=\"$HOME/.bash_history\" if [ -r \"$HIST\" ]; then grep -En \\ '(/opt/ai-loop/bin/)?(stop-loop-v3|restart-loop-v3|resume-current-v3|kill-all-loop-v3)|pkill .*ai-loop|kill .*ai-loopd|systemctl .*ai-loop' \\ \"$HIST\" 2>/dev/null \\ | tail -n 80 \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^ ]+/\\1=<REDACTED>/Ig' \\ | tee \"$E/lifecycle-history.txt\" else echo \"BASH_HISTORY=UNAVAILABLE\" fi ############################################################################### # 11. Current installed controller version / file metadata only. ############################################################################### echo echo \"===== CONTROLLER FILE METADATA =====\" for f in \\ /opt/ai-loop/ai-loopd-v3.py \\ /opt/ai-loop/bin/ci-status \\ /opt/ai-loop/bin/start-loop-v3 \\ /opt/ai-loop/bin/stop-loop-v3 \\ /opt/ai-loop/bin/restart-loop-v3 \\ /opt/ai-loop/bin/resume-current-v3 \\ /opt/ai-loop/bin/kill-all-loop-v3 do if [ -e \"$f\" ]; then stat -c \\ 'FILE path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" else echo \"FILE_ABSENT=$f\" fi done | tee \"$E/controller-file-metadata.txt\" ############################################################################### # 12. Current process snapshot. Observation only. ############################################################################### echo echo \"===== CURRENT AI-LOOP PROCESS SNAPSHOT =====\" ps -eo \\ pid=,ppid=,lstart=,etime=,args= 2>/dev/null \\ | grep -E \\ 'ai-loopd-v3|browser-broker|opencode run' \\ | grep -v '[g]rep -E' \\ | tee \"$E/current-processes.txt\" \\ || true ############################################################################### # 13. Produce deterministic summary from the gathered LOCAL evidence. ############################################################################### echo echo \"===== FORENSIC CLASSIFICATION =====\" python3 - \\ \"$E/run-chronology.txt\" \\ \"$E/sigterm-context.txt\" \\ \"$E/journal-incident-window.txt\" \\ \"$E/user-journal-incident-window.txt\" \\ <<'PY' | tee \"$E/classification.txt\" import pathlib import re import sys files = [pathlib.Path(x) for x in sys.argv[1:]] text = \"\\n\".join( p.read_text(encoding=\"utf-8\", errors=\"replace\") for p in files if p.exists() ) checks = { \"CI_UNKNOWN_OBSERVED\": r\"\\bCI UNKNOWN\\b\", \"CONTROLLER_SIGTERM_OBSERVED\": r\"controller signal=15\", \"EXACT_SHA_OBSERVED\": r\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\", \"EXACT_WORKFLOW_OBSERVED\": r\"0f6fcfa4-4fb0-419d-ba4d-ca77af5d0c62\", \"EXACT_PIPELINE_OBSERVED\": r\"4df05bd2-6a81-41dc-9dfe-9e0051cd602c\", \"TIMEOUT_OBSERVED\": r\"TimeoutExpired|timed out\", \"ANCHOR_NOT_FOUND_OBSERVED\": r\"SEMAPHORE_EXACT_ANCHORS_NOT_FOUND\", \"OOM_OR_KERNEL_KILL_EVIDENCE\": r\"oom-kill|out of memory|Killed process\", \"SYSTEMD_STOP_EVIDENCE\": r\"Stopping .*ai-loop|Stopped .*ai-loop|Main process exited\", } for key, pattern in checks.items(): found = bool(re.search(pattern, text, re.I)) print(f\"{key}={'YES' if found else 'NO'}\") print(\"SEMAPHORE_QUERY_PERFORMED=NO\") print(\"VPS_QUERY_PERFORMED=NO\") print(\"REMOTE_MUTATION=NO\") print(\"LOCAL_MUTATION=EVIDENCE_DIR_ONLY\") print(\"CI_RERUN=NO\") print(\"PROCESS_SIGNAL_SENT=NO\") print(\"SERVICE_ACTION=NO\") PY ############################################################################### # 14. Manifest. ############################################################################### echo echo \"===== EVIDENCE MANIFEST =====\" find \"$E\" \\ -maxdepth 1 \\ -type f \\ -print0 \\ | sort -z \\ | xargs -0 sha256sum \\ | tee \"$E/SHA256SUMS\" echo echo \"LOCAL_CONTROL_PLANE_FORENSICS=PASS\" echo \"SEMAPHORE_QUERY=NO\" echo \"VPS_QUERY=NO\" echo \"REPOSITORY_MUTATION=NO\" echo \"PROCESS_MUTATION=NO\" echo \"SERVICE_MUTATION=NO\" echo \"CI_RERUN=NO\" echo \"DEPLOYMENT=NO\" echo \"EVIDENCE_DIR=$E\""
+                            - paragraph [ref=f8e1917]: "El resultado decisivo ya no será un GO, sino la cronología:"
+                            - list [ref=f8e1918]:
+                              - listitem [ref=f8e1919]:
+                                - strong [ref=f8e1920]: Si el stopped aparece antes del primer signal=15
+                                - text: ", el SIGTERM del controller fue posterior y no explica el stop de Semaphore."
+                              - listitem [ref=f8e1921]:
+                                - strong [ref=f8e1922]: Si el controller desaparece antes de que pueda observar un estado terminal
+                                - text: ", tendremos un fallo claro de continuidad/observabilidad del control-plane."
+                              - listitem [ref=f8e1923]:
+                                - strong [ref=f8e1924]: Si journal/history identifica quién detuvo o reinició ai-loopd
+                                - text: ", podremos separar definitivamente el incidente local del incidente Semaphore."
+                              - listitem [ref=f8e1925]:
+                                - strong [ref=f8e1926]: Si no aparece ninguna causalidad local
+                                - text: ", quedará cerrada la evidencia disponible como SEMAPHORE_STOP_CAUSE_UNRECOVERABLE_FROM_AVAILABLE_HISTORY, y podremos decidir entonces si procede una ejecución controlada nueva del"
+                                - strong [ref=f8e1927]: mismo SHA
+                                - text: .
+                            - paragraph [ref=f8e1928]:
+                              - text: "Hasta obtener esta correlación:"
+                              - strong [ref=f8e1929]: no deploy, no sync, no reset, no nuevo commit y no rerun de Semaphore
+                              - text: .
+                              - button "View analysis" [ref=f8e1932] [cursor=pointer]
+                          - generic [ref=f8e1940]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md" [ref=f8e1941] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V5_20260925T210800-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                    - generic [ref=f8e1943]:
+                      - button "Copy" [ref=f8e1945] [cursor=pointer]
+                      - button "Rate response" [ref=f8e1949] [cursor=pointer]
+                      - button "Share" [ref=f8e1953] [cursor=pointer]
+                      - button "Add to project sources" [ref=f8e1958] [cursor=pointer]
+                      - button "Read aloud" [ref=f8e1963] [cursor=pointer]
+                      - button "Regenerate response" [ref=f8e2561] [cursor=pointer]
+                      - button "More actions" [ref=f8e1971] [cursor=pointer]
+                      - button "Sources" [ref=f8e1977] [cursor=pointer]
+                - generic [ref=f8e1983]:
+                  - separator "Today 2:50 AM" [ref=f8e1984]:
+                    - time [ref=f8e1985]: Today 2:50 AM
+                  - generic [ref=f8e1988]:
+                    - generic [ref=f8e1989]:
+                      - generic [ref=f8e1990]:
+                        - heading "You said:" [level=4] [ref=f8e1991]
+                        - generic [ref=f8e1994]:
+                          - generic [ref=f8e1996]:
+                            - generic [ref=f8e1997]:
+                              - generic [ref=f8e1998]: "Completed result: LOCAL_READONLY_DEPLOY_FORENSIC_CORRELATION for authoritative run R20260923T012014. LOCAL_FORENSIC_PROVENANCE=PARTIALLY_ESTABLISHED. Authoritative identities: - TARGET_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 - CURRENT_VPS_SHA=d4960be98cee3edef96413ee77f200ce744d3461 - TARGET_BRANCH=feature/GRU - Historical d4960be activation anchor: 2026-09-13 14:38:23 +0000. Findings: - Local AI-loop evidence shows 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 was generated and entered CI polling on 2026-09-23. - There is NO proof that 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 was deployed. - There is NO proof that it became active on the VPS. - Activating actor remains UNKNOWN. - Activation mechanism remains UNKNOWN. - No remote activation command execution was proven. - No deployment-script execution was proven. - No automation trigger explaining d4960be activation was proven. - No relevant ai-loop, ai-loopd, or opencode systemd units were installed. - The user crontab was inaccessible due to permissions. - No SSH/VPS, Semaphore, GitHub, process/service, repository, deployment, or production mutation occurred during the forensic operation. This is NOT FINAL_GO, DEPLOYMENT_GO, PRODUCTION_GO, END_TO_END_GO, or AI_LOOP_COMPLETE. Please reconcile this local forensic evidence and state the exact next action. LOCAL_DEPLOY_FORENSIC_RESULT_DELIVERY_MARKER_4AE0AF079C68A1391BCBD23A"
+                              - generic [aria-hidden] [ref=f8e2001]: …
+                            - button "Show more" [ref=f8e2002] [cursor=pointer]
+                          - generic [ref=f8e2008]:
+                            - button "Copy message" [ref=f8e2010] [cursor=pointer]
+                            - button "Share prompt" [ref=f8e2014] [cursor=pointer]
+                            - button "Edit message" [ref=f8e2566] [cursor=pointer]
+                      - generic [ref=f8e2025]:
+                        - button "Worked for 30s" [ref=f8e2026] [cursor=pointer]
+                        - generic: Worked for 30s
+                      - generic [ref=f8e2028]:
+                        - generic [ref=f8e2029]:
+                          - button "Analysis paused" [expanded] [ref=f8e2030] [cursor=pointer]
+                          - generic: Analysis paused
+                        - generic [ref=f8e2032]:
+                          - generic [ref=f8e2033]:
+                            - generic [ref=f8e2038]: Python
+                            - button "Copy" [ref=f8e2042] [cursor=pointer]
+                          - code [ref=f8e2046]:
+                            - generic [ref=f8e2047]:
+                              - generic [ref=f8e2048]: from pathlib import Path
+                              - generic [ref=f8e2049]: import hashlib
+                              - generic [ref=f8e2050]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md")
+                              - generic [ref=f8e2051]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v6
+                              - text: "**Reconciled:** 2026-09-26 02:50:00 -05:00 **Authoritative run:** `R20260923T012014` **Target SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Reconciled findings The accumulated evidence establishes: - target SHA was generated and entered CI polling; - first `GRU validation / Core CI contracts` block reproduces as PASS at the exact target SHA; - Semaphore terminated `done/stopped`, with `RESULT_REASON=test`; - no concrete failing test/job/step is known; - target SHA exists in the VPS Git object database; - target SHA is not active and is not an ancestor of the current active VPS HEAD; - successful historical deployment/activation of target SHA is unproven; - no remote activation command or deployment-script execution has been proven; - no local AI-loop/OpenCode service or automation explaining production activation was proven; - local controller lifecycle had observability degradation and SIGTERM/restart events, but no causal link to the Semaphore stop was established; - the `githubactions` user crontab could not be inspected because of permissions. ## Remaining material evidence gap The only concrete inaccessible source that could still explain an automated production checkout/sync is the `githubactions` scheduling surface on the VPS. This is materially different evidence from previous inspections because it was explicitly unavailable. ## Exact next action Perform one final read-only VPS automation provenance inspection, with sufficient authority only to read: - `githubactions` crontab; - system cron entries referencing bot_trading, feature/GRU, git sync/deploy, or `/opt/bot_trad/bot_trading_gru`; - systemd timer/service definitions referencing the same target path or repository. Do not execute any discovered command. Do not reload cron/systemd. Do not signal any process. Do not fetch/checkout/reset/pull/push. Do not query Semaphore/GitHub. Do not deploy. ## Decision after inspection - If a relevant automation is found, inspect its text/config and timestamps read-only to determine whether it can explain the active `d4960be...`. - If no relevant automation is found, classify historical deployment/stop causality as `UNRECOVERABLE_FROM_AVAILABLE_HISTORY`. - At that point, stop historical forensics and move to a guarded same-SHA rerun preflight rather than creating a new code commit. ## Current state ```text CORE_CI_FIRST_BLOCK=PASS TARGET_SHA_DEPLOYED=UNPROVEN TARGET_SHA_ACTIVE=NO CURRENT_VPS_SHA=d4960be98cee3edef96413ee77f200ce744d3461 SEMAPHORE_STOP_CAUSE=UNRESOLVED LOCAL_ACTIVATION_MECHANISM=NOT_PROVEN GITHUBACTIONS_CRONTAB=NOT_YET_READABLE NEXT_ACTION=READONLY_VPS_AUTOMATION_PROVENANCE SAFE_TO_CREATE_NEW_COMMIT=NO SAFE_TO_DEPLOY=NO SAFE_TO_RERUN_SEMAPHORE=NOT_YET FINAL_GO=NO ``` \"\"\""
+                              - generic [ref=f8e2052]: dst.write_text(content, encoding="utf-8")
+                              - generic [ref=f8e2053]:
+                                - text: print(
+                                - generic [ref=f8e2054]: "f\"{dst}\\nSHA256={hashlib.sha256(dst.read_bytes()).hexdigest()}\""
+                                - text: )
+                      - generic [ref=f8e2056]:
+                        - generic [ref=f8e2057]:
+                          - button "Analyzed" [expanded] [ref=f8e2058] [cursor=pointer]
+                          - generic: Analyzed
+                        - generic [ref=f8e2059]:
+                          - generic [ref=f8e2060]:
+                            - generic [ref=f8e2061]:
+                              - generic [ref=f8e2066]: Python
+                              - button "Copy" [ref=f8e2070] [cursor=pointer]
+                            - code [ref=f8e2074]:
+                              - generic [ref=f8e2075]:
+                                - generic [ref=f8e2076]: from pathlib import Path
+                                - generic [ref=f8e2077]: import hashlib
+                                - generic [ref=f8e2078]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md")
+                                - generic [ref=f8e2079]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v6
+                                - text: "**Reconciled:** 2026-09-26 02:50:00 -05:00 **Authoritative run:** `R20260923T012014` **Target SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current VPS SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Reconciled findings The accumulated evidence establishes: - target SHA was generated and entered CI polling; - first `GRU validation / Core CI contracts` block reproduces as PASS at the exact target SHA; - Semaphore terminated `done/stopped`, with `RESULT_REASON=test`; - no concrete failing test/job/step is known; - target SHA exists in the VPS Git object database; - target SHA is not active and is not an ancestor of the current active VPS HEAD; - successful historical deployment/activation of target SHA is unproven; - no remote activation command or deployment-script execution has been proven; - no local AI-loop/OpenCode service or automation explaining production activation was proven; - local controller lifecycle had observability degradation and SIGTERM/restart events, but no causal link to the Semaphore stop was established; - the `githubactions` user crontab could not be inspected because of permissions. ## Remaining material evidence gap The only concrete inaccessible source that could still explain an automated production checkout/sync is the `githubactions` scheduling surface on the VPS. This is materially different evidence from previous inspections because it was explicitly unavailable. ## Exact next action Perform one final read-only VPS automation provenance inspection, with sufficient authority only to read: - `githubactions` crontab; - system cron entries referencing bot_trading, feature/GRU, git sync/deploy, or `/opt/bot_trad/bot_trading_gru`; - systemd timer/service definitions referencing the same target path or repository. Do not execute any discovered command. Do not reload cron/systemd. Do not signal any process. Do not fetch/checkout/reset/pull/push. Do not query Semaphore/GitHub. Do not deploy. ## Decision after inspection - If a relevant automation is found, inspect its text/config and timestamps read-only to determine whether it can explain the active `d4960be...`. - If no relevant automation is found, classify historical deployment/stop causality as `UNRECOVERABLE_FROM_AVAILABLE_HISTORY`. - At that point, stop historical forensics and move to a guarded same-SHA rerun preflight rather than creating a new code commit. ## Current state ```text CORE_CI_FIRST_BLOCK=PASS TARGET_SHA_DEPLOYED=UNPROVEN TARGET_SHA_ACTIVE=NO CURRENT_VPS_SHA=d4960be98cee3edef96413ee77f200ce744d3461 SEMAPHORE_STOP_CAUSE=UNRESOLVED LOCAL_ACTIVATION_MECHANISM=NOT_PROVEN GITHUBACTIONS_CRONTAB=NOT_YET_READABLE NEXT_ACTION=READONLY_VPS_AUTOMATION_PROVENANCE SAFE_TO_CREATE_NEW_COMMIT=NO SAFE_TO_DEPLOY=NO SAFE_TO_RERUN_SEMAPHORE=NOT_YET FINAL_GO=NO ``` \"\"\""
+                                - generic [ref=f8e2080]: dst.write_text(content, encoding="utf-8")
+                                - generic [ref=f8e2081]: print(str(dst))
+                                - generic [ref=f8e2082]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                          - generic [ref=f8e2084]:
+                            - generic [ref=f8e2085]: STDOUT/STDERR
+                            - generic [ref=f8e2086]: /mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md SHA256=a21636ce909f5c60235a654fde65023ad2f3642b5f1fd282a70b5969bfbf58c2
+                      - generic [ref=f8e2088]:
+                        - heading "ChatGPT said:" [level=4] [ref=f8e2089]
+                        - generic [ref=f8e2090]:
+                          - generic [ref=f8e2091]:
+                            - paragraph [ref=f8e2092]:
+                              - text: La evidencia local queda reconciliada como
+                              - strong [ref=f8e2093]: PARTIALLY_ESTABLISHED
+                              - text: ": no hay prueba de que 0c11a13e… haya sido desplegado o activado, tampoco apareció un mecanismo local que explique la activación actual de d4960be…, y la causa original del done/stopped continúa sin ser recuperable. La única fuente material pendiente es la automatización del usuario githubactions, cuyo crontab no pudo inspeccionarse por permisos."
+                            - paragraph [ref=f8e2094]:
+                              - text: "Actualicé el diagnóstico:"
+                              - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md" [ref=f8e2096] [cursor=pointer]:
+                                - generic [ref=f8e2097]: DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md
+                              - text: ". SHA-256: a21636ce909f5c60235a654fde65023ad2f3642b5f1fd282a70b5969bfbf58c2."
+                            - paragraph [ref=f8e2103]:
+                              - text: Esta debe ser la
+                              - strong [ref=f8e2104]: última acción forense antes de cerrar la investigación histórica
+                              - text: ". Inspecciona solamente los mecanismos de automatización que podrían modificar /opt/bot_trad/bot_trading_gru:"
+                            - generic [ref=f8e2106]:
+                              - generic [ref=f8e2107]:
+                                - generic [ref=f8e2112]: Bash
+                                - generic [ref=f8e2114]:
+                                  - button "Enable word wrap" [ref=f8e2116] [cursor=pointer]
+                                  - button "Copy" [ref=f8e2122] [cursor=pointer]
+                              - generic [ref=f8e2125]:
+                                - code [ref=f8e2130]: "set -Eeuo pipefail umask 077 VPS=\"/opt/ai-loop/bin/vps-ssh\" TARGET_SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" CURRENT_SHA=\"d4960be98cee3edef96413ee77f200ce744d3461\" TARGET_PATH=\"/opt/bot_trad/bot_trading_gru\" TARGET_USER=\"githubactions\" E=\"$(mktemp -d \"/tmp/ai-loop-vps-automation-provenance.${TARGET_SHA:0:12}.XXXXXX\")\" fail() { echo \"READONLY_VPS_AUTOMATION_PROVENANCE=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } test -x \"$VPS\" || fail \"VPS_WRAPPER_MISSING:$VPS\" 91 command -v sha256sum >/dev/null 2>&1 || fail \"MISSING_COMMAND:sha256sum\" 92 REMOTE_SCRIPT=\"$(cat <<'REMOTE' set -u TARGET_SHA=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" CURRENT_SHA=\"d4960be98cee3edef96413ee77f200ce744d3461\" TARGET_PATH=\"/opt/bot_trad/bot_trading_gru\" TARGET_USER=\"githubactions\" PATTERN='bot_trading_gru|bot-trading|bot_trading|feature/GRU|githubactions|deploy_feature_gru|sync-feature-gru|git[[:space:]].*(fetch|pull|checkout|reset)|/opt/bot_trad' CRON_RELEVANT=0 SYSTEM_CRON_RELEVANT=0 SYSTEMD_RELEVANT=0 echo \"===== IDENTITY =====\" echo \"REMOTE_USER=$(id -un 2>/dev/null || printf UNKNOWN)\" echo \"REMOTE_UID=$(id -u 2>/dev/null || printf UNKNOWN)\" echo \"TARGET_USER=$TARGET_USER\" echo \"TARGET_PATH=$TARGET_PATH\" echo \"TARGET_SHA=$TARGET_SHA\" echo \"CURRENT_SHA=$CURRENT_SHA\" ############################################################################### # 1. githubactions user crontab — READ ONLY. ############################################################################### echo echo \"===== GITHUBACTIONS CRONTAB =====\" cron_tmp=\"$(mktemp)\" trap 'rm -f \"$cron_tmp\"' EXIT cron_rc=1 if [ \"$(id -un 2>/dev/null || true)\" = \"$TARGET_USER\" ]; then set +e crontab -l >\"$cron_tmp\" 2>/dev/null cron_rc=$? set -e elif [ \"$(id -u 2>/dev/null || true)\" = \"0\" ]; then set +e crontab -u \"$TARGET_USER\" -l >\"$cron_tmp\" 2>/dev/null cron_rc=$? set -e elif command -v sudo >/dev/null 2>&1; then set +e sudo -n crontab -u \"$TARGET_USER\" -l >\"$cron_tmp\" 2>/dev/null cron_rc=$? set -e if [ \"$cron_rc\" -ne 0 ]; then set +e sudo -n -u \"$TARGET_USER\" crontab -l >\"$cron_tmp\" 2>/dev/null cron_rc=$? set -e fi fi case \"$cron_rc\" in 0) echo \"GITHUBACTIONS_CRONTAB=READABLE\" if grep -Ein \"$PATTERN\" \"$cron_tmp\" >/dev/null 2>&1; then CRON_RELEVANT=1 echo \"GITHUBACTIONS_RELEVANT_CRON=YES\" grep -Ein \"$PATTERN\" \"$cron_tmp\" \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^[:space:]]+/\\1=<REDACTED>/Ig' \\ | sed 's/^/CRON_MATCH /' else echo \"GITHUBACTIONS_RELEVANT_CRON=NO\" fi ;; *) echo \"GITHUBACTIONS_CRONTAB=UNREADABLE\" echo \"GITHUBACTIONS_CRONTAB_RC=$cron_rc\" ;; esac ############################################################################### # 2. Direct spool metadata/content if authority permits — READ ONLY. ############################################################################### echo echo \"===== CRONTAB SPOOL =====\" for f in \\ \"/var/spool/cron/crontabs/$TARGET_USER\" \\ \"/var/spool/cron/$TARGET_USER\" do if [ ! -e \"$f\" ]; then continue fi stat -c \\ 'CRON_SPOOL_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true if [ -r \"$f\" ]; then if grep -Ein \"$PATTERN\" \"$f\" >/dev/null 2>&1; then CRON_RELEVANT=1 echo \"CRON_SPOOL_RELEVANT=YES path=$f\" grep -Ein \"$PATTERN\" \"$f\" \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^[:space:]]+/\\1=<REDACTED>/Ig' \\ | sed 's/^/CRON_SPOOL_MATCH /' else echo \"CRON_SPOOL_RELEVANT=NO path=$f\" fi else echo \"CRON_SPOOL_UNREADABLE=$f\" fi done ############################################################################### # 3. System cron surfaces — READ ONLY. ############################################################################### echo echo \"===== SYSTEM CRON =====\" for f in \\ /etc/crontab \\ /etc/cron.d/* do [ -f \"$f\" ] || continue [ -r \"$f\" ] || continue if grep -Ein \"$PATTERN\" \"$f\" >/dev/null 2>&1; then SYSTEM_CRON_RELEVANT=1 stat -c \\ 'SYSTEM_CRON_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true grep -Ein \"$PATTERN\" \"$f\" \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^[:space:]]+/\\1=<REDACTED>/Ig' \\ | sed \"s#^#SYSTEM_CRON_MATCH file=$f #\" fi done if [ \"$SYSTEM_CRON_RELEVANT\" -eq 0 ]; then echo \"SYSTEM_CRON_RELEVANT=NO\" else echo \"SYSTEM_CRON_RELEVANT=YES\" fi ############################################################################### # 4. Systemd unit definitions — READ ONLY. ############################################################################### echo echo \"===== SYSTEMD UNIT PROVENANCE =====\" unit_list=\"$(mktemp)\" trap 'rm -f \"$cron_tmp\" \"$unit_list\"' EXIT for base in \\ /etc/systemd/system \\ /usr/lib/systemd/system \\ /lib/systemd/system do [ -d \"$base\" ] || continue grep -RIlE \\ \"$PATTERN\" \\ \"$base\" 2>/dev/null \\ >>\"$unit_list\" || true done sort -u \"$unit_list\" -o \"$unit_list\" if [ -s \"$unit_list\" ]; then SYSTEMD_RELEVANT=1 echo \"SYSTEMD_RELEVANT=YES\" while IFS= read -r f; do [ -r \"$f\" ] || continue echo \"SYSTEMD_FILE=$f\" stat -c \\ 'SYSTEMD_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true grep -nE \\ '^(Description|ExecStart|ExecStartPre|ExecStartPost|ExecStop|ExecReload|User|WorkingDirectory|Environment|EnvironmentFile|OnCalendar|OnUnitActiveSec|OnBootSec|Unit|WantedBy)=|bot_trading_gru|bot-trading|bot_trading|feature/GRU|/opt/bot_trad' \\ \"$f\" 2>/dev/null \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^[:space:]]+/\\1=<REDACTED>/Ig' \\ | sed 's/^/SYSTEMD_MATCH /' \\ || true done <\"$unit_list\" else echo \"SYSTEMD_RELEVANT=NO\" fi ############################################################################### # 5. Timers currently known to systemd — OBSERVATION ONLY. ############################################################################### echo echo \"===== SYSTEMD TIMER INVENTORY =====\" if command -v systemctl >/dev/null 2>&1; then systemctl list-timers \\ --all \\ --no-pager \\ --no-legend 2>/dev/null \\ | grep -Ei \\ 'bot|gru|trading|deploy|sync|github' \\ | sed 's/^/TIMER_MATCH /' \\ || true else echo \"SYSTEMCTL=UNAVAILABLE\" fi ############################################################################### # 6. Script/path references to production checkout. # Configuration files only; do not execute anything. ############################################################################### echo echo \"===== AUTOMATION SCRIPT REFERENCES =====\" for base in \\ /etc/cron.d \\ /etc/systemd/system \\ /usr/local/bin \\ /usr/local/sbin \\ \"$HOME/.local/bin\" do [ -d \"$base\" ] || continue grep -RIl \\ --binary-files=without-match \\ \"$TARGET_PATH\" \\ \"$base\" 2>/dev/null \\ | head -n 100 \\ | while IFS= read -r f; do [ -r \"$f\" ] || continue echo \"AUTOMATION_REFERENCE_FILE=$f\" stat -c \\ 'AUTOMATION_REFERENCE_STAT path=%n mtime=%y size=%s uid=%u gid=%g mode=%a' \\ \"$f\" 2>/dev/null || true grep -nE \\ \"$TARGET_PATH|feature/GRU|deploy_feature_gru|git[[:space:]].*(fetch|pull|checkout|reset)\" \\ \"$f\" 2>/dev/null \\ | head -n 80 \\ | sed -E \\ 's/([A-Za-z0-9_]*(TOKEN|PASSWORD|SECRET|KEY)[A-Za-z0-9_]*)=[^[:space:]]+/\\1=<REDACTED>/Ig' \\ | sed 's/^/AUTOMATION_REFERENCE /' \\ || true done done ############################################################################### # 7. Final classification. ############################################################################### echo echo \"===== AUTOMATION PROVENANCE CLASSIFICATION =====\" echo \"GITHUBACTIONS_CRON_RELEVANT=$CRON_RELEVANT\" echo \"SYSTEM_CRON_RELEVANT=$SYSTEM_CRON_RELEVANT\" echo \"SYSTEMD_RELEVANT=$SYSTEMD_RELEVANT\" if [ \"$CRON_RELEVANT\" -eq 1 ] || \\ [ \"$SYSTEM_CRON_RELEVANT\" -eq 1 ] || \\ [ \"$SYSTEMD_RELEVANT\" -eq 1 ]; then echo \"AUTOMATION_PROVENANCE=RELEVANT_MECHANISM_FOUND\" else echo \"AUTOMATION_PROVENANCE=NO_RELEVANT_MECHANISM_FOUND\" fi echo echo \"REMOTE_MUTATION=NO\" echo \"CRONTAB_MUTATION=NO\" echo \"SYSTEMD_MUTATION=NO\" echo \"PROCESS_SIGNAL=NO\" echo \"SERVICE_ACTION=NO\" echo \"GIT_MUTATION=NO\" echo \"FETCH_PULL_CHECKOUT_RESET=NO\" echo \"SEMAPHORE_QUERY=NO\" echo \"GITHUB_QUERY=NO\" echo \"DEPLOYMENT=NO\" echo \"READONLY_VPS_AUTOMATION_PROVENANCE=PASS\" REMOTE )\" set +e \"$VPS\" \"$REMOTE_SCRIPT\" \\ >\"$E/automation-provenance.txt\" 2>&1 rc=$? set -e cat \"$E/automation-provenance.txt\" if [ \"$rc\" -ne 0 ]; then echo \"READONLY_VPS_AUTOMATION_PROVENANCE=FAILED\" echo \"VPS_WRAPPER_EXIT_CODE=$rc\" echo \"EVIDENCE_DIR=$E\" exit \"$rc\" fi echo echo \"===== LOCAL EVIDENCE DIGEST =====\" sha256sum \"$E/automation-provenance.txt\" echo echo \"LOCAL_ONLY_EVIDENCE_WRITE=YES\" echo \"VPS_MUTATION=NO\" echo \"SEMAPHORE_MUTATION=NO\" echo \"SOURCE_REPOSITORY_MUTATION=NO\" echo \"EVIDENCE_DIR=$E\""
+                                - button [aria-hidden]
+                            - paragraph [ref=f8e2131]: "El resultado que decide el siguiente estado es:"
+                            - list [ref=f8e2132]:
+                              - listitem [ref=f8e2133]:
+                                - text: "AUTOMATION_PROVENANCE=RELEVANT_MECHANISM_FOUND: investigaremos"
+                                - strong [ref=f8e2134]: solo ese mecanismo encontrado
+                                - text: ", read-only, para correlacionarlo con 2026-09-13 14:38:23 UTC."
+                              - listitem [ref=f8e2135]:
+                                - text: "AUTOMATION_PROVENANCE=NO_RELEVANT_MECHANISM_FOUND: se"
+                                - strong [ref=f8e2136]: termina la investigación histórica
+                                - text: con SEMAPHORE_STOP_CAUSE=UNRECOVERABLE_FROM_AVAILABLE_HISTORY y TARGET_DEPLOYMENT=UNPROVEN. El siguiente paso será un
+                                - strong [ref=f8e2137]: preflight para rerun controlado del mismo SHA 0c11a13e…
+                                - text: ", no un nuevo commit."
+                            - paragraph [ref=f8e2138]:
+                              - text: "Hasta ese resultado siguen vigentes:"
+                              - strong [ref=f8e2139]: no nuevo commit, no deploy, no reset/sync, no kill del simulador y no rerun de Semaphore
+                              - text: .
+                              - button "View analysis" [ref=f8e2142] [cursor=pointer]
+                          - generic [ref=f8e2150]:
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md" [ref=f8e2151] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V6_20260926T025000-0500.md"
+                                - generic: Document
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - button "Download file"
+                    - generic [ref=f8e2153]:
+                      - button "Copy" [ref=f8e2155] [cursor=pointer]
+                      - button "Rate response" [ref=f8e2159] [cursor=pointer]
+                      - button "Share" [ref=f8e2163] [cursor=pointer]
+                      - button "Add to project sources" [ref=f8e2168] [cursor=pointer]
+                      - button "Read aloud" [ref=f8e2173] [cursor=pointer]
+                      - button "Regenerate response" [ref=f8e2569] [cursor=pointer]
+                      - button "More actions" [ref=f8e2181] [cursor=pointer]
+                      - button "Sources" [ref=f8e2187] [cursor=pointer]
+                - generic [ref=f8e2326]:
+                  - generic [ref=f8e2327]:
+                    - generic [ref=f8e2328]:
+                      - heading "You said:" [level=4] [ref=f8e2329]
+                      - generic [ref=f8e2332]:
+                        - generic [ref=f8e2334]:
+                          - generic [ref=f8e2335]:
+                            - generic [ref=f8e2336]: "Completed READONLY_VPS_AUTOMATION_PROVENANCE result for authoritative run R20260923T012014. The VPS evidence directly supports that d4960be98cee3edef96413ee77f200ce744d3461 was promoted at 2026-09-13 14:38:23 UTC on branch feature/GRU. The identified deployment mechanism is /opt/bot_trad/bot_trading_gru/ops/ci/deploy_feature_gru_remote.sh, and its execution is directly supported by VPS journal evidence and retained deployment artifacts. The recorded actor is githubactions. The exact upstream trigger remains UNKNOWN. Active VPS automation includes the githubactions cron supervisor, gru-monitor-reconciler.timer, and bot-ci-breaker.timer. The evidence does not establish that any of those active automations caused the historical promotion, so no such attribution is made. There is no evidence proving that target SHA 0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 was deployed or became active. No Git-hook attribution and no manual-shell attribution were found. No mutation occurred during the read-only provenance inspection. This is not FINAL_GO, DEPLOYMENT_GO, PRODUCTION_GO, END_TO_END_GO, or AI_LOOP_COMPLETE=GO. Please reconcile this evidence and state the exact next action. Immutable delivery marker: VPS-AUTOMATION-PROVENANCE-DELIVERY-20260926-0838-ONCE-C57F3D"
+                            - generic [aria-hidden] [ref=f8e2339]: …
+                          - button "Show more" [ref=f8e2340] [cursor=pointer]
+                        - generic [ref=f8e2346]:
+                          - button "Copy message" [ref=f8e2348] [cursor=pointer]
+                          - button "Share prompt" [ref=f8e2352] [cursor=pointer]
+                          - button "Edit message" [ref=f8e2574] [cursor=pointer]
+                    - generic [ref=f8e2438]:
+                      - button "Worked for 1m 28s" [ref=f8e2439] [cursor=pointer]
+                      - generic: Worked for 1m 28s
+                    - generic [ref=f8e2441]:
+                      - generic [ref=f8e2442]:
+                        - button "Analysis paused" [expanded] [ref=f8e2443] [cursor=pointer]
+                        - generic: Analysis paused
+                      - generic [ref=f8e2445]:
+                        - generic [ref=f8e2446]:
+                          - generic [ref=f8e2451]: Python
+                          - button "Copy" [ref=f8e2455] [cursor=pointer]
+                        - code [ref=f8e2459]:
+                          - generic [ref=f8e2460]:
+                            - generic [ref=f8e2461]: from pathlib import Path
+                            - generic [ref=f8e2462]: import hashlib
+                            - generic [ref=f8e2463]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md")
+                            - generic [ref=f8e2464]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v7
+                            - text: "**Authoritative run:** `R20260923T012014` **Investigated SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current production SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Historical provenance now established VPS evidence directly establishes that: - `d4960be98cee3edef96413ee77f200ce744d3461` was promoted on `feature/GRU`; - promotion timestamp: `2026-09-13 14:38:23 UTC`; - recorded actor: `githubactions`; - deployment mechanism: `/opt/bot_trad/bot_trading_gru/ops/ci/deploy_feature_gru_remote.sh`; - journal evidence and retained deployment artifacts support that execution; - exact upstream trigger remains unknown; - active cron/timers exist, but none is proven to have caused the historical promotion. For target `0c11a13e...`: - first Core CI block reproduced as PASS; - Semaphore ended `done/stopped`; - historical deployment remains unproven; - historical activation remains unproven; - no manual-shell or Git-hook attribution was found. ## Material new branch fact Current GitHub comparison shows `feature/GRU` is now **2 commits ahead** of `0c11a13e...`. The intervening changes include: - `.semaphore/semaphore-production.yml`; - `ops/ci/launch_gru_full_corpus_remote.sh`; - `ops/ci/run_gru_full_corpus_worker_wrapper.sh`; - `ops/ci/prepare_deploy_contract.sh`; - full-corpus validation/evidence tests and helpers. Therefore a newly triggered workflow on the current branch would not be an exact rerun of the historical candidate. ## Corrected next boundary Before any CI rerun, determine: 1. exact current remote `feature/GRU` HEAD; 2. identities/messages/parents of the two commits after `0c11a13e...`; 3. whether those commits intentionally remediate or supersede the stopped candidate; 4. whether the current pipeline contract differs materially from the historical candidate; 5. whether rerunning `0c11a13e...` still has diagnostic/release value. No repository mutation is required. ## Current state ```text D496_HISTORICAL_DEPLOYMENT=PROVEN D496_DEPLOY_ACTOR=githubactions D496_DEPLOY_MECHANISM=deploy_feature_gru_remote.sh D496_UPSTREAM_TRIGGER=UNKNOWN TARGET_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 TARGET_CORE_CI_FIRST_BLOCK=PASS TARGET_DEPLOYMENT=UNPROVEN TARGET_ACTIVATION=UNPROVEN TARGET_SEMAPHORE_RESULT=done/stopped FEATURE_GRU_AHEAD_OF_TARGET=2 PIPELINE_CHANGED_AFTER_TARGET=YES SAFE_TO_TRIGGER_CURRENT_BRANCH_AS_TARGET_RERUN=NO SAFE_TO_CREATE_NEW_COMMIT=NO SAFE_TO_DEPLOY=NO NEXT_ACTION=READONLY_BRANCH_SUCCESSOR_PREFLIGHT FINAL_GO=NO ``` \"\"\""
+                            - generic [ref=f8e2465]: dst.write_text(content, encoding="utf-8")
+                            - generic [ref=f8e2466]: print(str(dst))
+                            - generic [ref=f8e2467]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                    - generic [ref=f8e2469]:
+                      - generic [ref=f8e2470]:
+                        - button "Analyzed" [expanded] [ref=f8e2471] [cursor=pointer]
+                        - generic: Analyzed
+                      - generic [ref=f8e2472]:
+                        - generic [ref=f8e2473]:
+                          - generic [ref=f8e2474]:
+                            - generic [ref=f8e2479]: Python
+                            - button "Copy" [ref=f8e2483] [cursor=pointer]
+                          - code [ref=f8e2487]:
+                            - generic [ref=f8e2488]:
+                              - generic [ref=f8e2489]: from pathlib import Path
+                              - generic [ref=f8e2490]: import hashlib
+                              - generic [ref=f8e2491]: dst = Path("/mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md")
+                              - generic [ref=f8e2492]: content = """# DIAGNOSIS — AI Loop last failure, reconciled v7
+                              - text: "**Authoritative run:** `R20260923T012014` **Investigated SHA:** `0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390` **Current production SHA:** `d4960be98cee3edef96413ee77f200ce744d3461` **Branch:** `feature/GRU` ## Historical provenance now established VPS evidence directly establishes that: - `d4960be98cee3edef96413ee77f200ce744d3461` was promoted on `feature/GRU`; - promotion timestamp: `2026-09-13 14:38:23 UTC`; - recorded actor: `githubactions`; - deployment mechanism: `/opt/bot_trad/bot_trading_gru/ops/ci/deploy_feature_gru_remote.sh`; - journal evidence and retained deployment artifacts support that execution; - exact upstream trigger remains unknown; - active cron/timers exist, but none is proven to have caused the historical promotion. For target `0c11a13e...`: - first Core CI block reproduced as PASS; - Semaphore ended `done/stopped`; - historical deployment remains unproven; - historical activation remains unproven; - no manual-shell or Git-hook attribution was found. ## Material new branch fact Current GitHub comparison shows `feature/GRU` is now **2 commits ahead** of `0c11a13e...`. The intervening changes include: - `.semaphore/semaphore-production.yml`; - `ops/ci/launch_gru_full_corpus_remote.sh`; - `ops/ci/run_gru_full_corpus_worker_wrapper.sh`; - `ops/ci/prepare_deploy_contract.sh`; - full-corpus validation/evidence tests and helpers. Therefore a newly triggered workflow on the current branch would not be an exact rerun of the historical candidate. ## Corrected next boundary Before any CI rerun, determine: 1. exact current remote `feature/GRU` HEAD; 2. identities/messages/parents of the two commits after `0c11a13e...`; 3. whether those commits intentionally remediate or supersede the stopped candidate; 4. whether the current pipeline contract differs materially from the historical candidate; 5. whether rerunning `0c11a13e...` still has diagnostic/release value. No repository mutation is required. ## Current state ```text D496_HISTORICAL_DEPLOYMENT=PROVEN D496_DEPLOY_ACTOR=githubactions D496_DEPLOY_MECHANISM=deploy_feature_gru_remote.sh D496_UPSTREAM_TRIGGER=UNKNOWN TARGET_SHA=0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390 TARGET_CORE_CI_FIRST_BLOCK=PASS TARGET_DEPLOYMENT=UNPROVEN TARGET_ACTIVATION=UNPROVEN TARGET_SEMAPHORE_RESULT=done/stopped FEATURE_GRU_AHEAD_OF_TARGET=2 PIPELINE_CHANGED_AFTER_TARGET=YES SAFE_TO_TRIGGER_CURRENT_BRANCH_AS_TARGET_RERUN=NO SAFE_TO_CREATE_NEW_COMMIT=NO SAFE_TO_DEPLOY=NO NEXT_ACTION=READONLY_BRANCH_SUCCESSOR_PREFLIGHT FINAL_GO=NO ``` \"\"\""
+                              - generic [ref=f8e2493]: dst.write_text(content, encoding="utf-8")
+                              - generic [ref=f8e2494]: print(str(dst))
+                              - generic [ref=f8e2495]: print("SHA256=" + hashlib.sha256(dst.read_bytes()).hexdigest())
+                        - generic [ref=f8e2497]:
+                          - generic [ref=f8e2498]: STDOUT/STDERR
+                          - generic [ref=f8e2499]: /mnt/data/DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md SHA256=ac945d6f2f1c9728d88b3a0738a91e1cf6fa754dc79b553dbc368c7f7dfcd21a
+                    - generic [ref=f8e2510]:
+                      - heading "ChatGPT said:" [level=4] [ref=f8e2511]
+                      - generic [ref=f8e2512]:
+                        - generic [ref=f8e2513]:
+                          - paragraph [ref=f8e2577]:
+                            - text: La evidencia queda reconciliada en dos conclusiones distintas. Primero,
+                            - strong [ref=f8e2578]: d4960be… sí fue desplegado históricamente
+                            - text: el 13 de septiembre de 2026 por githubactions mediante deploy_feature_gru_remote.sh; el trigger que originó esa ejecución sigue desconocido. Segundo,
+                            - strong [ref=f8e2579]: no existe evidencia de que 0c11a13e… haya sido desplegado o activado
+                            - text: ", aunque su primer bloque Core CI sí reproduce PASS."
+                          - paragraph [ref=f8e2580]:
+                            - text: "Además hay un cambio material nuevo: feature/GRU está actualmente"
+                            - strong [ref=f8e2581]: 2 commits por delante de 0c11a13e…
+                            - text: ", y esos commits modifican el propio pipeline de Semaphore y la ruta full-corpus. Por eso"
+                            - strong [ref=f8e2582]: no debemos rerunear todavía la rama actual pensando que sería una repetición de 0c11a13e…
+                            - text: .
+                          - paragraph [ref=f8e2583]:
+                            - text: "Actualicé el diagnóstico:"
+                            - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md" [ref=f8e2585] [cursor=pointer]:
+                              - generic [ref=f8e2586]: DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md
+                            - text: ". SHA-256: ac945d6f2f1c9728d88b3a0738a91e1cf6fa754dc79b553dbc368c7f7dfcd21a."
+                          - paragraph [ref=f8e2592]:
+                            - text: La
+                            - strong [ref=f8e2593]: acción exacta siguiente
+                            - text: "es este preflight read-only de los dos commits sucesores:"
+                          - generic [ref=f8e2524]:
+                            - generic [ref=f8e2525]:
+                              - generic [ref=f8e2530]: Bash
+                              - generic [ref=f8e2532]:
+                                - button "Enable word wrap" [ref=f8e2534] [cursor=pointer]
+                                - button "Copy" [ref=f8e2540] [cursor=pointer]
+                            - code [ref=f8e2544]: "set -Eeuo pipefail umask 077 REPO=\"/mnt/d/works/bot_trad/bot_trading\" OWNER=\"Trochez\" NAME=\"bot_trading\" BRANCH=\"feature/GRU\" TARGET=\"0c11a13e0c6ceb4c9eab3258ce4a10728fcb6390\" E=\"$(mktemp -d \"/tmp/ai-loop-branch-successor-preflight-${TARGET:0:12}.XXXXXX\")\" fail() { echo \"BRANCH_SUCCESSOR_PREFLIGHT=FAILED\" echo \"BLOCKER=$1\" echo \"EVIDENCE_DIR=$E\" exit \"${2:-90}\" } for c in git gh python3 diff sha256sum; do command -v \"$c\" >/dev/null 2>&1 || fail \"MISSING_COMMAND:$c\" 91 done test -d \"$REPO/.git\" || fail \"LOCAL_REPOSITORY_MISSING:$REPO\" 92 ############################################################################### # 1. Freeze source checkout invariants. ############################################################################### git -C \"$REPO\" rev-parse HEAD \\ >\"$E/local-head.before\" git -C \"$REPO\" status --porcelain=v1 -uall \\ >\"$E/local-status.before\" LOCAL_HEAD=\"$(cat \"$E/local-head.before\")\" echo \"LOCAL_HEAD=$LOCAL_HEAD\" echo \"TARGET_SHA=$TARGET\" echo \"TARGET_BRANCH=$BRANCH\" ############################################################################### # 2. Resolve authoritative remote branch HEAD without fetch/pull. ############################################################################### REMOTE_HEAD=\"$( git -C \"$REPO\" ls-remote \\ origin \"refs/heads/$BRANCH\" \\ | awk 'NR==1 {print $1}' )\" [[ \"$REMOTE_HEAD\" =~ ^[0-9a-f]{40}$ ]] || fail \"REMOTE_HEAD_UNRESOLVED\" 93 echo \"REMOTE_HEAD=$REMOTE_HEAD\" ############################################################################### # 3. GitHub compare: TARGET -> current feature/GRU HEAD. # READ ONLY. No jq dependency. ############################################################################### gh api \\ -H \"Accept: application/vnd.github+json\" \\ \"/repos/$OWNER/$NAME/compare/$TARGET...$REMOTE_HEAD\" \\ >\"$E/compare.json\" python3 - \\ \"$E/compare.json\" \\ \"$TARGET\" \\ \"$REMOTE_HEAD\" <<'PY' \\ | tee \"$E/compare-summary.txt\" import json import sys path, target, remote = sys.argv[1:] with open(path, encoding=\"utf-8\") as fh: d = json.load(fh) print(\"COMPARE_STATUS=\" + str(d.get(\"status\"))) print(\"AHEAD_BY=\" + str(d.get(\"ahead_by\"))) print(\"BEHIND_BY=\" + str(d.get(\"behind_by\"))) print(\"TOTAL_COMMITS=\" + str(d.get(\"total_commits\"))) base = (d.get(\"base_commit\") or {}).get(\"sha\") merge = (d.get(\"merge_base_commit\") or {}).get(\"sha\") print(\"BASE_COMMIT=\" + str(base)) print(\"MERGE_BASE=\" + str(merge)) if base != target: print(\"TARGET_BASE_MATCH=NO\") raise SystemExit(31) if merge != target: print(\"TARGET_MERGE_BASE_MATCH=NO\") raise SystemExit(32) print(\"TARGET_BASE_MATCH=YES\") print(\"TARGET_MERGE_BASE_MATCH=YES\") commits = d.get(\"commits\") or [] print(f\"SUCCESSOR_COMMIT_COUNT={len(commits)}\") for i, c in enumerate(commits, 1): sha = c.get(\"sha\") commit = c.get(\"commit\") or {} msg = (commit.get(\"message\") or \"\").replace(\"\\n\", \" | \") author = commit.get(\"author\") or {} committer = commit.get(\"committer\") or {} parents = \",\".join( p.get(\"sha\", \"\") for p in (c.get(\"parents\") or []) ) print(f\"SUCCESSOR_{i}_SHA={sha}\") print(f\"SUCCESSOR_{i}_PARENTS={parents}\") print(f\"SUCCESSOR_{i}_AUTHOR_DATE={author.get('date')}\") print(f\"SUCCESSOR_{i}_COMMITTER_DATE={committer.get('date')}\") print(f\"SUCCESSOR_{i}_MESSAGE={msg}\") print(\"CHANGED_FILES_BEGIN\") for f in d.get(\"files\") or []: print( \"{}\\t{}\\t+{}\\t-{}\".format( f.get(\"status\"), f.get(\"filename\"), f.get(\"additions\", 0), f.get(\"deletions\", 0), ) ) print(\"CHANGED_FILES_END\") PY ############################################################################### # 4. Extract successor SHAs deterministically. ############################################################################### python3 - \"$E/compare.json\" >\"$E/successor-shas.txt\" <<'PY' import json import sys with open(sys.argv[1], encoding=\"utf-8\") as fh: d = json.load(fh) for c in d.get(\"commits\") or []: sha = c.get(\"sha\") if sha: print(sha) PY COUNT=\"$(wc -l <\"$E/successor-shas.txt\" | tr -d ' ')\" echo \"SUCCESSOR_COUNT=$COUNT\" if [ \"$COUNT\" -ne 2 ]; then echo \"EXPECTED_SUCCESSOR_COUNT=2\" echo \"ACTUAL_SUCCESSOR_COUNT=$COUNT\" echo \"BRANCH_MOVED_SINCE_PREVIOUS_VERIFICATION=YES\" echo \"EVIDENCE_DIR=$E\" exit 40 fi ############################################################################### # 5. Read exact metadata for each successor commit. ############################################################################### n=0 while IFS= read -r sha; do n=$((n + 1)) gh api \\ -H \"Accept: application/vnd.github+json\" \\ \"/repos/$OWNER/$NAME/commits/$sha\" \\ >\"$E/successor-${n}.json\" python3 - \"$E/successor-${n}.json\" \"$n\" <<'PY' import json import sys path = sys.argv[1] n = sys.argv[2] with open(path, encoding=\"utf-8\") as fh: d = json.load(fh) commit = d.get(\"commit\") or {} author = commit.get(\"author\") or {} committer = commit.get(\"committer\") or {} print(f\"===== SUCCESSOR {n} =====\") print(\"SHA=\" + str(d.get(\"sha\"))) print( \"PARENTS=\" + \",\".join(p.get(\"sha\", \"\") for p in d.get(\"parents\") or []) ) print(\"AUTHOR=\" + str(author.get(\"name\"))) print(\"AUTHOR_DATE=\" + str(author.get(\"date\"))) print(\"COMMITTER=\" + str(committer.get(\"name\"))) print(\"COMMITTER_DATE=\" + str(committer.get(\"date\"))) print( \"MESSAGE=\" + (commit.get(\"message\") or \"\").replace(\"\\n\", \" | \") ) print(\"FILES_BEGIN\") for f in d.get(\"files\") or []: print( \"{}\\t{}\\t+{}\\t-{}\".format( f.get(\"status\"), f.get(\"filename\"), f.get(\"additions\", 0), f.get(\"deletions\", 0), ) ) print(\"FILES_END\") PY done <\"$E/successor-shas.txt\" \\ | tee \"$E/successor-details.txt\" ############################################################################### # 6. Retrieve historical vs current Semaphore pipeline definitions. ############################################################################### get_file_at_ref() { ref=\"$1\" out=\"$2\" gh api \\ -H \"Accept: application/vnd.github.raw+json\" \\ \"/repos/$OWNER/$NAME/contents/.semaphore/semaphore-production.yml?ref=$ref\" \\ >\"$out\" } get_file_at_ref \\ \"$TARGET\" \\ \"$E/semaphore-production.target.yml\" get_file_at_ref \\ \"$REMOTE_HEAD\" \\ \"$E/semaphore-production.current.yml\" ############################################################################### # 7. Exact pipeline diff. ############################################################################### echo \"===== SEMAPHORE PIPELINE DIFF =====\" set +e diff -u \\ \"$E/semaphore-production.target.yml\" \\ \"$E/semaphore-production.current.yml\" \\ >\"$E/semaphore-production.diff\" diff_rc=$? set -e cat \"$E/semaphore-production.diff\" case \"$diff_rc\" in 0) echo \"SEMAPHORE_PIPELINE_CHANGED=NO\" ;; 1) echo \"SEMAPHORE_PIPELINE_CHANGED=YES\" ;; *) fail \"PIPELINE_DIFF_FAILED:$diff_rc\" 94 ;; esac ############################################################################### # 8. Classify whether successors touch the failed execution domain. ############################################################################### python3 - \\ \"$E/compare.json\" <<'PY' \\ | tee \"$E/successor-classification.txt\" import json import sys with open(sys.argv[1], encoding=\"utf-8\") as fh: d = json.load(fh) files = { f.get(\"filename\", \"\") for f in (d.get(\"files\") or []) } domains = { \"SEMAPHORE_PIPELINE\": any( x.startswith(\".semaphore/\") for x in files ), \"FULL_CORPUS_RUNTIME\": any( \"full_corpus\" in x for x in files ), \"DEPLOY_CONTRACT\": any( x.endswith(\"prepare_deploy_contract.sh\") or x.endswith(\"deploy_feature_gru_remote.sh\") for x in files ), \"P2_RUNTIME\": any( \"p2\" in x.lower() for x in files ), } for key, val in domains.items(): print(f\"{key}_CHANGED={'YES' if val else 'NO'}\") material = ( domains[\"SEMAPHORE_PIPELINE\"] or domains[\"FULL_CORPUS_RUNTIME\"] or domains[\"DEPLOY_CONTRACT\"] ) print( \"SUCCESSORS_MATERIALLY_CHANGE_STOPPED_PATH=\" + (\"YES\" if material else \"NO\") ) PY ############################################################################### # 9. Re-prove no source checkout mutation. ############################################################################### git -C \"$REPO\" rev-parse HEAD \\ >\"$E/local-head.after\" git -C \"$REPO\" status --porcelain=v1 -uall \\ >\"$E/local-status.after\" cmp -s \\ \"$E/local-head.before\" \\ \"$E/local-head.after\" || fail \"LOCAL_HEAD_CHANGED\" 95 cmp -s \\ \"$E/local-status.before\" \\ \"$E/local-status.after\" || fail \"LOCAL_WORKTREE_CHANGED\" 96 ############################################################################### # 10. Evidence manifest. ############################################################################### find \"$E\" \\ -maxdepth 1 \\ -type f \\ ! -name SHA256SUMS \\ -print0 \\ | sort -z \\ | xargs -0 sha256sum \\ >\"$E/SHA256SUMS\" echo echo \"===== FINAL PREFLIGHT STATE =====\" echo \"TARGET_SHA=$TARGET\" echo \"CURRENT_REMOTE_HEAD=$REMOTE_HEAD\" echo \"SUCCESSOR_COUNT=$COUNT\" grep \\ 'SUCCESSORS_MATERIALLY_CHANGE_STOPPED_PATH=' \\ \"$E/successor-classification.txt\" echo \"LOCAL_SOURCE_MUTATION=NO\" echo \"GITHUB_MUTATION=NO\" echo \"SEMAPHORE_QUERY=NO\" echo \"SEMAPHORE_RERUN=NO\" echo \"VPS_QUERY=NO\" echo \"VPS_MUTATION=NO\" echo \"DEPLOYMENT=NO\" echo \"COMMIT_OR_PUSH=NO\" echo \"BRANCH_SUCCESSOR_PREFLIGHT=PASS\" echo \"EVIDENCE_DIR=$E\""
+                          - paragraph [ref=f8e2594]: "Esta acción decide qué hacer después:"
+                          - list [ref=f8e2595]:
+                            - listitem [ref=f8e2596]:
+                              - text: Si SUCCESSORS_MATERIALLY_CHANGE_STOPPED_PATH=YES,
+                              - strong [ref=f8e2597]: no reruneamos 0c11a13e… automáticamente
+                              - text: . Revisamos los dos commits como posible remediación/supersesión y el candidato relevante pasa a ser el HEAD actual.
+                            - listitem [ref=f8e2598]: Si fuese NO, tendría sentido plantear un rerun exacto del run histórico.
+                            - listitem [ref=f8e2599]: Si SUCCESSOR_COUNT ya no es 2, la rama volvió a avanzar y se detiene el proceso antes de lanzar CI.
+                          - paragraph [ref=f8e2600]:
+                            - text: Con la evidencia disponible actualmente,
+                            - strong [ref=f8e2601]: el caso más probable es YES
+                            - text: ", porque ya confirmé que los cambios posteriores incluyen .semaphore/semaphore-production.yml y múltiples componentes de full-corpus. El preflight debe darnos los SHAs, mensajes y diff exactos antes de decidir el CI siguiente."
+                            - button "View analysis" [ref=f8e2604] [cursor=pointer]
+                        - generic [ref=f8e2612]:
+                          - button "Open preview of DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md" [ref=f8e2613] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic "DIAGNOSIS_AI_LOOP_LAST_FAILURE_RECONCILED_V7_20260926.md"
+                              - generic: Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Download file"
+                  - generic [ref=f8e2615]:
+                    - button "Copy" [ref=f8e2617] [cursor=pointer]
+                    - button "Rate response" [ref=f8e2621] [cursor=pointer]
+                    - button "Share" [ref=f8e2625] [cursor=pointer]
+                    - button "Add to project sources" [ref=f8e2630] [cursor=pointer]
+                    - button "Read aloud" [ref=f8e2635] [cursor=pointer]
+                    - button "Regenerate response" [ref=f8e2639] [cursor=pointer]
+                    - button "More actions" [ref=f8e2643] [cursor=pointer]
+                    - button "Sources" [ref=f8e2649] [cursor=pointer]
+            - generic [ref=f8e2191]: ChatGPT can make mistakes. Check important info.
+          - generic:
+            - generic:
+              - button "Scroll to bottom" [ref=f8e2504] [cursor=pointer]
+              - heading "Latest response" [level=4] [ref=f8e2194]
+              - status [ref=f8e2195]
+              - generic [ref=f8e2206]:
+                - button "Add files and more" [ref=f8e2211] [cursor=pointer]
+                - textbox "Ask ChatGPT" [ref=f8e2217]:
+                  - paragraph: Ask ChatGPT
+                - generic [ref=f8e2219]:
+                  - button "Select ChatGPT model" [active] [ref=f8e2223] [cursor=pointer]:
+                    - generic [ref=f8e2224]: High
+                  - generic [ref=f8e2234]:
+                    - button "Dictate" [ref=f8e2237] [cursor=pointer]
+                    - button "Start Voice" [ref=f8e2655] [cursor=pointer]
+      - status [ref=f8e2249]
+  - status [ref=f8e2250]
+  - status [ref=f8e2251]
+  - status [ref=f8e2252]: Response complete

@@ -1,0 +1,593 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "model_fallback": true,
+  "runtime_fallback": {
+    "enabled": true,
+    "retry_on_errors": [
+      429,
+      500,
+      502,
+      503,
+      504,
+      529
+    ],
+    "retry_on_timeout": true,
+    "retry_on_network_error": true,
+    "max_fallback_attempts": 5,
+    "backoff_ms": 1000,
+    "max_backoff_ms": 30000,
+    "timeout_seconds": 120,
+    "cooldown_seconds": 30,
+    "model": "opencode/deepseek-v4-flash-free",
+    "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+  },
+  "providerOptions": {
+    "enable-auto-tool-choice": true,
+    "tool-call-parser": "auto",
+    "model": "opencode/deepseek-v4-flash-free",
+    "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+  },
+  "provider": {
+    "nvidia": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode/deepseek-v4-flash-free",
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "openai": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "options": {
+        "timeout": 120000,
+        "chunkTimeout": 30000,
+        "model": "opencode/deepseek-v4-flash-free",
+        "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+      },
+      "models": {
+        "gpt-5": {
+          "name": "Gpt 5",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5-mini": {
+          "name": "Gpt 5 Mini",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.4": {
+          "name": "Gpt 5.4",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.4-mini": {
+          "name": "Gpt 5.4 Mini",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.4-nano": {
+          "name": "Gpt 5.4 Nano",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.4-pro": {
+          "name": "Gpt 5.4 Pro",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.5": {
+          "name": "Gpt 5.5",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        },
+        "gpt-5.5-pro": {
+          "name": "Gpt 5.5 Pro",
+          "model": "opencode/deepseek-v4-flash-free",
+          "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+        }
+      }
+    },
+    "opencode": {
+      "timeout": 120000,
+      "chunkTimeout": 30000,
+      "model": "opencode/deepseek-v4-flash-free",
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    }
+  },
+  "background_task": {
+    "staleTimeoutMs": 60000,
+    "circuitBreaker": {
+      "enabled": true,
+      "consecutiveThreshold": 50,
+      "maxToolCalls": 8000
+    },
+    "model": "opencode/deepseek-v4-flash-free",
+    "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+  },
+  "agents": {
+    "sisyphus": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "thinking": {
+        "type": "enabled",
+        "budgetTokens": 10000
+      },
+      "mode": "primary",
+      "category": "orchestrator",
+      "skills": [
+        "ralph",
+        "autopilot",
+        "ultrawork"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "write": true,
+        "task": true,
+        "webfetch": true,
+        "websearch": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow",
+        "task": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#9400D3",
+      "fallback_models": [
+        "nvidia/deepseek-ai/deepseek-v4-pro",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "hephaestus": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "executor",
+      "skills": [],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "write": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "allow_non_gpt_model": true,
+      "color": "#4ECDC4",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm4.7",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "oracle": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "high",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "consultant",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#9B59B6",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "explore": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "search",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "low",
+      "color": "#3498DB",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm4.7"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "prometheus": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "primary",
+      "category": "planner",
+      "skills": [
+        "plan",
+        "ralplan"
+      ],
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true,
+        "grep": true,
+        "glob": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#E74C3C",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/google/gemma-4-31b-it",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "metis": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "max",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "analyst",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#1ABC9C",
+      "fallback_models": [
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "momus": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "reviewer",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "high",
+      "color": "#F39C12",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "librarian": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "research",
+      "tools": {
+        "webfetch": true,
+        "websearch": true,
+        "read": true,
+        "bash": true,
+        "edit": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#2ECC71",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "multimodal-looker": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "visual",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#E67E22",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/deepseek-ai/deepseek-v4-pro",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "atlas": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "knowledge",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#95A5A6",
+      "fallback_models": [
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/google/gemma-4-31b-it",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "sisyphus-junior": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "mode": "subagent",
+      "category": "orchestrator-junior",
+      "tools": {
+        "bash": true,
+        "edit": true,
+        "read": true
+      },
+      "permission": {
+        "edit": "allow",
+        "bash": "allow"
+      },
+      "textVerbosity": "medium",
+      "color": "#FF6B6B",
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-nano-30b-a3b",
+        "nvidia/z-ai/glm4.7",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/deepseek-ai/deepseek-v4-pro"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/deepseek-ai/deepseek-v4-pro",
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "ultrabrain": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "xhigh",
+      "reasoningEffort": "xhigh",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/google/gemma-4-31b-it"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "deep": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/z-ai/glm4.7",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "artistry": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "high",
+      "reasoningEffort": "high",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/deepseek-ai/deepseek-v4-pro",
+        "nvidia/google/gemma-4-31b-it",
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "quick": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-nano-30b-a3b",
+        "nvidia/z-ai/glm4.7",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/deepseek-ai/deepseek-v4-pro"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "unspecified-low": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/nvidia/nemotron-3-nano-30b-a3b",
+        "nvidia/z-ai/glm4.7",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/deepseek-ai/deepseek-v4-pro"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "unspecified-high": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "medium",
+      "reasoningEffort": "medium",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/google/gemma-4-31b-it",
+        "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    },
+    "writing": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "variant": "low",
+      "reasoningEffort": "minimal",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "maxTokens": 16384,
+      "fallback_models": [
+        "nvidia/z-ai/glm-5.1",
+        "nvidia/google/gemma-4-31b-it",
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512",
+        "nvidia/nvidia/nemotron-3-super-120b-a12b"
+      ],
+      "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    }
+  },
+  "ranking_selection_note": {
+    "source_file": "oh-my-opencode.json",
+    "selection_rule": "Top 1 del ranking como model; posiciones 2-5 como fallback_models.",
+    "scope": "Solo modelos NVIDIA Build / NIM seg\u00fan el ranking usado en la conversaci\u00f3n.",
+    "generated_at": "2026-05-14",
+    "openai_fallback_update": "OpenAI fallback models were appended at the end of each agent/category fallback_models list using the corresponding OpenAI entries from the attached JSON, while preserving the existing NVIDIA model order and values.",
+    "model": "opencode/deepseek-v4-flash-free",
+    "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "unresponsive_model_update": "Removed one NVIDIA fallback model that had 5 consecutive failed attempts.",
+    "repair_update": "Generated from the latest repaired JSON. Invalid/unresponsive/non-chat models were removed. Each agent/category now has exactly 5 total models: 1 primary model plus 4 fallback_models. Missing slots were filled with the next valid NVIDIA chat models according to the available ranking/order, then OpenAI only if NVIDIA candidates were insufficient.",
+    "removed_models": [
+      "mistral-small-4-119b-2603",
+      "flux.2-klein-4b",
+      "qwen-image",
+      "qwen-image-edit",
+      "ai-for-media-relighting",
+      "minimax-m2.7"
+    ],
+    "model_count_rule": "Each agents.* and categories.* entry must contain exactly 5 models total: model + 4 fallback_models."
+  },
+  "model": "opencode/deepseek-v4-flash-free",
+  "small_model": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+}

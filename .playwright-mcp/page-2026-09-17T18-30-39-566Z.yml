@@ -1,0 +1,247 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "logo Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e6]
+        - generic [ref=e7]: Home
+      - generic [ref=e9] [cursor=pointer]:
+        - img "list" [ref=e10]
+        - text: Projects
+      - text: ★
+      - link "list Create new" [ref=e12] [cursor=pointer]:
+        - /url: /x/new_project
+        - img "list" [ref=e13]
+        - generic [ref=e14]: Create new
+    - generic [ref=e15]:
+      - img "tromon92" [ref=e17] [cursor=pointer]
+      - generic [ref=e18] [cursor=pointer]
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Here’s what’s going on" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Things of your interest across the organization
+    - navigation [ref=e27]:
+      - link "My Work" [ref=e28] [cursor=pointer]:
+        - /url: /?dashboard=my-work
+      - link "Everyone's Work" [ref=e32] [cursor=pointer]:
+        - /url: /?dashboard=everyones-activity
+      - link "My Starred Projects" [ref=e36] [cursor=pointer]:
+        - /url: /?dashboard=starred
+      - link "hive Organization Health" [ref=e40] [cursor=pointer]:
+        - /url: /?dashboard=organization-health
+        - generic [ref=e41]: hive
+        - generic [ref=e42]: Organization Health
+    - generic [ref=e43]:
+      - paragraph [ref=e44]: In the last 7 days
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - link "feature/GRU" [ref=e51] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e52] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e53]:
+            - generic [ref=e58]:
+              - link "noop" [ref=e60] [cursor=pointer]:
+                - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+              - generic [ref=e64]:
+                - link "Failed" [ref=e65] [cursor=pointer]:
+                  - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+                - link "GRU Semaphore production fallback" [ref=e66] [cursor=pointer]:
+                  - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+                - generic [ref=e67]: ·
+                - generic [ref=e68]: 00:16
+                - generic [ref=e69]: ·
+                - generic [ref=e70]: Triggered by API call by tromon92 Thu 17th Sep 2026 at 12:05
+            - generic [ref=e71]: Thu 17th Sep 2026 at 12:05 by tromon92
+        - generic [ref=e75]:
+          - generic [ref=e78]:
+            - link "feature/GRU" [ref=e79] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e80] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e81]:
+            - generic [ref=e86]:
+              - 'link "fix(ci): close single-commit exact-sha semaphore GO path" [ref=e88] [cursor=pointer]':
+                - /url: /workflows/f2f77bb9-cf92-4109-83eb-5a0b58691cb1?pipeline_id=2dd01a97-b867-4ad1-9915-0e824facb8b7
+              - generic [ref=e92]:
+                - link "Failed" [ref=e93] [cursor=pointer]:
+                  - /url: /workflows/f2f77bb9-cf92-4109-83eb-5a0b58691cb1?pipeline_id=2dd01a97-b867-4ad1-9915-0e824facb8b7
+                - link "GRU Semaphore production fallback" [ref=e94] [cursor=pointer]:
+                  - /url: /workflows/f2f77bb9-cf92-4109-83eb-5a0b58691cb1?pipeline_id=2dd01a97-b867-4ad1-9915-0e824facb8b7
+                - generic [ref=e95]: ·
+                - generic [ref=e96]: 00:09
+                - generic [ref=e97]: ·
+                - generic [ref=e98]: Triggered by API call by tromon92 Wed 16th Sep 2026 at 01:41
+            - generic [ref=e99]: Wed 16th Sep 2026 at 01:41 by tromon92
+        - generic [ref=e103]:
+          - generic [ref=e106]:
+            - link "feature/GRU" [ref=e107] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e108] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e109]:
+            - generic [ref=e114]:
+              - 'link "fix(gru): make raw payload persistence unicode-safe" [ref=e116] [cursor=pointer]':
+                - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=414e2805-3bf8-4be4-bd0d-07fb05cc9437
+              - generic [ref=e118]:
+                - generic [ref=e120]:
+                  - link "Stopped" [ref=e121] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=414e2805-3bf8-4be4-bd0d-07fb05cc9437
+                  - link "GRU Semaphore production fallback" [ref=e122] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=414e2805-3bf8-4be4-bd0d-07fb05cc9437
+                  - generic [ref=e123]: ·
+                  - generic [ref=e124]: 30:52
+                  - generic [ref=e125]: ·
+                  - generic [ref=e126]: Triggered by API call by tromon92 - Stopped Thu 10th Sep 2026 at 23:46
+                - generic [ref=e128]:
+                  - link "Failed" [ref=e129] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=b21f0ef4-fc79-4c3f-bf7e-4a613d19cee6
+                  - generic [ref=e130]: └
+                  - link "GRU Semaphore production fallback" [ref=e131] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=b21f0ef4-fc79-4c3f-bf7e-4a613d19cee6
+                  - generic [ref=e132]: ·
+                  - generic [ref=e133]: 00:28
+                  - generic [ref=e134]: ·
+                  - generic [ref=e135]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e136] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=414e2805-3bf8-4be4-bd0d-07fb05cc9437
+                    - text: by tromon92 Fri 11th Sep 2026 at 15:33
+                - generic [ref=e138]:
+                  - link "Failed" [ref=e139] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=431b1e19-56bb-4188-8052-e0f4081b518e
+                  - generic [ref=e140]: └
+                  - link "GRU Semaphore production fallback" [ref=e141] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=431b1e19-56bb-4188-8052-e0f4081b518e
+                  - generic [ref=e142]: ·
+                  - generic [ref=e143]: 00:07
+                  - generic [ref=e144]: ·
+                  - generic [ref=e145]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e146] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=414e2805-3bf8-4be4-bd0d-07fb05cc9437
+                    - text: by tromon92 Fri 11th Sep 2026 at 15:47
+                - generic [ref=e148]:
+                  - link "Failed" [ref=e149] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=cf03acbf-e61e-4aaf-ad60-e3a20b5d5024
+                  - generic [ref=e150]: └
+                  - link "GRU Semaphore production fallback" [ref=e151] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=cf03acbf-e61e-4aaf-ad60-e3a20b5d5024
+                  - generic [ref=e152]: ·
+                  - generic [ref=e153]: 00:06
+                  - generic [ref=e154]: ·
+                  - generic [ref=e155]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e156] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=431b1e19-56bb-4188-8052-e0f4081b518e
+                    - text: by tromon92 Fri 11th Sep 2026 at 16:08
+                - generic [ref=e158]:
+                  - link "Stopped" [ref=e159] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=b46ead1d-813e-4aa8-ac6c-168f55d19e0f
+                  - generic [ref=e160]: └
+                  - link "GRU Semaphore production fallback" [ref=e161] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=b46ead1d-813e-4aa8-ac6c-168f55d19e0f
+                  - generic [ref=e162]: ·
+                  - generic [ref=e163]: 12:59
+                  - generic [ref=e164]: ·
+                  - generic [ref=e165]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e166] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=cf03acbf-e61e-4aaf-ad60-e3a20b5d5024
+                    - text: by tromon92 - Stopped by tromon92 Fri 11th Sep 2026 at 16:12
+                - generic [ref=e168]:
+                  - link "Stopped" [ref=e169] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=a6dafcd8-ac08-4085-bc33-f831881f1d64
+                  - generic [ref=e170]: └
+                  - link "GRU Semaphore production fallback" [ref=e171] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=a6dafcd8-ac08-4085-bc33-f831881f1d64
+                  - generic [ref=e172]: ·
+                  - generic [ref=e173]: 30:45
+                  - generic [ref=e174]: ·
+                  - generic [ref=e175]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e176] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=b46ead1d-813e-4aa8-ac6c-168f55d19e0f
+                    - text: by tromon92 - Stopped Fri 11th Sep 2026 at 16:27
+                - generic [ref=e178]:
+                  - link "Failed" [ref=e179] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=d50dcae5-6e12-4dd5-91a6-058a6259df03
+                  - generic [ref=e180]: └
+                  - link "GRU Semaphore production fallback" [ref=e181] [cursor=pointer]:
+                    - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=d50dcae5-6e12-4dd5-91a6-058a6259df03
+                  - generic [ref=e182]: ·
+                  - generic [ref=e183]: 00:22
+                  - generic [ref=e184]: ·
+                  - generic [ref=e185]:
+                    - text: Partial rerun of a
+                    - link "Pipeline" [ref=e186] [cursor=pointer]:
+                      - /url: /workflows/27126788-5e82-4370-a00c-c9a434bfbb5d?pipeline_id=a6dafcd8-ac08-4085-bc33-f831881f1d64
+                    - text: by tromon92 Mon 14th Sep 2026 at 12:37
+            - generic [ref=e187]: Thu 10th Sep 2026 at 23:46 by tromon92
+        - generic [ref=e191]:
+          - generic [ref=e194]:
+            - link "feature/GRU" [ref=e195] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e196] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e197]:
+            - generic [ref=e202]:
+              - 'link "fix(ci): isolate cron preflight logging and expose terminal evidence" [ref=e204] [cursor=pointer]':
+                - /url: /workflows/92a0b5c5-0e68-4ebf-8f0d-5bfa20163f0f?pipeline_id=7474f602-cbd0-4115-8fab-6c45ac839935
+              - generic [ref=e208]:
+                - link "Stopped" [ref=e209] [cursor=pointer]:
+                  - /url: /workflows/92a0b5c5-0e68-4ebf-8f0d-5bfa20163f0f?pipeline_id=7474f602-cbd0-4115-8fab-6c45ac839935
+                - link "GRU Semaphore production fallback" [ref=e210] [cursor=pointer]:
+                  - /url: /workflows/92a0b5c5-0e68-4ebf-8f0d-5bfa20163f0f?pipeline_id=7474f602-cbd0-4115-8fab-6c45ac839935
+                - generic [ref=e211]: ·
+                - generic [ref=e212]: 31:03
+                - generic [ref=e213]: ·
+                - generic [ref=e214]: Triggered by API call by tromon92 - Stopped Thu 10th Sep 2026 at 15:54
+            - generic [ref=e215]: Thu 10th Sep 2026 at 15:54 by tromon92
+        - generic [ref=e219]:
+          - generic [ref=e222]:
+            - link "feature/GRU" [ref=e223] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e224] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e225]:
+            - generic [ref=e230]:
+              - 'link "fix(ci): restore bounded durable P2 observation contract" [ref=e232] [cursor=pointer]':
+                - /url: /workflows/0a25e480-a6e1-43df-bba9-6a4b3b6be6ec?pipeline_id=4a9de1d1-ae5d-4c5a-80de-a659b01e533f
+              - generic [ref=e236]:
+                - link "Failed" [ref=e237] [cursor=pointer]:
+                  - /url: /workflows/0a25e480-a6e1-43df-bba9-6a4b3b6be6ec?pipeline_id=4a9de1d1-ae5d-4c5a-80de-a659b01e533f
+                - link "GRU Semaphore production fallback" [ref=e238] [cursor=pointer]:
+                  - /url: /workflows/0a25e480-a6e1-43df-bba9-6a4b3b6be6ec?pipeline_id=4a9de1d1-ae5d-4c5a-80de-a659b01e533f
+                - generic [ref=e239]: ·
+                - generic [ref=e240]: 01:30
+                - generic [ref=e241]: ·
+                - generic [ref=e242]: Triggered by API call by tromon92 Thu 10th Sep 2026 at 15:38
+            - generic [ref=e243]: Thu 10th Sep 2026 at 15:38 by tromon92
+        - generic [ref=e247]:
+          - generic [ref=e250]:
+            - link "feature/GRU" [ref=e251] [cursor=pointer]:
+              - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+            - text: from project
+            - link "bot_trading" [ref=e252] [cursor=pointer]:
+              - /url: /projects/bot_trading
+          - generic [ref=e253]:
+            - generic [ref=e258]:
+              - 'link "fix(gru): make full-corpus acceptance durable and fail closed" [ref=e260] [cursor=pointer]':
+                - /url: /workflows/7a7d2cf5-c1c4-49ed-9162-5fdfe615faef?pipeline_id=cb0d6692-d3da-42fe-854d-700a4c8a22b1
+              - generic [ref=e264]:
+                - link "Failed" [ref=e265] [cursor=pointer]:
+                  - /url: /workflows/7a7d2cf5-c1c4-49ed-9162-5fdfe615faef?pipeline_id=cb0d6692-d3da-42fe-854d-700a4c8a22b1
+                - link "GRU Semaphore production fallback" [ref=e266] [cursor=pointer]:
+                  - /url: /workflows/7a7d2cf5-c1c4-49ed-9162-5fdfe615faef?pipeline_id=cb0d6692-d3da-42fe-854d-700a4c8a22b1
+                - generic [ref=e267]: ·
+                - generic [ref=e268]: 00:13
+                - generic [ref=e269]: ·
+                - generic [ref=e270]: Triggered by API call by tromon92 Thu 10th Sep 2026 at 15:14
+            - generic [ref=e271]: Thu 10th Sep 2026 at 15:14 by tromon92

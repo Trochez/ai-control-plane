@@ -1,0 +1,26 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: ChatGPT
+          - generic [ref=e19]
+        - navigation "Chat history" [ref=e35]:
+          - button "New chat" [ref=e39] [cursor=pointer]
+          - generic [ref=e48]
+        - generic [ref=e484] [cursor=pointer]:
+          - button "Open profile menu" [ref=e485]
+          - generic
+      - generic:
+        - separator
+    - generic [ref=e486]:
+      - main [ref=e488]:
+        - generic:
+          - generic
+        - generic [ref=e522]:
+          - generic [ref=e523]
+          - generic
+      - status [ref=e1409]
+  - status [ref=e1372]
+  - status [ref=e1373]
+  - status [ref=e1374]

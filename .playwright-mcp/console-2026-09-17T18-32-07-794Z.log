@@ -1,0 +1,14 @@
+[     473ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://trochez.semaphoreci.com/favicon.ico:0
+[   31731ms] [LOG] Registering event: 'click', target: '#job-log-settings [data-action=toggleDarkTheme]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31731ms] [LOG] Registering event: 'click', target: '#job-log-settings [data-action=toggleWrapLines]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31732ms] [LOG] Registering event: 'click', target: '#job-log-settings [data-action=toggleStickyCommands]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31732ms] [LOG] Registering event: 'click', target: '#job-log-settings [data-action=toggleTimestampsCommands]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31733ms] [LOG] Registering event: 'click', target: '#job-log-jump [data-action=jumpTop]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31734ms] [LOG] Registering event: 'click', target: '#job-log-jump [data-action=jumpBottom]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31734ms] [LOG] Registering event: 'click', target: '#job-log-live-settings [data-action=toggleLive]' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31735ms] [LOG] Registering event: 'click', target: '.job-log-line.command' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   31736ms] [LOG] Registering event: 'click', target: '.job-log-line-number' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   32972ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://storage.googleapis.com/arthk1nx93020ugyge-x4qaaukjcg6/artifacts/jobs/33fdb39e-c00c-491a-a8d7-4e60e21ee5f3/agent/job_logs.txt?Expires=1789671109&GoogleAccessId=artifacthub%40semaphore2-prod-artifacts.iam.gserviceaccount.com&Signature=gufTT8ixtg34uJzQtoHstg6RosK%2FRJPgbC6ado%2BAyN52UUVIdf%2FjJk7j2KqKf56HZfvIAKYm3PRLcjeOB4LuY3iUrxnUrbu15cI7hNkJT0RvJEzfSrAXttLxUUVWASOypORZ80CDsVFacjXhMMLDdafY0rv0N5ZLlla8O1NGl4xsfJ%2BpiuosnlLHzSYyCUujZB65M06gVGoj2F5lfyBZqOl9bXUjiGbM%2FboyzkVT1skSWUCBEmdTDwnW643KSBRZZBktVVccL008PvjsW4q7Kw5rrKdgSbA968FKgmN0KF5ifABs7x6WM%2Fj8Y1I1AiFOS5Y%2BS%2BfDGE2X2QU8fbpxkg%3D%3D&response-content-disposition=inline&response-content-type=text%2Fplain%3B%20charset%3Dutf-8:0
+[   33418ms] [LOG] Processing finished. total: 0.0025599999986588955 build: 0.0007149999998509884 render: 0.0017649999987334013 @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   33418ms] [LOG] Job logs rendering v2 took 1.688410000000149 seconds @ https://trochez.semaphoreci.com/projects/assets/app.js:5226
+[   33423ms] [LOG] Registering event: 'click', target: '.job-log-line-expand' @ https://trochez.semaphoreci.com/projects/assets/app.js:5226

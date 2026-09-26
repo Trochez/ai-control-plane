@@ -1,0 +1,2923 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - navigation "Sidebar":
+          - generic:
+            - generic:
+              - generic:
+                - button "Open sidebar"
+          - generic:
+            - generic:
+              - link "New chat":
+                - /url: /
+            - generic:
+              - button "Search"
+            - generic:
+              - button "Recents"
+          - generic:
+            - generic:
+              - button "Open profile menu":
+                - generic:
+                  - generic:
+                    - img "Profile image"
+        - generic [ref=e9]:
+          - heading "Chat history" [level=2] [ref=e10]
+          - generic [ref=e11]:
+            - navigation "Chat history" [ref=e12]:
+              - generic [ref=e15]:
+                - link "Home" [ref=e16] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e17]: ChatGPT
+                - generic [ref=e18]:
+                  - button "Search" [ref=e19] [cursor=pointer]
+                  - button "Close sidebar" [expanded] [ref=e22]
+              - list [ref=e26]:
+                - listitem [ref=e27]:
+                  - link "New chat Control Shift O" [ref=e113] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=e114]: New chat
+                    - generic [ref=e121]:
+                      - generic "Control" [ref=e122]:
+                        - generic [ref=e123]: Ctrl
+                        - text: +
+                      - generic "Shift" [ref=e124]: +
+                      - generic [ref=e126]: O
+                - listitem
+              - link "Library" [ref=e35] [cursor=pointer]:
+                - /url: /library?entry_point=sidebar
+              - link "Scheduled" [ref=e42] [cursor=pointer]:
+                - /url: /scheduled
+              - link "Plugins" [ref=e49] [cursor=pointer]:
+                - /url: /plugins
+              - generic [ref=e56]: More
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - button [expanded] [ref=e130] [cursor=pointer]:
+                    - heading "Projects" [level=2] [ref=e131]
+                  - generic [ref=e132]:
+                    - button "New project" [ref=e133] [cursor=pointer]
+                    - button "Organize chats" [ref=e137] [cursor=pointer]
+                - list [ref=e141]:
+                  - listitem [ref=e142]:
+                    - generic [ref=e143]:
+                      - button "Bot_trading" [expanded] [ref=e144] [cursor=pointer]
+                      - generic:
+                        - button "Open project home" [ref=e162] [cursor=pointer]
+                        - button "Open project options for Bot_trading" [ref=e166] [cursor=pointer]
+                    - list [ref=e171]:
+                      - listitem [ref=e172]:
+                        - link "Pipeline Implement Push Status, chat in project Bot_trading" [ref=e173] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aaa4c0e-d308-83e9-ad24-017840b62639
+                          - generic [ref=e174]: Pipeline Implement Push Status
+                          - generic [ref=e181]:
+                            - button "Pin Pipeline Implement Push Status" [ref=e182]
+                            - button "Open conversation options for Pipeline Implement Push Status" [ref=e186]
+                      - listitem [ref=e190]:
+                        - link "Pipeline implementation status, chat in project Bot_trading" [ref=e191] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa8ea94-e980-83e9-9b5f-9832ea92013e
+                          - generic [ref=e192]: Pipeline implementation status
+                          - generic [ref=e199]:
+                            - button "Pin Pipeline implementation status" [ref=e200]
+                            - button "Open conversation options for Pipeline implementation status" [ref=e204]
+                      - listitem [ref=e208]:
+                        - link "Implementación y commit único, chat in project Bot_trading" [ref=e209] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa2e076-b52c-83e9-bb1d-f8880b09726d
+                          - generic [ref=e210]: Implementación y commit único
+                          - generic [ref=e217]:
+                            - button "Pin Implementación y commit único" [ref=e218]
+                            - button "Open conversation options for Implementación y commit único" [ref=e222]
+                      - listitem [ref=e226]:
+                        - link "GRU Semaphore Watch, chat in project Bot_trading" [ref=e227] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6aa1aafc-5c1c-83e9-b1af-8bed15dd3cea
+                          - generic [ref=e228]: GRU Semaphore Watch
+                          - generic [ref=e235]:
+                            - button "Pin GRU Semaphore Watch" [ref=e236]
+                            - button "Open conversation options for GRU Semaphore Watch" [ref=e240]
+                      - listitem [ref=e244]:
+                        - link "GRU Full-Corpus Watch, chat in project Bot_trading" [ref=e245] [cursor=pointer]:
+                          - /url: /g/g-p-68782097d6388191b7538c01b189cce8/c/6a9d0cd0-d518-83e9-b980-f3971d133b63
+                          - generic [ref=e246]: GRU Full-Corpus Watch
+                          - generic [ref=e253]:
+                            - button "Pin GRU Full-Corpus Watch" [ref=e254]
+                            - button "Open conversation options for GRU Full-Corpus Watch" [ref=e258]
+                      - listitem [ref=e262]:
+                        - button "Show more" [ref=e263] [cursor=pointer]
+                  - listitem [ref=e266]:
+                    - generic [ref=e267]:
+                      - button "body_finder_fast" [ref=e268] [cursor=pointer]
+                      - generic:
+                        - button "Open project home" [ref=e286] [cursor=pointer]
+                        - button "Open project options for body_finder_fast" [ref=e290] [cursor=pointer]
+                  - listitem [ref=e294]:
+                    - generic [ref=e295]:
+                      - button "ubuntu problems" [ref=e296] [cursor=pointer]
+                      - generic:
+                        - button "Open project home" [ref=e314] [cursor=pointer]
+                        - button "Open project options for ubuntu problems" [ref=e318] [cursor=pointer]
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - button [expanded] [ref=e324] [cursor=pointer]:
+                    - heading "Chats" [level=2] [ref=e325]
+                  - generic [ref=e326]:
+                    - link "New chat" [ref=e327] [cursor=pointer]:
+                      - /url: /
+                    - button "Organize chats" [ref=e331] [cursor=pointer]
+                - list [ref=e336]:
+                  - listitem [ref=e337]:
+                    - link "Diseñar loop DevOps autónomo" [ref=e338] [cursor=pointer]:
+                      - /url: /c/6aa23336-8a84-83e9-989a-03ffd2815f1a
+                      - generic [ref=e346]:
+                        - button "Pin Diseñar loop DevOps autónomo" [ref=e347]
+                        - button "Open conversation options for Diseñar loop DevOps autónomo" [ref=e351]
+                  - listitem [ref=e355]:
+                    - link "Ranking hardware LLM local" [ref=e356] [cursor=pointer]:
+                      - /url: /c/6aa47f95-75a4-83e9-8575-4b06a3e89e01
+                      - generic [ref=e364]:
+                        - button "Pin Ranking hardware LLM local" [ref=e365]
+                        - button "Open conversation options for Ranking hardware LLM local" [ref=e369]
+                  - listitem [ref=e373]:
+                    - link "Ranking celulares Colombia" [ref=e374] [cursor=pointer]:
+                      - /url: /c/6aa9a2f3-ad98-83e9-8670-adb0a6c1ccee
+                      - generic [ref=e382]:
+                        - button "Pin Ranking celulares Colombia" [ref=e383]
+                        - button "Open conversation options for Ranking celulares Colombia" [ref=e387]
+                  - listitem [ref=e391]:
+                    - link "Consultar vigencia SOAT" [ref=e392] [cursor=pointer]:
+                      - /url: /c/6aa640b5-ff24-83e9-8c1a-c4f73fc83d1b
+                      - generic [ref=e400]:
+                        - button "Pin Consultar vigencia SOAT" [ref=e401]
+                        - button "Open conversation options for Consultar vigencia SOAT" [ref=e405]
+                  - listitem [ref=e409]:
+                    - link "Ranking hardware LLM local" [ref=e410] [cursor=pointer]:
+                      - /url: /c/6aa3c667-3bfc-83e9-b6d5-cd2c8b1e8f7e
+                      - generic [ref=e418]:
+                        - button "Pin Ranking hardware LLM local" [ref=e419]
+                        - button "Open conversation options for Ranking hardware LLM local" [ref=e423]
+                  - listitem [ref=e427]:
+                    - link "Comparar modelos IA globales" [ref=e428] [cursor=pointer]:
+                      - /url: /c/6aa263b8-a584-83e9-bba1-e10fa3423079
+                      - generic [ref=e436]:
+                        - button "Pin Comparar modelos IA globales" [ref=e437]
+                        - button "Open conversation options for Comparar modelos IA globales" [ref=e441]
+                  - listitem [ref=e445]:
+                    - link "Marco de trabajo Codex ChatGPT" [ref=e446] [cursor=pointer]:
+                      - /url: /c/6aa0b132-6254-83e9-b1ab-707f02c7d7be
+                      - generic [ref=e454]:
+                        - button "Pin Marco de trabajo Codex ChatGPT" [ref=e455]
+                        - button "Open conversation options for Marco de trabajo Codex ChatGPT" [ref=e459]
+                  - listitem [ref=e463]:
+                    - link "Semaphore Pipeline Watch" [ref=e464] [cursor=pointer]:
+                      - /url: /c/6a9d11a0-14f4-83e9-a48d-545adbc6f5d1?messageId=finalAgentTurnStart
+                      - generic [ref=e472]:
+                        - button "Pin Semaphore Pipeline Watch" [ref=e473]
+                        - button "Open conversation options for Semaphore Pipeline Watch" [ref=e477]
+                  - listitem [ref=e481]:
+                    - link "Semaphore Pipeline Watch" [ref=e482] [cursor=pointer]:
+                      - /url: /c/6aa11538-57cc-83e9-ba22-d27baa8ec07e?messageId=finalAgentTurnStart
+                      - generic [ref=e490]:
+                        - button "Pin Semaphore Pipeline Watch" [ref=e491]
+                        - button "Open conversation options for Semaphore Pipeline Watch" [ref=e495]
+                  - listitem [ref=e499]:
+                    - link "Ranking Codex Models Cost Benefit" [ref=e500] [cursor=pointer]:
+                      - /url: /c/6aa0b7bf-3188-83e9-94cc-c91f06fd0fa4
+                      - generic [ref=e508]:
+                        - button "Pin Ranking Codex Models Cost Benefit" [ref=e509]
+                        - button "Open conversation options for Ranking Codex Models Cost Benefit" [ref=e513]
+                  - listitem [ref=e517]:
+                    - link "Marco de trabajo OpenCode" [ref=e518] [cursor=pointer]:
+                      - /url: /c/6aa0b22e-28d4-83e9-98b6-e1442d34c4ad
+                      - generic [ref=e526]:
+                        - button "Pin Marco de trabajo OpenCode" [ref=e527]
+                        - button "Open conversation options for Marco de trabajo OpenCode" [ref=e531]
+                  - listitem [ref=e535]:
+                    - link "Tutorial CapCut narrado" [ref=e536] [cursor=pointer]:
+                      - /url: /c/6aa07b1f-e348-83e9-9c2c-d8fe1ea91e40
+                      - generic [ref=e544]:
+                        - button "Pin Tutorial CapCut narrado" [ref=e545]
+                        - button "Open conversation options for Tutorial CapCut narrado" [ref=e549]
+                  - listitem [ref=e553]:
+                    - link "Customize CV Match" [ref=e554] [cursor=pointer]:
+                      - /url: /c/6aa050bf-949c-83e9-9bb9-6c71bec5fa68
+                      - generic [ref=e562]:
+                        - button "Pin Customize CV Match" [ref=e563]
+                        - button "Open conversation options for Customize CV Match" [ref=e567]
+                  - listitem [ref=e571]:
+                    - link "GRU Full-Corpus Watch" [ref=e572] [cursor=pointer]:
+                      - /url: /c/6a9dc354-cb88-83e9-8192-f33fde802e1d?messageId=finalAgentTurnStart
+                      - generic [ref=e580]:
+                        - button "Pin GRU Full-Corpus Watch" [ref=e581]
+                        - button "Open conversation options for GRU Full-Corpus Watch" [ref=e585]
+                  - listitem [ref=e589]:
+                    - link "P2 Gate Watch" [ref=e590] [cursor=pointer]:
+                      - /url: /c/6a9c521c-e558-83e9-ac49-3ef00c1cdfea?messageId=finalAgentTurnStart
+                      - generic [ref=e598]:
+                        - button "Pin P2 Gate Watch" [ref=e599]
+                        - button "Open conversation options for P2 Gate Watch" [ref=e603]
+                  - listitem [ref=e607]:
+                    - 'link "CircleCI #144 Watch" [ref=e608] [cursor=pointer]':
+                      - /url: /c/6a9baa04-b68c-83e9-b343-833d2d6f1616?messageId=finalAgentTurnStart
+                      - generic [ref=e616]:
+                        - 'button "Pin CircleCI #144 Watch" [ref=e617]'
+                        - 'button "Open conversation options for CircleCI #144 Watch" [ref=e621]'
+                  - listitem [ref=e625]:
+                    - 'link "CircleCI #144 Watch" [ref=e626] [cursor=pointer]':
+                      - /url: /c/6a9ba672-1da0-83e9-9893-e00df035adf8?messageId=finalAgentTurnStart
+                      - generic [ref=e634]:
+                        - 'button "Pin CircleCI #144 Watch" [ref=e635]'
+                        - 'button "Open conversation options for CircleCI #144 Watch" [ref=e639]'
+                  - listitem [ref=e643]:
+                    - 'link "CircleCI #133 Watch" [ref=e644] [cursor=pointer]':
+                      - /url: /c/6a9b65de-141c-83e9-9634-8c0b2d4b494c?messageId=finalAgentTurnStart
+                      - generic [ref=e652]:
+                        - 'button "Pin CircleCI #133 Watch" [ref=e653]'
+                        - 'button "Open conversation options for CircleCI #133 Watch" [ref=e657]'
+                  - listitem [ref=e661]:
+                    - 'link "Deploy #56 Watch" [ref=e662] [cursor=pointer]':
+                      - /url: /c/6a99a248-a93c-83e9-9ed3-0c9b53a7a89f?messageId=finalAgentTurnStart
+                      - generic [ref=e670]:
+                        - 'button "Pin Deploy #56 Watch" [ref=e671]'
+                        - 'button "Open conversation options for Deploy #56 Watch" [ref=e675]'
+                  - listitem [ref=e679]:
+                    - 'link "Deploy #56 Watch" [ref=e680] [cursor=pointer]':
+                      - /url: /c/6a99eeb3-2084-83e9-a9a1-e7c21b9e53a7?messageId=finalAgentTurnStart
+                      - generic [ref=e688]:
+                        - 'button "Pin Deploy #56 Watch" [ref=e689]'
+                        - 'button "Open conversation options for Deploy #56 Watch" [ref=e693]'
+                  - listitem [ref=e697]:
+                    - link "GRU P2 GO Watch" [ref=e698] [cursor=pointer]:
+                      - /url: /c/6a987dbe-030c-83e9-8fd1-025a3da8ffb3?messageId=finalAgentTurnStart
+                      - generic [ref=e706]:
+                        - button "Pin GRU P2 GO Watch" [ref=e707]
+                        - button "Open conversation options for GRU P2 GO Watch" [ref=e711]
+                  - listitem [ref=e715]:
+                    - link "Impresión sobre ti" [ref=e716] [cursor=pointer]:
+                      - /url: /c/6a947f1e-a6d4-83e9-b77a-135e76d14152
+                      - generic [ref=e724]:
+                        - button "Pin Impresión sobre ti" [ref=e725]
+                        - button "Open conversation options for Impresión sobre ti" [ref=e729]
+                  - listitem [ref=e733]:
+                    - link "Conectar SSH MySQL" [ref=e734] [cursor=pointer]:
+                      - /url: /c/6a909c64-eca0-83e9-99c1-afd9b0661cc8
+                      - generic [ref=e742]:
+                        - button "Pin Conectar SSH MySQL" [ref=e743]
+                        - button "Open conversation options for Conectar SSH MySQL" [ref=e747]
+                  - listitem [ref=e751]:
+                    - link "Ubuntu Upgrade Troubleshooting, Work" [ref=e752] [cursor=pointer]:
+                      - /url: /c/6a8aada6-97a8-83e9-82d5-ed204fc156e6
+                      - generic [ref=e753]: Ubuntu Upgrade Troubleshooting
+                      - generic [ref=e762]:
+                        - button "Pin Ubuntu Upgrade Troubleshooting" [ref=e763]
+                        - button "Open conversation options for Ubuntu Upgrade Troubleshooting" [ref=e767]
+                  - listitem [ref=e771]:
+                    - link "Fix Scripts For Profiles, Work" [ref=e772] [cursor=pointer]:
+                      - /url: /c/6a8a3175-2fb4-83e9-aa32-deb60c8682f9
+                      - generic [ref=e773]: Fix Scripts For Profiles
+                      - generic [ref=e782]:
+                        - button "Pin Fix Scripts For Profiles" [ref=e783]
+                        - button "Open conversation options for Fix Scripts For Profiles" [ref=e787]
+                  - listitem [ref=e791]:
+                    - link "Recomendaciones para dormir mejor" [ref=e792] [cursor=pointer]:
+                      - /url: /c/6a8c0e47-5e98-83e9-b2b0-347fb2d40e04
+                      - generic [ref=e800]:
+                        - button "Pin Recomendaciones para dormir mejor" [ref=e801]
+                        - button "Open conversation options for Recomendaciones para dormir mejor" [ref=e805]
+                  - listitem [ref=e809]:
+                    - link "Búsqueda de soportes laborales" [ref=e810] [cursor=pointer]:
+                      - /url: /c/6a88d318-9270-83e9-962d-b07241ec1991
+                      - generic [ref=e818]:
+                        - button "Pin Búsqueda de soportes laborales" [ref=e819]
+                        - button "Open conversation options for Búsqueda de soportes laborales" [ref=e823]
+                  - listitem [ref=e827]:
+                    - link "Configure OpenCode Desktop Launcher, Work" [ref=e828] [cursor=pointer]:
+                      - /url: /c/6a878b13-3d74-83e9-b423-91f2df14e94c
+                      - generic [ref=e829]: Configure OpenCode Desktop Launcher
+                      - generic [ref=e838]:
+                        - button "Pin Configure OpenCode Desktop Launcher" [ref=e839]
+                        - button "Open conversation options for Configure OpenCode Desktop Launcher" [ref=e843]
+                  - listitem [ref=e847]:
+                    - link "Bluetooth Mesh People Detection" [ref=e848] [cursor=pointer]:
+                      - /url: /c/6a7dc85f-1e24-83e9-b358-f1b0c3885c94
+                      - generic [ref=e856]:
+                        - button "Pin Bluetooth Mesh People Detection" [ref=e857]
+                        - button "Open conversation options for Bluetooth Mesh People Detection" [ref=e861]
+                  - listitem [ref=e865]:
+                    - link "Ranking Open Source Detection Apps" [ref=e866] [cursor=pointer]:
+                      - /url: /c/6a81531a-86f4-83e9-8333-e6771bd45aa3
+                      - generic [ref=e874]:
+                        - button "Pin Ranking Open Source Detection Apps" [ref=e875]
+                        - button "Open conversation options for Ranking Open Source Detection Apps" [ref=e879]
+                  - listitem [ref=e883]:
+                    - link "Desafíos de moda urbana" [ref=e884] [cursor=pointer]:
+                      - /url: /c/25c3f4f8-7129-4095-85cb-b4789941d646
+                      - generic [ref=e892]:
+                        - button "Pin Desafíos de moda urbana" [ref=e893]
+                        - button "Open conversation options for Desafíos de moda urbana" [ref=e897]
+                  - listitem [ref=e901]:
+                    - link "Android Device Lab Setup" [ref=e902] [cursor=pointer]:
+                      - /url: /c/6a7ffb95-1708-83e9-adc8-0a3562dd5fdf
+                      - generic [ref=e910]:
+                        - button "Pin Android Device Lab Setup" [ref=e911]
+                        - button "Open conversation options for Android Device Lab Setup" [ref=e915]
+                  - listitem [ref=e919]:
+                    - link "Preparación entrevista Python" [ref=e920] [cursor=pointer]:
+                      - /url: /c/6a669387-aa34-83e9-acc4-6d0e292762c5
+                      - generic [ref=e928]:
+                        - button "Pin Preparación entrevista Python" [ref=e929]
+                        - button "Open conversation options for Preparación entrevista Python" [ref=e933]
+                  - listitem [ref=e937]:
+                    - link "Comando /status en Codex" [ref=e938] [cursor=pointer]:
+                      - /url: /c/6a77d13d-fcf8-83e9-a763-4b8fa917960a
+                      - generic [ref=e946]:
+                        - button "Pin Comando /status en Codex" [ref=e947]
+                        - button "Open conversation options for Comando /status en Codex" [ref=e951]
+                  - listitem [ref=e955]:
+                    - link "Búsqueda de meme español" [ref=e956] [cursor=pointer]:
+                      - /url: /c/6a776888-4ec8-83e9-8ba2-35994e9a04a2
+                      - generic [ref=e964]:
+                        - button "Pin Búsqueda de meme español" [ref=e965]
+                        - button "Open conversation options for Búsqueda de meme español" [ref=e969]
+                  - listitem [ref=e973]:
+                    - link "What is AIApply" [ref=e974] [cursor=pointer]:
+                      - /url: /c/6a73e3bd-c648-83e9-9791-826f9310f8a7
+                      - generic [ref=e982]:
+                        - button "Pin What is AIApply" [ref=e983]
+                        - button "Open conversation options for What is AIApply" [ref=e987]
+                  - listitem [ref=e991]:
+                    - link "OpenCode Desktop Script" [ref=e992] [cursor=pointer]:
+                      - /url: /c/6a737eb6-2a18-83e9-a455-74736ed952f3
+                      - generic [ref=e1000]:
+                        - button "Pin OpenCode Desktop Script" [ref=e1001]
+                        - button "Open conversation options for OpenCode Desktop Script" [ref=e1005]
+                  - listitem [ref=e1009]:
+                    - link "Ranking escritorios Linux" [ref=e1010] [cursor=pointer]:
+                      - /url: /c/6a710471-99c0-83e9-8c1a-08c1c35b84a3
+                      - generic [ref=e1018]:
+                        - button "Pin Ranking escritorios Linux" [ref=e1019]
+                        - button "Open conversation options for Ranking escritorios Linux" [ref=e1023]
+                  - listitem [ref=e1027]:
+                    - link "Daily Tech & Markets Brief" [ref=e1028] [cursor=pointer]:
+                      - /url: /c/6a608ee0-3364-83e9-bb9e-173c5c4a0819?messageId=finalAgentTurnStart
+                      - generic [ref=e1036]:
+                        - button "Pin Daily Tech & Markets Brief" [ref=e1037]
+                        - button "Open conversation options for Daily Tech & Markets Brief" [ref=e1041]
+                  - listitem [ref=e1045]:
+                    - link "Instalar OpenCode Desktop" [ref=e1046] [cursor=pointer]:
+                      - /url: /c/6a6fcf9c-3220-83e9-80b7-550b1a04e2e5
+                      - generic [ref=e1054]:
+                        - button "Pin Instalar OpenCode Desktop" [ref=e1055]
+                        - button "Open conversation options for Instalar OpenCode Desktop" [ref=e1059]
+                  - listitem [ref=e1063]:
+                    - link "Ranking LinkedIn Job Search" [ref=e1064] [cursor=pointer]:
+                      - /url: /c/6a685d10-4a0c-83e9-be17-13948f86e175
+                      - generic [ref=e1072]:
+                        - button "Pin Ranking LinkedIn Job Search" [ref=e1073]
+                        - button "Open conversation options for Ranking LinkedIn Job Search" [ref=e1077]
+                  - listitem [ref=e1081]:
+                    - link "Preparación entrevista técnica" [ref=e1082] [cursor=pointer]:
+                      - /url: /c/6a6692ef-dbcc-83e9-8340-97687a22b490
+                      - generic [ref=e1090]:
+                        - button "Pin Preparación entrevista técnica" [ref=e1091]
+                        - button "Open conversation options for Preparación entrevista técnica" [ref=e1095]
+                  - listitem [ref=e1099]:
+                    - link "Set GPT in OmniRoute" [ref=e1100] [cursor=pointer]:
+                      - /url: /c/6a656eb5-be7c-83e9-94a5-7ba886728f56
+                      - generic [ref=e1108]:
+                        - button "Pin Set GPT in OmniRoute" [ref=e1109]
+                        - button "Open conversation options for Set GPT in OmniRoute" [ref=e1113]
+                  - listitem [ref=e1117]:
+                    - link "Certificación IA recomendada" [ref=e1118] [cursor=pointer]:
+                      - /url: /c/6a64f3e3-8780-83e9-be30-e44aaffd184a
+                      - generic [ref=e1126]:
+                        - button "Pin Certificación IA recomendada" [ref=e1127]
+                        - button "Open conversation options for Certificación IA recomendada" [ref=e1131]
+                  - listitem [ref=e1135]:
+                    - link "LLM Providers Ranking" [ref=e1136] [cursor=pointer]:
+                      - /url: /c/6a631ea6-01e4-83e9-9974-ac3bf93d1c87
+                      - generic [ref=e1144]:
+                        - button "Pin LLM Providers Ranking" [ref=e1145]
+                        - button "Open conversation options for LLM Providers Ranking" [ref=e1149]
+                  - listitem [ref=e1153]:
+                    - link "OpenAI Plus with OmniRoute" [ref=e1154] [cursor=pointer]:
+                      - /url: /c/6a61c165-6b50-83e9-b2c8-7c0d3da5e0b5
+                      - generic [ref=e1162]:
+                        - button "Pin OpenAI Plus with OmniRoute" [ref=e1163]
+                        - button "Open conversation options for OpenAI Plus with OmniRoute" [ref=e1167]
+                  - listitem [ref=e1171]:
+                    - link "OmniRoute Alternatives Ranking" [ref=e1172] [cursor=pointer]:
+                      - /url: /c/6a610b49-e4a4-83e9-8799-449c4af071fa
+                      - generic [ref=e1180]:
+                        - button "Pin OmniRoute Alternatives Ranking" [ref=e1181]
+                        - button "Open conversation options for OmniRoute Alternatives Ranking" [ref=e1185]
+                  - listitem [ref=e1189]:
+                    - link "AI Models Power/Cost Ranking" [ref=e1190] [cursor=pointer]:
+                      - /url: /c/6a608f31-3fe4-83e9-a7b9-96788df81554
+                      - generic [ref=e1198]:
+                        - button "Pin AI Models Power/Cost Ranking" [ref=e1199]
+                        - button "Open conversation options for AI Models Power/Cost Ranking" [ref=e1203]
+                  - listitem [ref=e1207]:
+                    - link "Ranking plataformas empleo remoto" [ref=e1208] [cursor=pointer]:
+                      - /url: /c/6a1e969a-1c48-83e9-84e7-5af78e71bec7
+                      - generic [ref=e1216]:
+                        - button "Pin Ranking plataformas empleo remoto" [ref=e1217]
+                        - button "Open conversation options for Ranking plataformas empleo remoto" [ref=e1221]
+                  - listitem [ref=e1225]:
+                    - link "USD trend map request" [ref=e1226] [cursor=pointer]:
+                      - /url: /c/6a5a8e15-5330-83e9-a115-1cf72f43112f
+                      - generic [ref=e1234]:
+                        - button "Pin USD trend map request" [ref=e1235]
+                        - button "Open conversation options for USD trend map request" [ref=e1239]
+                  - listitem [ref=e1243]:
+                    - link "AI Engineer Role Summary" [ref=e1244] [cursor=pointer]:
+                      - /url: /c/6a5990df-b498-83e9-9e0b-f8d6246771b5
+                      - generic [ref=e1252]:
+                        - button "Pin AI Engineer Role Summary" [ref=e1253]
+                        - button "Open conversation options for AI Engineer Role Summary" [ref=e1257]
+                  - listitem [ref=e1261]:
+                    - link "Error al dibujar circuito" [ref=e1262] [cursor=pointer]:
+                      - /url: /c/6a46957b-d5b4-83e9-8fb7-77d39589a965
+                      - generic [ref=e1270]:
+                        - button "Pin Error al dibujar circuito" [ref=e1271]
+                        - button "Open conversation options for Error al dibujar circuito" [ref=e1275]
+                  - listitem [ref=e1279]:
+                    - link "Cuenta de cobro Elizabeth" [ref=e1280] [cursor=pointer]:
+                      - /url: /c/6a3dd134-ddd8-83e9-8582-ff06a1f8859c
+                      - generic [ref=e1288]:
+                        - button "Pin Cuenta de cobro Elizabeth" [ref=e1289]
+                        - button "Open conversation options for Cuenta de cobro Elizabeth" [ref=e1293]
+                  - listitem [ref=e1297]:
+                    - link "Examen final Mecánica Cuántica" [ref=e1298] [cursor=pointer]:
+                      - /url: /c/6a420777-ac4c-83e9-8289-8ad14cf21270
+                      - generic [ref=e1306]:
+                        - button "Pin Examen final Mecánica Cuántica" [ref=e1307]
+                        - button "Open conversation options for Examen final Mecánica Cuántica" [ref=e1311]
+                  - listitem [ref=e1315]:
+                    - link "Buscar en Gmail" [ref=e1316] [cursor=pointer]:
+                      - /url: /c/6a41fcdb-ba30-83e9-a848-af337c6e852d
+                      - generic [ref=e1324]:
+                        - button "Pin Buscar en Gmail" [ref=e1325]
+                        - button "Open conversation options for Buscar en Gmail" [ref=e1329]
+                  - listitem [ref=e1333]:
+                    - link "Conectar Outlook con OpenClaw" [ref=e1334] [cursor=pointer]:
+                      - /url: /c/6a14b6d6-d230-83e9-a3a7-9c9e97f8ce9e
+                      - generic [ref=e1342]:
+                        - button "Pin Conectar Outlook con OpenClaw" [ref=e1343]
+                        - button "Open conversation options for Conectar Outlook con OpenClaw" [ref=e1347]
+                  - listitem [ref=e1351]:
+                    - link "Unir imagen jpg y gif" [ref=e1352] [cursor=pointer]:
+                      - /url: /c/6a3ad148-454c-83e9-9beb-fcd09eb2cd63
+                      - generic [ref=e1360]:
+                        - button "Pin Unir imagen jpg y gif" [ref=e1361]
+                        - button "Open conversation options for Unir imagen jpg y gif" [ref=e1365]
+                  - listitem [ref=e1369]:
+                    - link "Ranking de carpetas C/B" [ref=e1370] [cursor=pointer]:
+                      - /url: /c/6a38b210-f6d0-83e9-bc3f-0d0a6b318232
+                      - generic [ref=e1378]:
+                        - button "Pin Ranking de carpetas C/B" [ref=e1379]
+                        - button "Open conversation options for Ranking de carpetas C/B" [ref=e1383]
+                  - listitem [ref=e1387]:
+                    - link "Guía Ingeniero Senior IA" [ref=e1388] [cursor=pointer]:
+                      - /url: /c/6a323ac3-d3f0-83e9-8981-4d19324ece52
+                      - generic [ref=e1396]:
+                        - button "Pin Guía Ingeniero Senior IA" [ref=e1397]
+                        - button "Open conversation options for Guía Ingeniero Senior IA" [ref=e1401]
+                  - listitem [ref=e1405]:
+                    - link "Implementación QFT cíclica Qiskit" [ref=e1406] [cursor=pointer]:
+                      - /url: /c/6a3198f4-92f0-83e9-8ff8-b97096c52efa
+                      - generic [ref=e1414]:
+                        - button "Pin Implementación QFT cíclica Qiskit" [ref=e1415]
+                        - button "Open conversation options for Implementación QFT cíclica Qiskit" [ref=e1419]
+                  - listitem [ref=e1423]:
+                    - link "Get BOT_TRAD_GITHUB_TOKEN" [ref=e1424] [cursor=pointer]:
+                      - /url: /c/6a2f9cb3-5f50-83e9-aa9b-16f6f9faba1f
+                      - generic [ref=e1432]:
+                        - button "Pin Get BOT_TRAD_GITHUB_TOKEN" [ref=e1433]
+                        - button "Open conversation options for Get BOT_TRAD_GITHUB_TOKEN" [ref=e1437]
+                  - listitem [ref=e1441]:
+                    - link "Ranking modelos NVIDIA 2026" [ref=e1442] [cursor=pointer]:
+                      - /url: /c/6a2c4b27-31d8-83e9-958a-0f83f6a0e590
+                      - generic [ref=e1450]:
+                        - button "Pin Ranking modelos NVIDIA 2026" [ref=e1451]
+                        - button "Open conversation options for Ranking modelos NVIDIA 2026" [ref=e1455]
+                  - listitem [ref=e1459]:
+                    - link "Precios repuestos BWS Cali" [ref=e1460] [cursor=pointer]:
+                      - /url: /c/6a29b79e-cf3c-83e9-bdd1-dce231f666f8
+                      - generic [ref=e1468]:
+                        - button "Pin Precios repuestos BWS Cali" [ref=e1469]
+                        - button "Open conversation options for Precios repuestos BWS Cali" [ref=e1473]
+                  - listitem [ref=e1477]:
+                    - link "Paradas recomendadas San Andrés" [ref=e1478] [cursor=pointer]:
+                      - /url: /c/6a230134-b8e0-83e9-adc9-0f25eeee0ab6
+                      - generic [ref=e1486]:
+                        - button "Pin Paradas recomendadas San Andrés" [ref=e1487]
+                        - button "Open conversation options for Paradas recomendadas San Andrés" [ref=e1491]
+                  - listitem [ref=e1495]:
+                    - link "Sostenimiento de rizos" [ref=e1496] [cursor=pointer]:
+                      - /url: /c/6a20ceb8-1470-83e9-b675-2e038a3d779a
+                      - generic [ref=e1504]:
+                        - button "Pin Sostenimiento de rizos" [ref=e1505]
+                        - button "Open conversation options for Sostenimiento de rizos" [ref=e1509]
+                  - listitem [ref=e1513]:
+                    - link "Ranking renta de moto" [ref=e1514] [cursor=pointer]:
+                      - /url: /c/6a20aca6-d9dc-83e9-88bd-3fdaa38e0d66
+                      - generic [ref=e1522]:
+                        - button "Pin Ranking renta de moto" [ref=e1523]
+                        - button "Open conversation options for Ranking renta de moto" [ref=e1527]
+                  - listitem [ref=e1531]:
+                    - link "Reemplazo cable flex Dell" [ref=e1532] [cursor=pointer]:
+                      - /url: /c/6a1772fd-dd8c-83e9-9d8b-2d6cc6c52eab
+                      - generic [ref=e1540]:
+                        - button "Pin Reemplazo cable flex Dell" [ref=e1541]
+                        - button "Open conversation options for Reemplazo cable flex Dell" [ref=e1545]
+                  - listitem [ref=e1549]:
+                    - link "Mejorar calidad imagen" [ref=e1550] [cursor=pointer]:
+                      - /url: /c/6a175281-07d4-83e9-addc-0c1dd6d6114e
+                      - generic [ref=e1558]:
+                        - button "Pin Mejorar calidad imagen" [ref=e1559]
+                        - button "Open conversation options for Mejorar calidad imagen" [ref=e1563]
+                  - listitem [ref=e1567]:
+                    - link "Ranking tetracilíndricos Feria 2026" [ref=e1568] [cursor=pointer]:
+                      - /url: /c/6a0a2031-2268-83e9-9a38-8cbca8b02fd9
+                      - generic [ref=e1576]:
+                        - button "Pin Ranking tetracilíndricos Feria 2026" [ref=e1577]
+                        - button "Open conversation options for Ranking tetracilíndricos Feria 2026" [ref=e1581]
+                  - listitem [ref=e1585]:
+                    - link "Circuitos cuánticos Bell Qiskit" [ref=e1586] [cursor=pointer]:
+                      - /url: /c/6a13cba3-53f4-83e9-9b32-797a6d9984db
+                      - generic [ref=e1594]:
+                        - button "Pin Circuitos cuánticos Bell Qiskit" [ref=e1595]
+                        - button "Open conversation options for Circuitos cuánticos Bell Qiskit" [ref=e1599]
+                  - listitem [ref=e1603]:
+                    - link "Total a pagar con propina" [ref=e1604] [cursor=pointer]:
+                      - /url: /c/6a111fb5-aedc-83e9-bce6-706e2706d25c
+                      - generic [ref=e1612]:
+                        - button "Pin Total a pagar con propina" [ref=e1613]
+                        - button "Open conversation options for Total a pagar con propina" [ref=e1617]
+                  - listitem [ref=e1621]:
+                    - link "Actualización CV Agentic Orchestration" [ref=e1622] [cursor=pointer]:
+                      - /url: /c/69e9b364-4c5c-83e9-8a79-28e847d22b61
+                      - generic [ref=e1630]:
+                        - button "Pin Actualización CV Agentic Orchestration" [ref=e1631]
+                        - button "Open conversation options for Actualización CV Agentic Orchestration" [ref=e1635]
+                  - listitem [ref=e1639]:
+                    - link "Obtener Meta Access Token" [ref=e1640] [cursor=pointer]:
+                      - /url: /c/6a06b0fc-ba3c-83e9-83ca-697746e7e731
+                      - generic [ref=e1648]:
+                        - button "Pin Obtener Meta Access Token" [ref=e1649]
+                        - button "Open conversation options for Obtener Meta Access Token" [ref=e1653]
+                  - listitem [ref=e1657]:
+                    - link "Mejor relación desempeño/costo Plus" [ref=e1658] [cursor=pointer]:
+                      - /url: /c/6a0754eb-ba80-83e9-8977-6455f4ea3957
+                      - generic [ref=e1666]:
+                        - button "Pin Mejor relación desempeño/costo Plus" [ref=e1667]
+                        - button "Open conversation options for Mejor relación desempeño/costo Plus" [ref=e1671]
+                  - listitem [ref=e1675]:
+                    - link "Recuperación disco duro fallo" [ref=e1676] [cursor=pointer]:
+                      - /url: /c/69f7a86d-cf74-83e9-9239-4e5b30c88f1f
+                      - generic [ref=e1684]:
+                        - button "Pin Recuperación disco duro fallo" [ref=e1685]
+                        - button "Open conversation options for Recuperación disco duro fallo" [ref=e1689]
+                  - listitem [ref=e1693]:
+                    - link "Model Ranking Request" [ref=e1694] [cursor=pointer]:
+                      - /url: /c/6a0634b8-cce8-83e9-8a21-c1dcb35b64cf
+                      - generic [ref=e1702]:
+                        - button "Pin Model Ranking Request" [ref=e1703]
+                        - button "Open conversation options for Model Ranking Request" [ref=e1707]
+                  - listitem [ref=e1711]:
+                    - link "Model Search Request" [ref=e1712] [cursor=pointer]:
+                      - /url: /c/69f2f762-c1b0-83e9-bb60-81b8c32d30e0
+                      - generic [ref=e1720]:
+                        - button "Pin Model Search Request" [ref=e1721]
+                        - button "Open conversation options for Model Search Request" [ref=e1725]
+                  - listitem [ref=e1729]:
+                    - link "Fincas campestres Valle 2026" [ref=e1730] [cursor=pointer]:
+                      - /url: /c/69fd9569-b564-83e9-83e7-e50341e3718e
+                      - generic [ref=e1738]:
+                        - button "Pin Fincas campestres Valle 2026" [ref=e1739]
+                        - button "Open conversation options for Fincas campestres Valle 2026" [ref=e1743]
+                  - listitem [ref=e1747]:
+                    - link "Uso de groserías y respeto" [ref=e1748] [cursor=pointer]:
+                      - /url: /c/69fe557c-3318-83e9-8717-e9409722bdde
+                      - generic [ref=e1756]:
+                        - button "Pin Uso de groserías y respeto" [ref=e1757]
+                        - button "Open conversation options for Uso de groserías y respeto" [ref=e1761]
+                  - listitem [ref=e1765]:
+                    - link "Ranking modelos Nvidia" [ref=e1766] [cursor=pointer]:
+                      - /url: /c/69fad1de-0544-8333-9ab8-57043a8d530d
+                      - generic [ref=e1774]:
+                        - button "Pin Ranking modelos Nvidia" [ref=e1775]
+                        - button "Open conversation options for Ranking modelos Nvidia" [ref=e1779]
+                  - listitem [ref=e1783]:
+                    - link "Ranking OpenCode Alternatives" [ref=e1784] [cursor=pointer]:
+                      - /url: /c/69fb7d3c-788c-83e9-806d-963267de4bdc
+                      - generic [ref=e1792]:
+                        - button "Pin Ranking OpenCode Alternatives" [ref=e1793]
+                        - button "Open conversation options for Ranking OpenCode Alternatives" [ref=e1797]
+                  - listitem [ref=e1801]:
+                    - link "Ranking proveedores LLM" [ref=e1802] [cursor=pointer]:
+                      - /url: /c/69fc4349-e790-83e9-a32b-c934f2cd5968
+                      - generic [ref=e1810]:
+                        - button "Pin Ranking proveedores LLM" [ref=e1811]
+                        - button "Open conversation options for Ranking proveedores LLM" [ref=e1815]
+                  - listitem [ref=e1819]:
+                    - link "Explicación reporte LLM" [ref=e1820] [cursor=pointer]:
+                      - /url: /c/69ebe61a-7118-83e9-98c2-76faa4392726
+                      - generic [ref=e1828]:
+                        - button "Pin Explicación reporte LLM" [ref=e1829]
+                        - button "Open conversation options for Explicación reporte LLM" [ref=e1833]
+                  - listitem [ref=e1837]:
+                    - link "OpenViking Project Setup" [ref=e1838] [cursor=pointer]:
+                      - /url: /c/69f98a59-6558-8332-ad41-a6e21ee58c3c
+                      - generic [ref=e1846]:
+                        - button "Pin OpenViking Project Setup" [ref=e1847]
+                        - button "Open conversation options for OpenViking Project Setup" [ref=e1851]
+            - button "Juan Diego Trochez Plus, open profile menu" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]:
+                - img "Profile image" [ref=e1855]
+                - generic [ref=e71]:
+                  - generic [ref=e72]: Juan Diego Trochez
+                  - generic [ref=e74]: Plus
+              - button "Download apps" [ref=e79]
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - banner:
+            - link "Open Bot_trading project" [ref=e1859] [cursor=pointer]:
+              - /url: /g/g-p-68782097d6388191b7538c01b189cce8-bot-trading/project
+              - generic [ref=e1860]:
+                - img "Default color, black in light mode, white in dark mode Folder" [ref=e1862]
+                - generic [ref=e1864]: Bot_trading
+            - generic [ref=e89]:
+              - button "Share" [ref=e93] [cursor=pointer]
+              - button "More" [ref=e99] [cursor=pointer]
+        - main [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e1865]:
+              - generic [ref=e1866]:
+                - generic [ref=e1870]:
+                  - separator "Today 11:52 AM" [ref=e1871]
+                  - generic [ref=e1874]:
+                    - heading "You said:" [level=4] [ref=e1875]
+                    - generic [ref=e1877]:
+                      - generic [ref=e1880]:
+                        - group "operator-evidence-1789663673.txt" [ref=e1882]:
+                          - button "operator-evidence-1789663673.txt" [ref=e1885] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: operator-evidence-1789663673.txt
+                                  - generic: Document
+                        - generic [ref=e1886]: "[AI_LOOP_DELIVERY id=de3dd159ed884cdf7e8d] Operator completed the exact requested actions. Review the literal evidence below and continue with the implementation. Do not repeat completed actions unless the evidence explicitly requires it. The complete literal operator evidence is attached."
+                      - generic [ref=e1889]:
+                        - group "Your message actions":
+                          - button "Copy message"
+                          - button "Share prompt"
+                          - button "Edit message"
+                - generic [ref=e1893]:
+                  - heading "You said:" [level=4] [ref=e1894]
+                  - generic [ref=e1896]:
+                    - generic [ref=e1899]:
+                      - group "operator-evidence-1789664324.txt" [ref=e1901]:
+                        - button "operator-evidence-1789664324.txt" [ref=e1904] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operator-evidence-1789664324.txt
+                                - generic: Document
+                      - generic [ref=e1905]: "[AI_LOOP_DELIVERY id=8685dad4b2e9ea8c312e] Operator completed the exact requested actions. Review the literal evidence below and continue with the implementation. Do not repeat completed actions unless the evidence explicitly requires it. The complete literal operator evidence is attached."
+                    - generic [ref=e1908]:
+                      - group "Your message actions":
+                        - button "Copy message"
+                        - button "Share prompt"
+                        - button "Edit message"
+                - generic [ref=e1912]:
+                  - heading "You said:" [level=4] [ref=e1913]
+                  - generic [ref=e1915]:
+                    - generic [ref=e1918]:
+                      - group "failure-evidence-bundle-379bcec0fd740ccdec8d.txt" [ref=e1920]:
+                        - button "failure-evidence-bundle-379bcec0fd740ccdec8d.txt" [ref=e1923] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: failure-evidence-bundle-379bcec0fd740ccdec8d.txt
+                                - generic: Document
+                      - generic [ref=e1924]: "[AI_LOOP_DELIVERY id=failure-evidence-379bcec0fd740ccdec8d] Combined read-only failure evidence is attached for exact candidate_sha=258a111c031dee9643cffb920518fcc1ca392565 run_id=2a84e8c3-e9d6-4819-92b5-30b5cd518a8a pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d. Semaphore evidence and exact-SHA temporary-clone investigation are included. Local reproduction status=NOT_EXECUTED_NO_SAFE_EXTRACTED_COMMAND. Review this evidence before diagnosis; request only additional exact operator actions if needed. Do not rerun Semaphore yet."
+                    - generic [ref=e1930]:
+                      - group "Your message actions":
+                        - button "Copy message"
+                        - button "Share prompt"
+                        - button "Edit message"
+                - generic [ref=e1934]:
+                  - heading "You said:" [level=4] [ref=e1935]
+                  - generic [ref=e1937]:
+                    - generic [ref=e1940]:
+                      - group "failure-evidence-bundle-a12eee4a6a73e1678f59.txt" [ref=e1942]:
+                        - button "failure-evidence-bundle-a12eee4a6a73e1678f59.txt" [ref=e1945] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: failure-evidence-bundle-a12eee4a6a73e1678f59.txt
+                                - generic: Document
+                      - generic [ref=e1949]:
+                        - generic [ref=e1950]: "[AI_LOOP_DELIVERY id=failure-evidence-a12eee4a6a73e1678f59] Combined read-only failure evidence is attached for exact candidate_sha=258a111c031dee9643cffb920518fcc1ca392565 run_id=2a84e8c3-e9d6-4819-92b5-30b5cd518a8a pipeline_id=6e320045-d6d9-47cb-af4a-48083fe3328d. Semaphore evidence and exact-SHA temporary-clone investigation are included. Local reproduction status=NOT_EXECUTED_NO_SAFE_EXTRACTED_COMMAND. Review this evidence before diagnosis; request only additional exact operator actions if needed. Do not rerun Semaphore yet. ---END MESSAGE---"
+                        - button "Show more" [ref=e1952] [cursor=pointer]
+                    - generic [ref=e1957]:
+                      - group "Your message actions":
+                        - button "Copy message"
+                        - button "Share prompt"
+                        - button "Edit message"
+                - generic [ref=e3124]:
+                  - generic:
+                    - heading "ChatGPT said:" [level=4] [ref=e3125]
+                    - generic [ref=e3127]:
+                      - generic [ref=e3134]:
+                        - generic [ref=e3137]:
+                          - generic [ref=e3138]: Implementation & Release Plan — Semaphore COMPLETE_GO with One Remediation Commit
+                          - generic [ref=e3142]:
+                            - button "Copy" [ref=e3143] [cursor=pointer]
+                            - button "Open editor" [ref=e3147] [cursor=pointer]
+                        - generic [ref=e3151]:
+                          - heading "Implementation & Release Plan — Semaphore COMPLETE_GO with One Remediation Commit" [level=1] [ref=e3152]
+                          - paragraph [ref=e3153]:
+                            - strong [ref=e3154]: "Generated:"
+                            - text: 2026-09-17 14:01:10 -05
+                            - strong [ref=e3155]: "Repository:"
+                            - code [ref=e3156]: Trochez/bot_trading
+                            - strong [ref=e3157]: "Target branch:"
+                            - code [ref=e3158]: feature/GRU
+                            - strong [ref=e3159]: "Failed accidental SHA:"
+                            - code [ref=e3160]: 258a111c031dee9643cffb920518fcc1ca392565
+                            - strong [ref=e3161]: "Base implementation SHA:"
+                            - code [ref=e3162]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                            - strong [ref=e3163]: "Canonical remediation commit:"
+                            - code [ref=e3164]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                            - strong [ref=e3165]: "Required final topology:"
+                            - code [ref=e3166]: d4960be... -> dc4e2eef... -> 44505ddb...
+                            - strong [ref=e3167]: Commit budget after
+                            - code [ref=e3168]:
+                              - strong [ref=e3169]: dc4e2eef...
+                            - strong [ref=e3170]: ": exactly 1 remediation commit in final branch history"
+                            - strong [ref=e3171]: Additional commits after
+                            - code [ref=e3172]:
+                              - strong [ref=e3173]: 44505ddb...
+                            - strong [ref=e3174]: ": 0"
+                          - separator [ref=e3176]
+                          - heading "1. Mandatory objective" [level=2] [ref=e3177]
+                          - paragraph [ref=e3178]:
+                            - text: Achieve
+                            - strong [ref=e3179]: Semaphore COMPLETE_GO
+                            - text: for
+                            - code [ref=e3180]: feature/GRU
+                            - text: "while satisfying all of the following simultaneously:"
+                          - list [ref=e3181]:
+                            - listitem [ref=e3182]:
+                              - paragraph [ref=e3183]:
+                                - text: The final branch history contains exactly one remediation commit after
+                                - code [ref=e3184]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                                - text: .
+                            - listitem [ref=e3185]:
+                              - paragraph [ref=e3186]: That remediation commit contains the complete implementation necessary to close every finding from the previous diagnosis.
+                            - listitem [ref=e3187]:
+                              - paragraph [ref=e3188]: No follow-up, hotfix, revert, “fix CI”, or evidence-only commit is permitted after the canonical remediation commit.
+                            - listitem [ref=e3189]:
+                              - paragraph [ref=e3190]:
+                                - text: The accidental commit
+                                - code [ref=e3191]: 258a111c031dee9643cffb920518fcc1ca392565
+                                - text: must
+                                - strong [ref=e3192]: not
+                                - text: remain in the final
+                                - code [ref=e3193]: feature/GRU
+                                - text: history.
+                            - listitem [ref=e3194]:
+                              - paragraph [ref=e3195]: Semaphore must be triggered only after exhaustive exact-SHA preflight validation has passed.
+                            - listitem [ref=e3196]:
+                              - paragraph [ref=e3197]: The complete six-block Semaphore production workflow must reach GO.
+                            - listitem [ref=e3198]:
+                              - paragraph [ref=e3199]:
+                                - text: Production must finish at the same exact SHA as
+                                - code [ref=e3200]: feature/GRU
+                                - text: ", tracked-clean, without mutating"
+                                - code [ref=e3201]: /tmp/log
+                                - text: .
+                            - listitem [ref=e3202]:
+                              - paragraph [ref=e3203]: No Semaphore credits are to be spent on known-bad or incompletely validated SHAs.
+                          - paragraph [ref=e3204]: "The canonical remediation commit is already available as:"
+                          - paragraph [ref=e3205]:
+                            - code [ref=e3206]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                          - paragraph [ref=e3207]:
+                            - text: The plan therefore treats this SHA as immutable.
+                            - strong [ref=e3208]: No new code commit is allowed.
+                          - separator [ref=e3210]
+                          - heading "2. Diagnosis translated into implementation requirements" [level=2] [ref=e3211]
+                          - paragraph [ref=e3212]: The previous failure establishes two implementation requirements and one repository-state requirement.
+                          - heading [level=3] [ref=e3213]:
+                            - text: R1 — Restore
+                            - code [ref=e3214]: unittest
+                            - text: lifecycle
+                          - paragraph [ref=e3215]: "The failed candidate defined a project helper named:"
+                          - code [ref=e3217]: "def run(self, root, service=\"inactive\", expect=0):"
+                          - paragraph [ref=e3218]:
+                            - text: inside a
+                            - code [ref=e3219]: unittest.TestCase
+                            - text: subclass.
+                          - paragraph [ref=e3220]:
+                            - text: This replaced
+                            - code [ref=e3221]: unittest.TestCase.run(...)
+                            - text: ", causing the observed:"
+                          - code [ref=e3223]: Ran 0 tests NO TESTS RAN
+                          - paragraph [ref=e3224]: "Required correction:"
+                          - code [ref=e3226]: run(...) -> run_state(...)
+                          - paragraph [ref=e3227]: and update every project call site accordingly.
+                          - heading "R2 — Enforce exact P2 result identity" [level=3] [ref=e3228]
+                          - paragraph [ref=e3229]: The P2 observer must never authorize the current execution using a terminal result produced by a different build that happens to share the same Git SHA.
+                          - paragraph [ref=e3230]: "Required authority key:"
+                          - code [ref=e3232]: (CIRCLE_BUILD_NUM, EXPECTED_SHA)
+                          - paragraph [ref=e3233]: "Required result path:"
+                          - code [ref=e3235]: "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+                          - paragraph [ref=e3236]: The observer must reject stale same-SHA/different-build results.
+                          - heading "R3 — Remove the accidental branch head without adding a commit" [level=3] [ref=e3237]
+                          - paragraph [ref=e3238]:
+                            - code [ref=e3239]: feature/GRU
+                            - text: currently references accidental SHA
+                            - code [ref=e3240]: 258a111...
+                            - text: .
+                          - paragraph [ref=e3241]: A revert commit is forbidden because it would consume the one-commit budget and preserve the accidental commit in final history.
+                          - paragraph [ref=e3242]: "Required operation:"
+                          - code [ref=e3244]: feature/GRU 258a111... --controlled ref rewrite--> 44505ddb...
+                          - paragraph [ref=e3245]:
+                            - text: This is a Git ref operation,
+                            - strong [ref=e3246]: not a new commit
+                            - text: .
+                          - separator [ref=e3248]
+                          - heading "3. Non-negotiable invariants" [level=2] [ref=e3249]
+                          - table [ref=e3250]:
+                            - rowgroup [ref=e3251]:
+                              - row [ref=e3252]:
+                                - columnheader "ID" [ref=e3253]
+                                - columnheader "Invariant" [ref=e3254]
+                              - row [ref=e3255]:
+                                - cell "INV-01" [ref=e3256]
+                                - cell [ref=e3257]:
+                                  - text: Final
+                                  - code [ref=e3258]: feature/GRU
+                                  - text: HEAD =
+                                  - code [ref=e3259]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                              - row [ref=e3260]:
+                                - cell "INV-02" [ref=e3261]
+                                - cell [ref=e3262]:
+                                  - text: Parent of final HEAD =
+                                  - code [ref=e3263]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                              - row [ref=e3264]:
+                                - cell "INV-03" [ref=e3265]
+                                - cell [ref=e3266]:
+                                  - code [ref=e3267]: 258a111...
+                                  - text: is not reachable from final
+                                  - code [ref=e3268]: feature/GRU
+                              - row [ref=e3269]:
+                                - cell "INV-04" [ref=e3270]
+                                - cell [ref=e3271]:
+                                  - text: No commit is created after
+                                  - code [ref=e3272]: 44505ddb...
+                              - row [ref=e3273]:
+                                - cell "INV-05" [ref=e3274]
+                                - cell "No amend/rebase/cherry-pick/revert is used after final SHA publication" [ref=e3275]
+                              - row [ref=e3276]:
+                                - cell "INV-06" [ref=e3277]
+                                - cell [ref=e3278]:
+                                  - text: Semaphore is never launched for
+                                  - code [ref=e3279]: 258a111...
+                                  - text: again
+                              - row [ref=e3280]:
+                                - cell "INV-07" [ref=e3281]
+                                - cell [ref=e3282]:
+                                  - text: Semaphore is launched only when remote
+                                  - code [ref=e3283]: feature/GRU
+                                  - text: equals final SHA
+                              - row [ref=e3284]:
+                                - cell "INV-08" [ref=e3285]
+                                - cell "Exact-SHA validation must be executed from a fresh detached clone" [ref=e3286]
+                              - row [ref=e3287]:
+                                - cell "INV-09" [ref=e3288]
+                                - cell "Production deployment must use the exact final SHA, not “latest branch” semantics" [ref=e3289]
+                              - row [ref=e3290]:
+                                - cell "INV-10" [ref=e3291]
+                                - cell "Production tracked files must be clean after deployment" [ref=e3292]
+                              - row [ref=e3293]:
+                                - cell "INV-11" [ref=e3294]
+                                - cell "Existing untracked runtime artifacts must not be deleted merely to obtain cleanliness" [ref=e3295]
+                              - row [ref=e3296]:
+                                - cell "INV-12" [ref=e3297]
+                                - cell [ref=e3298]:
+                                  - code [ref=e3299]: /tmp/log
+                                  - text: must remain unchanged by implementation/deployment cleanup
+                              - row [ref=e3300]:
+                                - cell "INV-13" [ref=e3301]
+                                - cell [ref=e3302]:
+                                  - text: No broad
+                                  - code [ref=e3303]: git clean
+                                  - text: ", destructive reset, or runtime artifact deletion"
+                              - row [ref=e3304]:
+                                - cell "INV-14" [ref=e3305]
+                                - cell [ref=e3306]:
+                                  - text: Dummy/test branches such as
+                                  - code [ref=e3307]: __dummy_should_not_use
+                                  - text: must be absent before COMPLETE_GO
+                              - row [ref=e3308]:
+                                - cell "INV-15" [ref=e3309]
+                                - cell "Six Semaphore blocks must pass in dependency order" [ref=e3310]
+                              - row [ref=e3311]:
+                                - cell "INV-16" [ref=e3312]
+                                - cell "Any retry consumes credits only after evidence proves the failure was infrastructure/transient and the exact SHA remains unchanged" [ref=e3313]
+                              - row [ref=e3314]:
+                                - cell "INV-17" [ref=e3315]
+                                - cell "A code/contract failure after final publication does not authorize an additional commit under this plan" [ref=e3316]
+                          - separator [ref=e3318]
+                          - heading "4. Required final Git topology" [level=2] [ref=e3319]
+                          - heading "Accepted topology" [level=3] [ref=e3320]
+                          - code [ref=e3322]: d4960be98cee3edef96413ee77f200ce744d3461 | v dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60 | v 44505ddbfa5062dc1c712fc90db72cb0c54de924 <-- feature/GRU
+                          - heading "Forbidden topology" [level=3] [ref=e3323]
+                          - code [ref=e3325]: dc4e2eef... | +-- 258a111... noop | +-- any fix commit
+                          - paragraph [ref=e3326]: "Also forbidden:"
+                          - code [ref=e3328]: dc4e2eef... -> 258a111... -> revert -> final fix
+                          - paragraph [ref=e3329]:
+                            - text: The accidental SHA may remain as an unreachable Git object until normal GitHub garbage collection; it simply must not be reachable from
+                            - code [ref=e3330]: feature/GRU
+                            - text: .
+                          - separator [ref=e3332]
+                          - heading "5. Team" [level=2] [ref=e3333]
+                          - paragraph [ref=e3334]:
+                            - strong [ref=e3335]: "Team size: 5"
+                          - table [ref=e3336]:
+                            - rowgroup [ref=e3337]:
+                              - row [ref=e3338]:
+                                - columnheader "Role" [ref=e3339]
+                                - columnheader "Count" [ref=e3340]
+                                - columnheader "Responsibility" [ref=e3341]
+                              - row [ref=e3342]:
+                                - cell "Release / Integration Lead" [ref=e3343]
+                                - cell "1" [ref=e3344]
+                                - cell "Owns commit budget, branch topology, final gates, Semaphore trigger decision" [ref=e3345]
+                              - row [ref=e3346]:
+                                - cell "Python & Test Engineer" [ref=e3347]
+                                - cell "1" [ref=e3348]
+                                - cell "Validates unittest fix, targeted tests, complete Python test discovery" [ref=e3349]
+                              - row [ref=e3350]:
+                                - cell "CI / Semaphore Engineer" [ref=e3351]
+                                - cell "1" [ref=e3352]
+                                - cell [ref=e3353]:
+                                  - text: Reproduces
+                                  - code [ref=e3354]: GRU validation
+                                  - text: ", validates six-block workflow and watches Semaphore"
+                              - row [ref=e3355]:
+                                - cell "Runtime / P2 & Production Engineer" [ref=e3356]
+                                - cell "1" [ref=e3357]
+                                - cell "Validates P2 exact identity, deployment, production SHA/cleanliness/runtime invariants" [ref=e3358]
+                              - row [ref=e3359]:
+                                - cell "Independent Verification Engineer" [ref=e3360]
+                                - cell "1" [ref=e3361]
+                                - cell "Performs read-only second-person verification of SHA, tree, diff, evidence, COMPLETE_GO checklist" [ref=e3362]
+                          - heading "Separation of duties" [level=3] [ref=e3363]
+                          - paragraph [ref=e3364]: No person/agent that changes the final branch ref may be the only verifier of the final branch topology.
+                          - paragraph [ref=e3365]: No Semaphore trigger occurs until the Independent Verification Engineer records GO for the preflight package.
+                          - separator [ref=e3367]
+                          - heading "6. Execution strategy" [level=2] [ref=e3368]
+                          - paragraph [ref=e3369]:
+                            - text: The plan uses a
+                            - strong [ref=e3370]: validate-before-publish
+                            - text: "strategy:"
+                          - code [ref=e3372]: validate immutable commit object ↓ independent audit ↓ controlled branch ref rewrite ↓ fresh remote exact-SHA validation ↓ ONE Semaphore production workflow ↓ six blocks PASS ↓ production exact-SHA verification ↓ COMPLETE_GO
+                          - paragraph [ref=e3373]: The key credit-saving mechanism is that all deterministic checks are run before Semaphore.
+                          - separator [ref=e3375]
+                          - heading "7. Phase gates" [level=2] [ref=e3376]
+                          - heading "Gate G0 — Evidence freeze" [level=3] [ref=e3377]
+                          - paragraph [ref=e3378]: "Required before any write:"
+                          - list [ref=e3379]:
+                            - listitem [ref=e3380]:
+                              - paragraph [ref=e3381]: previous failure bundle archived;
+                            - listitem [ref=e3382]:
+                              - paragraph [ref=e3383]:
+                                - text: failed SHA recorded as
+                                - code [ref=e3384]: 258a111...
+                                - text: ;
+                            - listitem [ref=e3385]:
+                              - paragraph [ref=e3386]:
+                                - text: final remediation SHA recorded as
+                                - code [ref=e3387]: 44505ddb...
+                                - text: ;
+                            - listitem [ref=e3388]:
+                              - paragraph [ref=e3389]: no uncertainty about which SHA contains which implementation.
+                          - paragraph [ref=e3390]:
+                            - strong [ref=e3391]: "Exit:"
+                            - code [ref=e3392]: G0_GO
+                          - heading "Gate G1 — Canonical remediation commit audit" [level=3] [ref=e3393]
+                          - paragraph [ref=e3394]:
+                            - text: Verify commit
+                            - code [ref=e3395]: 44505ddb...
+                            - text: directly, without relying on branch names.
+                          - paragraph [ref=e3396]: "Required assertions:"
+                          - code [ref=e3398]: commit = 44505ddbfa5062dc1c712fc90db72cb0c54de924 parent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                          - paragraph [ref=e3399]: "Diff relative to parent must contain exactly:"
+                          - code [ref=e3401]: ops/ci/observe_gru_p2_remote.sh ops/ci/tests/test_p2_handoff_state_machine.py
+                          - paragraph [ref=e3402]: "Required validated blob identities:"
+                          - code [ref=e3404]: ops/ci/observe_gru_p2_remote.sh blob = 001a58683d9bb791ad5bbc58ff8b9a9145d3960a ops/ci/tests/test_p2_handoff_state_machine.py blob = e46b9a0733c3866805b5177713293eb4c63f1a95
+                          - paragraph [ref=e3405]: Verify no third file changed.
+                          - paragraph [ref=e3406]:
+                            - strong [ref=e3407]: "Exit:"
+                            - code [ref=e3408]: G1_GO
+                          - heading "Gate G2 — Exhaustive exact-SHA preflight" [level=3] [ref=e3409]
+                          - paragraph [ref=e3410]:
+                            - text: Use a fresh temporary detached clone checked out at
+                            - code [ref=e3411]: 44505ddb...
+                            - text: .
+                          - paragraph [ref=e3412]: Do not use the production checkout as the test workspace.
+                          - paragraph [ref=e3413]: Run every mandatory check in Section 8.
+                          - paragraph [ref=e3414]:
+                            - strong [ref=e3415]: "Exit:"
+                            - code [ref=e3416]: G2_GO
+                            - text: only if every mandatory check passes.
+                          - heading "Gate G3 — Independent review" [level=3] [ref=e3417]
+                          - paragraph [ref=e3418]: "Independent verifier checks:"
+                          - list [ref=e3419]:
+                            - listitem [ref=e3420]:
+                              - paragraph [ref=e3421]: commit SHA;
+                            - listitem [ref=e3422]:
+                              - paragraph [ref=e3423]: parent SHA;
+                            - listitem [ref=e3424]:
+                              - paragraph [ref=e3425]: two-file diff;
+                            - listitem [ref=e3426]:
+                              - paragraph [ref=e3427]: blob SHAs;
+                            - listitem [ref=e3428]:
+                              - paragraph [ref=e3429]: preflight test outputs;
+                            - listitem [ref=e3430]:
+                              - paragraph [ref=e3431]: no mandatory test failure hidden by a skip;
+                            - listitem [ref=e3432]:
+                              - paragraph [ref=e3433]: Semaphore YAML still contains exactly six expected blocks;
+                            - listitem [ref=e3434]:
+                              - paragraph [ref=e3435]: no additional commit is necessary.
+                          - paragraph [ref=e3436]:
+                            - strong [ref=e3437]: "Exit:"
+                            - code [ref=e3438]: G3_GO
+                          - heading "Gate G4 — Branch cutover" [level=3] [ref=e3439]
+                          - paragraph [ref=e3440]: "Precondition: explicit authorization for the non-fast-forward ref rewrite."
+                          - paragraph [ref=e3441]: "Atomically move:"
+                          - code [ref=e3443]: "feature/GRU: 258a111c031dee9643cffb920518fcc1ca392565 -> 44505ddbfa5062dc1c712fc90db72cb0c54de924"
+                          - paragraph [ref=e3444]:
+                            - text: Do
+                            - strong [ref=e3445]: not
+                            - text: create a revert commit.
+                          - paragraph [ref=e3446]: Immediately verify remote branch HEAD, parent and compare topology.
+                          - paragraph [ref=e3447]:
+                            - strong [ref=e3448]: "Exit:"
+                            - code [ref=e3449]: G4_GO
+                          - heading "Gate G5 — Remote branch exact-SHA revalidation" [level=3] [ref=e3450]
+                          - paragraph [ref=e3451]:
+                            - text: Fresh-clone
+                            - code [ref=e3452]: feature/GRU
+                            - text: "from GitHub and assert:"
+                          - code [ref=e3454]: HEAD == 44505ddb... HEAD^ == dc4e2eef...
+                          - paragraph [ref=e3455]: Run the deterministic CI validation set again against the remote branch state.
+                          - paragraph [ref=e3456]:
+                            - strong [ref=e3457]: "Exit:"
+                            - code [ref=e3458]: G5_GO
+                          - heading "Gate G6 — Single Semaphore launch" [level=3] [ref=e3459]
+                          - paragraph [ref=e3460]:
+                            - text: Only now trigger a
+                            - strong [ref=e3461]: new
+                            - text: Semaphore workflow for the final SHA.
+                          - paragraph [ref=e3462]:
+                            - text: Do not rerun the failed workflow tied to
+                            - code [ref=e3463]: 258a111...
+                            - text: .
+                          - paragraph [ref=e3464]: "The new workflow must report:"
+                          - code [ref=e3466]: SEMAPHORE_GIT_SHA = 44505ddbfa5062dc1c712fc90db72cb0c54de924 branch = feature/GRU
+                          - paragraph [ref=e3467]:
+                            - strong [ref=e3468]: "Exit:"
+                            - text: workflow accepted for exact SHA.
+                          - heading "Gate G7 — Six-block Semaphore GO" [level=3] [ref=e3469]
+                          - paragraph [ref=e3470]: "Required blocks, in order:"
+                          - list [ref=e3471]:
+                            - listitem [ref=e3472]:
+                              - paragraph [ref=e3473]:
+                                - code [ref=e3474]: GRU validation
+                            - listitem [ref=e3475]:
+                              - paragraph [ref=e3476]:
+                                - code [ref=e3477]: Full-corpus acceptance launch
+                            - listitem [ref=e3478]:
+                              - paragraph [ref=e3479]:
+                                - code [ref=e3480]: Full-corpus acceptance final watch
+                            - listitem [ref=e3481]:
+                              - paragraph [ref=e3482]:
+                                - code [ref=e3483]: Deploy exact feature GRU SHA
+                            - listitem [ref=e3484]:
+                              - paragraph [ref=e3485]:
+                                - code [ref=e3486]: P2 acceptance launch
+                            - listitem [ref=e3487]:
+                              - paragraph [ref=e3488]:
+                                - code [ref=e3489]: P2 acceptance final watch
+                          - paragraph [ref=e3490]:
+                            - text: Every block must be
+                            - code [ref=e3491]: Passed
+                            - text: or a contractually valid reused PASS backed by exact-SHA durable evidence.
+                          - paragraph [ref=e3492]: No downstream block may be manually promoted around a failed dependency.
+                          - paragraph [ref=e3493]:
+                            - strong [ref=e3494]: "Exit:"
+                            - code [ref=e3495]: G7_GO
+                          - heading "Gate G8 — Production final verification" [level=3] [ref=e3496]
+                          - paragraph [ref=e3497]: "Verify production checkout:"
+                          - code [ref=e3499]: branch = feature/GRU HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 tracked_status = clean
+                          - paragraph [ref=e3500]: "Confirm:"
+                          - list [ref=e3501]:
+                            - listitem [ref=e3502]:
+                              - paragraph [ref=e3503]:
+                                - code [ref=e3504]: /tmp/log
+                                - text: unchanged by cleanup/deploy actions;
+                            - listitem [ref=e3505]:
+                              - paragraph [ref=e3506]: no tracked drift;
+                            - listitem [ref=e3507]:
+                              - paragraph [ref=e3508]: no deletion of runtime untracked artifacts;
+                            - listitem [ref=e3509]:
+                              - paragraph [ref=e3510]: P2 durable final status belongs to exact final SHA/build;
+                            - listitem [ref=e3511]:
+                              - paragraph [ref=e3512]: full-corpus evidence belongs to exact final SHA;
+                            - listitem [ref=e3513]:
+                              - paragraph [ref=e3514]: no accidental/dummy remote branch remains if prohibited by release contract.
+                          - paragraph [ref=e3515]:
+                            - strong [ref=e3516]: "Exit:"
+                            - code [ref=e3517]: G8_GO
+                          - heading "Gate G9 — COMPLETE_GO" [level=3] [ref=e3518]
+                          - paragraph [ref=e3519]: COMPLETE_GO can be declared only when all G0–G8 gates are GO.
+                          - separator [ref=e3521]
+                          - heading "8. Mandatory pre-Semaphore test matrix" [level=2] [ref=e3522]
+                          - paragraph [ref=e3523]: All deterministic tests below must pass before spending another Semaphore run.
+                          - heading "8.1 Test-file syntax" [level=3] [ref=e3524]
+                          - code [ref=e3526]: python3 -m py_compile \ ops/ci/tests/test_p2_handoff_state_machine.py
+                          - paragraph [ref=e3527]:
+                            - text: "Expected: exit"
+                            - code [ref=e3528]: "0"
+                            - text: .
+                          - heading "8.2 Observer shell syntax" [level=3] [ref=e3529]
+                          - code [ref=e3531]: bash -n ops/ci/observe_gru_p2_remote.sh
+                          - paragraph [ref=e3532]:
+                            - text: "Expected: exit"
+                            - code [ref=e3533]: "0"
+                            - text: .
+                          - heading "8.3 Targeted P2 state-machine suite" [level=3] [ref=e3534]
+                          - code [ref=e3536]: python3 -m unittest -v \ ops.ci.tests.test_p2_handoff_state_machine
+                          - paragraph [ref=e3537]: "Mandatory expected result:"
+                          - code [ref=e3539]: Ran 6 tests OK
+                          - paragraph [ref=e3540]: "Mandatory named regressions:"
+                          - code [ref=e3542]: test_observer_rejects_stale_same_sha_other_build_result ... ok test_observer_accepts_exact_current_build_result ... ok
+                          - heading "8.4 Related remediation contracts" [level=3] [ref=e3543]
+                          - code [ref=e3545]: python3 -m unittest -v \ ops.ci.tests.test_p2_external_evidence_contract \ ops.ci.tests.test_single_commit_semaphore_contract \ ops.ci.tests.test_post_p2_live_durability
+                          - paragraph [ref=e3546]: "Expected:"
+                          - code [ref=e3548]: Ran 3 tests OK
+                          - heading "8.5 Complete CI-contract discovery" [level=3] [ref=e3549]
+                          - code [ref=e3551]: python3 -m unittest discover \ -s ops/ci/tests \ -p 'test_*.py' \ -v
+                          - paragraph [ref=e3552]: "Known validated baseline:"
+                          - code [ref=e3554]: Ran 38 tests OK
+                          - paragraph [ref=e3555]: Any reduction in discovered test count requires investigation before Semaphore.
+                          - heading [level=3] [ref=e3556]:
+                            - text: 8.6 Exact reproduction of
+                            - code [ref=e3557]: GRU validation / Core CI contracts
+                          - paragraph [ref=e3558]: "Execute, in the same order as Semaphore:"
+                          - code [ref=e3560]: ops.ci.breaker.tests.test_ci_breaker ops.gru.test_remediate_orphan_recovery_wait apy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests ops.ci.tests.test_p2_memory_bound_contract apy.tests.test_raw_payload_persistence ops.ci.tests.test_full_corpus_durability_contract ops.ci.tests.test_p1_dependency_validator_contract ops.ci.tests.test_p2_handoff_state_machine ops.ci.tests.test_p2_external_evidence_contract ops.ci.tests.test_post_p2_live_acceptance_contract ops.ci.tests.test_post_p2_live_durability ops.ci.tests.test_single_commit_semaphore_contract apy.tests.test_gru_minimum_history_boundary
+                          - paragraph [ref=e3561]: "Then execute the exact:"
+                          - list [ref=e3562]:
+                            - listitem [ref=e3563]:
+                              - paragraph [ref=e3564]:
+                                - code [ref=e3565]: py_compile
+                                - text: checks;
+                            - listitem [ref=e3566]:
+                              - paragraph [ref=e3567]:
+                                - code [ref=e3568]: bash -n
+                                - text: checks;
+                            - listitem [ref=e3569]:
+                              - paragraph [ref=e3570]: full-corpus marker greps;
+                            - listitem [ref=e3571]:
+                              - paragraph [ref=e3572]: privilege-dependency scan;
+                            - listitem [ref=e3573]:
+                              - paragraph [ref=e3574]: final production-validation marker.
+                          - paragraph [ref=e3575]: "Expected terminal marker:"
+                          - code [ref=e3577]: SEMAPHORE_PRODUCTION_VALIDATION=PASS
+                          - heading "8.7 Minimum-history runtime boundary" [level=3] [ref=e3578]
+                          - paragraph [ref=e3579]: The CI interpreter may legitimately skip the pandas-dependent runtime portion if pandas is absent.
+                          - paragraph [ref=e3580]:
+                            - text: To reduce risk further, additionally run the
+                            - code [ref=e3581]: 24/25/26
+                            - text: runtime-boundary test in a dependency-complete project environment where pandas is installed.
+                          - paragraph [ref=e3582]: "Required result:"
+                          - code [ref=e3584]: 24 rows -> rejected as insufficient 25 rows -> accepted boundary 26 rows -> accepted
+                          - paragraph [ref=e3585]: This must not modify production data.
+                          - heading "8.8 Static exact-result identity checks" [level=3] [ref=e3586]
+                          - paragraph [ref=e3587]: "Verify source contains:"
+                          - code [ref=e3589]: "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+                          - paragraph [ref=e3590]: "Verify source no longer contains:"
+                          - code [ref=e3592]: latest_result_file
+                          - paragraph [ref=e3593]:
+                            - text: "Expected count:"
+                            - code [ref=e3594]: "0"
+                            - text: .
+                          - heading "8.9 Test lifecycle collision check" [level=3] [ref=e3595]
+                          - paragraph [ref=e3596]: "Verify no project helper overrides the unittest lifecycle method:"
+                          - code [ref=e3598]: def run(self,
+                          - paragraph [ref=e3599]:
+                            - text: within
+                            - code [ref=e3600]: test_p2_handoff_state_machine.py
+                            - text: .
+                          - paragraph [ref=e3601]:
+                            - text: "Expected project-helper count:"
+                            - code [ref=e3602]: "0"
+                            - text: .
+                          - heading "8.10 Repository integrity" [level=3] [ref=e3603]
+                          - paragraph [ref=e3604]: "Run:"
+                          - code [ref=e3606]: git diff --check git status --porcelain
+                          - paragraph [ref=e3607]: "Expected:"
+                          - code [ref=e3609]: no whitespace errors clean fresh validation clone
+                          - heading "8.11 Commit-object integrity" [level=3] [ref=e3610]
+                          - paragraph [ref=e3611]: "Verify:"
+                          - code [ref=e3613]: HEAD = 44505ddb... parent = dc4e2eef... changed files = exactly 2
+                          - heading "8.12 Semaphore topology" [level=3] [ref=e3614]
+                          - paragraph [ref=e3615]:
+                            - text: Verify
+                            - code [ref=e3616]: .semaphore/semaphore-production.yml
+                            - text: contains exactly six production blocks and the dependency chain is unchanged.
+                          - heading "8.13 No-privilege dependency" [level=3] [ref=e3617]
+                          - paragraph [ref=e3618]: Validate full-corpus live runtime scripts do not require privileged execution.
+                          - paragraph [ref=e3619]: The safety scan itself must use a form accepted by the operator/runtime policy so the preflight is actually executed rather than skipped by an external safety parser.
+                          - heading "8.14 Deployment script syntax and exact-SHA semantics" [level=3] [ref=e3620]
+                          - paragraph [ref=e3621]:
+                            - text: Validate deployment scripts with
+                            - code [ref=e3622]: bash -n
+                            - text: .
+                          - paragraph [ref=e3623]: Confirm deployment resolves the expected exact SHA and fails closed on branch/SHA mismatch.
+                          - heading "8.15 Production read-only preflight" [level=3] [ref=e3624]
+                          - paragraph [ref=e3625]: "Before Semaphore launch, read-only verify:"
+                          - list [ref=e3626]:
+                            - listitem [ref=e3627]:
+                              - paragraph [ref=e3628]: production current SHA;
+                            - listitem [ref=e3629]:
+                              - paragraph [ref=e3630]: production branch;
+                            - listitem [ref=e3631]:
+                              - paragraph [ref=e3632]: tracked status;
+                            - listitem [ref=e3633]:
+                              - paragraph [ref=e3634]: relevant runtime services;
+                            - listitem [ref=e3635]:
+                              - paragraph [ref=e3636]: available disk/memory sufficient for workflow;
+                            - listitem [ref=e3637]:
+                              - paragraph [ref=e3638]:
+                                - code [ref=e3639]: /tmp/log
+                                - text: baseline fingerprint/metadata for immutability comparison.
+                          - paragraph [ref=e3640]: Do not alter production in this gate.
+                          - separator [ref=e3642]
+                          - heading "9. Semaphore credit-saving policy" [level=2] [ref=e3643]
+                          - heading "Before launch" [level=3] [ref=e3644]
+                          - paragraph [ref=e3645]: "Semaphore launch is forbidden unless all are true:"
+                          - code [ref=e3647]: G0_GO G1_GO G2_GO G3_GO G4_GO G5_GO
+                          - heading "During launch" [level=3] [ref=e3648]
+                          - paragraph [ref=e3649]: Use one new workflow tied to final exact SHA.
+                          - paragraph [ref=e3650]: Do not launch parallel duplicate pipelines.
+                          - heading "If a block fails" [level=3] [ref=e3651]
+                          - paragraph [ref=e3652]:
+                            - strong [ref=e3653]: Code/contract failure
+                          - list [ref=e3654]:
+                            - listitem [ref=e3655]:
+                              - paragraph [ref=e3656]: no automatic retry;
+                            - listitem [ref=e3657]:
+                              - paragraph [ref=e3658]: no additional commit under this plan;
+                            - listitem [ref=e3659]:
+                              - paragraph [ref=e3660]: capture exact failure evidence;
+                            - listitem [ref=e3661]:
+                              - paragraph [ref=e3662]: mark zero-additional-commit objective as not achieved.
+                          - paragraph [ref=e3663]:
+                            - strong [ref=e3664]: Transient infrastructure failure
+                          - paragraph [ref=e3665]: "A retry is allowed only if evidence proves all of:"
+                          - list [ref=e3666]:
+                            - listitem [ref=e3667]:
+                              - paragraph [ref=e3668]: exact Git SHA unchanged;
+                            - listitem [ref=e3669]:
+                              - paragraph [ref=e3670]: source command did not produce a code/test failure;
+                            - listitem [ref=e3671]:
+                              - paragraph [ref=e3672]: failure occurred in provisioning/network/agent/tooling layer;
+                            - listitem [ref=e3673]:
+                              - paragraph [ref=e3674]: rerun does not hide a deterministic failure.
+                          - separator [ref=e3676]
+                          - heading "10. Six-block acceptance criteria" [level=2] [ref=e3677]
+                          - heading "Block 1 — GRU validation" [level=3] [ref=e3678]
+                          - paragraph [ref=e3679]: Must pass all test, compile, syntax, marker and privilege gates.
+                          - paragraph [ref=e3680]: "Critical regression:"
+                          - code [ref=e3682]: "test_p2_handoff_state_machine: 6 tests, not 0"
+                          - heading "Block 2 — Full-corpus acceptance launch" [level=3] [ref=e3683]
+                          - paragraph [ref=e3684]: Must create/attach exact-SHA durable authority without privileged runtime dependency.
+                          - heading "Block 3 — Full-corpus acceptance final watch" [level=3] [ref=e3685]
+                          - paragraph [ref=e3686]: Must finish with durable exact-SHA acceptance evidence.
+                          - paragraph [ref=e3687]: No stale run may satisfy current acceptance.
+                          - heading "Block 4 — Deploy exact feature GRU SHA" [level=3] [ref=e3688]
+                          - paragraph [ref=e3689]: "Production must deploy exactly:"
+                          - paragraph [ref=e3690]:
+                            - code [ref=e3691]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                          - paragraph [ref=e3692]: Deployment must fail closed on SHA mismatch.
+                          - heading "Block 5 — P2 acceptance launch" [level=3] [ref=e3693]
+                          - paragraph [ref=e3694]: Must bind durable launch authority to exact build + SHA.
+                          - heading "Block 6 — P2 acceptance final watch" [level=3] [ref=e3695]
+                          - paragraph [ref=e3696]: Must accept only the terminal result corresponding to the same build + SHA.
+                          - paragraph [ref=e3697]: A stale same-SHA result from another build must not produce GO.
+                          - separator [ref=e3699]
+                          - heading "11. Atomic assigned backlog" [level=2] [ref=e3700]
+                          - table [ref=e3701]:
+                            - rowgroup [ref=e3702]:
+                              - row [ref=e3703]:
+                                - columnheader "ID" [ref=e3704]
+                                - columnheader "Owner" [ref=e3705]
+                                - columnheader "Atomic task" [ref=e3706]
+                                - columnheader "Acceptance evidence" [ref=e3707]
+                              - row [ref=e3708]:
+                                - cell "B001" [ref=e3709]
+                                - cell "Release Lead" [ref=e3710]
+                                - cell "Freeze failed SHA, base SHA and final SHA in release record" [ref=e3711]
+                                - cell "Three literal SHAs recorded" [ref=e3712]
+                              - row [ref=e3713]:
+                                - cell "B002" [ref=e3714]
+                                - cell "Independent Verifier" [ref=e3715]
+                                - cell [ref=e3716]:
+                                  - text: Verify
+                                  - code [ref=e3717]: 44505ddb...
+                                  - text: exists in GitHub
+                                - cell "Commit metadata captured" [ref=e3718]
+                              - row [ref=e3719]:
+                                - cell "B003" [ref=e3720]
+                                - cell "Independent Verifier" [ref=e3721]
+                                - cell [ref=e3722]:
+                                  - text: Verify parent of
+                                  - code [ref=e3723]: 44505ddb...
+                                  - text: is exactly
+                                  - code [ref=e3724]: dc4e2eef...
+                                - cell "Parent SHA evidence" [ref=e3725]
+                              - row [ref=e3726]:
+                                - cell "B004" [ref=e3727]
+                                - cell "Independent Verifier" [ref=e3728]
+                                - cell [ref=e3729]:
+                                  - text: Compare
+                                  - code [ref=e3730]: dc4e2eef...
+                                  - text: →
+                                  - code [ref=e3731]: 44505ddb...
+                                - cell "Exactly two files changed" [ref=e3732]
+                              - row [ref=e3733]:
+                                - cell "B005" [ref=e3734]
+                                - cell "Independent Verifier" [ref=e3735]
+                                - cell "Verify observer blob SHA" [ref=e3736]
+                                - cell [ref=e3737]:
+                                  - code [ref=e3738]: 001a58683d9...
+                              - row [ref=e3739]:
+                                - cell "B006" [ref=e3740]
+                                - cell "Independent Verifier" [ref=e3741]
+                                - cell "Verify handoff-test blob SHA" [ref=e3742]
+                                - cell [ref=e3743]:
+                                  - code [ref=e3744]: e46b9a0733c...
+                              - row [ref=e3745]:
+                                - cell "B007" [ref=e3746]
+                                - cell "Python Engineer" [ref=e3747]
+                                - cell "Fresh-clone exact final SHA" [ref=e3748]
+                                - cell "Detached clean HEAD evidence" [ref=e3749]
+                              - row [ref=e3750]:
+                                - cell "B008" [ref=e3751]
+                                - cell "Python Engineer" [ref=e3752]
+                                - cell "Run Python syntax check on handoff tests" [ref=e3753]
+                                - cell "Exit 0" [ref=e3754]
+                              - row [ref=e3755]:
+                                - cell "B009" [ref=e3756]
+                                - cell "Runtime Engineer" [ref=e3757]
+                                - cell "Run Bash syntax check on P2 observer" [ref=e3758]
+                                - cell "Exit 0" [ref=e3759]
+                              - row [ref=e3760]:
+                                - cell "B010" [ref=e3761]
+                                - cell "Python Engineer" [ref=e3762]
+                                - cell "Run targeted P2 handoff suite" [ref=e3763]
+                                - cell "6 tests OK" [ref=e3764]
+                              - row [ref=e3765]:
+                                - cell "B011" [ref=e3766]
+                                - cell "Python Engineer" [ref=e3767]
+                                - cell "Verify stale-build rejection test" [ref=e3768]
+                                - cell "named test OK" [ref=e3769]
+                              - row [ref=e3770]:
+                                - cell "B012" [ref=e3771]
+                                - cell "Python Engineer" [ref=e3772]
+                                - cell "Verify exact-build acceptance test" [ref=e3773]
+                                - cell "named test OK" [ref=e3774]
+                              - row [ref=e3775]:
+                                - cell "B013" [ref=e3776]
+                                - cell "Python Engineer" [ref=e3777]
+                                - cell "Run related remediation contracts" [ref=e3778]
+                                - cell "3 tests OK" [ref=e3779]
+                              - row [ref=e3780]:
+                                - cell "B014" [ref=e3781]
+                                - cell "Python Engineer" [ref=e3782]
+                                - cell [ref=e3783]:
+                                  - text: Run full
+                                  - code [ref=e3784]: ops/ci/tests
+                                  - text: discovery
+                                - cell "≥38 tests, all OK" [ref=e3785]
+                              - row [ref=e3786]:
+                                - cell "B015" [ref=e3787]
+                                - cell "Python Engineer" [ref=e3788]
+                                - cell "Run dependency-complete 24/25/26 runtime-boundary test" [ref=e3789]
+                                - cell "boundary PASS" [ref=e3790]
+                              - row [ref=e3791]:
+                                - cell "B016" [ref=e3792]
+                                - cell "Runtime Engineer" [ref=e3793]
+                                - cell [ref=e3794]:
+                                  - text: Verify no
+                                  - code [ref=e3795]: latest_result_file
+                                  - text: remains
+                                - cell "count 0" [ref=e3796]
+                              - row [ref=e3797]:
+                                - cell "B017" [ref=e3798]
+                                - cell "Python Engineer" [ref=e3799]
+                                - cell [ref=e3800]:
+                                  - text: Verify no custom
+                                  - code [ref=e3801]: TestCase.run
+                                  - text: remains
+                                - cell "count 0" [ref=e3802]
+                              - row [ref=e3803]:
+                                - cell "B018" [ref=e3804]
+                                - cell "CI Engineer" [ref=e3805]
+                                - cell [ref=e3806]:
+                                  - text: Reproduce full Semaphore
+                                  - code [ref=e3807]: Core CI contracts
+                                  - text: command sequence
+                                - cell "terminal PASS marker" [ref=e3808]
+                              - row [ref=e3809]:
+                                - cell "B019" [ref=e3810]
+                                - cell "CI Engineer" [ref=e3811]
+                                - cell [ref=e3812]:
+                                  - text: Run all
+                                  - code [ref=e3813]: py_compile
+                                  - text: gates from Semaphore
+                                - cell "all exit 0" [ref=e3814]
+                              - row [ref=e3815]:
+                                - cell "B020" [ref=e3816]
+                                - cell "CI Engineer" [ref=e3817]
+                                - cell [ref=e3818]:
+                                  - text: Run all
+                                  - code [ref=e3819]: bash -n
+                                  - text: gates from Semaphore
+                                - cell "all exit 0" [ref=e3820]
+                              - row [ref=e3821]:
+                                - cell "B021" [ref=e3822]
+                                - cell "CI Engineer" [ref=e3823]
+                                - cell "Run full-corpus contract marker checks" [ref=e3824]
+                                - cell "all markers present" [ref=e3825]
+                              - row [ref=e3826]:
+                                - cell "B022" [ref=e3827]
+                                - cell "CI Engineer" [ref=e3828]
+                                - cell "Run policy-compatible privilege-dependency scan" [ref=e3829]
+                                - cell "no live runtime privilege dependency" [ref=e3830]
+                              - row [ref=e3831]:
+                                - cell "B023" [ref=e3832]
+                                - cell "Release Lead" [ref=e3833]
+                                - cell [ref=e3834]:
+                                  - text: Run
+                                  - code [ref=e3835]: git diff --check
+                                - cell "no errors" [ref=e3836]
+                              - row [ref=e3837]:
+                                - cell "B024" [ref=e3838]
+                                - cell "Release Lead" [ref=e3839]
+                                - cell "Verify validation worktree clean" [ref=e3840]
+                                - cell "clean" [ref=e3841]
+                              - row [ref=e3842]:
+                                - cell "B025" [ref=e3843]
+                                - cell "CI Engineer" [ref=e3844]
+                                - cell "Verify six-block Semaphore topology" [ref=e3845]
+                                - cell "exact six blocks/dependencies" [ref=e3846]
+                              - row [ref=e3847]:
+                                - cell "B026" [ref=e3848]
+                                - cell "Runtime Engineer" [ref=e3849]
+                                - cell "Read-only production capacity/state preflight" [ref=e3850]
+                                - cell "evidence bundle" [ref=e3851]
+                              - row [ref=e3852]:
+                                - cell "B027" [ref=e3853]
+                                - cell "Runtime Engineer" [ref=e3854]
+                                - cell [ref=e3855]:
+                                  - text: Record
+                                  - code [ref=e3856]: /tmp/log
+                                  - text: baseline
+                                - cell "immutable baseline evidence" [ref=e3857]
+                              - row [ref=e3858]:
+                                - cell "B028" [ref=e3859]
+                                - cell "Independent Verifier" [ref=e3860]
+                                - cell "Review B001–B027 evidence" [ref=e3861]
+                                - cell [ref=e3862]:
+                                  - code [ref=e3863]: PREPUBLISH_GO
+                              - row [ref=e3864]:
+                                - cell "B029" [ref=e3865]
+                                - cell "Release Lead" [ref=e3866]
+                                - cell "Obtain explicit authorization for non-fast-forward branch ref rewrite" [ref=e3867]
+                                - cell "authorization recorded" [ref=e3868]
+                              - row [ref=e3869]:
+                                - cell "B030" [ref=e3870]
+                                - cell "Release Lead" [ref=e3871]
+                                - cell [ref=e3872]:
+                                  - text: Move
+                                  - code [ref=e3873]: feature/GRU
+                                  - text: from
+                                  - code [ref=e3874]: 258a111...
+                                  - text: to
+                                  - code [ref=e3875]: 44505ddb...
+                                - cell "remote ref exact" [ref=e3876]
+                              - row [ref=e3877]:
+                                - cell "B031" [ref=e3878]
+                                - cell "Independent Verifier" [ref=e3879]
+                                - cell [ref=e3880]:
+                                  - text: Verify
+                                  - code [ref=e3881]: 258a111...
+                                  - text: unreachable from
+                                  - code [ref=e3882]: feature/GRU
+                                - cell "ancestry PASS" [ref=e3883]
+                              - row [ref=e3884]:
+                                - cell "B032" [ref=e3885]
+                                - cell "Independent Verifier" [ref=e3886]
+                                - cell [ref=e3887]:
+                                  - text: Verify final branch parent =
+                                  - code [ref=e3888]: dc4e2eef...
+                                - cell "exact parent evidence" [ref=e3889]
+                              - row [ref=e3890]:
+                                - cell "B033" [ref=e3891]
+                                - cell "Release Lead" [ref=e3892]
+                                - cell "Confirm no commit created during branch cutover" [ref=e3893]
+                                - cell "commit invariant" [ref=e3894]
+                              - row [ref=e3895]:
+                                - cell "B034" [ref=e3896]
+                                - cell "Python Engineer" [ref=e3897]
+                                - cell [ref=e3898]:
+                                  - text: Fresh-clone remote
+                                  - code [ref=e3899]: feature/GRU
+                                  - text: after cutover
+                                - cell "HEAD exact final SHA" [ref=e3900]
+                              - row [ref=e3901]:
+                                - cell "B035" [ref=e3902]
+                                - cell "CI Engineer" [ref=e3903]
+                                - cell [ref=e3904]:
+                                  - text: Re-run deterministic
+                                  - code [ref=e3905]: Core CI contracts
+                                  - text: preflight from remote clone
+                                - cell "PASS" [ref=e3906]
+                              - row [ref=e3907]:
+                                - cell "B036" [ref=e3908]
+                                - cell "Independent Verifier" [ref=e3909]
+                                - cell [ref=e3910]:
+                                  - text: Issue
+                                  - code [ref=e3911]: SEMAPHORE_TRIGGER_GO
+                                - cell "checklist GO" [ref=e3912]
+                              - row [ref=e3913]:
+                                - cell "B037" [ref=e3914]
+                                - cell "CI Engineer" [ref=e3915]
+                                - cell "Trigger one new Semaphore workflow" [ref=e3916]
+                                - cell "new run ID, exact final SHA" [ref=e3917]
+                              - row [ref=e3918]:
+                                - cell "B038" [ref=e3919]
+                                - cell "CI Engineer" [ref=e3920]
+                                - cell "Verify Semaphore checkout SHA" [ref=e3921]
+                                - cell [ref=e3922]:
+                                  - code [ref=e3923]: 44505ddb...
+                              - row [ref=e3924]:
+                                - cell "B039" [ref=e3925]
+                                - cell "CI Engineer" [ref=e3926]
+                                - cell [ref=e3927]:
+                                  - text: Observe Block 1
+                                  - code [ref=e3928]: GRU validation
+                                - cell "Passed" [ref=e3929]
+                              - row [ref=e3930]:
+                                - cell "B040" [ref=e3931]
+                                - cell "CI Engineer" [ref=e3932]
+                                - cell "Observe Block 2 full-corpus launch" [ref=e3933]
+                                - cell "Passed" [ref=e3934]
+                              - row [ref=e3935]:
+                                - cell "B041" [ref=e3936]
+                                - cell "Runtime Engineer" [ref=e3937]
+                                - cell "Verify full-corpus durable authority identity" [ref=e3938]
+                                - cell "exact SHA/run" [ref=e3939]
+                              - row [ref=e3940]:
+                                - cell "B042" [ref=e3941]
+                                - cell "CI Engineer" [ref=e3942]
+                                - cell "Observe Block 3 full-corpus final watch" [ref=e3943]
+                                - cell "Passed" [ref=e3944]
+                              - row [ref=e3945]:
+                                - cell "B043" [ref=e3946]
+                                - cell "Runtime Engineer" [ref=e3947]
+                                - cell "Validate durable full-corpus evidence" [ref=e3948]
+                                - cell "PASS" [ref=e3949]
+                              - row [ref=e3950]:
+                                - cell "B044" [ref=e3951]
+                                - cell "CI Engineer" [ref=e3952]
+                                - cell "Observe Block 4 exact-SHA deploy" [ref=e3953]
+                                - cell "Passed" [ref=e3954]
+                              - row [ref=e3955]:
+                                - cell "B045" [ref=e3956]
+                                - cell "Runtime Engineer" [ref=e3957]
+                                - cell "Verify production HEAD immediately after deploy" [ref=e3958]
+                                - cell "exact final SHA" [ref=e3959]
+                              - row [ref=e3960]:
+                                - cell "B046" [ref=e3961]
+                                - cell "CI Engineer" [ref=e3962]
+                                - cell "Observe Block 5 P2 acceptance launch" [ref=e3963]
+                                - cell "Passed" [ref=e3964]
+                              - row [ref=e3965]:
+                                - cell "B047" [ref=e3966]
+                                - cell "Runtime Engineer" [ref=e3967]
+                                - cell "Verify P2 launch authority = exact build + SHA" [ref=e3968]
+                                - cell "identity PASS" [ref=e3969]
+                              - row [ref=e3970]:
+                                - cell "B048" [ref=e3971]
+                                - cell "CI Engineer" [ref=e3972]
+                                - cell "Observe Block 6 P2 final watch" [ref=e3973]
+                                - cell "Passed" [ref=e3974]
+                              - row [ref=e3975]:
+                                - cell "B049" [ref=e3976]
+                                - cell "Runtime Engineer" [ref=e3977]
+                                - cell "Verify terminal P2 result exact build + SHA" [ref=e3978]
+                                - cell "durable PASS" [ref=e3979]
+                              - row [ref=e3980]:
+                                - cell "B050" [ref=e3981]
+                                - cell "Runtime Engineer" [ref=e3982]
+                                - cell "Verify production tracked status clean" [ref=e3983]
+                                - cell "tracked-clean" [ref=e3984]
+                              - row [ref=e3985]:
+                                - cell "B051" [ref=e3986]
+                                - cell "Runtime Engineer" [ref=e3987]
+                                - cell [ref=e3988]:
+                                  - text: Compare
+                                  - code [ref=e3989]: /tmp/log
+                                  - text: against baseline
+                                - cell "no prohibited mutation" [ref=e3990]
+                              - row [ref=e3991]:
+                                - cell "B052" [ref=e3992]
+                                - cell "Release Lead" [ref=e3993]
+                                - cell "Remove prohibited dummy remote branch if still present, without commit" [ref=e3994]
+                                - cell "branch absent" [ref=e3995]
+                              - row [ref=e3996]:
+                                - cell "B053" [ref=e3997]
+                                - cell "Independent Verifier" [ref=e3998]
+                                - cell [ref=e3999]:
+                                  - text: Verify no commit exists after
+                                  - code [ref=e4000]: 44505ddb...
+                                  - text: "on"
+                                  - code [ref=e4001]: feature/GRU
+                                - cell "topology PASS" [ref=e4002]
+                              - row [ref=e4003]:
+                                - cell "B054" [ref=e4004]
+                                - cell "Independent Verifier" [ref=e4005]
+                                - cell "Verify all six Semaphore blocks passed" [ref=e4006]
+                                - cell "six PASS records" [ref=e4007]
+                              - row [ref=e4008]:
+                                - cell "B055" [ref=e4009]
+                                - cell "Release Lead" [ref=e4010]
+                                - cell "Publish COMPLETE_GO record" [ref=e4011]
+                                - cell "all gates G0–G8 GO" [ref=e4012]
+                          - separator [ref=e4014]
+                          - heading "12. Backlog dependency chain" [level=2] [ref=e4015]
+                          - code [ref=e4017]: B001 ↓ B002-B006 ↓ B007-B027 ↓ B028 PREPUBLISH_GO ↓ B029 authorization ↓ B030 branch cutover ↓ B031-B035 ↓ B036 SEMAPHORE_TRIGGER_GO ↓ B037 ↓ B038 ↓ B039 ↓ B040-B043 ↓ B044-B045 ↓ B046-B049 ↓ B050-B054 ↓ B055 COMPLETE_GO
+                          - paragraph [ref=e4018]:
+                            - text: No task that triggers limited CI credits is permitted before
+                            - code [ref=e4019]: B036
+                            - text: .
+                          - separator [ref=e4021]
+                          - heading "13. Stop rules" [level=2] [ref=e4022]
+                          - paragraph [ref=e4023]: Because the mandatory objective prohibits additional commits, recovery must not create commits.
+                          - heading "Before branch cutover" [level=3] [ref=e4024]
+                          - paragraph [ref=e4025]: "If any deterministic preflight fails:"
+                          - list [ref=e4026]:
+                            - listitem [ref=e4027]:
+                              - paragraph [ref=e4028]:
+                                - text: do not move
+                                - code [ref=e4029]: feature/GRU
+                                - text: ;
+                            - listitem [ref=e4030]:
+                              - paragraph [ref=e4031]: do not launch Semaphore;
+                            - listitem [ref=e4032]:
+                              - paragraph [ref=e4033]: stop and report the failed gate.
+                          - heading "After branch cutover but before Semaphore" [level=3] [ref=e4034]
+                          - paragraph [ref=e4035]: "If remote exact-SHA revalidation fails:"
+                          - list [ref=e4036]:
+                            - listitem [ref=e4037]:
+                              - paragraph [ref=e4038]: do not launch Semaphore;
+                            - listitem [ref=e4039]:
+                              - paragraph [ref=e4040]: preserve evidence;
+                            - listitem [ref=e4041]:
+                              - paragraph [ref=e4042]: do not create a fix commit under this plan.
+                          - heading "During Semaphore" [level=3] [ref=e4043]
+                          - paragraph [ref=e4044]: "If a deterministic code test fails:"
+                          - list [ref=e4045]:
+                            - listitem [ref=e4046]:
+                              - paragraph [ref=e4047]: stop;
+                            - listitem [ref=e4048]:
+                              - paragraph [ref=e4049]: collect exact logs;
+                            - listitem [ref=e4050]:
+                              - paragraph [ref=e4051]: do not spend credits on blind reruns;
+                            - listitem [ref=e4052]:
+                              - paragraph [ref=e4053]: do not create another commit.
+                          - paragraph [ref=e4054]: "If a proven transient infrastructure failure occurs:"
+                          - list [ref=e4055]:
+                            - listitem [ref=e4056]:
+                              - paragraph [ref=e4057]: the exact same SHA may be rerun only after failure classification.
+                          - separator [ref=e4059]
+                          - heading "14. COMPLETE_GO definition" [level=2] [ref=e4060]
+                          - paragraph [ref=e4061]: "The release is COMPLETE_GO only when all are simultaneously true:"
+                          - code [ref=e4063]: feature/GRU HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 HEAD parent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60 accidental 258a111... = not reachable from feature/GRU additional commits after canonical remediation = 0 Semaphore GRU validation = PASS Semaphore full-corpus launch = PASS Semaphore full-corpus final watch = PASS Semaphore exact-SHA deploy = PASS Semaphore P2 launch = PASS Semaphore P2 final watch = PASS production HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 production tracked status = clean /tmp/log prohibited mutation = none full-corpus authority = exact final SHA P2 terminal authority = exact final SHA + exact build dummy/prohibited branch = absent
+                          - paragraph [ref=e4064]: Anything less is not COMPLETE_GO.
+                          - separator [ref=e4066]
+                          - heading "15. Credit-minimization rationale" [level=2] [ref=e4067]
+                          - paragraph [ref=e4068]: The previous failure was deterministic and visible from source structure. Spending Semaphore credits before exact reproduction of the first block allowed a known-bad SHA to consume a workflow.
+                          - paragraph [ref=e4069]: "This plan reverses the order:"
+                          - list [ref=e4070]:
+                            - listitem [ref=e4071]:
+                              - paragraph [ref=e4072]: immutable commit-object audit;
+                            - listitem [ref=e4073]:
+                              - paragraph [ref=e4074]: exact-SHA fresh-clone tests;
+                            - listitem [ref=e4075]:
+                              - paragraph [ref=e4076]: complete first-block reproduction;
+                            - listitem [ref=e4077]:
+                              - paragraph [ref=e4078]: independent verification;
+                            - listitem [ref=e4079]:
+                              - paragraph [ref=e4080]: branch publication;
+                            - listitem [ref=e4081]:
+                              - paragraph [ref=e4082]: second remote exact-SHA preflight;
+                            - listitem [ref=e4083]:
+                              - paragraph [ref=e4084]: only then one Semaphore production workflow.
+                          - paragraph [ref=e4085]: The design front-loads cheap deterministic validation and reserves Semaphore credits for live acceptance/deployment stages that cannot be fully substituted by local tests.
+                          - separator [ref=e4087]
+                          - heading "16. Final execution contract" [level=2] [ref=e4088]
+                          - blockquote [ref=e4089]:
+                            - paragraph [ref=e4090]:
+                              - strong [ref=e4091]: No one may create another code commit after
+                              - code [ref=e4092]:
+                                - strong [ref=e4093]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                              - strong [ref=e4094]: . The only permitted repository write required to establish the final candidate is the controlled ref rewrite of
+                              - code [ref=e4095]:
+                                - strong [ref=e4096]: feature/GRU
+                              - strong [ref=e4097]: from accidental SHA
+                              - code [ref=e4098]:
+                                - strong [ref=e4099]: 258a111...
+                              - strong [ref=e4100]: to canonical remediation SHA
+                              - code [ref=e4101]:
+                                - strong [ref=e4102]: 44505ddb...
+                              - strong [ref=e4103]: . Semaphore may be triggered only after exact-SHA local and remote preflight gates pass.
+                          - paragraph [ref=e4104]: This preserves the single-remediation-commit objective and maximizes the probability that the next Semaphore workflow reaches COMPLETE_GO without consuming credits on a known deterministic failure.
+                      - generic [ref=e4105]:
+                        - group "Response actions":
+                          - button "Copy response"
+                          - button "Rate response"
+                          - button "Add to project sources"
+                          - generic:
+                            - button "Switch model"
+                          - button "More actions"
+                - generic [ref=e4107]:
+                  - separator "Today 6:52 PM" [ref=e4108]
+                  - generic [ref=e4111]:
+                    - heading "You said:" [level=4] [ref=e4112]
+                    - generic [ref=e4114]:
+                      - generic [ref=e4121]:
+                        - generic [ref=e4122]: "[AI_LOOP_DELIVERY id=plan-artifact-258a111c031d] Create and attach the COMPLETE implementation/remediation plan you just generated as a downloadable Markdown (.md) file with UTC date/time in the filename. Preserve the exact scope, decisions, constraints, COMPLETE_GO criteria, team/roles, backlog, tests, and Semaphore strategy of the plan you already generated. Do not create a different plan and do not execute the implementation. The downloadable .md attachment is the authoritative plan artifact for the next implementation chat. Do not paste the full plan again as inline chat text. Reply only with the downloadable .md attachment and a brief confirmation of its filename."
+                        - button "Show more" [ref=e4124] [cursor=pointer]
+                      - generic [ref=e4129]:
+                        - group "Your message actions":
+                          - button "Copy message"
+                          - button "Share prompt"
+                          - button "Edit message"
+                - generic [ref=e4132]:
+                  - heading "ChatGPT said:" [level=4] [ref=e4133]
+                  - generic [ref=e4135]:
+                    - generic [ref=e4136]:
+                      - button "Analysis errored" [ref=e4139] [cursor=pointer]
+                      - generic [ref=e5111]:
+                        - generic [ref=e5113]:
+                          - generic [ref=e5114]: Python
+                          - button "Copy" [ref=e5118] [cursor=pointer]
+                        - code [ref=e5131]: "from pathlib import Path from datetime import datetime, timezone import shutil src = Path(\"/mnt/data/PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T140110-05-00.md\") stamp = datetime.now(timezone.utc).strftime(\"%Y%m%dT%H%M%SZ\") dst = Path(f\"/mnt/data/PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_{stamp}.md\") shutil.copyfile(src, dst) print(dst.name)"
+                      - generic [ref=e4152]:
+                        - paragraph [ref=e5132]:
+                          - button "Download the authoritative plan" [ref=e5133] [cursor=pointer]
+                        - paragraph [ref=e4153]:
+                          - text: "Filename:"
+                          - code [ref=e4154]: PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md
+                          - button "Coding Citation" [ref=e4157] [cursor=pointer]
+                      - generic [ref=e4164]:
+                        - button "PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md" [ref=e4165] [cursor=pointer]:
+                          - generic [ref=e4170]:
+                            - generic [ref=e4171]: PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md
+                            - generic [ref=e4172]: Document
+                        - generic:
+                          - generic:
+                            - button "Download file"
+                    - generic [ref=e4173]:
+                      - group "Response actions":
+                        - button "Copy response"
+                        - button "Rate response"
+                        - button "Add to project sources"
+                        - generic:
+                          - button "Switch model"
+                        - button "More actions"
+                - generic [ref=e4175]:
+                  - separator "Today 8:27 PM" [ref=e4176]
+                  - generic [ref=e4179]:
+                    - heading "You said:" [level=4] [ref=e4180]
+                    - generic [ref=e4182]:
+                      - generic [ref=e4189]:
+                        - generic [ref=e4190]: "[AI_LOOP_DELIVERY id=plan-artifact-corrective-v224-cc9b754b025a1080] The plan in your immediately previous response is already the approved plan for this iteration. Do NOT regenerate it, redesign it, or change its scope. Do not execute the implementation. Create NOW exactly that same plan as an actual downloadable Markdown (.md) file attachment using your file-generation capability. The filename MUST include UTC date/time. The response should contain the real downloadable .md attachment. Do not paste the complete plan again as inline chat text. A one-line confirmation naming the attached file is enough. The downloadable .md attachment is the only authoritative artifact for the next implementation chat. If you cannot create a real downloadable .md attachment, state that explicitly in one short sentence."
+                        - button "Show more" [ref=e4192] [cursor=pointer]
+                      - generic [ref=e4197]:
+                        - group "Your message actions":
+                          - button "Copy message"
+                          - button "Share prompt"
+                          - button "Edit message"
+                - generic [ref=e4200]:
+                  - heading "ChatGPT said:" [level=4] [ref=e4201]
+                  - generic [ref=e4203]:
+                    - generic [ref=e4204]:
+                      - generic [ref=e4207]:
+                        - paragraph [ref=e4208]:
+                          - button "Download the approved plan" [ref=e4209] [cursor=pointer]
+                        - paragraph [ref=e4215]:
+                          - text: "Attached file:"
+                          - code [ref=e4216]: PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md
+                      - generic [ref=e4221]:
+                        - button "PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md" [active] [ref=e4222] [cursor=pointer]:
+                          - generic [ref=e4227]:
+                            - generic [ref=e4228]: PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md
+                            - generic [ref=e5139]: Open file
+                        - button "Download file" [ref=e5142] [cursor=pointer]
+                    - group "Response actions" [ref=e5145]:
+                      - button "Copy response" [ref=e5146] [cursor=pointer]
+                      - button "Rate response" [ref=e5151] [cursor=pointer]
+                      - button "Add to project sources" [ref=e5155] [cursor=pointer]
+                      - button "Switch model" [ref=e5160] [cursor=pointer]
+                      - button "More actions" [ref=e5164] [cursor=pointer]
+              - generic [ref=e4237]:
+                - generic [ref=e4238]: ChatGPT can make mistakes. Check important info.
+                - button "Cookie preferences" [ref=e4239] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - button [aria-hidden]
+              - generic [ref=e107]:
+                - generic [ref=e4253]:
+                  - button "Add files and more" [ref=e4256] [cursor=pointer]
+                  - textbox "Chat with ChatGPT" [ref=e4259]:
+                    - paragraph [ref=e4260]: Ask ChatGPT
+                  - generic [ref=e4261]:
+                    - button "High" [ref=e4264] [cursor=pointer]
+                    - generic [ref=e4270]:
+                      - button "Start dictation" [ref=e4272] [cursor=pointer]
+                      - button "Start Voice" [ref=e4275] [cursor=pointer]
+                - button [aria-hidden] [ref=e108]
+                - button [aria-hidden] [ref=e109]
+                - button [aria-hidden] [ref=e110]
+    - generic [ref=e5170]:
+      - slider "Resize artifact preview" [ref=e5171]
+      - region "PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md" [ref=e5173]:
+        - generic [ref=e5179]:
+          - generic [ref=e5180]:
+            - heading "Library Bot_trading PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md" [level=2] [ref=e5181]:
+              - generic [ref=e5182]:
+                - link "Library" [ref=e5185] [cursor=pointer]:
+                  - /url: /library
+                - generic [ref=e5186]:
+                  - generic [aria-hidden] [ref=e5187]: /
+                  - link "Bot_trading" [ref=e5188] [cursor=pointer]:
+                    - /url: /library/d/6a8f56748dc081919111f11caf6e5f2c
+                - generic [ref=e5189]:
+                  - generic [aria-hidden] [ref=e5190]: /
+                  - generic "PLAN_COMPLETE_GO_SINGLE_REMEDIATION_COMMIT_20260917T235259Z.md" [ref=e5193]
+            - generic [ref=e5194]:
+              - button "Download" [ref=e5195] [cursor=pointer]
+              - button "Close" [ref=e5198] [cursor=pointer]
+          - generic [ref=e5203]:
+            - heading "Implementation & Release Plan — Semaphore COMPLETE_GO with One Remediation Commit" [level=1] [ref=e5204]
+            - paragraph [ref=e5205]:
+              - strong [ref=e5206]: "Generated:"
+              - text: 2026-09-17 14:01:10 -05
+              - strong [ref=e5207]: "Repository:"
+              - code [ref=e5208]: Trochez/bot_trading
+              - strong [ref=e5209]: "Target branch:"
+              - code [ref=e5210]: feature/GRU
+              - strong [ref=e5211]: "Failed accidental SHA:"
+              - code [ref=e5212]: 258a111c031dee9643cffb920518fcc1ca392565
+              - strong [ref=e5213]: "Base implementation SHA:"
+              - code [ref=e5214]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+              - strong [ref=e5215]: "Canonical remediation commit:"
+              - code [ref=e5216]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+              - strong [ref=e5217]: "Required final topology:"
+              - code [ref=e5218]: d4960be... -> dc4e2eef... -> 44505ddb...
+              - strong [ref=e5219]: Commit budget after
+              - code [ref=e5220]:
+                - strong [ref=e5221]: dc4e2eef...
+              - strong [ref=e5222]: ": exactly 1 remediation commit in final branch history"
+              - strong [ref=e5223]: Additional commits after
+              - code [ref=e5224]:
+                - strong [ref=e5225]: 44505ddb...
+              - strong [ref=e5226]: ": 0"
+            - separator [disabled] [ref=e5228]
+            - heading "1. Mandatory objective" [level=2] [ref=e5229]
+            - paragraph [ref=e5230]:
+              - text: Achieve
+              - strong [ref=e5231]: Semaphore COMPLETE_GO
+              - text: for
+              - code [ref=e5232]: feature/GRU
+              - text: "while satisfying all of the following simultaneously:"
+            - list [ref=e5233]:
+              - listitem [ref=e5234]:
+                - paragraph [ref=e5235]:
+                  - text: The final branch history contains exactly one remediation commit after
+                  - code [ref=e5236]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                  - text: .
+              - listitem [ref=e5237]:
+                - paragraph [ref=e5238]: That remediation commit contains the complete implementation necessary to close every finding from the previous diagnosis.
+              - listitem [ref=e5239]:
+                - paragraph [ref=e5240]: No follow-up, hotfix, revert, “fix CI”, or evidence-only commit is permitted after the canonical remediation commit.
+              - listitem [ref=e5241]:
+                - paragraph [ref=e5242]:
+                  - text: The accidental commit
+                  - code [ref=e5243]: 258a111c031dee9643cffb920518fcc1ca392565
+                  - text: must
+                  - strong [ref=e5244]: not
+                  - text: remain in the final
+                  - code [ref=e5245]: feature/GRU
+                  - text: history.
+              - listitem [ref=e5246]:
+                - paragraph [ref=e5247]: Semaphore must be triggered only after exhaustive exact-SHA preflight validation has passed.
+              - listitem [ref=e5248]:
+                - paragraph [ref=e5249]: The complete six-block Semaphore production workflow must reach GO.
+              - listitem [ref=e5250]:
+                - paragraph [ref=e5251]:
+                  - text: Production must finish at the same exact SHA as
+                  - code [ref=e5252]: feature/GRU
+                  - text: ", tracked-clean, without mutating"
+                  - code [ref=e5253]: /tmp/log
+                  - text: .
+              - listitem [ref=e5254]:
+                - paragraph [ref=e5255]: No Semaphore credits are to be spent on known-bad or incompletely validated SHAs.
+            - paragraph [ref=e5256]: "The canonical remediation commit is already available as:"
+            - paragraph [ref=e5257]:
+              - code [ref=e5258]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+            - paragraph [ref=e5259]:
+              - text: The plan therefore treats this SHA as immutable.
+              - strong [ref=e5260]: No new code commit is allowed.
+            - separator [disabled] [ref=e5262]
+            - heading "2. Diagnosis translated into implementation requirements" [level=2] [ref=e5263]
+            - paragraph [ref=e5264]: The previous failure establishes two implementation requirements and one repository-state requirement.
+            - heading [level=3] [ref=e5265]:
+              - text: R1 — Restore
+              - code [ref=e5266]: unittest
+              - text: lifecycle
+            - paragraph [ref=e5267]: "The failed candidate defined a project helper named:"
+            - code [ref=e5269]: "def run(self, root, service=\"inactive\", expect=0):"
+            - paragraph [ref=e5270]:
+              - text: inside a
+              - code [ref=e5271]: unittest.TestCase
+              - text: subclass.
+            - paragraph [ref=e5272]:
+              - text: This replaced
+              - code [ref=e5273]: unittest.TestCase.run(...)
+              - text: ", causing the observed:"
+            - code [ref=e5275]: Ran 0 tests NO TESTS RAN
+            - paragraph [ref=e5276]: "Required correction:"
+            - code [ref=e5278]: run(...) -> run_state(...)
+            - paragraph [ref=e5279]: and update every project call site accordingly.
+            - heading "R2 — Enforce exact P2 result identity" [level=3] [ref=e5280]
+            - paragraph [ref=e5281]: The P2 observer must never authorize the current execution using a terminal result produced by a different build that happens to share the same Git SHA.
+            - paragraph [ref=e5282]: "Required authority key:"
+            - code [ref=e5284]: (CIRCLE_BUILD_NUM, EXPECTED_SHA)
+            - paragraph [ref=e5285]: "Required result path:"
+            - code [ref=e5287]: "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+            - paragraph [ref=e5288]: The observer must reject stale same-SHA/different-build results.
+            - heading "R3 — Remove the accidental branch head without adding a commit" [level=3] [ref=e5289]
+            - paragraph [ref=e5290]:
+              - code [ref=e5291]: feature/GRU
+              - text: currently references accidental SHA
+              - code [ref=e5292]: 258a111...
+              - text: .
+            - paragraph [ref=e5293]: A revert commit is forbidden because it would consume the one-commit budget and preserve the accidental commit in final history.
+            - paragraph [ref=e5294]: "Required operation:"
+            - code [ref=e5296]: feature/GRU 258a111... --controlled ref rewrite--> 44505ddb...
+            - paragraph [ref=e5297]:
+              - text: This is a Git ref operation,
+              - strong [ref=e5298]: not a new commit
+              - text: .
+            - separator [disabled] [ref=e5300]
+            - heading "3. Non-negotiable invariants" [level=2] [ref=e5301]
+            - table [ref=e5302]:
+              - rowgroup [ref=e5303]:
+                - row [disabled] [ref=e5304]:
+                  - columnheader "ID" [disabled] [ref=e5305]
+                  - columnheader "Invariant" [disabled] [ref=e5306]
+                - row [disabled] [ref=e5307]:
+                  - cell "INV-01" [ref=e5308]
+                  - cell [ref=e5309]:
+                    - text: Final
+                    - code [ref=e5310]: feature/GRU
+                    - text: HEAD =
+                    - code [ref=e5311]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                - row [disabled] [ref=e5312]:
+                  - cell "INV-02" [ref=e5313]
+                  - cell [ref=e5314]:
+                    - text: Parent of final HEAD =
+                    - code [ref=e5315]: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+                - row [disabled] [ref=e5316]:
+                  - cell "INV-03" [ref=e5317]
+                  - cell [ref=e5318]:
+                    - code [ref=e5319]: 258a111...
+                    - text: is not reachable from final
+                    - code [ref=e5320]: feature/GRU
+                - row [disabled] [ref=e5321]:
+                  - cell "INV-04" [ref=e5322]
+                  - cell [ref=e5323]:
+                    - text: No commit is created after
+                    - code [ref=e5324]: 44505ddb...
+                - row [disabled] [ref=e5325]:
+                  - cell "INV-05" [ref=e5326]
+                  - cell "No amend/rebase/cherry-pick/revert is used after final SHA publication" [ref=e5327]
+                - row [disabled] [ref=e5328]:
+                  - cell "INV-06" [ref=e5329]
+                  - cell [ref=e5330]:
+                    - text: Semaphore is never launched for
+                    - code [ref=e5331]: 258a111...
+                    - text: again
+                - row [disabled] [ref=e5332]:
+                  - cell "INV-07" [ref=e5333]
+                  - cell [ref=e5334]:
+                    - text: Semaphore is launched only when remote
+                    - code [ref=e5335]: feature/GRU
+                    - text: equals final SHA
+                - row [disabled] [ref=e5336]:
+                  - cell "INV-08" [ref=e5337]
+                  - cell "Exact-SHA validation must be executed from a fresh detached clone" [ref=e5338]
+                - row [disabled] [ref=e5339]:
+                  - cell "INV-09" [ref=e5340]
+                  - cell "Production deployment must use the exact final SHA, not “latest branch” semantics" [ref=e5341]
+                - row [disabled] [ref=e5342]:
+                  - cell "INV-10" [ref=e5343]
+                  - cell "Production tracked files must be clean after deployment" [ref=e5344]
+                - row [disabled] [ref=e5345]:
+                  - cell "INV-11" [ref=e5346]
+                  - cell "Existing untracked runtime artifacts must not be deleted merely to obtain cleanliness" [ref=e5347]
+                - row [disabled] [ref=e5348]:
+                  - cell "INV-12" [ref=e5349]
+                  - cell [ref=e5350]:
+                    - code [ref=e5351]: /tmp/log
+                    - text: must remain unchanged by implementation/deployment cleanup
+                - row [disabled] [ref=e5352]:
+                  - cell "INV-13" [ref=e5353]
+                  - cell [ref=e5354]:
+                    - text: No broad
+                    - code [ref=e5355]: git clean
+                    - text: ", destructive reset, or runtime artifact deletion"
+                - row [disabled] [ref=e5356]:
+                  - cell "INV-14" [ref=e5357]
+                  - cell [ref=e5358]:
+                    - text: Dummy/test branches such as
+                    - code [ref=e5359]: __dummy_should_not_use
+                    - text: must be absent before COMPLETE_GO
+                - row [disabled] [ref=e5360]:
+                  - cell "INV-15" [ref=e5361]
+                  - cell "Six Semaphore blocks must pass in dependency order" [ref=e5362]
+                - row [disabled] [ref=e5363]:
+                  - cell "INV-16" [ref=e5364]
+                  - cell "Any retry consumes credits only after evidence proves the failure was infrastructure/transient and the exact SHA remains unchanged" [ref=e5365]
+                - row [disabled] [ref=e5366]:
+                  - cell "INV-17" [ref=e5367]
+                  - cell "A code/contract failure after final publication does not authorize an additional commit under this plan" [ref=e5368]
+            - separator [disabled] [ref=e5370]
+            - heading "4. Required final Git topology" [level=2] [ref=e5371]
+            - heading "Accepted topology" [level=3] [ref=e5372]
+            - code [ref=e5374]: d4960be98cee3edef96413ee77f200ce744d3461 | v dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60 | v 44505ddbfa5062dc1c712fc90db72cb0c54de924 <-- feature/GRU
+            - heading "Forbidden topology" [level=3] [ref=e5375]
+            - code [ref=e5377]: dc4e2eef... | +-- 258a111... noop | +-- any fix commit
+            - paragraph [ref=e5378]: "Also forbidden:"
+            - code [ref=e5380]: dc4e2eef... -> 258a111... -> revert -> final fix
+            - paragraph [ref=e5381]:
+              - text: The accidental SHA may remain as an unreachable Git object until normal GitHub garbage collection; it simply must not be reachable from
+              - code [ref=e5382]: feature/GRU
+              - text: .
+            - separator [disabled] [ref=e5384]
+            - heading "5. Team" [level=2] [ref=e5385]
+            - paragraph [ref=e5386]:
+              - strong [ref=e5387]: "Team size: 5"
+            - table [ref=e5388]:
+              - rowgroup [ref=e5389]:
+                - row [disabled] [ref=e5390]:
+                  - columnheader "Role" [disabled] [ref=e5391]
+                  - columnheader "Count" [disabled] [ref=e5392]
+                  - columnheader "Responsibility" [disabled] [ref=e5393]
+                - row [disabled] [ref=e5394]:
+                  - cell "Release / Integration Lead" [ref=e5395]
+                  - cell "1" [ref=e5396]
+                  - cell "Owns commit budget, branch topology, final gates, Semaphore trigger decision" [ref=e5397]
+                - row [disabled] [ref=e5398]:
+                  - cell "Python & Test Engineer" [ref=e5399]
+                  - cell "1" [ref=e5400]
+                  - cell "Validates unittest fix, targeted tests, complete Python test discovery" [ref=e5401]
+                - row [disabled] [ref=e5402]:
+                  - cell "CI / Semaphore Engineer" [ref=e5403]
+                  - cell "1" [ref=e5404]
+                  - cell [ref=e5405]:
+                    - text: Reproduces
+                    - code [ref=e5406]: GRU validation
+                    - text: ", validates six-block workflow and watches Semaphore"
+                - row [disabled] [ref=e5407]:
+                  - cell "Runtime / P2 & Production Engineer" [ref=e5408]
+                  - cell "1" [ref=e5409]
+                  - cell "Validates P2 exact identity, deployment, production SHA/cleanliness/runtime invariants" [ref=e5410]
+                - row [disabled] [ref=e5411]:
+                  - cell "Independent Verification Engineer" [ref=e5412]
+                  - cell "1" [ref=e5413]
+                  - cell "Performs read-only second-person verification of SHA, tree, diff, evidence, COMPLETE_GO checklist" [ref=e5414]
+            - heading "Separation of duties" [level=3] [ref=e5415]
+            - paragraph [ref=e5416]: No person/agent that changes the final branch ref may be the only verifier of the final branch topology.
+            - paragraph [ref=e5417]: No Semaphore trigger occurs until the Independent Verification Engineer records GO for the preflight package.
+            - separator [disabled] [ref=e5419]
+            - heading "6. Execution strategy" [level=2] [ref=e5420]
+            - paragraph [ref=e5421]:
+              - text: The plan uses a
+              - strong [ref=e5422]: validate-before-publish
+              - text: "strategy:"
+            - code [ref=e5424]: validate immutable commit object ↓ independent audit ↓ controlled branch ref rewrite ↓ fresh remote exact-SHA validation ↓ ONE Semaphore production workflow ↓ six blocks PASS ↓ production exact-SHA verification ↓ COMPLETE_GO
+            - paragraph [ref=e5425]: The key credit-saving mechanism is that all deterministic checks are run before Semaphore.
+            - separator [disabled] [ref=e5427]
+            - heading "7. Phase gates" [level=2] [ref=e5428]
+            - heading "Gate G0 — Evidence freeze" [level=3] [ref=e5429]
+            - paragraph [ref=e5430]: "Required before any write:"
+            - list [ref=e5431]:
+              - listitem [ref=e5432]:
+                - paragraph [ref=e5433]: previous failure bundle archived;
+              - listitem [ref=e5434]:
+                - paragraph [ref=e5435]:
+                  - text: failed SHA recorded as
+                  - code [ref=e5436]: 258a111...
+                  - text: ;
+              - listitem [ref=e5437]:
+                - paragraph [ref=e5438]:
+                  - text: final remediation SHA recorded as
+                  - code [ref=e5439]: 44505ddb...
+                  - text: ;
+              - listitem [ref=e5440]:
+                - paragraph [ref=e5441]: no uncertainty about which SHA contains which implementation.
+            - paragraph [ref=e5442]:
+              - strong [ref=e5443]: "Exit:"
+              - code [ref=e5444]: G0_GO
+            - heading "Gate G1 — Canonical remediation commit audit" [level=3] [ref=e5445]
+            - paragraph [ref=e5446]:
+              - text: Verify commit
+              - code [ref=e5447]: 44505ddb...
+              - text: directly, without relying on branch names.
+            - paragraph [ref=e5448]: "Required assertions:"
+            - code [ref=e5450]: commit = 44505ddbfa5062dc1c712fc90db72cb0c54de924 parent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60
+            - paragraph [ref=e5451]: "Diff relative to parent must contain exactly:"
+            - code [ref=e5453]: ops/ci/observe_gru_p2_remote.sh ops/ci/tests/test_p2_handoff_state_machine.py
+            - paragraph [ref=e5454]: "Required validated blob identities:"
+            - code [ref=e5456]: ops/ci/observe_gru_p2_remote.sh blob = 001a58683d9bb791ad5bbc58ff8b9a9145d3960a ops/ci/tests/test_p2_handoff_state_machine.py blob = e46b9a0733c3866805b5177713293eb4c63f1a95
+            - paragraph [ref=e5457]: Verify no third file changed.
+            - paragraph [ref=e5458]:
+              - strong [ref=e5459]: "Exit:"
+              - code [ref=e5460]: G1_GO
+            - heading "Gate G2 — Exhaustive exact-SHA preflight" [level=3] [ref=e5461]
+            - paragraph [ref=e5462]:
+              - text: Use a fresh temporary detached clone checked out at
+              - code [ref=e5463]: 44505ddb...
+              - text: .
+            - paragraph [ref=e5464]: Do not use the production checkout as the test workspace.
+            - paragraph [ref=e5465]: Run every mandatory check in Section 8.
+            - paragraph [ref=e5466]:
+              - strong [ref=e5467]: "Exit:"
+              - code [ref=e5468]: G2_GO
+              - text: only if every mandatory check passes.
+            - heading "Gate G3 — Independent review" [level=3] [ref=e5469]
+            - paragraph [ref=e5470]: "Independent verifier checks:"
+            - list [ref=e5471]:
+              - listitem [ref=e5472]:
+                - paragraph [ref=e5473]: commit SHA;
+              - listitem [ref=e5474]:
+                - paragraph [ref=e5475]: parent SHA;
+              - listitem [ref=e5476]:
+                - paragraph [ref=e5477]: two-file diff;
+              - listitem [ref=e5478]:
+                - paragraph [ref=e5479]: blob SHAs;
+              - listitem [ref=e5480]:
+                - paragraph [ref=e5481]: preflight test outputs;
+              - listitem [ref=e5482]:
+                - paragraph [ref=e5483]: no mandatory test failure hidden by a skip;
+              - listitem [ref=e5484]:
+                - paragraph [ref=e5485]: Semaphore YAML still contains exactly six expected blocks;
+              - listitem [ref=e5486]:
+                - paragraph [ref=e5487]: no additional commit is necessary.
+            - paragraph [ref=e5488]:
+              - strong [ref=e5489]: "Exit:"
+              - code [ref=e5490]: G3_GO
+            - heading "Gate G4 — Branch cutover" [level=3] [ref=e5491]
+            - paragraph [ref=e5492]: "Precondition: explicit authorization for the non-fast-forward ref rewrite."
+            - paragraph [ref=e5493]: "Atomically move:"
+            - code [ref=e5495]: "feature/GRU: 258a111c031dee9643cffb920518fcc1ca392565 -> 44505ddbfa5062dc1c712fc90db72cb0c54de924"
+            - paragraph [ref=e5496]:
+              - text: Do
+              - strong [ref=e5497]: not
+              - text: create a revert commit.
+            - paragraph [ref=e5498]: Immediately verify remote branch HEAD, parent and compare topology.
+            - paragraph [ref=e5499]:
+              - strong [ref=e5500]: "Exit:"
+              - code [ref=e5501]: G4_GO
+            - heading "Gate G5 — Remote branch exact-SHA revalidation" [level=3] [ref=e5502]
+            - paragraph [ref=e5503]:
+              - text: Fresh-clone
+              - code [ref=e5504]: feature/GRU
+              - text: "from GitHub and assert:"
+            - code [ref=e5506]: HEAD == 44505ddb... HEAD^ == dc4e2eef...
+            - paragraph [ref=e5507]: Run the deterministic CI validation set again against the remote branch state.
+            - paragraph [ref=e5508]:
+              - strong [ref=e5509]: "Exit:"
+              - code [ref=e5510]: G5_GO
+            - heading "Gate G6 — Single Semaphore launch" [level=3] [ref=e5511]
+            - paragraph [ref=e5512]:
+              - text: Only now trigger a
+              - strong [ref=e5513]: new
+              - text: Semaphore workflow for the final SHA.
+            - paragraph [ref=e5514]:
+              - text: Do not rerun the failed workflow tied to
+              - code [ref=e5515]: 258a111...
+              - text: .
+            - paragraph [ref=e5516]: "The new workflow must report:"
+            - code [ref=e5518]: SEMAPHORE_GIT_SHA = 44505ddbfa5062dc1c712fc90db72cb0c54de924 branch = feature/GRU
+            - paragraph [ref=e5519]:
+              - strong [ref=e5520]: "Exit:"
+              - text: workflow accepted for exact SHA.
+            - heading "Gate G7 — Six-block Semaphore GO" [level=3] [ref=e5521]
+            - paragraph [ref=e5522]: "Required blocks, in order:"
+            - list [ref=e5523]:
+              - listitem [ref=e5524]:
+                - paragraph [ref=e5525]:
+                  - code [ref=e5526]: GRU validation
+              - listitem [ref=e5527]:
+                - paragraph [ref=e5528]:
+                  - code [ref=e5529]: Full-corpus acceptance launch
+              - listitem [ref=e5530]:
+                - paragraph [ref=e5531]:
+                  - code [ref=e5532]: Full-corpus acceptance final watch
+              - listitem [ref=e5533]:
+                - paragraph [ref=e5534]:
+                  - code [ref=e5535]: Deploy exact feature GRU SHA
+              - listitem [ref=e5536]:
+                - paragraph [ref=e5537]:
+                  - code [ref=e5538]: P2 acceptance launch
+              - listitem [ref=e5539]:
+                - paragraph [ref=e5540]:
+                  - code [ref=e5541]: P2 acceptance final watch
+            - paragraph [ref=e5542]:
+              - text: Every block must be
+              - code [ref=e5543]: Passed
+              - text: or a contractually valid reused PASS backed by exact-SHA durable evidence.
+            - paragraph [ref=e5544]: No downstream block may be manually promoted around a failed dependency.
+            - paragraph [ref=e5545]:
+              - strong [ref=e5546]: "Exit:"
+              - code [ref=e5547]: G7_GO
+            - heading "Gate G8 — Production final verification" [level=3] [ref=e5548]
+            - paragraph [ref=e5549]: "Verify production checkout:"
+            - code [ref=e5551]: branch = feature/GRU HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 tracked_status = clean
+            - paragraph [ref=e5552]: "Confirm:"
+            - list [ref=e5553]:
+              - listitem [ref=e5554]:
+                - paragraph [ref=e5555]:
+                  - code [ref=e5556]: /tmp/log
+                  - text: unchanged by cleanup/deploy actions;
+              - listitem [ref=e5557]:
+                - paragraph [ref=e5558]: no tracked drift;
+              - listitem [ref=e5559]:
+                - paragraph [ref=e5560]: no deletion of runtime untracked artifacts;
+              - listitem [ref=e5561]:
+                - paragraph [ref=e5562]: P2 durable final status belongs to exact final SHA/build;
+              - listitem [ref=e5563]:
+                - paragraph [ref=e5564]: full-corpus evidence belongs to exact final SHA;
+              - listitem [ref=e5565]:
+                - paragraph [ref=e5566]: no accidental/dummy remote branch remains if prohibited by release contract.
+            - paragraph [ref=e5567]:
+              - strong [ref=e5568]: "Exit:"
+              - code [ref=e5569]: G8_GO
+            - heading "Gate G9 — COMPLETE_GO" [level=3] [ref=e5570]
+            - paragraph [ref=e5571]: COMPLETE_GO can be declared only when all G0–G8 gates are GO.
+            - separator [disabled] [ref=e5573]
+            - heading "8. Mandatory pre-Semaphore test matrix" [level=2] [ref=e5574]
+            - paragraph [ref=e5575]: All deterministic tests below must pass before spending another Semaphore run.
+            - heading "8.1 Test-file syntax" [level=3] [ref=e5576]
+            - code [ref=e5578]: python3 -m py_compile \ ops/ci/tests/test_p2_handoff_state_machine.py
+            - paragraph [ref=e5579]:
+              - text: "Expected: exit"
+              - code [ref=e5580]: "0"
+              - text: .
+            - heading "8.2 Observer shell syntax" [level=3] [ref=e5581]
+            - code [ref=e5583]: bash -n ops/ci/observe_gru_p2_remote.sh
+            - paragraph [ref=e5584]:
+              - text: "Expected: exit"
+              - code [ref=e5585]: "0"
+              - text: .
+            - heading "8.3 Targeted P2 state-machine suite" [level=3] [ref=e5586]
+            - code [ref=e5588]: python3 -m unittest -v \ ops.ci.tests.test_p2_handoff_state_machine
+            - paragraph [ref=e5589]: "Mandatory expected result:"
+            - code [ref=e5591]: Ran 6 tests OK
+            - paragraph [ref=e5592]: "Mandatory named regressions:"
+            - code [ref=e5594]: test_observer_rejects_stale_same_sha_other_build_result ... ok test_observer_accepts_exact_current_build_result ... ok
+            - heading "8.4 Related remediation contracts" [level=3] [ref=e5595]
+            - code [ref=e5597]: python3 -m unittest -v \ ops.ci.tests.test_p2_external_evidence_contract \ ops.ci.tests.test_single_commit_semaphore_contract \ ops.ci.tests.test_post_p2_live_durability
+            - paragraph [ref=e5598]: "Expected:"
+            - code [ref=e5600]: Ran 3 tests OK
+            - heading "8.5 Complete CI-contract discovery" [level=3] [ref=e5601]
+            - code [ref=e5603]: python3 -m unittest discover \ -s ops/ci/tests \ -p 'test_*.py' \ -v
+            - paragraph [ref=e5604]: "Known validated baseline:"
+            - code [ref=e5606]: Ran 38 tests OK
+            - paragraph [ref=e5607]: Any reduction in discovered test count requires investigation before Semaphore.
+            - heading [level=3] [ref=e5608]:
+              - text: 8.6 Exact reproduction of
+              - code [ref=e5609]: GRU validation / Core CI contracts
+            - paragraph [ref=e5610]: "Execute, in the same order as Semaphore:"
+            - code [ref=e5612]: ops.ci.breaker.tests.test_ci_breaker ops.gru.test_remediate_orphan_recovery_wait apy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests ops.ci.tests.test_p2_memory_bound_contract apy.tests.test_raw_payload_persistence ops.ci.tests.test_full_corpus_durability_contract ops.ci.tests.test_p1_dependency_validator_contract ops.ci.tests.test_p2_handoff_state_machine ops.ci.tests.test_p2_external_evidence_contract ops.ci.tests.test_post_p2_live_acceptance_contract ops.ci.tests.test_post_p2_live_durability ops.ci.tests.test_single_commit_semaphore_contract apy.tests.test_gru_minimum_history_boundary
+            - paragraph [ref=e5613]: "Then execute the exact:"
+            - list [ref=e5614]:
+              - listitem [ref=e5615]:
+                - paragraph [ref=e5616]:
+                  - code [ref=e5617]: py_compile
+                  - text: checks;
+              - listitem [ref=e5618]:
+                - paragraph [ref=e5619]:
+                  - code [ref=e5620]: bash -n
+                  - text: checks;
+              - listitem [ref=e5621]:
+                - paragraph [ref=e5622]: full-corpus marker greps;
+              - listitem [ref=e5623]:
+                - paragraph [ref=e5624]: privilege-dependency scan;
+              - listitem [ref=e5625]:
+                - paragraph [ref=e5626]: final production-validation marker.
+            - paragraph [ref=e5627]: "Expected terminal marker:"
+            - code [ref=e5629]: SEMAPHORE_PRODUCTION_VALIDATION=PASS
+            - heading "8.7 Minimum-history runtime boundary" [level=3] [ref=e5630]
+            - paragraph [ref=e5631]: The CI interpreter may legitimately skip the pandas-dependent runtime portion if pandas is absent.
+            - paragraph [ref=e5632]:
+              - text: To reduce risk further, additionally run the
+              - code [ref=e5633]: 24/25/26
+              - text: runtime-boundary test in a dependency-complete project environment where pandas is installed.
+            - paragraph [ref=e5634]: "Required result:"
+            - code [ref=e5636]: 24 rows -> rejected as insufficient 25 rows -> accepted boundary 26 rows -> accepted
+            - paragraph [ref=e5637]: This must not modify production data.
+            - heading "8.8 Static exact-result identity checks" [level=3] [ref=e5638]
+            - paragraph [ref=e5639]: "Verify source contains:"
+            - code [ref=e5641]: "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status"
+            - paragraph [ref=e5642]: "Verify source no longer contains:"
+            - code [ref=e5644]: latest_result_file
+            - paragraph [ref=e5645]:
+              - text: "Expected count:"
+              - code [ref=e5646]: "0"
+              - text: .
+            - heading "8.9 Test lifecycle collision check" [level=3] [ref=e5647]
+            - paragraph [ref=e5648]: "Verify no project helper overrides the unittest lifecycle method:"
+            - code [ref=e5650]: def run(self,
+            - paragraph [ref=e5651]:
+              - text: within
+              - code [ref=e5652]: test_p2_handoff_state_machine.py
+              - text: .
+            - paragraph [ref=e5653]:
+              - text: "Expected project-helper count:"
+              - code [ref=e5654]: "0"
+              - text: .
+            - heading "8.10 Repository integrity" [level=3] [ref=e5655]
+            - paragraph [ref=e5656]: "Run:"
+            - code [ref=e5658]: git diff --check git status --porcelain
+            - paragraph [ref=e5659]: "Expected:"
+            - code [ref=e5661]: no whitespace errors clean fresh validation clone
+            - heading "8.11 Commit-object integrity" [level=3] [ref=e5662]
+            - paragraph [ref=e5663]: "Verify:"
+            - code [ref=e5665]: HEAD = 44505ddb... parent = dc4e2eef... changed files = exactly 2
+            - heading "8.12 Semaphore topology" [level=3] [ref=e5666]
+            - paragraph [ref=e5667]:
+              - text: Verify
+              - code [ref=e5668]: .semaphore/semaphore-production.yml
+              - text: contains exactly six production blocks and the dependency chain is unchanged.
+            - heading "8.13 No-privilege dependency" [level=3] [ref=e5669]
+            - paragraph [ref=e5670]: Validate full-corpus live runtime scripts do not require privileged execution.
+            - paragraph [ref=e5671]: The safety scan itself must use a form accepted by the operator/runtime policy so the preflight is actually executed rather than skipped by an external safety parser.
+            - heading "8.14 Deployment script syntax and exact-SHA semantics" [level=3] [ref=e5672]
+            - paragraph [ref=e5673]:
+              - text: Validate deployment scripts with
+              - code [ref=e5674]: bash -n
+              - text: .
+            - paragraph [ref=e5675]: Confirm deployment resolves the expected exact SHA and fails closed on branch/SHA mismatch.
+            - heading "8.15 Production read-only preflight" [level=3] [ref=e5676]
+            - paragraph [ref=e5677]: "Before Semaphore launch, read-only verify:"
+            - list [ref=e5678]:
+              - listitem [ref=e5679]:
+                - paragraph [ref=e5680]: production current SHA;
+              - listitem [ref=e5681]:
+                - paragraph [ref=e5682]: production branch;
+              - listitem [ref=e5683]:
+                - paragraph [ref=e5684]: tracked status;
+              - listitem [ref=e5685]:
+                - paragraph [ref=e5686]: relevant runtime services;
+              - listitem [ref=e5687]:
+                - paragraph [ref=e5688]: available disk/memory sufficient for workflow;
+              - listitem [ref=e5689]:
+                - paragraph [ref=e5690]:
+                  - code [ref=e5691]: /tmp/log
+                  - text: baseline fingerprint/metadata for immutability comparison.
+            - paragraph [ref=e5692]: Do not alter production in this gate.
+            - separator [disabled] [ref=e5694]
+            - heading "9. Semaphore credit-saving policy" [level=2] [ref=e5695]
+            - heading "Before launch" [level=3] [ref=e5696]
+            - paragraph [ref=e5697]: "Semaphore launch is forbidden unless all are true:"
+            - code [ref=e5699]: G0_GO G1_GO G2_GO G3_GO G4_GO G5_GO
+            - heading "During launch" [level=3] [ref=e5700]
+            - paragraph [ref=e5701]: Use one new workflow tied to final exact SHA.
+            - paragraph [ref=e5702]: Do not launch parallel duplicate pipelines.
+            - heading "If a block fails" [level=3] [ref=e5703]
+            - paragraph [ref=e5704]:
+              - strong [ref=e5705]: Code/contract failure
+            - list [ref=e5706]:
+              - listitem [ref=e5707]:
+                - paragraph [ref=e5708]: no automatic retry;
+              - listitem [ref=e5709]:
+                - paragraph [ref=e5710]: no additional commit under this plan;
+              - listitem [ref=e5711]:
+                - paragraph [ref=e5712]: capture exact failure evidence;
+              - listitem [ref=e5713]:
+                - paragraph [ref=e5714]: mark zero-additional-commit objective as not achieved.
+            - paragraph [ref=e5715]:
+              - strong [ref=e5716]: Transient infrastructure failure
+            - paragraph [ref=e5717]: "A retry is allowed only if evidence proves all of:"
+            - list [ref=e5718]:
+              - listitem [ref=e5719]:
+                - paragraph [ref=e5720]: exact Git SHA unchanged;
+              - listitem [ref=e5721]:
+                - paragraph [ref=e5722]: source command did not produce a code/test failure;
+              - listitem [ref=e5723]:
+                - paragraph [ref=e5724]: failure occurred in provisioning/network/agent/tooling layer;
+              - listitem [ref=e5725]:
+                - paragraph [ref=e5726]: rerun does not hide a deterministic failure.
+            - separator [disabled] [ref=e5728]
+            - heading "10. Six-block acceptance criteria" [level=2] [ref=e5729]
+            - heading "Block 1 — GRU validation" [level=3] [ref=e5730]
+            - paragraph [ref=e5731]: Must pass all test, compile, syntax, marker and privilege gates.
+            - paragraph [ref=e5732]: "Critical regression:"
+            - code [ref=e5734]: "test_p2_handoff_state_machine: 6 tests, not 0"
+            - heading "Block 2 — Full-corpus acceptance launch" [level=3] [ref=e5735]
+            - paragraph [ref=e5736]: Must create/attach exact-SHA durable authority without privileged runtime dependency.
+            - heading "Block 3 — Full-corpus acceptance final watch" [level=3] [ref=e5737]
+            - paragraph [ref=e5738]: Must finish with durable exact-SHA acceptance evidence.
+            - paragraph [ref=e5739]: No stale run may satisfy current acceptance.
+            - heading "Block 4 — Deploy exact feature GRU SHA" [level=3] [ref=e5740]
+            - paragraph [ref=e5741]: "Production must deploy exactly:"
+            - paragraph [ref=e5742]:
+              - code [ref=e5743]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+            - paragraph [ref=e5744]: Deployment must fail closed on SHA mismatch.
+            - heading "Block 5 — P2 acceptance launch" [level=3] [ref=e5745]
+            - paragraph [ref=e5746]: Must bind durable launch authority to exact build + SHA.
+            - heading "Block 6 — P2 acceptance final watch" [level=3] [ref=e5747]
+            - paragraph [ref=e5748]: Must accept only the terminal result corresponding to the same build + SHA.
+            - paragraph [ref=e5749]: A stale same-SHA result from another build must not produce GO.
+            - separator [disabled] [ref=e5751]
+            - heading "11. Atomic assigned backlog" [level=2] [ref=e5752]
+            - table [ref=e5753]:
+              - rowgroup [ref=e5754]:
+                - row [disabled] [ref=e5755]:
+                  - columnheader "ID" [disabled] [ref=e5756]
+                  - columnheader "Owner" [disabled] [ref=e5757]
+                  - columnheader "Atomic task" [disabled] [ref=e5758]
+                  - columnheader "Acceptance evidence" [disabled] [ref=e5759]
+                - row [disabled] [ref=e5760]:
+                  - cell "B001" [ref=e5761]
+                  - cell "Release Lead" [ref=e5762]
+                  - cell "Freeze failed SHA, base SHA and final SHA in release record" [ref=e5763]
+                  - cell "Three literal SHAs recorded" [ref=e5764]
+                - row [disabled] [ref=e5765]:
+                  - cell "B002" [ref=e5766]
+                  - cell "Independent Verifier" [ref=e5767]
+                  - cell [ref=e5768]:
+                    - text: Verify
+                    - code [ref=e5769]: 44505ddb...
+                    - text: exists in GitHub
+                  - cell "Commit metadata captured" [ref=e5770]
+                - row [disabled] [ref=e5771]:
+                  - cell "B003" [ref=e5772]
+                  - cell "Independent Verifier" [ref=e5773]
+                  - cell [ref=e5774]:
+                    - text: Verify parent of
+                    - code [ref=e5775]: 44505ddb...
+                    - text: is exactly
+                    - code [ref=e5776]: dc4e2eef...
+                  - cell "Parent SHA evidence" [ref=e5777]
+                - row [disabled] [ref=e5778]:
+                  - cell "B004" [ref=e5779]
+                  - cell "Independent Verifier" [ref=e5780]
+                  - cell [ref=e5781]:
+                    - text: Compare
+                    - code [ref=e5782]: dc4e2eef...
+                    - text: →
+                    - code [ref=e5783]: 44505ddb...
+                  - cell "Exactly two files changed" [ref=e5784]
+                - row [disabled] [ref=e5785]:
+                  - cell "B005" [ref=e5786]
+                  - cell "Independent Verifier" [ref=e5787]
+                  - cell "Verify observer blob SHA" [ref=e5788]
+                  - cell [ref=e5789]:
+                    - code [ref=e5790]: 001a58683d9...
+                - row [disabled] [ref=e5791]:
+                  - cell "B006" [ref=e5792]
+                  - cell "Independent Verifier" [ref=e5793]
+                  - cell "Verify handoff-test blob SHA" [ref=e5794]
+                  - cell [ref=e5795]:
+                    - code [ref=e5796]: e46b9a0733c...
+                - row [disabled] [ref=e5797]:
+                  - cell "B007" [ref=e5798]
+                  - cell "Python Engineer" [ref=e5799]
+                  - cell "Fresh-clone exact final SHA" [ref=e5800]
+                  - cell "Detached clean HEAD evidence" [ref=e5801]
+                - row [disabled] [ref=e5802]:
+                  - cell "B008" [ref=e5803]
+                  - cell "Python Engineer" [ref=e5804]
+                  - cell "Run Python syntax check on handoff tests" [ref=e5805]
+                  - cell "Exit 0" [ref=e5806]
+                - row [disabled] [ref=e5807]:
+                  - cell "B009" [ref=e5808]
+                  - cell "Runtime Engineer" [ref=e5809]
+                  - cell "Run Bash syntax check on P2 observer" [ref=e5810]
+                  - cell "Exit 0" [ref=e5811]
+                - row [disabled] [ref=e5812]:
+                  - cell "B010" [ref=e5813]
+                  - cell "Python Engineer" [ref=e5814]
+                  - cell "Run targeted P2 handoff suite" [ref=e5815]
+                  - cell "6 tests OK" [ref=e5816]
+                - row [disabled] [ref=e5817]:
+                  - cell "B011" [ref=e5818]
+                  - cell "Python Engineer" [ref=e5819]
+                  - cell "Verify stale-build rejection test" [ref=e5820]
+                  - cell "named test OK" [ref=e5821]
+                - row [disabled] [ref=e5822]:
+                  - cell "B012" [ref=e5823]
+                  - cell "Python Engineer" [ref=e5824]
+                  - cell "Verify exact-build acceptance test" [ref=e5825]
+                  - cell "named test OK" [ref=e5826]
+                - row [disabled] [ref=e5827]:
+                  - cell "B013" [ref=e5828]
+                  - cell "Python Engineer" [ref=e5829]
+                  - cell "Run related remediation contracts" [ref=e5830]
+                  - cell "3 tests OK" [ref=e5831]
+                - row [disabled] [ref=e5832]:
+                  - cell "B014" [ref=e5833]
+                  - cell "Python Engineer" [ref=e5834]
+                  - cell [ref=e5835]:
+                    - text: Run full
+                    - code [ref=e5836]: ops/ci/tests
+                    - text: discovery
+                  - cell "≥38 tests, all OK" [ref=e5837]
+                - row [disabled] [ref=e5838]:
+                  - cell "B015" [ref=e5839]
+                  - cell "Python Engineer" [ref=e5840]
+                  - cell "Run dependency-complete 24/25/26 runtime-boundary test" [ref=e5841]
+                  - cell "boundary PASS" [ref=e5842]
+                - row [disabled] [ref=e5843]:
+                  - cell "B016" [ref=e5844]
+                  - cell "Runtime Engineer" [ref=e5845]
+                  - cell [ref=e5846]:
+                    - text: Verify no
+                    - code [ref=e5847]: latest_result_file
+                    - text: remains
+                  - cell "count 0" [ref=e5848]
+                - row [disabled] [ref=e5849]:
+                  - cell "B017" [ref=e5850]
+                  - cell "Python Engineer" [ref=e5851]
+                  - cell [ref=e5852]:
+                    - text: Verify no custom
+                    - code [ref=e5853]: TestCase.run
+                    - text: remains
+                  - cell "count 0" [ref=e5854]
+                - row [disabled] [ref=e5855]:
+                  - cell "B018" [ref=e5856]
+                  - cell "CI Engineer" [ref=e5857]
+                  - cell [ref=e5858]:
+                    - text: Reproduce full Semaphore
+                    - code [ref=e5859]: Core CI contracts
+                    - text: command sequence
+                  - cell "terminal PASS marker" [ref=e5860]
+                - row [disabled] [ref=e5861]:
+                  - cell "B019" [ref=e5862]
+                  - cell "CI Engineer" [ref=e5863]
+                  - cell [ref=e5864]:
+                    - text: Run all
+                    - code [ref=e5865]: py_compile
+                    - text: gates from Semaphore
+                  - cell "all exit 0" [ref=e5866]
+                - row [disabled] [ref=e5867]:
+                  - cell "B020" [ref=e5868]
+                  - cell "CI Engineer" [ref=e5869]
+                  - cell [ref=e5870]:
+                    - text: Run all
+                    - code [ref=e5871]: bash -n
+                    - text: gates from Semaphore
+                  - cell "all exit 0" [ref=e5872]
+                - row [disabled] [ref=e5873]:
+                  - cell "B021" [ref=e5874]
+                  - cell "CI Engineer" [ref=e5875]
+                  - cell "Run full-corpus contract marker checks" [ref=e5876]
+                  - cell "all markers present" [ref=e5877]
+                - row [disabled] [ref=e5878]:
+                  - cell "B022" [ref=e5879]
+                  - cell "CI Engineer" [ref=e5880]
+                  - cell "Run policy-compatible privilege-dependency scan" [ref=e5881]
+                  - cell "no live runtime privilege dependency" [ref=e5882]
+                - row [disabled] [ref=e5883]:
+                  - cell "B023" [ref=e5884]
+                  - cell "Release Lead" [ref=e5885]
+                  - cell [ref=e5886]:
+                    - text: Run
+                    - code [ref=e5887]: git diff --check
+                  - cell "no errors" [ref=e5888]
+                - row [disabled] [ref=e5889]:
+                  - cell "B024" [ref=e5890]
+                  - cell "Release Lead" [ref=e5891]
+                  - cell "Verify validation worktree clean" [ref=e5892]
+                  - cell "clean" [ref=e5893]
+                - row [disabled] [ref=e5894]:
+                  - cell "B025" [ref=e5895]
+                  - cell "CI Engineer" [ref=e5896]
+                  - cell "Verify six-block Semaphore topology" [ref=e5897]
+                  - cell "exact six blocks/dependencies" [ref=e5898]
+                - row [disabled] [ref=e5899]:
+                  - cell "B026" [ref=e5900]
+                  - cell "Runtime Engineer" [ref=e5901]
+                  - cell "Read-only production capacity/state preflight" [ref=e5902]
+                  - cell "evidence bundle" [ref=e5903]
+                - row [disabled] [ref=e5904]:
+                  - cell "B027" [ref=e5905]
+                  - cell "Runtime Engineer" [ref=e5906]
+                  - cell [ref=e5907]:
+                    - text: Record
+                    - code [ref=e5908]: /tmp/log
+                    - text: baseline
+                  - cell "immutable baseline evidence" [ref=e5909]
+                - row [disabled] [ref=e5910]:
+                  - cell "B028" [ref=e5911]
+                  - cell "Independent Verifier" [ref=e5912]
+                  - cell "Review B001–B027 evidence" [ref=e5913]
+                  - cell [ref=e5914]:
+                    - code [ref=e5915]: PREPUBLISH_GO
+                - row [disabled] [ref=e5916]:
+                  - cell "B029" [ref=e5917]
+                  - cell "Release Lead" [ref=e5918]
+                  - cell "Obtain explicit authorization for non-fast-forward branch ref rewrite" [ref=e5919]
+                  - cell "authorization recorded" [ref=e5920]
+                - row [disabled] [ref=e5921]:
+                  - cell "B030" [ref=e5922]
+                  - cell "Release Lead" [ref=e5923]
+                  - cell [ref=e5924]:
+                    - text: Move
+                    - code [ref=e5925]: feature/GRU
+                    - text: from
+                    - code [ref=e5926]: 258a111...
+                    - text: to
+                    - code [ref=e5927]: 44505ddb...
+                  - cell "remote ref exact" [ref=e5928]
+                - row [disabled] [ref=e5929]:
+                  - cell "B031" [ref=e5930]
+                  - cell "Independent Verifier" [ref=e5931]
+                  - cell [ref=e5932]:
+                    - text: Verify
+                    - code [ref=e5933]: 258a111...
+                    - text: unreachable from
+                    - code [ref=e5934]: feature/GRU
+                  - cell "ancestry PASS" [ref=e5935]
+                - row [disabled] [ref=e5936]:
+                  - cell "B032" [ref=e5937]
+                  - cell "Independent Verifier" [ref=e5938]
+                  - cell [ref=e5939]:
+                    - text: Verify final branch parent =
+                    - code [ref=e5940]: dc4e2eef...
+                  - cell "exact parent evidence" [ref=e5941]
+                - row [disabled] [ref=e5942]:
+                  - cell "B033" [ref=e5943]
+                  - cell "Release Lead" [ref=e5944]
+                  - cell "Confirm no commit created during branch cutover" [ref=e5945]
+                  - cell "commit invariant" [ref=e5946]
+                - row [disabled] [ref=e5947]:
+                  - cell "B034" [ref=e5948]
+                  - cell "Python Engineer" [ref=e5949]
+                  - cell [ref=e5950]:
+                    - text: Fresh-clone remote
+                    - code [ref=e5951]: feature/GRU
+                    - text: after cutover
+                  - cell "HEAD exact final SHA" [ref=e5952]
+                - row [disabled] [ref=e5953]:
+                  - cell "B035" [ref=e5954]
+                  - cell "CI Engineer" [ref=e5955]
+                  - cell [ref=e5956]:
+                    - text: Re-run deterministic
+                    - code [ref=e5957]: Core CI contracts
+                    - text: preflight from remote clone
+                  - cell "PASS" [ref=e5958]
+                - row [disabled] [ref=e5959]:
+                  - cell "B036" [ref=e5960]
+                  - cell "Independent Verifier" [ref=e5961]
+                  - cell [ref=e5962]:
+                    - text: Issue
+                    - code [ref=e5963]: SEMAPHORE_TRIGGER_GO
+                  - cell "checklist GO" [ref=e5964]
+                - row [disabled] [ref=e5965]:
+                  - cell "B037" [ref=e5966]
+                  - cell "CI Engineer" [ref=e5967]
+                  - cell "Trigger one new Semaphore workflow" [ref=e5968]
+                  - cell "new run ID, exact final SHA" [ref=e5969]
+                - row [disabled] [ref=e5970]:
+                  - cell "B038" [ref=e5971]
+                  - cell "CI Engineer" [ref=e5972]
+                  - cell "Verify Semaphore checkout SHA" [ref=e5973]
+                  - cell [ref=e5974]:
+                    - code [ref=e5975]: 44505ddb...
+                - row [disabled] [ref=e5976]:
+                  - cell "B039" [ref=e5977]
+                  - cell "CI Engineer" [ref=e5978]
+                  - cell [ref=e5979]:
+                    - text: Observe Block 1
+                    - code [ref=e5980]: GRU validation
+                  - cell "Passed" [ref=e5981]
+                - row [disabled] [ref=e5982]:
+                  - cell "B040" [ref=e5983]
+                  - cell "CI Engineer" [ref=e5984]
+                  - cell "Observe Block 2 full-corpus launch" [ref=e5985]
+                  - cell "Passed" [ref=e5986]
+                - row [disabled] [ref=e5987]:
+                  - cell "B041" [ref=e5988]
+                  - cell "Runtime Engineer" [ref=e5989]
+                  - cell "Verify full-corpus durable authority identity" [ref=e5990]
+                  - cell "exact SHA/run" [ref=e5991]
+                - row [disabled] [ref=e5992]:
+                  - cell "B042" [ref=e5993]
+                  - cell "CI Engineer" [ref=e5994]
+                  - cell "Observe Block 3 full-corpus final watch" [ref=e5995]
+                  - cell "Passed" [ref=e5996]
+                - row [disabled] [ref=e5997]:
+                  - cell "B043" [ref=e5998]
+                  - cell "Runtime Engineer" [ref=e5999]
+                  - cell "Validate durable full-corpus evidence" [ref=e6000]
+                  - cell "PASS" [ref=e6001]
+                - row [disabled] [ref=e6002]:
+                  - cell "B044" [ref=e6003]
+                  - cell "CI Engineer" [ref=e6004]
+                  - cell "Observe Block 4 exact-SHA deploy" [ref=e6005]
+                  - cell "Passed" [ref=e6006]
+                - row [disabled] [ref=e6007]:
+                  - cell "B045" [ref=e6008]
+                  - cell "Runtime Engineer" [ref=e6009]
+                  - cell "Verify production HEAD immediately after deploy" [ref=e6010]
+                  - cell "exact final SHA" [ref=e6011]
+                - row [disabled] [ref=e6012]:
+                  - cell "B046" [ref=e6013]
+                  - cell "CI Engineer" [ref=e6014]
+                  - cell "Observe Block 5 P2 acceptance launch" [ref=e6015]
+                  - cell "Passed" [ref=e6016]
+                - row [disabled] [ref=e6017]:
+                  - cell "B047" [ref=e6018]
+                  - cell "Runtime Engineer" [ref=e6019]
+                  - cell "Verify P2 launch authority = exact build + SHA" [ref=e6020]
+                  - cell "identity PASS" [ref=e6021]
+                - row [disabled] [ref=e6022]:
+                  - cell "B048" [ref=e6023]
+                  - cell "CI Engineer" [ref=e6024]
+                  - cell "Observe Block 6 P2 final watch" [ref=e6025]
+                  - cell "Passed" [ref=e6026]
+                - row [disabled] [ref=e6027]:
+                  - cell "B049" [ref=e6028]
+                  - cell "Runtime Engineer" [ref=e6029]
+                  - cell "Verify terminal P2 result exact build + SHA" [ref=e6030]
+                  - cell "durable PASS" [ref=e6031]
+                - row [disabled] [ref=e6032]:
+                  - cell "B050" [ref=e6033]
+                  - cell "Runtime Engineer" [ref=e6034]
+                  - cell "Verify production tracked status clean" [ref=e6035]
+                  - cell "tracked-clean" [ref=e6036]
+                - row [disabled] [ref=e6037]:
+                  - cell "B051" [ref=e6038]
+                  - cell "Runtime Engineer" [ref=e6039]
+                  - cell [ref=e6040]:
+                    - text: Compare
+                    - code [ref=e6041]: /tmp/log
+                    - text: against baseline
+                  - cell "no prohibited mutation" [ref=e6042]
+                - row [disabled] [ref=e6043]:
+                  - cell "B052" [ref=e6044]
+                  - cell "Release Lead" [ref=e6045]
+                  - cell "Remove prohibited dummy remote branch if still present, without commit" [ref=e6046]
+                  - cell "branch absent" [ref=e6047]
+                - row [disabled] [ref=e6048]:
+                  - cell "B053" [ref=e6049]
+                  - cell "Independent Verifier" [ref=e6050]
+                  - cell [ref=e6051]:
+                    - text: Verify no commit exists after
+                    - code [ref=e6052]: 44505ddb...
+                    - text: "on"
+                    - code [ref=e6053]: feature/GRU
+                  - cell "topology PASS" [ref=e6054]
+                - row [disabled] [ref=e6055]:
+                  - cell "B054" [ref=e6056]
+                  - cell "Independent Verifier" [ref=e6057]
+                  - cell "Verify all six Semaphore blocks passed" [ref=e6058]
+                  - cell "six PASS records" [ref=e6059]
+                - row [disabled] [ref=e6060]:
+                  - cell "B055" [ref=e6061]
+                  - cell "Release Lead" [ref=e6062]
+                  - cell "Publish COMPLETE_GO record" [ref=e6063]
+                  - cell "all gates G0–G8 GO" [ref=e6064]
+            - separator [disabled] [ref=e6066]
+            - heading "12. Backlog dependency chain" [level=2] [ref=e6067]
+            - code [ref=e6069]: B001 ↓ B002-B006 ↓ B007-B027 ↓ B028 PREPUBLISH_GO ↓ B029 authorization ↓ B030 branch cutover ↓ B031-B035 ↓ B036 SEMAPHORE_TRIGGER_GO ↓ B037 ↓ B038 ↓ B039 ↓ B040-B043 ↓ B044-B045 ↓ B046-B049 ↓ B050-B054 ↓ B055 COMPLETE_GO
+            - paragraph [ref=e6070]:
+              - text: No task that triggers limited CI credits is permitted before
+              - code [ref=e6071]: B036
+              - text: .
+            - separator [disabled] [ref=e6073]
+            - heading "13. Stop rules" [level=2] [ref=e6074]
+            - paragraph [ref=e6075]: Because the mandatory objective prohibits additional commits, recovery must not create commits.
+            - heading "Before branch cutover" [level=3] [ref=e6076]
+            - paragraph [ref=e6077]: "If any deterministic preflight fails:"
+            - list [ref=e6078]:
+              - listitem [ref=e6079]:
+                - paragraph [ref=e6080]:
+                  - text: do not move
+                  - code [ref=e6081]: feature/GRU
+                  - text: ;
+              - listitem [ref=e6082]:
+                - paragraph [ref=e6083]: do not launch Semaphore;
+              - listitem [ref=e6084]:
+                - paragraph [ref=e6085]: stop and report the failed gate.
+            - heading "After branch cutover but before Semaphore" [level=3] [ref=e6086]
+            - paragraph [ref=e6087]: "If remote exact-SHA revalidation fails:"
+            - list [ref=e6088]:
+              - listitem [ref=e6089]:
+                - paragraph [ref=e6090]: do not launch Semaphore;
+              - listitem [ref=e6091]:
+                - paragraph [ref=e6092]: preserve evidence;
+              - listitem [ref=e6093]:
+                - paragraph [ref=e6094]: do not create a fix commit under this plan.
+            - heading "During Semaphore" [level=3] [ref=e6095]
+            - paragraph [ref=e6096]: "If a deterministic code test fails:"
+            - list [ref=e6097]:
+              - listitem [ref=e6098]:
+                - paragraph [ref=e6099]: stop;
+              - listitem [ref=e6100]:
+                - paragraph [ref=e6101]: collect exact logs;
+              - listitem [ref=e6102]:
+                - paragraph [ref=e6103]: do not spend credits on blind reruns;
+              - listitem [ref=e6104]:
+                - paragraph [ref=e6105]: do not create another commit.
+            - paragraph [ref=e6106]: "If a proven transient infrastructure failure occurs:"
+            - list [ref=e6107]:
+              - listitem [ref=e6108]:
+                - paragraph [ref=e6109]: the exact same SHA may be rerun only after failure classification.
+            - separator [disabled] [ref=e6111]
+            - heading "14. COMPLETE_GO definition" [level=2] [ref=e6112]
+            - paragraph [ref=e6113]: "The release is COMPLETE_GO only when all are simultaneously true:"
+            - code [ref=e6115]: feature/GRU HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 HEAD parent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60 accidental 258a111... = not reachable from feature/GRU additional commits after canonical remediation = 0 Semaphore GRU validation = PASS Semaphore full-corpus launch = PASS Semaphore full-corpus final watch = PASS Semaphore exact-SHA deploy = PASS Semaphore P2 launch = PASS Semaphore P2 final watch = PASS production HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924 production tracked status = clean /tmp/log prohibited mutation = none full-corpus authority = exact final SHA P2 terminal authority = exact final SHA + exact build dummy/prohibited branch = absent
+            - paragraph [ref=e6116]: Anything less is not COMPLETE_GO.
+            - separator [disabled] [ref=e6118]
+            - heading "15. Credit-minimization rationale" [level=2] [ref=e6119]
+            - paragraph [ref=e6120]: The previous failure was deterministic and visible from source structure. Spending Semaphore credits before exact reproduction of the first block allowed a known-bad SHA to consume a workflow.
+            - paragraph [ref=e6121]: "This plan reverses the order:"
+            - list [ref=e6122]:
+              - listitem [ref=e6123]:
+                - paragraph [ref=e6124]: immutable commit-object audit;
+              - listitem [ref=e6125]:
+                - paragraph [ref=e6126]: exact-SHA fresh-clone tests;
+              - listitem [ref=e6127]:
+                - paragraph [ref=e6128]: complete first-block reproduction;
+              - listitem [ref=e6129]:
+                - paragraph [ref=e6130]: independent verification;
+              - listitem [ref=e6131]:
+                - paragraph [ref=e6132]: branch publication;
+              - listitem [ref=e6133]:
+                - paragraph [ref=e6134]: second remote exact-SHA preflight;
+              - listitem [ref=e6135]:
+                - paragraph [ref=e6136]: only then one Semaphore production workflow.
+            - paragraph [ref=e6137]: The design front-loads cheap deterministic validation and reserves Semaphore credits for live acceptance/deployment stages that cannot be fully substituted by local tests.
+            - separator [disabled] [ref=e6139]
+            - heading "16. Final execution contract" [level=2] [ref=e6140]
+            - blockquote [ref=e6141]:
+              - paragraph [ref=e6142]:
+                - strong [ref=e6143]: No one may create another code commit after
+                - code [ref=e6144]:
+                  - strong [ref=e6145]: 44505ddbfa5062dc1c712fc90db72cb0c54de924
+                - strong [ref=e6146]: . The only permitted repository write required to establish the final candidate is the controlled ref rewrite of
+                - code [ref=e6147]:
+                  - strong [ref=e6148]: feature/GRU
+                - strong [ref=e6149]: from accidental SHA
+                - code [ref=e6150]:
+                  - strong [ref=e6151]: 258a111...
+                - strong [ref=e6152]: to canonical remediation SHA
+                - code [ref=e6153]:
+                  - strong [ref=e6154]: 44505ddb...
+                - strong [ref=e6155]: . Semaphore may be triggered only after exact-SHA local and remote preflight gates pass.
+            - paragraph [ref=e6156]: This preserves the single-remediation-commit objective and maximizes the probability that the next Semaphore workflow reaches COMPLETE_GO without consuming credits on a known deterministic failure.
+  - alert [ref=e111]
+  - status [ref=e112]

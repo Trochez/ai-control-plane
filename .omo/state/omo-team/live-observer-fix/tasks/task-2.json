@@ -1,0 +1,6 @@
+{
+  "id": "task-2",
+  "worker": "worker-2",
+  "description": "Audit the installed and repository observer/controller code for the RESPONSE_MISSING blocker and versioning. Identify precise minimal fixes needed for 4.7.2, diagnosis reconciliation, inventory logging, restart/resume idempotency, and where to install/resume safely. Do not modify code; report file:line evidence and test gaps.",
+  "status": "pending"
+}

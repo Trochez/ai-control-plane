@@ -1,0 +1,6 @@
+{
+  "id": "task-1",
+  "role": "consultant",
+  "category": "deep",
+  "description": "Inspect controller FSM and design the minimal v4.7.6 historical response reconciliation and causal precedence implementation. Do not edit files. Return exact functions, fields, and tests needed."
+}

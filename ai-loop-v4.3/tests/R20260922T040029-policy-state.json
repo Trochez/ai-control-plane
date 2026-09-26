@@ -1,0 +1,12 @@
+{
+  "source": "sanitized production diagnostics from R20260922T040029",
+  "url": "https://chatgpt.com/",
+  "projectUrl": "https://chatgpt.com/g/g-p-68782097d6388191b7538c01b189cce8-bot-trading",
+  "composer": {"aria": "New chat in Bot_trading", "text": ""},
+  "controls": [
+    {"text":"Chat","aria":"","selected":true,"state":"closed","navTarget":"","reasoningEffort":"","codexIntelligenceTrigger":""},
+    {"text":"Work","aria":"","selected":false,"state":"closed","navTarget":"","reasoningEffort":"","codexIntelligenceTrigger":""},
+    {"text":"Bot_trading","aria":"Change project: Bot_trading","selected":false,"state":"closed","navTarget":"workspace-project","reasoningEffort":"","codexIntelligenceTrigger":""},
+    {"text":"High","aria":"Select ChatGPT model","selected":false,"state":"closed","navTarget":"reasoning","reasoningEffort":"high","codexIntelligenceTrigger":"true"}
+  ]
+}

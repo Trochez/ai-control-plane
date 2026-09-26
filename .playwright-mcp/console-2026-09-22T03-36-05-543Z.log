@@ -1,0 +1,2 @@
+[    4119ms] [WARNING] WebSocket connection to 'wss://ws.chatgpt.com/p14/ws/user/user-lneTN0e7nDvtcKEed1D8IFaS?verify=1790048168-ggn1dzo98CMpEGuPtTzX4CoyfeIr%252FWQjAGYCcnn7Ezk%253D' failed: WebSocket is closed before the connection is established. @ https://chatgpt.com/cdn/assets/357905.4c82c204e7.js:0
+[   70208ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://chatgpt.com/backend-api/conversation/init:0

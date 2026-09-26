@@ -1,0 +1,18 @@
+{
+  "workflow_id": "bot-trading-gru",
+  "run_id": "R000006",
+  "execution_mode": "local_opencode",
+  "runtime_version": "4.6.0",
+  "runtime_synchronized": true,
+  "local_validation": "PASS",
+  "deployed_preflight": "PASS",
+  "target_repository": "/mnt/d/works/bot_trad/bot_trading",
+  "target_branch": "feature/GRU",
+  "target_head": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+  "target_worktree_clean": true,
+  "live_canary": "BLOCKED",
+  "blocked_reason": "start-loop-v3 refused due to existing Playwright MCP process owning the configured browser profile",
+  "final_go": false,
+  "ai_loop_complete": false,
+  "evidence_status": "BLOCKED"
+}

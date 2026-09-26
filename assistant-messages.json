@@ -1,0 +1,808 @@
+[
+  {
+    "i": 0,
+    "text": "Diagnóstico completo generado en .md, con fecha/hora en el nombre y separación entre causa raíz, causas contribuyentes, defecto secundario, no-causas, cadena causal y estado correctivo.\n\nDescargar diagnóstico\n\nEl hallazgo central es que el último fallo pertenece al SHA temporal 258a111…: Semaphore ejecutó ese commit y test_p2_handoff_state_machine terminó en Ran 0 tests / NO TESTS RAN, coherente con el override accidental de unittest.TestCase.run. \n\nfailure-evidence-bundle-a12eee4…\n\n El bundle también confirma que ese SHA es hijo directo de dc4e2eef… y que el worktree investigado estaba limpio. \n\nfailure-evidence-bundle-a12eee4…\n\n ",
+    "html": "<div data-message-author-role=\"assistant\" data-message-id=\"5da0e63e-b4b4-4632-bca3-abc7efedaa46\" dir=\"auto\" data-message-model-slug=\"gpt-5-6-thinking\" class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\"><div class=\"flex w-full flex-col gap-1 empty:hidden\"><div class=\"LR5Y_W_content markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\"><p dir=\"auto\" data-start=\"0\" data-end=\"187\">Diagnóstico completo generado en <code data-start=\"33\" data-end=\"38\">.md</code>, con fecha/hora en el nombre y separación entre causa raíz, causas contribuyentes, defecto secundario, no-causas, cadena causal y estado correctivo.</p>\n<p dir=\"auto\" data-start=\"189\" data-end=\"289\"><button aria-label=\"Descargar diagnóstico\" class=\"behavior-btn hover:entity-accent focus-visible:focus-ring entity-underline inline cursor-pointer appearance-none border-0 bg-transparent p-0 text-start align-baseline px-1 text-token-text-link font-medium\" type=\"button\"><span style=\"display: inline-block; height: 1lh; margin-inline-end: 3px; position: relative; vertical-align: bottom; width: 16px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" data-testid=\"library-file-icon\" data-library-file-icon-kind=\"document\" data-library-file-icon-key=\"text\" class=\"\" style=\"color: rgb(2, 133, 255); height: 16px; position: absolute; top: 50%; transform: translateY(-50%); width: 16px;\"><path d=\"M10.833 11.0017C11.2003 11.0017 11.498 11.2995 11.498 11.6667C11.498 12.034 11.2003 12.3318 10.833 12.3318H7.5C7.13273 12.3318 6.83496 12.034 6.83496 11.6667C6.83496 11.2995 7.13273 11.0017 7.5 11.0017H10.833Z\" fill=\"currentColor\"></path><path d=\"M12.5 7.6687C12.8673 7.6687 13.165 7.96647 13.165 8.33374C13.1649 8.70086 12.8672 8.99878 12.5 8.99878H7.5C7.13284 8.99878 6.83513 8.70086 6.83496 8.33374C6.83496 7.96647 7.13273 7.6687 7.5 7.6687H12.5Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.75 2.25171C15.498 2.25171 16.915 3.66877 16.915 5.41675V14.5837C16.9149 16.3316 15.4979 17.7488 13.75 17.7488H6.25C4.50213 17.7488 3.08514 16.3316 3.08496 14.5837V5.41675C3.08496 3.66877 4.50202 2.25171 6.25 2.25171H13.75ZM6.25 3.58179C5.23656 3.58179 4.41504 4.40331 4.41504 5.41675V14.5837C4.41521 15.597 5.23667 16.4187 6.25 16.4187H13.75C14.7633 16.4187 15.5848 15.597 15.585 14.5837V5.41675C15.585 4.40331 14.7634 3.58179 13.75 3.58179H6.25Z\" fill=\"currentColor\"></path></svg></span>Descargar diagnóstico</button></p>\n<p dir=\"auto\" data-start=\"291\" data-end=\"771\" data-is-last-node=\"\" data-is-only-node=\"\">El hallazgo central es que el último fallo pertenece al SHA temporal <code data-start=\"360\" data-end=\"370\">258a111…</code>: Semaphore ejecutó ese commit y <code data-start=\"403\" data-end=\"434\">test_p2_handoff_state_machine</code> terminó en <code data-start=\"446\" data-end=\"474\">",
+    "codes": [
+      {
+        "j": 0,
+        "text": ".md",
+        "cls": ""
+      },
+      {
+        "j": 1,
+        "text": "258a111…",
+        "cls": ""
+      },
+      {
+        "j": 2,
+        "text": "test_p2_handoff_state_machine",
+        "cls": ""
+      },
+      {
+        "j": 3,
+        "text": "Ran 0 tests / NO TESTS RAN",
+        "cls": ""
+      },
+      {
+        "j": 4,
+        "text": "unittest.TestCase.run",
+        "cls": ""
+      },
+      {
+        "j": 5,
+        "text": "dc4e2eef…",
+        "cls": ""
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "text": "Plan completo generado en .md con fecha/hora, equipo de 5 roles, gates de ejecución, matriz de pruebas pre-Semaphore, política para ahorrar créditos y backlog de 55 tareas atómicas asignadas.\n\nDescargar plan COMPLETE_GO\n\nEl plan parte del fallo exacto de 258a111…, donde test_p2_handoff_state_machine terminó con Ran 0 tests / NO TESTS RAN, y de que ese SHA es hijo directo de dc4e2eef…. \n\nfailure-evidence-bundle-a12eee4… +1\n\nEl contrato central queda fijado así: 44505ddbfa5062dc1c712fc90db72cb0c54de924 es el único commit de remediación permitido; después de él, cero commits adicionales. Antes de gastar otro crédito de Semaphore se exige auditoría del commit, fresh-clone exact-SHA, 6/6 tests P2, discovery completo, reproducción íntegra de GRU validation, verificación independiente y una segunda validación después del cutover de feature/GRU. Sólo entonces se permite un nuevo workflow para el SHA correcto. ",
+    "html": "<div data-message-author-role=\"assistant\" data-message-id=\"2d52ee4c-60ea-46c8-b39f-1d86dc06eed4\" dir=\"auto\" data-message-model-slug=\"gpt-5-6-thinking\" class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\"><div class=\"flex w-full flex-col gap-1 empty:hidden\"><div class=\"LR5Y_W_content markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\"><p dir=\"auto\" data-start=\"0\" data-end=\"197\">Plan completo generado en <code data-start=\"26\" data-end=\"31\">.md</code> con fecha/hora, equipo de 5 roles, gates de ejecución, matriz de pruebas pre-Semaphore, política para ahorrar créditos y backlog de <strong data-start=\"164\" data-end=\"196\">55 tareas atómicas asignadas</strong>.</p>\n<p dir=\"auto\" data-start=\"199\" data-end=\"314\"><button aria-label=\"Descargar plan COMPLETE_GO\" class=\"behavior-btn hover:entity-accent focus-visible:focus-ring entity-underline inline cursor-pointer appearance-none border-0 bg-transparent p-0 text-start align-baseline px-1 text-token-text-link font-medium\" type=\"button\"><span style=\"display: inline-block; height: 1lh; margin-inline-end: 3px; position: relative; vertical-align: bottom; width: 16px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" data-testid=\"library-file-icon\" data-library-file-icon-kind=\"document\" data-library-file-icon-key=\"text\" class=\"\" style=\"color: rgb(2, 133, 255); height: 16px; position: absolute; top: 50%; transform: translateY(-50%); width: 16px;\"><path d=\"M10.833 11.0017C11.2003 11.0017 11.498 11.2995 11.498 11.6667C11.498 12.034 11.2003 12.3318 10.833 12.3318H7.5C7.13273 12.3318 6.83496 12.034 6.83496 11.6667C6.83496 11.2995 7.13273 11.0017 7.5 11.0017H10.833Z\" fill=\"currentColor\"></path><path d=\"M12.5 7.6687C12.8673 7.6687 13.165 7.96647 13.165 8.33374C13.1649 8.70086 12.8672 8.99878 12.5 8.99878H7.5C7.13284 8.99878 6.83513 8.70086 6.83496 8.33374C6.83496 7.96647 7.13273 7.6687 7.5 7.6687H12.5Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.75 2.25171C15.498 2.25171 16.915 3.66877 16.915 5.41675V14.5837C16.9149 16.3316 15.4979 17.7488 13.75 17.7488H6.25C4.50213 17.7488 3.08514 16.3316 3.08496 14.5837V5.41675C3.08496 3.66877 4.50202 2.25171 6.25 2.25171H13.75ZM6.25 3.58179C5.23656 3.58179 4.41504 4.40331 4.41504 5.41675V14.5837C4.41521 15.597 5.23667 16.4187 6.25 16.4187H13.75C14.7633 16.4187 15.5848 15.597 15.585 14.5837V5.41675C15.585 4.40331 14.7634 3.58179 13.75 3.58179H6.25Z\" fill=\"currentColor\"></path></svg></span>Descargar plan COMPLETE_GO</button></p>\n<p dir=\"auto\" data-start=\"316\" data-end=\"566\">El plan parte del fallo exacto de <code data-start=\"350\" data-end=\"360\">258a111…</code>, donde <code data-start=\"368\" data-end=\"399\">test_p2_handoff_state_machine</code> terminó con <code data-start=\"412\" data-end=\"440\">Ran 0 tests / NO TESTS RAN</code>, y",
+    "codes": [
+      {
+        "j": 0,
+        "text": ".md",
+        "cls": ""
+      },
+      {
+        "j": 1,
+        "text": "258a111…",
+        "cls": ""
+      },
+      {
+        "j": 2,
+        "text": "test_p2_handoff_state_machine",
+        "cls": ""
+      },
+      {
+        "j": 3,
+        "text": "Ran 0 tests / NO TESTS RAN",
+        "cls": ""
+      },
+      {
+        "j": 4,
+        "text": "dc4e2eef…",
+        "cls": ""
+      },
+      {
+        "j": 5,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 6,
+        "text": "GRU validation",
+        "cls": ""
+      },
+      {
+        "j": 7,
+        "text": "feature/GRU",
+        "cls": ""
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "text": "Implementation & Release Plan — Semaphore COMPLETE_GO with One Remediation Commit\nImplementation & Release Plan — Semaphore COMPLETE_GO with One Remediation Commit\n\nGenerated: 2026-09-17 14:01:10 -05\nRepository: Trochez/bot_trading\nTarget branch: feature/GRU\nFailed accidental SHA: 258a111c031dee9643cffb920518fcc1ca392565\nBase implementation SHA: dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\nCanonical remediation commit: 44505ddbfa5062dc1c712fc90db72cb0c54de924\nRequired final topology: d4960be... -> dc4e2eef... -> 44505ddb...\nCommit budget after dc4e2eef...: exactly 1 remediation commit in final branch history\nAdditional commits after 44505ddb...: 0\n\n1. Mandatory objective\n\nAchieve Semaphore COMPLETE_GO for feature/GRU while satisfying all of the following simultaneously:\n\nThe final branch history contains exactly one remediation commit after dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60.\n\nThat remediation commit contains the complete implementation necessary to close every finding from the previous diagnosis.\n\nNo follow-up, hotfix, revert, “fix CI”, or evidence-only commit is permitted after the canonical remediation commit.\n\nThe accidental commit 258a111c031dee9643cffb920518fcc1ca392565 must not remain in the final feature/GRU history.\n\nSemaphore must be triggered only after exhaustive exact-SHA preflight validation has passed.\n\nThe complete six-block Semaphore production workflow must reach GO.\n\nProduction must finish at the same exact SHA as feature/GRU, tracked-clean, without mutating /tmp/log.\n\nNo Semaphore credits are to be spent on known-bad or incompletely validated SHAs.\n\nThe canonical remediation commit is already available as:\n\n44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nThe plan therefore treats this SHA as immutable. No new code commit is allowed.\n\n2. Diagnosis translated into implementation requirements\n\nThe previous failure establishes two implementation requirements and one repository-state requirement.\n\nR1 — Restore unittest lifecycle\n\nThe failed candidate defined a project helper named:\n\ndef run(self, root, service=\"inactive\", expect=0):\n\ninside a unittest.TestCase subclass.\n\nThis replaced unittest.TestCase.run(...), causing the observed:\n\nRan 0 tests\nNO TESTS RAN\n\nRequired correction:\n\nrun(...) -> run_state(...)\n\nand update every project call site accordingly.\n\nR2 — Enforce exact P2 result identity\n\nThe P2 observer must never authorize the current execution using a terminal result produced by a different build that happens to share the same Git SHA.\n\nRequired authority key:\n\n(CIRCLE_BUILD_NUM, EXPECTED_SHA)\n\nRequired result path:\n\np2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status\n\nThe observer must reject stale same-SHA/different-build results.\n\nR3 — Remove the accidental branch head without adding a commit\n\nfeature/GRU currently references accidental SHA 258a111....\n\nA revert commit is forbidden because it would consume the one-commit budget and preserve the accidental commit in final history.\n\nRequired operation:\n\nfeature/GRU\n258a111...  --controlled ref rewrite-->  44505ddb...\n\nThis is a Git ref operation, not a new commit.\n\n3. Non-negotiable invariants\nID\tInvariant\nINV-01\tFinal feature/GRU HEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nINV-02\tParent of final HEAD = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\nINV-03\t258a111... is not reachable from final feature/GRU\nINV-04\tNo commit is created after 44505ddb...\nINV-05\tNo amend/rebase/cherry-pick/revert is used after final SHA publication\nINV-06\tSemaphore is never launched for 258a111... again\nINV-07\tSemaphore is launched only when remote feature/GRU equals final SHA\nINV-08\tExact-SHA validation must be executed from a fresh detached clone\nINV-09\tProduction deployment must use the exact final SHA, not “latest branch” semantics\nINV-10\tProduction tracked files must be clean after deployment\nINV-11\tExisting untracked runtime artifacts must not be deleted merely to obtain cleanliness\nINV-12\t/tmp/log must remain unchanged by implementation/deployment cleanup\nINV-13\tNo broad git clean, destructive reset, or runtime artifact deletion\nINV-14\tDummy/test branches such as __dummy_should_not_use must be absent before COMPLETE_GO\nINV-15\tSix Semaphore blocks must pass in dependency order\nINV-16\tAny retry consumes credits only after evidence proves the failure was infrastructure/transient and the exact SHA remains unchanged\nINV-17\tA code/contract failure after final publication does not authorize an additional commit under this plan\n4. Required final Git topology\nAccepted topology\nd4960be98cee3edef96413ee77f200ce744d3461\n    |\n    v\ndc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n    |\n    v\n44505ddbfa5062dc1c712fc90db72cb0c54de924   <-- feature/GRU\nForbidden topology\ndc4e2eef...\n    |\n    +-- 258a111...  noop\n            |\n            +-- any fix commit\n\nAlso forbidden:\n\ndc4e2eef... -> 258a111... -> revert -> final fix\n\nThe accidental SHA may remain as an unreachable Git object until normal GitHub garbage collection; it simply must not be reachable from feature/GRU.\n\n5. Team\n\nTeam size: 5\n\nRole\tCount\tResponsibility\nRelease / Integration Lead\t1\tOwns commit budget, branch topology, final gates, Semaphore trigger decision\nPython & Test Engineer\t1\tValidates unittest fix, targeted tests, complete Python test discovery\nCI / Semaphore Engineer\t1\tReproduces GRU validation, validates six-block workflow and watches Semaphore\nRuntime / P2 & Production Engineer\t1\tValidates P2 exact identity, deployment, production SHA/cleanliness/runtime invariants\nIndependent Verification Engineer\t1\tPerforms read-only second-person verification of SHA, tree, diff, evidence, COMPLETE_GO checklist\nSeparation of duties\n\nNo person/agent that changes the final branch ref may be the only verifier of the final branch topology.\n\nNo Semaphore trigger occurs until the Independent Verification Engineer records GO for the preflight package.\n\n6. Execution strategy\n\nThe plan uses a validate-before-publish strategy:\n\nvalidate immutable commit object\n        ↓\nindependent audit\n        ↓\ncontrolled branch ref rewrite\n        ↓\nfresh remote exact-SHA validation\n        ↓\nONE Semaphore production workflow\n        ↓\nsix blocks PASS\n        ↓\nproduction exact-SHA verification\n        ↓\nCOMPLETE_GO\n\nThe key credit-saving mechanism is that all deterministic checks are run before Semaphore.\n\n7. Phase gates\nGate G0 — Evidence freeze\n\nRequired before any write:\n\nprevious failure bundle archived;\n\nfailed SHA recorded as 258a111...;\n\nfinal remediation SHA recorded as 44505ddb...;\n\nno uncertainty about which SHA contains which implementation.\n\nExit: G0_GO\n\nGate G1 — Canonical remediation commit audit\n\nVerify commit 44505ddb... directly, without relying on branch names.\n\nRequired assertions:\n\ncommit = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nparent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n\nDiff relative to parent must contain exactly:\n\nops/ci/observe_gru_p2_remote.sh\nops/ci/tests/test_p2_handoff_state_machine.py\n\nRequired validated blob identities:\n\nops/ci/observe_gru_p2_remote.sh\nblob = 001a58683d9bb791ad5bbc58ff8b9a9145d3960a\n\nops/ci/tests/test_p2_handoff_state_machine.py\nblob = e46b9a0733c3866805b5177713293eb4c63f1a95\n\nVerify no third file changed.\n\nExit: G1_GO\n\nGate G2 — Exhaustive exact-SHA preflight\n\nUse a fresh temporary detached clone checked out at 44505ddb....\n\nDo not use the production checkout as the test workspace.\n\nRun every mandatory check in Section 8.\n\nExit: G2_GO only if every mandatory check passes.\n\nGate G3 — Independent review\n\nIndependent verifier checks:\n\ncommit SHA;\n\nparent SHA;\n\ntwo-file diff;\n\nblob SHAs;\n\npreflight test outputs;\n\nno mandatory test failure hidden by a skip;\n\nSemaphore YAML still contains exactly six expected blocks;\n\nno additional commit is necessary.\n\nExit: G3_GO\n\nGate G4 — Branch cutover\n\nPrecondition: explicit authorization for the non-fast-forward ref rewrite.\n\nAtomically move:\n\nfeature/GRU:\n258a111c031dee9643cffb920518fcc1ca392565\n    ->\n44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nDo not create a revert commit.\n\nImmediately verify remote branch HEAD, parent and compare topology.\n\nExit: G4_GO\n\nGate G5 — Remote branch exact-SHA revalidation\n\nFresh-clone feature/GRU from GitHub and assert:\n\nHEAD == 44505ddb...\nHEAD^ == dc4e2eef...\n\nRun the deterministic CI validation set again against the remote branch state.\n\nExit: G5_GO\n\nGate G6 — Single Semaphore launch\n\nOnly now trigger a new Semaphore workflow for the final SHA.\n\nDo not rerun the failed workflow tied to 258a111....\n\nThe new workflow must report:\n\nSEMAPHORE_GIT_SHA = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nbranch = feature/GRU\n\nExit: workflow accepted for exact SHA.\n\nGate G7 — Six-block Semaphore GO\n\nRequired blocks, in order:\n\nGRU validation\n\nFull-corpus acceptance launch\n\nFull-corpus acceptance final watch\n\nDeploy exact feature GRU SHA\n\nP2 acceptance launch\n\nP2 acceptance final watch\n\nEvery block must be Passed or a contractually valid reused PASS backed by exact-SHA durable evidence.\n\nNo downstream block may be manually promoted around a failed dependency.\n\nExit: G7_GO\n\nGate G8 — Production final verification\n\nVerify production checkout:\n\nbranch = feature/GRU\nHEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924\ntracked_status = clean\n\nConfirm:\n\n/tmp/log unchanged by cleanup/deploy actions;\n\nno tracked drift;\n\nno deletion of runtime untracked artifacts;\n\nP2 durable final status belongs to exact final SHA/build;\n\nfull-corpus evidence belongs to exact final SHA;\n\nno accidental/dummy remote branch remains if prohibited by release contract.\n\nExit: G8_GO\n\nGate G9 — COMPLETE_GO\n\nCOMPLETE_GO can be declared only when all G0–G8 gates are GO.\n\n8. Mandatory pre-Semaphore test matrix\n\nAll deterministic tests below must pass before spending another Semaphore run.\n\n8.1 Test-file syntax\npython3 -m py_compile \\\n  ops/ci/tests/test_p2_handoff_state_machine.py\n\nExpected: exit 0.\n\n8.2 Observer shell syntax\nbash -n ops/ci/observe_gru_p2_remote.sh\n\nExpected: exit 0.\n\n8.3 Targeted P2 state-machine suite\npython3 -m unittest -v \\\n  ops.ci.tests.test_p2_handoff_state_machine\n\nMandatory expected result:\n\nRan 6 tests\nOK\n\nMandatory named regressions:\n\ntest_observer_rejects_stale_same_sha_other_build_result ... ok\ntest_observer_accepts_exact_current_build_result ... ok\n8.4 Related remediation contracts\npython3 -m unittest -v \\\n  ops.ci.tests.test_p2_external_evidence_contract \\\n  ops.ci.tests.test_single_commit_semaphore_contract \\\n  ops.ci.tests.test_post_p2_live_durability\n\nExpected:\n\nRan 3 tests\nOK\n8.5 Complete CI-contract discovery\npython3 -m unittest discover \\\n  -s ops/ci/tests \\\n  -p 'test_*.py' \\\n  -v\n\nKnown validated baseline:\n\nRan 38 tests\nOK\n\nAny reduction in discovered test count requires investigation before Semaphore.\n\n8.6 Exact reproduction of GRU validation / Core CI contracts\n\nExecute, in the same order as Semaphore:\n\nops.ci.breaker.tests.test_ci_breaker\nops.gru.test_remediate_orphan_recovery_wait\napy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests\nops.ci.tests.test_p2_memory_bound_contract\napy.tests.test_raw_payload_persistence\nops.ci.tests.test_full_corpus_durability_contract\nops.ci.tests.test_p1_dependency_validator_contract\nops.ci.tests.test_p2_handoff_state_machine\nops.ci.tests.test_p2_external_evidence_contract\nops.ci.tests.test_post_p2_live_acceptance_contract\nops.ci.tests.test_post_p2_live_durability\nops.ci.tests.test_single_commit_semaphore_contract\napy.tests.test_gru_minimum_history_boundary\n\nThen execute the exact:\n\npy_compile checks;\n\nbash -n checks;\n\nfull-corpus marker greps;\n\nprivilege-dependency scan;\n\nfinal production-validation marker.\n\nExpected terminal marker:\n\nSEMAPHORE_PRODUCTION_VALIDATION=PASS\n8.7 Minimum-history runtime boundary\n\nThe CI interpreter may legitimately skip the pandas-dependent runtime portion if pandas is absent.\n\nTo reduce risk further, additionally run the 24/25/26 runtime-boundary test in a dependency-complete project environment where pandas is installed.\n\nRequired result:\n\n24 rows -> rejected as insufficient\n25 rows -> accepted boundary\n26 rows -> accepted\n\nThis must not modify production data.\n\n8.8 Static exact-result identity checks\n\nVerify source contains:\n\np2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status\n\nVerify source no longer contains:\n\nlatest_result_file\n\nExpected count: 0.\n\n8.9 Test lifecycle collision check\n\nVerify no project helper overrides the unittest lifecycle method:\n\ndef run(self,\n\nwithin test_p2_handoff_state_machine.py.\n\nExpected project-helper count: 0.\n\n8.10 Repository integrity\n\nRun:\n\ngit diff --check\ngit status --porcelain\n\nExpected:\n\nno whitespace errors\nclean fresh validation clone\n8.11 Commit-object integrity\n\nVerify:\n\nHEAD = 44505ddb...\nparent = dc4e2eef...\nchanged files = exactly 2\n8.12 Semaphore topology\n\nVerify .semaphore/semaphore-production.yml contains exactly six production blocks and the dependency chain is unchanged.\n\n8.13 No-privilege dependency\n\nValidate full-corpus live runtime scripts do not require privileged execution.\n\nThe safety scan itself must use a form accepted by the operator/runtime policy so the preflight is actually executed rather than skipped by an external safety parser.\n\n8.14 Deployment script syntax and exact-SHA semantics\n\nValidate deployment scripts with bash -n.\n\nConfirm deployment resolves the expected exact SHA and fails closed on branch/SHA mismatch.\n\n8.15 Production read-only preflight\n\nBefore Semaphore launch, read-only verify:\n\nproduction current SHA;\n\nproduction branch;\n\ntracked status;\n\nrelevant runtime services;\n\navailable disk/memory sufficient for workflow;\n\n/tmp/log baseline fingerprint/metadata for immutability comparison.\n\nDo not alter production in this gate.\n\n9. Semaphore credit-saving policy\nBefore launch\n\nSemaphore launch is forbidden unless all are true:\n\nG0_GO\nG1_GO\nG2_GO\nG3_GO\nG4_GO\nG5_GO\nDuring launch\n\nUse one new workflow tied to final exact SHA.\n\nDo not launch parallel duplicate pipelines.\n\nIf a block fails\n\nCode/contract failure\n\nno automatic retry;\n\nno additional commit under this plan;\n\ncapture exact failure evidence;\n\nmark zero-additional-commit objective as not achieved.\n\nTransient infrastructure failure\n\nA retry is allowed only if evidence proves all of:\n\nexact Git SHA unchanged;\n\nsource command did not produce a code/test failure;\n\nfailure occurred in provisioning/network/agent/tooling layer;\n\nrerun does not hide a deterministic failure.\n\n10. Six-block acceptance criteria\nBlock 1 — GRU validation\n\nMust pass all test, compile, syntax, marker and privilege gates.\n\nCritical regression:\n\ntest_p2_handoff_state_machine:\n6 tests, not 0\nBlock 2 — Full-corpus acceptance launch\n\nMust create/attach exact-SHA durable authority without privileged runtime dependency.\n\nBlock 3 — Full-corpus acceptance final watch\n\nMust finish with durable exact-SHA acceptance evidence.\n\nNo stale run may satisfy current acceptance.\n\nBlock 4 — Deploy exact feature GRU SHA\n\nProduction must deploy exactly:\n\n44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nDeployment must fail closed on SHA mismatch.\n\nBlock 5 — P2 acceptance launch\n\nMust bind durable launch authority to exact build + SHA.\n\nBlock 6 — P2 acceptance final watch\n\nMust accept only the terminal result corresponding to the same build + SHA.\n\nA stale same-SHA result from another build must not produce GO.\n\n11. Atomic assigned backlog\nID\tOwner\tAtomic task\tAcceptance evidence\nB001\tRelease Lead\tFreeze failed SHA, base SHA and final SHA in release record\tThree literal SHAs recorded\nB002\tIndependent Verifier\tVerify 44505ddb... exists in GitHub\tCommit metadata captured\nB003\tIndependent Verifier\tVerify parent of 44505ddb... is exactly dc4e2eef...\tParent SHA evidence\nB004\tIndependent Verifier\tCompare dc4e2eef... → 44505ddb...\tExactly two files changed\nB005\tIndependent Verifier\tVerify observer blob SHA\t001a58683d9...\nB006\tIndependent Verifier\tVerify handoff-test blob SHA\te46b9a0733c...\nB007\tPython Engineer\tFresh-clone exact final SHA\tDetached clean HEAD evidence\nB008\tPython Engineer\tRun Python syntax check on handoff tests\tExit 0\nB009\tRuntime Engineer\tRun Bash syntax check on P2 observer\tExit 0\nB010\tPython Engineer\tRun targeted P2 handoff suite\t6 tests OK\nB011\tPython Engineer\tVerify stale-build rejection test\tnamed test OK\nB012\tPython Engineer\tVerify exact-build acceptance test\tnamed test OK\nB013\tPython Engineer\tRun related remediation contracts\t3 tests OK\nB014\tPython Engineer\tRun full ops/ci/tests discovery\t≥38 tests, all OK\nB015\tPython Engineer\tRun dependency-complete 24/25/26 runtime-boundary test\tboundary PASS\nB016\tRuntime Engineer\tVerify no latest_result_file remains\tcount 0\nB017\tPython Engineer\tVerify no custom TestCase.run remains\tcount 0\nB018\tCI Engineer\tReproduce full Semaphore Core CI contracts command sequence\tterminal PASS marker\nB019\tCI Engineer\tRun all py_compile gates from Semaphore\tall exit 0\nB020\tCI Engineer\tRun all bash -n gates from Semaphore\tall exit 0\nB021\tCI Engineer\tRun full-corpus contract marker checks\tall markers present\nB022\tCI Engineer\tRun policy-compatible privilege-dependency scan\tno live runtime privilege dependency\nB023\tRelease Lead\tRun git diff --check\tno errors\nB024\tRelease Lead\tVerify validation worktree clean\tclean\nB025\tCI Engineer\tVerify six-block Semaphore topology\texact six blocks/dependencies\nB026\tRuntime Engineer\tRead-only production capacity/state preflight\tevidence bundle\nB027\tRuntime Engineer\tRecord /tmp/log baseline\timmutable baseline evidence\nB028\tIndependent Verifier\tReview B001–B027 evidence\tPREPUBLISH_GO\nB029\tRelease Lead\tObtain explicit authorization for non-fast-forward branch ref rewrite\tauthorization recorded\nB030\tRelease Lead\tMove feature/GRU from 258a111... to 44505ddb...\tremote ref exact\nB031\tIndependent Verifier\tVerify 258a111... unreachable from feature/GRU\tancestry PASS\nB032\tIndependent Verifier\tVerify final branch parent = dc4e2eef...\texact parent evidence\nB033\tRelease Lead\tConfirm no commit created during branch cutover\tcommit invariant\nB034\tPython Engineer\tFresh-clone remote feature/GRU after cutover\tHEAD exact final SHA\nB035\tCI Engineer\tRe-run deterministic Core CI contracts preflight from remote clone\tPASS\nB036\tIndependent Verifier\tIssue SEMAPHORE_TRIGGER_GO\tchecklist GO\nB037\tCI Engineer\tTrigger one new Semaphore workflow\tnew run ID, exact final SHA\nB038\tCI Engineer\tVerify Semaphore checkout SHA\t44505ddb...\nB039\tCI Engineer\tObserve Block 1 GRU validation\tPassed\nB040\tCI Engineer\tObserve Block 2 full-corpus launch\tPassed\nB041\tRuntime Engineer\tVerify full-corpus durable authority identity\texact SHA/run\nB042\tCI Engineer\tObserve Block 3 full-corpus final watch\tPassed\nB043\tRuntime Engineer\tValidate durable full-corpus evidence\tPASS\nB044\tCI Engineer\tObserve Block 4 exact-SHA deploy\tPassed\nB045\tRuntime Engineer\tVerify production HEAD immediately after deploy\texact final SHA\nB046\tCI Engineer\tObserve Block 5 P2 acceptance launch\tPassed\nB047\tRuntime Engineer\tVerify P2 launch authority = exact build + SHA\tidentity PASS\nB048\tCI Engineer\tObserve Block 6 P2 final watch\tPassed\nB049\tRuntime Engineer\tVerify terminal P2 result exact build + SHA\tdurable PASS\nB050\tRuntime Engineer\tVerify production tracked status clean\ttracked-clean\nB051\tRuntime Engineer\tCompare /tmp/log against baseline\tno prohibited mutation\nB052\tRelease Lead\tRemove prohibited dummy remote branch if still present, without commit\tbranch absent\nB053\tIndependent Verifier\tVerify no commit exists after 44505ddb... on feature/GRU\ttopology PASS\nB054\tIndependent Verifier\tVerify all six Semaphore blocks passed\tsix PASS records\nB055\tRelease Lead\tPublish COMPLETE_GO record\tall gates G0–G8 GO\n12. Backlog dependency chain\nB001\n  ↓\nB002-B006\n  ↓\nB007-B027\n  ↓\nB028 PREPUBLISH_GO\n  ↓\nB029 authorization\n  ↓\nB030 branch cutover\n  ↓\nB031-B035\n  ↓\nB036 SEMAPHORE_TRIGGER_GO\n  ↓\nB037\n  ↓\nB038\n  ↓\nB039\n  ↓\nB040-B043\n  ↓\nB044-B045\n  ↓\nB046-B049\n  ↓\nB050-B054\n  ↓\nB055 COMPLETE_GO\n\nNo task that triggers limited CI credits is permitted before B036.\n\n13. Stop rules\n\nBecause the mandatory objective prohibits additional commits, recovery must not create commits.\n\nBefore branch cutover\n\nIf any deterministic preflight fails:\n\ndo not move feature/GRU;\n\ndo not launch Semaphore;\n\nstop and report the failed gate.\n\nAfter branch cutover but before Semaphore\n\nIf remote exact-SHA revalidation fails:\n\ndo not launch Semaphore;\n\npreserve evidence;\n\ndo not create a fix commit under this plan.\n\nDuring Semaphore\n\nIf a deterministic code test fails:\n\nstop;\n\ncollect exact logs;\n\ndo not spend credits on blind reruns;\n\ndo not create another commit.\n\nIf a proven transient infrastructure failure occurs:\n\nthe exact same SHA may be rerun only after failure classification.\n\n14. COMPLETE_GO definition\n\nThe release is COMPLETE_GO only when all are simultaneously true:\n\nfeature/GRU HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nHEAD parent\n= dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n\naccidental 258a111...\n= not reachable from feature/GRU\n\nadditional commits after canonical remediation\n= 0\n\nSemaphore GRU validation\n= PASS\n\nSemaphore full-corpus launch\n= PASS\n\nSemaphore full-corpus final watch\n= PASS\n\nSemaphore exact-SHA deploy\n= PASS\n\nSemaphore P2 launch\n= PASS\n\nSemaphore P2 final watch\n= PASS\n\nproduction HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nproduction tracked status\n= clean\n\n/tmp/log prohibited mutation\n= none\n\nfull-corpus authority\n= exact final SHA\n\nP2 terminal authority\n= exact final SHA + exact build\n\ndummy/prohibited branch\n= absent\n\nAnything less is not COMPLETE_GO.\n\n15. Credit-minimization rationale\n\nThe previous failure was deterministic and visible from source structure. Spending Semaphore credits before exact reproduction of the first block allowed a known-bad SHA to consume a workflow.\n\nThis plan reverses the order:\n\nimmutable commit-object audit;\n\nexact-SHA fresh-clone tests;\n\ncomplete first-block reproduction;\n\nindependent verification;\n\nbranch publication;\n\nsecond remote exact-SHA preflight;\n\nonly then one Semaphore production workflow.\n\nThe design front-loads cheap deterministic validation and reserves Semaphore credits for live acceptance/deployment stages that cannot be fully substituted by local tests.\n\n16. Final execution contract\n\nNo one may create another code commit after 44505ddbfa5062dc1c712fc90db72cb0c54de924. The only permitted repository write required to establish the final candidate is the controlled ref rewrite of feature/GRU from accidental SHA 258a111... to canonical remediation SHA 44505ddb.... Semaphore may be triggered only after exact-SHA local and remote preflight gates pass.\n\nThis preserves the single-remediation-commit objective and maximizes the probability that the next Semaphore workflow reaches COMPLETE_GO without consuming credits on a known deterministic failure.",
+    "html": "<div data-message-author-role=\"assistant\" data-message-id=\"5b817099-2e3b-4eed-b1fd-7fdfc91f5bd8\" data-turn-start-message=\"true\" dir=\"auto\" tabindex=\"0\" data-message-model-slug=\"gpt-5-6-thinking\" class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\"><div class=\"flex w-full flex-col gap-1 empty:hidden\"><div class=\"LR5Y_W_content markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\"><div class=\"group relative clear-both my-4 w-full overflow-visible z-1\" data-writing-block-fullscreen-fallback-target=\"inline\"><div class=\"group/writing-block-surface relative isolate w-full min-w-0 overflow-clip rounded-[var(--oai-wb-radius)] [box-shadow:var(--oai-wb-shadow)] [color:var(--oai-wb-text-primary)] [contain:inline-size] [font-family:var(--oai-wb-font-sans)] [--wb-text-primary:var(--text-primary)] [--wb-text-secondary:var(--text-secondary)] [--wb-text-tertiary:var(--text-tertiary)] [--wb-surface-primary:var(--bg-primary)] [--wb-surface-secondary:var(--bg-tertiary)] [--wb-border:rgb(0_0_0/7%)] [--wb-border-hover:rgb(0_0_0/7%)] [--wb-divider:var(--border-light)] [--wb-focus:var(--border-strong)] [--wb-control-border:var(--interactive-border-focus)] [--wb-entity-accent:var(--theme-entity-accent)] [--wb-accent:var(--interactive-label-accent-default)] [--wb-on-accent:var(--bg-primary)] [--wb-interactive-background:var(--interactive-bg-accent-default)] [--wb-selection:var(--theme-user-selection-bg,var(--selection))] [--wb-radius-sm:var(--radius-sm)] [--wb-shadow-lg:var(--shadow-lg)] [--wb-font-sans:var(--font-sans)] [--wb-font-mono:var(--font-mono)] [--wb-shimmer-dark-contrast:var(--gray-550)] [--wb-shimmer-dark-secondary:var(--text-tertiary)] [--wb-radius:24px] [--wb-shadow:0_4px_80px_rgb(0_0_0/2%)] [contain:none]\" data-oai-writing-block-surface=\"\" id=\"writing-block-5b817099-2e3b-4eed-b1fd-7fdfc91f5bd8\" data-writing-block=\"true\" data-testid=\"writing-block-container\" style=\"--oai-wb-spacing: var(--spacing,0.25rem); --oai-wb-text-primary: var(--wb-text-primary,var(--color-token-text-primary,var(--text-primary,#0d0d0d))); --oai-wb-text-secondary: var(--wb-text-secondary,var(--color-token-text-secondary,var(--text-secondary,#5d5d5d))); --oai-wb-text-tertiary: var(--wb-text-tertiary,var(--color-token-text-tertiary,var(--text-tertiary,#8f8f8f))); --oai-wb-surface-primary: var(--wb-surface-primary,var(--color-token-main-surface-primary,var(--main-surface-primary,#fff))); --oai-wb-surface-secondary: var(--wb-surface-secondary,var(--color-token-bg-tertiary,var(--main-surface-secondary,#f5f5f5))); --oai-wb-interactive-secondary-hover: var(--wb-interactive-secondary-hover,var(--color-token-interactive-bg-secondary-hover,var(--oai-wb-surface-secondary))); --oai-wb-border: var(--wb-border,var(--color-token-border,var(--border-light,rgb(0 0 0/8%)))); --oai-wb-border-hover: var(--wb-border-hover,var(--color-token-border-d",
+    "codes": [
+      {
+        "j": 0,
+        "text": "Trochez/bot_trading",
+        "cls": ""
+      },
+      {
+        "j": 1,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 2,
+        "text": "258a111c031dee9643cffb920518fcc1ca392565",
+        "cls": ""
+      },
+      {
+        "j": 3,
+        "text": "dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60",
+        "cls": ""
+      },
+      {
+        "j": 4,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 5,
+        "text": "d4960be... -> dc4e2eef... -> 44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 6,
+        "text": "dc4e2eef...",
+        "cls": ""
+      },
+      {
+        "j": 7,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 8,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 9,
+        "text": "dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60",
+        "cls": ""
+      },
+      {
+        "j": 10,
+        "text": "258a111c031dee9643cffb920518fcc1ca392565",
+        "cls": ""
+      },
+      {
+        "j": 11,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 12,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 13,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 14,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 15,
+        "text": "unittest",
+        "cls": ""
+      },
+      {
+        "j": 16,
+        "text": "def run(self, root, service=\"inactive\", expect=0):",
+        "cls": ""
+      },
+      {
+        "j": 17,
+        "text": "unittest.TestCase",
+        "cls": ""
+      },
+      {
+        "j": 18,
+        "text": "unittest.TestCase.run(...)",
+        "cls": ""
+      },
+      {
+        "j": 19,
+        "text": "Ran 0 tests\nNO TESTS RAN",
+        "cls": ""
+      },
+      {
+        "j": 20,
+        "text": "run(...) -> run_state(...)",
+        "cls": ""
+      },
+      {
+        "j": 21,
+        "text": "(CIRCLE_BUILD_NUM, EXPECTED_SHA)",
+        "cls": ""
+      },
+      {
+        "j": 22,
+        "text": "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status",
+        "cls": ""
+      },
+      {
+        "j": 23,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 24,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 25,
+        "text": "feature/GRU\n258a111...  --controlled ref rewrite-->  44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 26,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 27,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 28,
+        "text": "dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60",
+        "cls": ""
+      },
+      {
+        "j": 29,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 30,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 31,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 32,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 33,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 34,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 35,
+        "text": "git clean",
+        "cls": ""
+      },
+      {
+        "j": 36,
+        "text": "__dummy_should_not_use",
+        "cls": ""
+      },
+      {
+        "j": 37,
+        "text": "d4960be98cee3edef96413ee77f200ce744d3461\n    |\n    v\ndc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n    |\n    v\n44505ddbfa5062dc1c712fc90db72cb0c54de924   <-- feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 38,
+        "text": "dc4e2eef...\n    |\n    +-- 258a111...  noop\n            |\n            +-- any fix commit",
+        "cls": ""
+      },
+      {
+        "j": 39,
+        "text": "dc4e2eef... -> 258a111... -> revert -> final fix",
+        "cls": ""
+      },
+      {
+        "j": 40,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 41,
+        "text": "GRU validation",
+        "cls": ""
+      },
+      {
+        "j": 42,
+        "text": "validate immutable commit object\n        ↓\nindependent audit\n        ↓\ncontrolled branch ref rewrite\n        ↓\nfresh remote exact-SHA validation\n        ↓\nONE Semaphore production workflow\n        ↓\nsix blocks PASS\n        ↓\nproduction exact-SHA verification\n        ↓\nCOMPLETE_GO",
+        "cls": ""
+      },
+      {
+        "j": 43,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 44,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 45,
+        "text": "G0_GO",
+        "cls": ""
+      },
+      {
+        "j": 46,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 47,
+        "text": "commit = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nparent = dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60",
+        "cls": ""
+      },
+      {
+        "j": 48,
+        "text": "ops/ci/observe_gru_p2_remote.sh\nops/ci/tests/test_p2_handoff_state_machine.py",
+        "cls": ""
+      },
+      {
+        "j": 49,
+        "text": "ops/ci/observe_gru_p2_remote.sh\nblob = 001a58683d9bb791ad5bbc58ff8b9a9145d3960a\n\nops/ci/tests/test_p2_handoff_state_machine.py\nblob = e46b9a0733c3866805b5177713293eb4c63f1a95",
+        "cls": ""
+      },
+      {
+        "j": 50,
+        "text": "G1_GO",
+        "cls": ""
+      },
+      {
+        "j": 51,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 52,
+        "text": "G2_GO",
+        "cls": ""
+      },
+      {
+        "j": 53,
+        "text": "G3_GO",
+        "cls": ""
+      },
+      {
+        "j": 54,
+        "text": "feature/GRU:\n258a111c031dee9643cffb920518fcc1ca392565\n    ->\n44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 55,
+        "text": "G4_GO",
+        "cls": ""
+      },
+      {
+        "j": 56,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 57,
+        "text": "HEAD == 44505ddb...\nHEAD^ == dc4e2eef...",
+        "cls": ""
+      },
+      {
+        "j": 58,
+        "text": "G5_GO",
+        "cls": ""
+      },
+      {
+        "j": 59,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 60,
+        "text": "SEMAPHORE_GIT_SHA = 44505ddbfa5062dc1c712fc90db72cb0c54de924\nbranch = feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 61,
+        "text": "GRU validation",
+        "cls": ""
+      },
+      {
+        "j": 62,
+        "text": "Full-corpus acceptance launch",
+        "cls": ""
+      },
+      {
+        "j": 63,
+        "text": "Full-corpus acceptance final watch",
+        "cls": ""
+      },
+      {
+        "j": 64,
+        "text": "Deploy exact feature GRU SHA",
+        "cls": ""
+      },
+      {
+        "j": 65,
+        "text": "P2 acceptance launch",
+        "cls": ""
+      },
+      {
+        "j": 66,
+        "text": "P2 acceptance final watch",
+        "cls": ""
+      },
+      {
+        "j": 67,
+        "text": "Passed",
+        "cls": ""
+      },
+      {
+        "j": 68,
+        "text": "G7_GO",
+        "cls": ""
+      },
+      {
+        "j": 69,
+        "text": "branch = feature/GRU\nHEAD = 44505ddbfa5062dc1c712fc90db72cb0c54de924\ntracked_status = clean",
+        "cls": ""
+      },
+      {
+        "j": 70,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 71,
+        "text": "G8_GO",
+        "cls": ""
+      },
+      {
+        "j": 72,
+        "text": "python3 -m py_compile \\\n  ops/ci/tests/test_p2_handoff_state_machine.py",
+        "cls": ""
+      },
+      {
+        "j": 73,
+        "text": "0",
+        "cls": ""
+      },
+      {
+        "j": 74,
+        "text": "bash -n ops/ci/observe_gru_p2_remote.sh",
+        "cls": ""
+      },
+      {
+        "j": 75,
+        "text": "0",
+        "cls": ""
+      },
+      {
+        "j": 76,
+        "text": "python3 -m unittest -v \\\n  ops.ci.tests.test_p2_handoff_state_machine",
+        "cls": ""
+      },
+      {
+        "j": 77,
+        "text": "Ran 6 tests\nOK",
+        "cls": ""
+      },
+      {
+        "j": 78,
+        "text": "test_observer_rejects_stale_same_sha_other_build_result ... ok\ntest_observer_accepts_exact_current_build_result ... ok",
+        "cls": ""
+      },
+      {
+        "j": 79,
+        "text": "python3 -m unittest -v \\\n  ops.ci.tests.test_p2_external_evidence_contract \\\n  ops.ci.tests.test_single_commit_semaphore_contract \\\n  ops.ci.tests.test_post_p2_live_durability",
+        "cls": ""
+      },
+      {
+        "j": 80,
+        "text": "Ran 3 tests\nOK",
+        "cls": ""
+      },
+      {
+        "j": 81,
+        "text": "python3 -m unittest discover \\\n  -s ops/ci/tests \\\n  -p 'test_*.py' \\\n  -v",
+        "cls": ""
+      },
+      {
+        "j": 82,
+        "text": "Ran 38 tests\nOK",
+        "cls": ""
+      },
+      {
+        "j": 83,
+        "text": "GRU validation / Core CI contracts",
+        "cls": ""
+      },
+      {
+        "j": 84,
+        "text": "ops.ci.breaker.tests.test_ci_breaker\nops.gru.test_remediate_orphan_recovery_wait\napy.tests.test_gru_plan01_data_foundation.DataLoaderPlan01Tests\nops.ci.tests.test_p2_memory_bound_contract\napy.tests.test_raw_payload_persistence\nops.ci.tests.test_full_corpus_durability_contract\nops.ci.tests.test_p1_dependency_validator_contract\nops.ci.tests.test_p2_handoff_state_machine\nops.ci.tests.test_p2_external_evidence_contract\nops.ci.tests.test_post_p2_live_acceptance_contract\nops.ci.tests.test_post_p2_live_durability\nops.ci.tests.test_single_commit_semaphore_contract\napy.tests.test_gru_minimum_history_boundary",
+        "cls": ""
+      },
+      {
+        "j": 85,
+        "text": "py_compile",
+        "cls": ""
+      },
+      {
+        "j": 86,
+        "text": "bash -n",
+        "cls": ""
+      },
+      {
+        "j": 87,
+        "text": "SEMAPHORE_PRODUCTION_VALIDATION=PASS",
+        "cls": ""
+      },
+      {
+        "j": 88,
+        "text": "24/25/26",
+        "cls": ""
+      },
+      {
+        "j": 89,
+        "text": "24 rows -> rejected as insufficient\n25 rows -> accepted boundary\n26 rows -> accepted",
+        "cls": ""
+      },
+      {
+        "j": 90,
+        "text": "p2-${CIRCLE_BUILD_NUM}-${EXPECTED_SHA}.status",
+        "cls": ""
+      },
+      {
+        "j": 91,
+        "text": "latest_result_file",
+        "cls": ""
+      },
+      {
+        "j": 92,
+        "text": "0",
+        "cls": ""
+      },
+      {
+        "j": 93,
+        "text": "def run(self,",
+        "cls": ""
+      },
+      {
+        "j": 94,
+        "text": "test_p2_handoff_state_machine.py",
+        "cls": ""
+      },
+      {
+        "j": 95,
+        "text": "0",
+        "cls": ""
+      },
+      {
+        "j": 96,
+        "text": "git diff --check\ngit status --porcelain",
+        "cls": ""
+      },
+      {
+        "j": 97,
+        "text": "no whitespace errors\nclean fresh validation clone",
+        "cls": ""
+      },
+      {
+        "j": 98,
+        "text": "HEAD = 44505ddb...\nparent = dc4e2eef...\nchanged files = exactly 2",
+        "cls": ""
+      },
+      {
+        "j": 99,
+        "text": ".semaphore/semaphore-production.yml",
+        "cls": ""
+      },
+      {
+        "j": 100,
+        "text": "bash -n",
+        "cls": ""
+      },
+      {
+        "j": 101,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 102,
+        "text": "G0_GO\nG1_GO\nG2_GO\nG3_GO\nG4_GO\nG5_GO",
+        "cls": ""
+      },
+      {
+        "j": 103,
+        "text": "test_p2_handoff_state_machine:\n6 tests, not 0",
+        "cls": ""
+      },
+      {
+        "j": 104,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 105,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 106,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 107,
+        "text": "dc4e2eef...",
+        "cls": ""
+      },
+      {
+        "j": 108,
+        "text": "dc4e2eef...",
+        "cls": ""
+      },
+      {
+        "j": 109,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 110,
+        "text": "001a58683d9...",
+        "cls": ""
+      },
+      {
+        "j": 111,
+        "text": "e46b9a0733c...",
+        "cls": ""
+      },
+      {
+        "j": 112,
+        "text": "ops/ci/tests",
+        "cls": ""
+      },
+      {
+        "j": 113,
+        "text": "latest_result_file",
+        "cls": ""
+      },
+      {
+        "j": 114,
+        "text": "TestCase.run",
+        "cls": ""
+      },
+      {
+        "j": 115,
+        "text": "Core CI contracts",
+        "cls": ""
+      },
+      {
+        "j": 116,
+        "text": "py_compile",
+        "cls": ""
+      },
+      {
+        "j": 117,
+        "text": "bash -n",
+        "cls": ""
+      },
+      {
+        "j": 118,
+        "text": "git diff --check",
+        "cls": ""
+      },
+      {
+        "j": 119,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 120,
+        "text": "PREPUBLISH_GO",
+        "cls": ""
+      },
+      {
+        "j": 121,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 122,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 123,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 124,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 125,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 126,
+        "text": "dc4e2eef...",
+        "cls": ""
+      },
+      {
+        "j": 127,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 128,
+        "text": "Core CI contracts",
+        "cls": ""
+      },
+      {
+        "j": 129,
+        "text": "SEMAPHORE_TRIGGER_GO",
+        "cls": ""
+      },
+      {
+        "j": 130,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 131,
+        "text": "GRU validation",
+        "cls": ""
+      },
+      {
+        "j": 132,
+        "text": "/tmp/log",
+        "cls": ""
+      },
+      {
+        "j": 133,
+        "text": "44505ddb...",
+        "cls": ""
+      },
+      {
+        "j": 134,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 135,
+        "text": "B001\n  ↓\nB002-B006\n  ↓\nB007-B027\n  ↓\nB028 PREPUBLISH_GO\n  ↓\nB029 authorization\n  ↓\nB030 branch cutover\n  ↓\nB031-B035\n  ↓\nB036 SEMAPHORE_TRIGGER_GO\n  ↓\nB037\n  ↓\nB038\n  ↓\nB039\n  ↓\nB040-B043\n  ↓\nB044-B045\n  ↓\nB046-B049\n  ↓\nB050-B054\n  ↓\nB055 COMPLETE_GO",
+        "cls": ""
+      },
+      {
+        "j": 136,
+        "text": "B036",
+        "cls": ""
+      },
+      {
+        "j": 137,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 138,
+        "text": "feature/GRU HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nHEAD parent\n= dc4e2eef1eaeaf439f0d3b8b995a17f0c3940c60\n\naccidental 258a111...\n= not reachable from feature/GRU\n\nadditional commits after canonical remediation\n= 0\n\nSemaphore GRU validation\n= PASS\n\nSemaphore full-corpus launch\n= PASS\n\nSemaphore full-corpus final watch\n= PASS\n\nSemaphore exact-SHA deploy\n= PASS\n\nSemaphore P2 launch\n= PASS\n\nSemaphore P2 final watch\n= PASS\n\nproduction HEAD\n= 44505ddbfa5062dc1c712fc90db72cb0c54de924\n\nproduction tracked status\n= clean\n\n/tmp/log prohibited mutation\n= none\n\nfull-corpus authority\n= exact final SHA\n\nP2 terminal authority\n= exact final SHA + exact build\n\ndummy/prohibited branch\n= absent",
+        "cls": ""
+      },
+      {
+        "j": 139,
+        "text": "44505ddbfa5062dc1c712fc90db72cb0c54de924",
+        "cls": ""
+      },
+      {
+        "j": 140,
+        "text": "feature/GRU",
+        "cls": ""
+      },
+      {
+        "j": 141,
+        "text": "258a111...",
+        "cls": ""
+      },
+      {
+        "j": 142,
+        "text": "44505ddb...",
+        "cls": ""
+      }
+    ]
+  }
+]

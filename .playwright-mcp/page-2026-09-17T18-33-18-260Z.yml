@@ -1,0 +1,79 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e3]:
+    - generic [ref=f25e4]:
+      - link "logo Home" [ref=f25e5] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=f25e6]
+        - generic [ref=f25e7]: Home
+      - generic [ref=f25e9] [cursor=pointer]:
+        - img "list" [ref=f25e10]
+        - text: Projects
+      - text: ★
+      - link "list Create new" [ref=f25e12] [cursor=pointer]:
+        - /url: /x/new_project
+        - img "list" [ref=f25e13]
+        - generic [ref=f25e14]: Create new
+    - generic [ref=f25e15]:
+      - img "tromon92" [ref=f25e17] [cursor=pointer]
+      - generic [ref=f25e18] [cursor=pointer]
+  - generic [ref=f25e21]:
+    - generic [ref=f25e23]:
+      - link "bot_trading" [ref=f25e25] [cursor=pointer]:
+        - /url: /projects/bot_trading
+      - text: ›
+      - link "feature/GRU" [ref=f25e27] [cursor=pointer]:
+        - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - text: › noop
+    - generic [ref=f25e29]:
+      - generic [ref=f25e30]:
+        - generic [ref=f25e31]: Project
+        - generic [ref=f25e32]:
+          - link "bot_trading" [ref=f25e33] [cursor=pointer]:
+            - /url: /projects/bot_trading
+          - link [ref=f25e34] [cursor=pointer]:
+            - /url: /projects/bot_trading/settings/general
+      - generic [ref=f25e36]: ›
+      - generic [ref=f25e37]:
+        - generic [ref=f25e38]: Branch
+        - link "feature/GRU" [ref=f25e39] [cursor=pointer]:
+          - /url: /branches/98ea7047-edae-468a-a958-f44f6fc22c30
+      - generic [ref=f25e40]: ›
+    - generic [ref=f25e41]:
+      - generic [ref=f25e43]:
+        - generic [ref=f25e44]: by Trochez, triggered Thu 17th Sep 2026 at 12:05
+        - generic [ref=f25e45]:
+          - img "commit" [ref=f25e46]
+          - link "258a111" [ref=f25e47] [cursor=pointer]:
+            - /url: https://github.com/Trochez/bot_trading/commit/258a111c031dee9643cffb920518fcc1ca392565
+        - generic [ref=f25e48]:
+          - img "console" [ref=f25e49]
+          - generic [ref=f25e50] [cursor=pointer]: CLI
+      - generic [ref=f25e51]:
+        - heading "noop" [level=1] [ref=f25e52]
+        - link "Rerun Workflow" [ref=f25e54] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/rebuild
+      - generic [ref=f25e55]:
+        - link "Workflow" [ref=f25e56] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a?pipeline_id=6e320045-d6a9-47cb-af4a-48083fe3328d
+        - link "Tests" [ref=f25e59] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/summary
+        - link "Artifacts" [ref=f25e63] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/artifacts
+        - link "Report" [ref=f25e67] [cursor=pointer]:
+          - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/report
+    - generic [ref=f25e73] [cursor=pointer]:
+      - generic [ref=f25e74]: Failed
+      - generic [ref=f25e75]: GRU Semaphore production fallback
+      - generic [ref=f25e76]: ·
+      - generic [ref=f25e77]: 00:16
+      - generic [ref=f25e78]: ·
+      - generic [ref=f25e79]: Triggered by API call by tromon92 Thu 17th Sep 2026 at 12:05
+      - generic [ref=f25e80]: ·
+      - link "Rerun Failed Jobs" [ref=f25e81]:
+        - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/pipelines/6e320045-d6a9-47cb-af4a-48083fe3328d/rebuild
+      - generic [ref=f25e82]: ←
+    - generic [ref=f25e84]:
+      - button "Show skipped blocks" [ref=f25e86] [cursor=pointer]
+      - link [ref=f25e88] [cursor=pointer]:
+        - /url: /workflows/2a84e8c3-e9d6-4819-92b5-30b5cd518a8a/edit
+        - button "Edit Workflow" [ref=f25e89]
